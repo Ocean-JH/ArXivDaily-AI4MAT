@@ -135,7 +135,7 @@ class ArxivTracker:
             md += f"**Category:** {paper.primary_category}\n\n"
             md += f"**ID:** {paper.get_short_id()}\n\n"
             md += f"**Link:** [{paper.entry_id}]({paper.entry_id})\n\n"
-            md += f"**Summary:** {paper.summary[:300]}...\n\n"
+            md += f"**Summary:** {paper.summary}...\n\n"
             md += "---\n\n"
 
         return md
@@ -202,7 +202,7 @@ class ArxivTracker:
                 category=paper.primary_category,
                 paper_id=paper.get_short_id(),
                 url=paper.entry_id,
-                summary=paper.summary[:300]
+                summary=paper.summary
             )
             html += paper_html
 
@@ -262,7 +262,7 @@ class ArxivTracker:
                 category=paper["primary_category"],
                 paper_id=paper["short_id"],
                 url=paper["url"],
-                summary=paper["summary"][:300]
+                summary=paper["summary"]
             )
             content += paper_html
 
@@ -336,7 +336,7 @@ def main():
 
     # Load config  
     config = {
-        "query": "cat:cond-mat.mtrl-sci AND (cat:cs.AI OR cat:cs.LG) AND all:\"crystal structure\" ANDNOT ti:\"organic\" AND (all:\"machine learning\" OR all:\"materials design\" OR all:\"generative\")",
+        "query": "cat:cond-mat.mtrl-sci AND (cat:cs.AI OR cat:cs.LG OR physics.comp-ph) AND all:\"crystal\" AND (all:\"materials design\" OR all:\"materials discovery\" OR all:generative OR all:symmetry)",
         "max_results": 30,
         "output_dir": "./data/results",
         "known_papers_file": "./data/known_papers.json"
