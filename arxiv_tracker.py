@@ -1,6 +1,38 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+    ArXiv Paper Tracker
+
+    This script periodically tracks and retrieves new papers from arXiv based on a configurable search query.
+    It filters out previously known papers and stores the results in JSON format. The results can be saved to
+    a README.md file and HTML pages (index and archive). It also generates Markdown summaries for new papers.
+
+    The script uses the arXiv API and handles the retrieval, storage, and display of relevant papers based on
+    specific search criteria. It is ideal for monitoring research progress in particular domains like materials
+    discovery or generative models.
+
+    Features:
+    - Search for new papers on arXiv based on a configurable query
+    - Filter out previously known papers
+    - Store new papers in JSON format and save the results in an organized manner
+    - Update the README.md file with new papers
+    - Generate HTML and Markdown pages for the papers
+    - Archive the results for long-term tracking and visualization
+
+    Dependencies:
+    - `arxiv` Python package
+    - `json`
+    - `argparse`
+    - `logging`
+
+    Author: Wang Jianghai@NTU (Ocean-JH)
+    GitHub: https://github.com/Ocean-JH/ArXivDaily-AI4MAT
+    Date: 2025-04-26
+"""
+
+import os
 import arxiv
 import datetime
-import os
 import json
 import argparse
 import logging

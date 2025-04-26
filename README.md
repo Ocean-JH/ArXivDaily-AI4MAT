@@ -12,19 +12,31 @@ Stay informed with cutting-edge research at the intersection of artificial intel
 - Crystal Structure Prediction
 - Generative AI for Materials Discovery
 
-> Search query: `cat:cond-mat.mtrl-sci AND (cat:cs.AI OR cat:cs.LG OR physics.comp-ph) AND all:\"crystal\" AND (all:\"materials design\" OR all:\"materials discovery\" OR all:generative OR all:symmetry)`
+## :star: Customize Yours
 
-## :scroll: Paper List
+Let's start with a star :star:!
+
+And then, feel free to adjust the `query` field in the file `config.json` to match your own research interests(see [arXiv API User's Manual](https://info.arxiv.org/help/api/user-manual.html#51-details-of-query-construction) for more information)!
+
+## :handshake: Contributions
+
+Contributions are welcome!
+ Feel free to open an Issue or a Pull Request if you have ideas for improvement, new features, or better queries.
+
+## :blue_heart: ​Acknowledge
+
+Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperability.
 
 ---
 
+## :scroll: Paper List
 
 
 <!-- ARXIV_PAPERS_START -->
 
 ## New Papers (403)
 
-*Last updated: 2025-04-26 18:40:10*
+*Last updated: 2025-04-27 00:10:39*
 
 ### 1. polyGen: A Learning Framework for Atomic-level Polymer Structure Generation
 
@@ -13163,15 +13175,5 @@ energies than any previously proposed double-step models....
 
 ---
 
+
 <!-- ARXIV_PAPERS_END -->
-
-
-
-## :handshake: Contributions
-
-Contributions are welcome!
- Feel free to open an Issue or a Pull Request if you have ideas for improvement, new features, or better queries.
-
-## :blue_heart: ​Acknowledge
-
-Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperability.

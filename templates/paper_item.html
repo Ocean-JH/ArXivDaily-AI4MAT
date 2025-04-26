@@ -1,10 +1,20 @@
-<div class="paper">
-  <h3>{index}. {title}</h3>
-  <p><strong>Authors:</strong> {authors}</p>
-  <p><strong>Published:</strong> {published_date}</p>
-  <p><strong>Category:</strong> {category}</p>
-  <p><strong>ID:</strong> {paper_id}</p>
-  <p><strong>Link:</strong> <a href="{url}">{url}</a></p>
-  <p><strong>Summary:</strong> {summary}...</p>
+<div class="paper" style="background-color: #ffffff; border-radius: 10px; padding: 20px; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+  <h3 style="font-size: 1.5em; color: #333; margin-bottom: 10px;">{index}. {title}</h3>
+  
+  <div class="paper-info" style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 15px;">
+    <p style="font-size: 1em; color: #555; margin: 0;"><strong>Authors:</strong> {authors}</p>
+    <p style="font-size: 1em; color: #555; margin: 0;"><strong>Published:</strong> {published_date}</p>
+    <p style="font-size: 1em; color: #555; margin: 0;"><strong>Category:</strong> {category}</p>
+    <p style="font-size: 1em; color: #555; margin: 0;"><strong>ID:</strong> {paper_id}</p>
+  </div>
+
+  <p style="font-size: 1em; color: #555; margin-bottom: 10px;"><strong>Link:</strong> <a href="{url}" style="color: #0366d6; text-decoration: none;">{url}</a></p>
+
+  <!-- Summary / Abstract Section with Collapsing -->
+  <details style="font-size: 1em; color: #555; line-height: 1.5em; margin-bottom: 20px;">
+    <summary style="font-weight: bold; cursor: pointer; color: #0366d6;">Summary (Click to Expand)</summary>
+    <p style="margin-top: 10px;">{summary}...</p>
+  </details>
+
+  <hr style="border: 0; border-top: 1px solid #eee;">
 </div>
-<hr>

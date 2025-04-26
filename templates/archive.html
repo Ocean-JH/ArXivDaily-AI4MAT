@@ -1,63 +1,190 @@
-<!DOCTYPE html>  
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>arXiv Tracker - Archive</title>
-        <style>
-            body {{
-                font-family: Arial, sans-serif;
-                line-height: 1.6;
-                max-width: 800px;
-                margin: 0 auto;
-                padding: 20px;
-            }}
-            .paper {{
-                margin-bottom: 20px;
-                padding: 15px;
-                border-radius: 5px;
-                background-color: #f9f9f9;
-            }}
-            h1, h2, h3 {{
-                color: #333;
-            }}
-            a {{
-                color: #0366d6;
-                text-decoration: none;
-            }}
-            a:hover {{
-                text-decoration: underline;
-            }}
-            .header {{
-                margin-bottom: 30px;
-                border-bottom: 1px solid #eee;
-                padding-bottom: 20px;
-            }}
-            .nav {{
-                margin-bottom: 20px;
-            }}
-        </style>
-    </head>
-    <body>
-        <div class="header">
-            <h1>arXiv Tracker - Archive</h1>
-            <p>Welcome to the archive! 📚 Here you can browse past papers automatically tracked from arXiv based on our search criteria.  
-     This page collects all the papers we have found over time, organized for easy exploration and reference.</p>
-            <p>Use this archive to discover previous breakthroughs, revisit important works, or simply enjoy the progress at the intersection of AI and materials science.</p>
-            <p>Search query: <code>{query}</code></p>
-        </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ArXiv Tracker - Archive</title>
+  <style>
+    body {{
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      transition: background-color 0.3s, color 0.3s;
+    }}
+    .header, .paper, .nav {{
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 25px;
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+      transition: background-color 0.3s;
+    }}
+    .header h1 {{
+      margin-bottom: 10px;
+      font-size: 2.2em;
+      color: #222;
+    }}
+    .header p {{
+      margin: 8px 0;
+      font-size: 1em;
+    }}
+    .nav {{
+      text-align: center;
+      font-weight: bold;
+    }}
+    .nav a {{
+      color: #0366d6;
+      text-decoration: none;
+      margin: 0 10px;
+    }}
+    .nav a:hover {{
+      text-decoration: underline;
+    }}
+    .paper:hover {{
+      transform: translateY(-3px);
+    }}
+    a {{
+      color: #0366d6;
+      text-decoration: none;
+    }}
+    a:hover {{
+      text-decoration: underline;
+    }}
+    footer {{
+      text-align: center;
+      font-size: 0.9em;
+      color: #888;
+      margin-top: 50px;
+    }}
+    footer p {{
+      margin: 6px 0;
+    }}
+    footer a {{
+      color: #0366d6;
+    }}
 
-        <div class="nav">
-            <a href="index.html">Latest Papers</a> | <strong>Archive</strong>
-        </div>
+    .email-btn {{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #0366d6;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-size: 1em;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }}
 
-        {content}
+    /* Style for floating 'Star it' button */
+    .star-btn {{
+        position: fixed;
+        left: 20px;
+        bottom: 20px;
+        background-color: #ff9800;
+        color: white;
+        padding: 10px 15px;
+        border-radius: 25px;
+        text-decoration: none;
+        font-size: 1em;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }}
 
-        <footer>
-            <p>Last updated: {timestamp}</p>
-            <p>Created by <a href="https://ocean-jh.github.io/" target="_blank">Wang Jianghai</a></p>
-            <p><a href="https://github.com/Ocean-JH/ArXivDaily-AI4MAT">View on GitHub</a></p>
-            <p>Powered by <a href="https://arxiv.org/" target="_blank" style="color: #ecf0f1; text-decoration: none;">arXiv</a> · Updated Daily</p>
-        </footer>
-    </body>
-    </html>
+    #theme-toggle {{
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 8px 12px;
+      background-color: #0366d6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.9em;
+      transition: background-color 0.3s;
+      z-index: 999;
+    }}
+    #theme-toggle:hover {{
+      background-color: #024c9a;
+    }}
+    /* Dark Mode Styles */
+    body.dark-mode {{
+      background-color: #121212;
+      color: #e0e0e0;
+    }}
+    body.dark-mode .header,
+    body.dark-mode .paper,
+    body.dark-mode .nav {{
+      background-color: #1e1e1e;
+      color: #e0e0e0;
+    }}
+    body.dark-mode a {{
+      color: #66b2ff;
+    }}
+    body.dark-mode footer {{
+      color: #aaa;
+    }}
+    body.dark-mode #theme-toggle {{
+      background-color: #666;
+    }}
+    body.dark-mode #theme-toggle:hover {{
+      background-color: #999;
+    }}
+  </style>
+</head>
+
+<body>
+
+  <!-- Toggle Button -->
+  <button id="theme-toggle">🌙 Dark Mode</button>
+
+  <div class="header">
+    <h1>ArXiv Daily - AI for Materials Science</h1>
+    <p>Discover the latest research at the intersection of <strong>Artificial Intelligence</strong> and <strong>Materials Science</strong>.</p>
+    <p>Every day, we track and curate new papers from <a href="https://arxiv.org" target="_blank">arXiv.org</a>, focusing on cutting-edge innovations in materials discovery, design, and prediction powered by AI and machine learning.</p>
+    <p>🔎 Updated daily — Powered by automation, driven by curiosity.</p>
+    <p>Find it helpful? Consider <a href="https://github.com/Ocean-JH/ArXivDaily-AI4MAT" target="_blank"><strong>giving it a star ⭐</strong></a>!</p>
+  </div>
+
+  <div class="nav">
+    <a href="index.html">Latest Papers</a> | <strong>Archive</strong>
+  </div>
+
+  {content}
+
+  <footer>
+    <p>Last updated: {timestamp}</p>
+    <p>Search query: <code>{query}</code></p>
+    <p>Created by <a href="https://ocean-jh.github.io/" target="_blank">Wang Jianghai</a></p>
+    <p><a href="https://github.com/Ocean-JH/ArXivDaily-AI4MAT">View on GitHub</a></p>
+    <p>Powered by <a href="https://arxiv.org/" target="_blank">arXiv</a> · Updated Daily</p>
+  </footer>
+
+  <script>
+    const toggleButton = document.getElementById('theme-toggle');
+    toggleButton.addEventListener('click', () => {{
+      document.body.classList.toggle('dark-mode');
+      if (document.body.classList.contains('dark-mode')) {{
+        toggleButton.textContent = '☀️ Light Mode';
+      }} else {{
+        toggleButton.textContent = '🌙 Dark Mode';
+      }}
+    }});
+  </script>
+
+  <!-- Floating email contact button -->
+  <a href="mailto:jianghai001@e.ntu.edu.sg" class="email-btn">
+      Contact me 📧
+  </a>
+
+  <!-- Floating 'Star it' button (with direct GitHub link) -->
+  <a href="https://github.com/Ocean-JH/ArXivDaily-AI4MAT" target="_blank" class="star-btn">
+      ⭐ Star it
+  </a>
+
+</body>
+</html>
