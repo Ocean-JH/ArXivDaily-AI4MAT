@@ -1,12 +1,20 @@
 # ArXiv Daily - AI4MAT
 
-This repository automatically tracks ArXiv for new papers matching specific domain and updates this README daily.
+**Daily automatic updates of the latest arXiv papers on AI for Materials Science (AI4MatSci).** 
 
-## Configuration
+Stay informed with cutting-edge research at the intersection of artificial intelligence and materials science — automatically!
 
-The current search query is: `cat:cond-mat.mtrl-sci AND (cat:cs.AI OR cat:cs.LG OR physics.comp-ph) AND all:\"crystal\" AND (all:\"materials design\" OR all:\"materials discovery\" OR all:generative OR all:symmetry)`
+## :bookmark: Related Fields
 
-## Paper List
+- (Computational) Materials Science
+- Machine Learning
+- Materials Design
+- Crystal Structure Prediction
+- Generative AI for Materials Discovery
+
+> Search query: `cat:cond-mat.mtrl-sci AND (cat:cs.AI OR cat:cs.LG OR physics.comp-ph) AND all:\"crystal\" AND (all:\"materials design\" OR all:\"materials discovery\" OR all:generative OR all:symmetry)`
+
+## :scroll: Paper List
 
 ---
 
@@ -13155,5 +13163,15 @@ energies than any previously proposed double-step models....
 
 ---
 
-
 <!-- ARXIV_PAPERS_END -->
+
+
+
+## :handshake: Contributions
+
+Contributions are welcome!
+ Feel free to open an Issue or a Pull Request if you have ideas for improvement, new features, or better queries.
+
+## :blue_heart: ​Acknowledge
+
+Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperability.
