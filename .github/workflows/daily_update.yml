@@ -24,12 +24,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: Run arXiv Tracker
+      - name: Run ArXiv Tracker
         run: python arxiv_tracker.py
         
       - name: Commit and push if changed
         run: |
           git config --global user.name 'Wang Jianghai'
           git config --global user.email 'jianghai001@e.ntu.edu.sg'
-          git add README.md data/
+          git add README.md data/ index.html archive.html
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update arXiv papers: $(date +'%Y-%m-%d')" && git push)

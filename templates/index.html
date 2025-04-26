@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>arXiv Daily Tracker</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+            }
+            .paper {
+                margin-bottom: 20px;
+                padding: 15px;
+                border-radius: 5px;
+                background-color: #f9f9f9;
+            }
+            h1, h2, h3 {
+                color: #333;
+            }
+            a {
+                color: #0366d6;
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            .header {
+                margin-bottom: 30px;
+                border-bottom: 1px solid #eee;
+                padding-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>arXiv Daily Tracker</h1>
+            <p>Automatically tracking arXiv for papers matching: <code>{query}</code></p>
+        </div>
+
+        <div class="nav">
+            <strong>Latest Papers</strong> | <a href="archive.html">Archive</a>
+        </div>
+
+        {content}
+
+        <footer>
+            <p>Last updated: {timestamp}</p>
+            <p><a href="https://github.com/Ocean-JH/ArXivDaily-AI4MAT">View on GitHub</a></p>
+        </footer>
+    </body>
+    </html>
