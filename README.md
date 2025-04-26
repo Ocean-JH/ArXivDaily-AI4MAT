@@ -13,7 +13,7 @@ The current search query is: `cat:cond-mat.mtrl-sci AND all:\"crystal structure\
 
 ## New Papers (103)
 
-*Last updated: 2025-04-26 17:22:05*
+*Last updated: 2025-04-26 18:07:10*
 
 ### 1. CRYSIM: Prediction of Symmetric Structures of Large Crystals with GPU-based Ising Machines
 
