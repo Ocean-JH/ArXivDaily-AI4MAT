@@ -24,8 +24,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           
-      - name: Run arXiv monitor
-        run: python arxiv_monitor.py
+      - name: Run arXiv Tracker
+        run: python arxiv_tracker.py
         
       - name: Commit and push if changed
         run: |
