@@ -2,8 +2,8 @@ name: Daily arXiv Update
 
 on:
   schedule:
-    # Run at 8:00 UTC every day
-    - cron: '0 8 * * *'
+    # Run at 6:00 SGT every day
+    - cron: '0 22 * * *'
   workflow_dispatch:  # Allow manual triggering
   
 jobs:
