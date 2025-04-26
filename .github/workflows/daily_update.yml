@@ -34,12 +34,14 @@ jobs:
         run: python arxiv_tracker.py
         
       - name: Commit and push if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name 'Wang Jianghai'
           git config --global user.email 'jianghai001@e.ntu.edu.sg'
+          git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/${{ github.repository }}
           git add README.md data/ index.html archive.html
           git diff --quiet && git diff --staged --quiet || (
             git commit -m "Update arXiv papers: $(date +'%Y-%m-%d')"
-            git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Ocean-JH/ArXivDaily-AI4MAT
-            git push
+            git push HEAD:main
           )
