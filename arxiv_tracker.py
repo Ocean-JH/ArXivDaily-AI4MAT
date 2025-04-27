@@ -155,7 +155,7 @@ class ArxivTracker:
     def generate_markdown(self, papers: List[arxiv.Result], is_new: bool = False) -> str:
         """Generate markdown for papers"""
         if not papers:
-            md = f"## 🥳No new papers released today. Have a Rest!</p>"
+            md = f"## 🥳 No new papers today. Take it easy and recharge!"
             md += f"*Last updated: {datetime.datetime.now(SGT).strftime('%Y-%m-%d %H:%M:%S')} (SGT)*\n\n"
         else:
             status = "New " if is_new else ""
@@ -216,7 +216,7 @@ class ArxivTracker:
     def generate_html(self, papers: List[arxiv.Result], is_new: bool = False) -> str:
         """Generate HTML for papers"""
         if not papers:
-            return f"<p>🥳No new papers released today. Have a Rest!</p>"
+            return f"<div class='notice'>🥳 No new papers today<br>Enjoy the break!</div>"
 
         with open("templates/paper_item.html", 'r', encoding='utf-8') as f:
             paper_template = f.read()
@@ -257,6 +257,7 @@ class ArxivTracker:
             title="ArXiv Daily - Latest Papers",
             query=self.query,
             content=content,
+            page_type="index",
             timestamp=datetime.datetime.now(SGT).strftime("%Y-%m-%d %H:%M:%S") + " (SGT)"
         )
 
@@ -310,6 +311,7 @@ class ArxivTracker:
             title="ArXiv Daily - Archive",
             query=self.query,
             content=content,
+            page_type="archive",
             timestamp=datetime.datetime.now(SGT).strftime("%Y-%m-%d %H:%M:%S") + " (SGT)"
         )
 

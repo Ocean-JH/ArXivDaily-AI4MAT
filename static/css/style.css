@@ -108,116 +108,146 @@ body {
     border-top: 1px solid #eee;
 }
 
-    /* Link Styles */
+/* Link Styles */
 
-    a {
-        color: #0366d6;
-        text-decoration: none;
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 50px;
+}
+
+footer p {
+    margin: 6px 0;
+}
+
+footer a {
+    color: #0366d6;
+}
+
+/* Button Styles */
+
+.email-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0366d6;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.star-btn {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    background-color: #ffc400;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Theme Toggle */
+
+#theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 8px 12px;
+    background-color: #0366d6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+    z-index: 999;
+}
+
+#theme-toggle:hover {
+    background-color: #024c9a;
+}
+
+/* Search Styles */
+
+.search-container {
+    display: flex;
+    gap: 10px;
+}
+
+#search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#search-button {
+    padding: 10px 15px;
+    background-color: #0366d6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #0056b3;
+}
+
+.search-results-info {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+    font-weight: bold;
+}
+
+.notice {
+    background-color: #fff8e1;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #3871b1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: bounce 1s ease forwards;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
     }
-
-    a:hover {
-        text-decoration: underline;
+    30% {
+        transform: translateY(-15px);
     }
-
-    /* Footer Styles */
-
-    footer {
-        text-align: center;
-        font-size: 0.9em;
-        color: #888;
-        margin-top: 50px;
+    50% {
+        transform: translateY(0);
     }
-
-    footer p {
-        margin: 6px 0;
+    70% {
+        transform: translateY(-8px);
     }
-
-    footer a {
-        color: #0366d6;
+    100% {
+        transform: translateY(0);
     }
-
-    /* Button Styles */
-
-    .email-btn {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background-color: #0366d6;
-        color: white;
-        padding: 10px 15px;
-        border-radius: 25px;
-        text-decoration: none;
-        font-size: 1em;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    .star-btn {
-        position: fixed;
-        left: 20px;
-        bottom: 20px;
-        background-color: #ff9800;
-        color: white;
-        padding: 10px 15px;
-        border-radius: 25px;
-        text-decoration: none;
-        font-size: 1em;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    /* Theme Toggle */
-
-    #theme-toggle {
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        padding: 8px 12px;
-        background-color: #0366d6;
-        color: white;
-        border: none;
-        border-radius: 8px;
-        cursor: pointer;
-        font-size: 0.9em;
-        transition: background-color 0.3s;
-        z-index: 999;
-    }
-
-    #theme-toggle:hover {
-        background-color: #024c9a;
-    }
-
-    /* Search Styles */
-
-    .search-container {
-        display: flex;
-        gap: 10px;
-    }
-
-    #search-input {
-        flex: 1;
-        padding: 10px;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        font-size: 1em;
-    }
-
-    #search-button {
-        padding: 10px 15px;
-        background-color: #0366d6;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    #search-button:hover {
-        background-color: #0056b3;
-    }
-
-    .search-results-info {
-        background: #fff;
-        padding: 10px 20px;
-        border-radius: 10px;
-        margin-bottom: 25px;
-        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
-        font-weight: bold;
-    }
+}

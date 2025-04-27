@@ -42,13 +42,43 @@ body.dark-mode .paper-title {
 body.dark-mode .paper-info p,
 body.dark-mode .paper-link,
 body.dark-mode .paper-summary {
-    color: #bbb;
+    color: #54626e;
 }
 
 body.dark-mode .paper-summary summary {
-    color: #66b2ff;
+    color: #5f7183;
 }
 
 body.dark-mode .paper-divider {
     border-top-color: #333;
+}
+
+.notice {
+    background-color: #1e1e1e;
+    padding: 20px 30px;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: #91e5ff;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+    animation: bounce 1s ease forwards;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-15px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    70% {
+        transform: translateY(-8px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
