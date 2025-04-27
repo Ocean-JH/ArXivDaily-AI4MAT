@@ -13,6 +13,10 @@ body.dark-mode .search-results-info {
     color: #e0e0e0;
 }
 
+body.dark-mode .blog-logo {
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
 body.dark-mode a {
     color: #66b2ff;
 }
