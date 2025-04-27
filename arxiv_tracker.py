@@ -44,6 +44,7 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger("arxiv-tracker")
+SGT = datetime.timezone(datetime.timedelta(hours=8))
 
 
 class ArxivTracker:
@@ -155,11 +156,11 @@ class ArxivTracker:
         """Generate markdown for papers"""
         if not papers:
             md = f"## 🥳No new papers released today. Have a Rest!</p>"
-            md += f"*Last updated: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n\n"
+            md += f"*Last updated: {datetime.datetime.now(SGT).strftime('%Y-%m-%d %H:%M:%S')} (SGT)*\n\n"
         else:
             status = "New " if is_new else ""
             md = f"## {status}Papers ({len(papers)})\n\n"
-            md += f"*Last updated: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n\n"
+            md += f"*Last updated: {datetime.datetime.now(SGT).strftime('%Y-%m-%d %H:%M:%S')} (SGT)*\n\n"
 
             for i, paper in enumerate(papers):
                 md += f"### {i + 1}. {paper.title}\n\n"
@@ -222,7 +223,7 @@ class ArxivTracker:
 
         status = "New " if is_new else ""
         html = f"<h2>{status}Papers ({len(papers)})</h2>\n"
-        html += f"<p><em>Last updated: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</em></p>\n"
+        html += f"<p><em>Last updated: {datetime.datetime.now(SGT).strftime('%Y-%m-%d %H:%M:%S')} SGT</em></p>\n"
 
         for i, paper in enumerate(papers):
             paper_html = paper_template.format(
@@ -239,19 +240,24 @@ class ArxivTracker:
 
         return html
 
+    def load_base_template(self) -> str:
+        """Load the base HTML template"""
+        with open("templates/base.html", 'r', encoding='utf-8') as f:
+            return f.read()
+
     def create_index_html(self, papers: List[arxiv.Result], output_path: str = "index.html"):
-        """Create an index.html file with all papers"""
-        with open("templates/index.html", 'r', encoding='utf-8') as f:
-            html_template = f.read()
+        """Create an index.html file with new papers"""
+        html_template = self.load_base_template()
 
         # Generate HTML content for papers
         content = self.generate_html(papers, is_new=True)
 
         # Fill in the template
         html_content = html_template.format(
+            title="ArXiv Daily - Latest Papers",
             query=self.query,
             content=content,
-            timestamp=datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            timestamp=datetime.datetime.now(SGT).strftime("%Y-%m-%d %H:%M:%S") + " (SGT)"
         )
 
         # Write to file
@@ -297,14 +303,14 @@ class ArxivTracker:
             )
             content += paper_html
 
-            # Fill in the template (reuse the same template as index.html)
-        with open("templates/archive.html", 'r', encoding='utf-8') as f:
-            html_template = f.read()
+        # Fill in the template (reuse the same template as index.html)
+        html_template = self.load_base_template()
 
         html_content = html_template.format(
+            title="ArXiv Daily - Archive",
             query=self.query,
             content=content,
-            timestamp=datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            timestamp=datetime.datetime.now(SGT).strftime("%Y-%m-%d %H:%M:%S") + " (SGT)"
         )
 
         # Write to file
@@ -315,7 +321,7 @@ class ArxivTracker:
 
     def run(self, update_readme: bool = True, create_html: bool = True):
         """Run the tracker once"""
-        timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+        timestamp = datetime.datetime.now(SGT).strftime("%Y%m%d_%H%M%S")
         logger.info(f"Searching for: {self.query}")
 
         try:

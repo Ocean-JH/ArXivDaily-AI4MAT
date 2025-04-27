@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="icon" type="image/x-icon" href="/static/favicon_io/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon_io/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon_io/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
+    <style>
+
+    </style>
+</head>
+<body>
+<!-- Toggle Button -->
+<button id="theme-toggle">🌙 Night</button>
+
+<div class="header">
+    <h1>ArXiv Daily - AI for Materials Science</h1>
+    <p>Discover the latest research at the intersection of <strong>Artificial Intelligence</strong> and <strong>Materials
+        Science</strong>.</p>
+    <p>Every day, we track and curate new papers from <a href="https://arxiv.org" target="_blank">arXiv.org</a>,
+        focusing on cutting-edge innovations in materials discovery, design, and prediction powered by AI and machine
+        learning.</p>
+    <p>🔎 Updated daily — Powered by automation, driven by curiosity.</p>
+
+    <div class="nav">
+        <strong>Latest Papers</strong> | <a href="archive.html">View Archive</a>
+    </div>
+
+    <!-- Search Container -->
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search papers by title, author, or summary...">
+        <button id="search-button">🔍 Search</button>
+    </div>
+
+    <!-- Main Content -->
+    {content}
+
+    <footer>
+        <p>Last updated: {timestamp}</p>
+        <p>Search query: <code>{query}</code></p>
+        <p>Created by <a href="https://ocean-jh.github.io/" target="_blank">Wang Jianghai</a></p>
+        <p><a href="https://github.com/Ocean-JH/ArXivDaily-AI4MAT">View on GitHub</a></p>
+        <p>Powered by <a href="https://arxiv.org/" target="_blank">arXiv</a> · Updated Daily</p>
+    </footer>
+
+    <!-- Floating email contact button -->
+    <a href="mailto:jianghai001@e.ntu.edu.sg" class="email-btn">
+        Contact me 📧
+    </a>
+
+    <!-- Floating 'Star it' button (with direct GitHub link) -->
+    <a href="https://github.com/Ocean-JH/ArXivDaily-AI4MAT" target="_blank" class="star-btn">
+        ⭐ Star it
+    </a>
+
+    <!-- JavaScript -->
+    <script src="js/dark-mode.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>

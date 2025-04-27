@@ -1,6 +1,6 @@
 {
   "query": "cat:cond-mat.mtrl-sci AND (cat:cs.AI OR cat:cs.LG OR physics.comp-ph) AND all:\"crystal\" AND (all:\"materials design\" OR all:\"materials discovery\" OR all:generative OR all:symmetry)",
-  "max_results": 1000,
+  "max_results": 500,
   "output_dir": "./data/results",
   "known_papers_file": "./data/known_papers.json"
 }

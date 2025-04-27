@@ -36,7 +36,7 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (403)
 
-*Last updated: 2025-04-27 09:22:00*
+*Last updated: 2025-04-27 12:02:32 (SGT)*
 
 ### 1. polyGen: A Learning Framework for Atomic-level Polymer Structure Generation
 

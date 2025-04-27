@@ -1,19 +1,18 @@
 <div class="paper">
   <h3 class="paper-title">{index}. {title}</h3>
-  
+
   <div class="paper-info">
-    <p class="paper-metadata"><strong>Authors:</strong> {authors}</p>
-    <p class="paper-metadata"><strong>Published:</strong> {published_date}</p>
-    <p class="paper-metadata"><strong>Category:</strong> {category}</p>
-    <p class="paper-metadata"><strong>ID:</strong> {paper_id}</p>
+    <p class="paper-authors"><strong>Authors:</strong> {authors}</p>
+    <p class="paper-date"><strong>Published:</strong> {published_date}</p>
+    <p class="paper-category"><strong>Category:</strong> {category}</p>
+    <p class="paper-id"><strong>ID:</strong> {paper_id}</p>
   </div>
 
   <p class="paper-link"><strong>Link:</strong> <a href="{url}">{url}</a></p>
 
-  <!-- Summary / Abstract Section with Collapsing -->
   <details class="paper-summary">
     <summary>Summary (Click to Expand)</summary>
-    <p class="summary-content">{summary}...</p>
+    <p>{summary}</p>
   </details>
 
   <hr class="paper-divider">
