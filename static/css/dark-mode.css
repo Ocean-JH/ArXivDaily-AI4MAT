@@ -6,7 +6,7 @@ body.dark-mode {
 
 body.dark-mode .header,
 body.dark-mode .paper,
-body.dark-mode .nav
+body.dark-mode .nav,
 body.dark-mode .search-container,
 body.dark-mode .search-results-info {
     background-color: #1e1e1e;
