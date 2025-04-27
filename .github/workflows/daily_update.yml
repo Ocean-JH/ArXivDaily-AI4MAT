@@ -39,9 +39,9 @@ jobs:
         run: |
           git config --global user.name 'Wang Jianghai'
           git config --global user.email 'jianghai001@e.ntu.edu.sg'
-          git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/${{ github.repository }}
-          git add README.md data/ index.html archive.html
+          git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/${{ github.repository }}.git
+          git add README.md static/ data/ index.html archive.html
           git diff --quiet && git diff --staged --quiet || (
             git commit -m "Update arXiv papers: $(date +'%Y-%m-%d')"
-            git push HEAD:main
+            git push
           )

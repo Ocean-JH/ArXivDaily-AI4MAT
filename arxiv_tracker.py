@@ -154,30 +154,29 @@ class ArxivTracker:
     def generate_markdown(self, papers: List[arxiv.Result], is_new: bool = False) -> str:
         """Generate markdown for papers"""
         if not papers:
-            return f"No {'new ' if is_new else ''}papers found."
+            md = f"## 🥳No new papers released today. Have a Rest!</p>"
+            md += f"*Last updated: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n\n"
+        else:
+            status = "New " if is_new else ""
+            md = f"## {status}Papers ({len(papers)})\n\n"
+            md += f"*Last updated: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n\n"
 
-        status = "New " if is_new else ""
-        md = f"## {status}Papers ({len(papers)})\n\n"
-        md += f"*Last updated: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*\n\n"
-
-        for i, paper in enumerate(papers):
-            md += f"### {i + 1}. {paper.title}\n\n"
-            md += f"**Authors:** {', '.join(str(author) for author in paper.authors)}\n\n"
-            md += f"**Published:** {paper.published.strftime('%Y-%m-%d')}\n\n"
-            md += f"**Category:** {paper.primary_category}\n\n"
-            md += f"**ID:** {paper.get_short_id()}\n\n"
-            md += f"**Link:** [{paper.entry_id}]({paper.entry_id})\n\n"
-            md += f"**Summary:** {paper.summary}...\n\n"
-            md += "---\n\n"
+            for i, paper in enumerate(papers):
+                md += f"### {i + 1}. {paper.title}\n\n"
+                md += f"**Authors:** {', '.join(str(author) for author in paper.authors)}\n\n"
+                md += f"**Published:** {paper.published.strftime('%Y-%m-%d')}\n\n"
+                md += f"**Category:** {paper.primary_category}\n\n"
+                md += f"**ID:** {paper.get_short_id()}\n\n"
+                md += f"**Link:** [{paper.entry_id}]({paper.entry_id})\n\n"
+                md += f"**Summary:** {paper.summary}...\n\n"
+                md += "---\n\n"
 
         return md
 
     def update_readme(self, papers: List[arxiv.Result], readme_path: str = "README.md"):
         """Update the README.md with new papers"""
-        if not papers:
-            return
 
-            # Generate markdown for new papers
+        # Generate markdown for new papers
         new_papers_md = self.generate_markdown(papers, is_new=True)
 
         # Read existing README  
@@ -216,7 +215,7 @@ class ArxivTracker:
     def generate_html(self, papers: List[arxiv.Result], is_new: bool = False) -> str:
         """Generate HTML for papers"""
         if not papers:
-            return f"<p>No {'new ' if is_new else ''}papers found.</p>"
+            return f"<p>🥳No new papers released today. Have a Rest!</p>"
 
         with open("templates/paper_item.html", 'r', encoding='utf-8') as f:
             paper_template = f.read()
@@ -343,6 +342,10 @@ class ArxivTracker:
                     self.create_index_html(new_papers)
 
                     # Create Archive Page
+                if create_html:
+                    self.create_index_html(new_papers)
+                    self.create_archive_html()
+            else:
                 if create_html:
                     self.create_index_html(new_papers)
                     self.create_archive_html()

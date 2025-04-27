@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/static/favicon_io/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon_io/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon_io/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png">
   <title>ArXiv Tracker - Archive</title>
   <style>
     body {{
@@ -15,6 +19,7 @@
       padding: 30px 20px;
       transition: background-color 0.3s, color 0.3s;
     }}
+
     .header, .paper, .nav {{
       background: #fff;
       padding: 20px;
@@ -23,46 +28,57 @@
       box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
       transition: background-color 0.3s;
     }}
+
     .header h1 {{
       margin-bottom: 10px;
       font-size: 2.2em;
       color: #222;
     }}
+
     .header p {{
       margin: 8px 0;
       font-size: 1em;
     }}
+
     .nav {{
       text-align: center;
       font-weight: bold;
     }}
+
     .nav a {{
       color: #0366d6;
       text-decoration: none;
       margin: 0 10px;
     }}
+
     .nav a:hover {{
       text-decoration: underline;
     }}
+
     .paper:hover {{
       transform: translateY(-3px);
     }}
+
     a {{
       color: #0366d6;
       text-decoration: none;
     }}
+
     a:hover {{
       text-decoration: underline;
     }}
+
     footer {{
       text-align: center;
       font-size: 0.9em;
       color: #888;
       margin-top: 50px;
     }}
+
     footer p {{
       margin: 6px 0;
     }}
+
     footer a {{
       color: #0366d6;
     }}
@@ -108,31 +124,118 @@
       transition: background-color 0.3s;
       z-index: 999;
     }}
+
     #theme-toggle:hover {{
       background-color: #024c9a;
     }}
+
     /* Dark Mode Styles */
     body.dark-mode {{
       background-color: #121212;
       color: #e0e0e0;
     }}
+
     body.dark-mode .header,
     body.dark-mode .paper,
     body.dark-mode .nav {{
       background-color: #1e1e1e;
       color: #e0e0e0;
     }}
+
     body.dark-mode a {{
       color: #66b2ff;
     }}
+
     body.dark-mode footer {{
       color: #aaa;
     }}
+
     body.dark-mode #theme-toggle {{
       background-color: #666;
     }}
+
     body.dark-mode #theme-toggle:hover {{
       background-color: #999;
+    }}
+
+    /* Paper Item Styles - Light Mode */  
+    .paper {{
+      background-color: #ffffff;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }}
+    
+    .paper-title {{
+      font-size: 1.5em;
+      color: #333;
+      margin-bottom: 10px;
+    }}
+
+    .paper-info {{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 15px;
+    }}
+
+    .paper-metadata {{
+      font-size: 1em;
+      color: #555;
+      margin: 0;
+    }}
+
+    .paper-link {{
+      font-size: 1em;
+      color: #555;
+      margin-bottom: 10px;
+    }}
+
+    .paper-summary {{
+      font-size: 1em;
+      color: #555;
+      line-height: 1.5em;
+      margin-bottom: 20px;
+    }}
+
+    .paper-summary summary {{
+      font-weight: bold;
+      cursor: pointer;
+      color: #0366d6;
+    }}
+
+    .summary-content {{
+      margin-top: 10px;
+    }}
+
+    .paper-divider {{
+      border: 0;
+      border-top: 1px solid #eee;
+    }}
+
+    /* Paper Item Styles - Dark Mode */
+    body.dark-mode .paper {{
+      background-color: #1e1e1e;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }}
+
+    body.dark-mode .paper-title {{
+      color: #e0e0e0;
+    }}
+
+    body.dark-mode .paper-metadata,
+    body.dark-mode .paper-link,
+    body.dark-mode .paper-summary {{
+      color: #aaa;
+    }}
+
+    body.dark-mode .paper-summary summary {{
+      color: #66b2ff;
+    }}
+
+    body.dark-mode .paper-divider {{
+      border-top: 1px solid #333;
     }}
   </style>
 </head>
