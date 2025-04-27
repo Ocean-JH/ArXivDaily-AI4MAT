@@ -248,6 +248,11 @@ class ArxivTracker:
     def create_index_html(self, papers: List[arxiv.Result], output_path: str = "index.html"):
         """Create an index.html file with new papers"""
         html_template = self.load_base_template()
+        navbar = """
+    <div class="nav">
+        <strong>Latest Papers</strong> | <a href="archive.html">View Archive</a>
+    </div>
+    """
 
         # Generate HTML content for papers
         content = self.generate_html(papers, is_new=True)
@@ -257,7 +262,7 @@ class ArxivTracker:
             title="ArXiv Daily - Latest Papers",
             query=self.query,
             content=content,
-            page_type="index",
+            navbar=navbar,
             timestamp=datetime.datetime.now(SGT).strftime("%Y-%m-%d %H:%M:%S") + " (SGT)"
         )
 
@@ -272,6 +277,11 @@ class ArxivTracker:
         # Load all saved results
         all_papers = []
         results_files = [f for f in os.listdir(self.output_dir) if f.endswith('.json')]
+        navbar = """
+    <div class="nav">
+        <a href="index.html">Latest Papers</a> | <strong>Archive</strong>
+    </div>
+    """
 
         for file in results_files:
             try:
@@ -311,7 +321,7 @@ class ArxivTracker:
             title="ArXiv Daily - Archive",
             query=self.query,
             content=content,
-            page_type="archive",
+            navbar=navbar,
             timestamp=datetime.datetime.now(SGT).strftime("%Y-%m-%d %H:%M:%S") + " (SGT)"
         )
 
