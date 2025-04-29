@@ -1,0 +1,26 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2407.08808v2",
+    "title": "Algorithmic detection of crystal structures from computer simulation data",
+    "authors": [
+      "Sumitava Kundu",
+      "Kaustav Chakraborty",
+      "Avisek Das"
+    ],
+    "summary": "Detection of crystal structures from particle positions of crystalline\nassemblies formed in computer simulations is an unsolved problem. The standard\nprotocol, formulated in the reciprocal space, for structure determination from\nexperimental diffraction data is not suitable for analysis of computer\nsimulation data, after converting them to the Fourier space. There is a long\nhistory of attempts to tackle this problem by analyzing the system in the real\nspace by using ideas of local neighbors and broken symmetries of the\ncrystalline state. In this paper, we propose a heuristic solution to this\nproblem by detecting all possible unit cells directly from particle coordinates\nobtained in a typical computer simulation. The method is based on well known\nfacts about crystal structures, some of which are underutilized in the context\nof the current problem. These include, the symmetry of the coordination\npolyhedron and its empirical relationship with directions of lattice vectors\nfor a simple Bravais lattice, and the fact that any complex crystal can be\nsystematically decomposed into multiple Bravais lattices. By using these ideas,\nalong with standard computational techniques like search, clustering and convex\nhull construction, we were able to handle complex basis and construct all\ncrystallographically viable unit cells from the coordinates. The method is\ncapable of handling statistical noise by employing certain cutoffs and deals\nwith multicomponent systems in a transparent manner. We validated it on real\nMonte Carlo simulation data and variety of test systems, including crystals\nwith tens of particles in the basis. Our heuristic algorithm, which requires\nminimal human intervention and computational resources, provides a solution to\nthe long standing problem and would be beneficial to the wider communities of\ncondensed matter physics and computational materials science.",
+    "published": "2024-07-11T18:34:18+00:00",
+    "updated": "2025-04-27T02:27:06+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cond-mat.soft",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "63 pages, 23 figures, 66 references",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2407.08808v2",
+    "short_id": "2407.08808v2",
+    "url": "http://arxiv.org/abs/2407.08808v2"
+  }
+]
