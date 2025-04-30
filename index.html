@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F3PL2Q961N"></script>
+    <script src="static/js/gtag-init.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ArXiv Daily - Latest Papers</title>
@@ -20,7 +24,7 @@
 </a>
 
 <div class="header">
-    <h1>Welcome to the ArXiv Daily - AI for Materials Science!</h1>
+    <h1>ArXiv Daily - AI for Materials Science!</h1>
     <p>Discover the latest research at the intersection of <strong>Artificial Intelligence</strong> and <strong>Materials
         Science</strong>.</p>
     <p>Every day, we track and curate new papers from <a href="https://arxiv.org" target="_blank">arXiv.org</a>,
@@ -43,71 +47,63 @@
 
     <!-- Main Content -->
     <h2>New Papers (1)</h2>
-<p><em>Last updated: 2025-04-30 06:16:16 SGT</em></p>
+<p><em>Last updated: 2025-04-30 16:30:05 SGT</em></p>
 <div class="paper">
-  <h3 class="paper-title">1. Algorithmic detection of crystal structures from computer simulation data</h3>
+  <h3 class="paper-title">1. 3D variational autoencoder for fingerprinting microstructure volume elements</h3>
 
   <div class="paper-info">
-    <p class="paper-authors"><strong>Authors:</strong> Sumitava Kundu, Kaustav Chakraborty, Avisek Das</p>
-    <p class="paper-date"><strong>Published:</strong> 2024-07-11</p>
+    <p class="paper-authors"><strong>Authors:</strong> Michael D. White, Michael D. Atkinson, Adam J. Plowman, Pratheek Shanthraj</p>
+    <p class="paper-date"><strong>Published:</strong> 2025-03-21</p>
     <p class="paper-category"><strong>Category:</strong> cond-mat.mtrl-sci</p>
-    <p class="paper-id"><strong>ID:</strong> 2407.08808v2</p>
+    <p class="paper-id"><strong>ID:</strong> 2503.17427v2</p>
   </div>
 
-  <p class="paper-link"><strong>Link:</strong> <a href="http://arxiv.org/abs/2407.08808v2">http://arxiv.org/abs/2407.08808v2</a></p>
+  <p class="paper-link"><strong>Link:</strong> <a href="http://arxiv.org/abs/2503.17427v2">http://arxiv.org/abs/2503.17427v2</a></p>
 
   <details class="paper-summary">
     <summary>Summary (Click to Expand)</summary>
-    <p>Detection of crystal structures from particle positions of crystalline
-assemblies formed in computer simulations is an unsolved problem. The standard
-protocol, formulated in the reciprocal space, for structure determination from
-experimental diffraction data is not suitable for analysis of computer
-simulation data, after converting them to the Fourier space. There is a long
-history of attempts to tackle this problem by analyzing the system in the real
-space by using ideas of local neighbors and broken symmetries of the
-crystalline state. In this paper, we propose a heuristic solution to this
-problem by detecting all possible unit cells directly from particle coordinates
-obtained in a typical computer simulation. The method is based on well known
-facts about crystal structures, some of which are underutilized in the context
-of the current problem. These include, the symmetry of the coordination
-polyhedron and its empirical relationship with directions of lattice vectors
-for a simple Bravais lattice, and the fact that any complex crystal can be
-systematically decomposed into multiple Bravais lattices. By using these ideas,
-along with standard computational techniques like search, clustering and convex
-hull construction, we were able to handle complex basis and construct all
-crystallographically viable unit cells from the coordinates. The method is
-capable of handling statistical noise by employing certain cutoffs and deals
-with multicomponent systems in a transparent manner. We validated it on real
-Monte Carlo simulation data and variety of test systems, including crystals
-with tens of particles in the basis. Our heuristic algorithm, which requires
-minimal human intervention and computational resources, provides a solution to
-the long standing problem and would be beneficial to the wider communities of
-condensed matter physics and computational materials science.</p>
+    <p>Microstructure quantification is an important step towards establishing
+structure-property relationships in materials. Machine learning-based image
+processing methods have been shown to outperform conventional image processing
+techniques and are increasingly applied to microstructure quantification tasks.
+In this work, we present a 3D variational autoencoder (VAE) for encoding
+microstructure volume elements (VEs) comprising voxelated crystallographic
+orientation data. Crystal symmetries in the orientation space are accounted for
+by mapping to the crystallographic fundamental zone as a preprocessing step,
+which allows for a continuous loss function to be used and improves the
+training convergence rate. The VAE is then used to encode a training set of VEs
+with an equiaxed polycrystalline microstructure with random texture. Accurate
+reconstructions are achieved with a relative average misorientation error of
+9x10-3 on the test dataset, for a continuous latent space with dimension 256.
+We show that the model generalises well to microstructures with textures, grain
+sizes and aspect ratios outside the training distribution. Structure-property
+relationships are explored through using the training set of VEs as initial
+configurations in various crystal plasticity (CP) simulations. Microstructural
+fingerprints extracted from the VAE, which parameterise the VEs in a
+low-dimensional latent space, are stored alongside the volume-averaged stress
+response, at each strain increment, to uniaxial tensile deformation from CP
+simulations. This is then used to train a fully connected neural network
+mapping the input fingerprint to the resulting stress response, which acts as a
+surrogate model for the CP simulation. The fingerprint-based surrogate model is
+shown to accurately predict the microstructural dependence in the CP stress
+response, with a relative mean-squared error of 8.9x10-4 on unseen test data.</p>
   </details>
 
   <hr class="paper-divider">
 </div>
 
     <footer>
-        <p>Last updated: 2025-04-30 06:16:16 (SGT)</p>
-        <p>Search query: <code>cat:cond-mat.mtrl-sci AND (cat:cs.AI OR cat:cs.LG OR physics.comp-ph) AND all:"crystal" AND (all:"materials design" OR all:"materials discovery" OR all:generative OR all:symmetry)</code></p>
-        <p>2025 <a href="https://ocean-jh.github.io/" target="_blank">Wang Jianghai</a> @ Nanyang Technological University | All Rights Reserved</p>
-        <p><a href="https://github.com/Ocean-JH/ArXivDaily-AI4MAT">View on GitHub</a></p>
+        <p>Last updated: 2025-04-30 16:30:05 (SGT)</p>
+        <p>2025 <a href="https://ocean-jh.github.io/" target="_blank">Wang Jianghai</a><a href="mailto:jianghai001@e.ntu.edu.sg">📧</a> @ Nanyang Technological University | All Rights Reserved</p>
+        <p><a href="https://github.com/Ocean-JH/ArXivDaily-AI4MAT">Star on GitHub</a></p>
         <p>Powered by <a href="https://arxiv.org/" target="_blank">arXiv</a> · Updated Daily</p>
     </footer>
 
-    <!-- Floating email contact button -->
-    <a href="mailto:jianghai001@e.ntu.edu.sg" class="email-btn">
-        Contact me 📧
-    </a>
-
-    <!-- Floating 'Star it' button (with direct GitHub link) -->
-    <a href="https://github.com/Ocean-JH/ArXivDaily-AI4MAT" target="_blank" class="star-btn">
-        ⭐ Star it
-    </a>
+    <button id="back-to-top" title="Back to Top">↑</button>
 
     <!-- JavaScript -->
     <script src="static/js/dark-mode.js"></script>
     <script src="static/js/search.js"></script>
+    <script src="static/js/back-to-top.js"></script>
 </body>
 </html>

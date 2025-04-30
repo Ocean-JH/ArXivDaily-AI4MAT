@@ -36,45 +36,45 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-04-30 06:16:16 (SGT)*
+*Last updated: 2025-04-30 16:30:05 (SGT)*
 
-### 1. Algorithmic detection of crystal structures from computer simulation data
+### 1. 3D variational autoencoder for fingerprinting microstructure volume elements
 
-**Authors:** Sumitava Kundu, Kaustav Chakraborty, Avisek Das
+**Authors:** Michael D. White, Michael D. Atkinson, Adam J. Plowman, Pratheek Shanthraj
 
-**Published:** 2024-07-11
+**Published:** 2025-03-21
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2407.08808v2
+**ID:** 2503.17427v2
 
-**Link:** [http://arxiv.org/abs/2407.08808v2](http://arxiv.org/abs/2407.08808v2)
+**Link:** [http://arxiv.org/abs/2503.17427v2](http://arxiv.org/abs/2503.17427v2)
 
-**Summary:** Detection of crystal structures from particle positions of crystalline
-assemblies formed in computer simulations is an unsolved problem. The standard
-protocol, formulated in the reciprocal space, for structure determination from
-experimental diffraction data is not suitable for analysis of computer
-simulation data, after converting them to the Fourier space. There is a long
-history of attempts to tackle this problem by analyzing the system in the real
-space by using ideas of local neighbors and broken symmetries of the
-crystalline state. In this paper, we propose a heuristic solution to this
-problem by detecting all possible unit cells directly from particle coordinates
-obtained in a typical computer simulation. The method is based on well known
-facts about crystal structures, some of which are underutilized in the context
-of the current problem. These include, the symmetry of the coordination
-polyhedron and its empirical relationship with directions of lattice vectors
-for a simple Bravais lattice, and the fact that any complex crystal can be
-systematically decomposed into multiple Bravais lattices. By using these ideas,
-along with standard computational techniques like search, clustering and convex
-hull construction, we were able to handle complex basis and construct all
-crystallographically viable unit cells from the coordinates. The method is
-capable of handling statistical noise by employing certain cutoffs and deals
-with multicomponent systems in a transparent manner. We validated it on real
-Monte Carlo simulation data and variety of test systems, including crystals
-with tens of particles in the basis. Our heuristic algorithm, which requires
-minimal human intervention and computational resources, provides a solution to
-the long standing problem and would be beneficial to the wider communities of
-condensed matter physics and computational materials science....
+**Summary:** Microstructure quantification is an important step towards establishing
+structure-property relationships in materials. Machine learning-based image
+processing methods have been shown to outperform conventional image processing
+techniques and are increasingly applied to microstructure quantification tasks.
+In this work, we present a 3D variational autoencoder (VAE) for encoding
+microstructure volume elements (VEs) comprising voxelated crystallographic
+orientation data. Crystal symmetries in the orientation space are accounted for
+by mapping to the crystallographic fundamental zone as a preprocessing step,
+which allows for a continuous loss function to be used and improves the
+training convergence rate. The VAE is then used to encode a training set of VEs
+with an equiaxed polycrystalline microstructure with random texture. Accurate
+reconstructions are achieved with a relative average misorientation error of
+9x10-3 on the test dataset, for a continuous latent space with dimension 256.
+We show that the model generalises well to microstructures with textures, grain
+sizes and aspect ratios outside the training distribution. Structure-property
+relationships are explored through using the training set of VEs as initial
+configurations in various crystal plasticity (CP) simulations. Microstructural
+fingerprints extracted from the VAE, which parameterise the VEs in a
+low-dimensional latent space, are stored alongside the volume-averaged stress
+response, at each strain increment, to uniaxial tensile deformation from CP
+simulations. This is then used to train a fully connected neural network
+mapping the input fingerprint to the resulting stress response, which acts as a
+surrogate model for the CP simulation. The fingerprint-based surrogate model is
+shown to accurately predict the microstructural dependence in the CP stress
+response, with a relative mean-squared error of 8.9x10-4 on unseen test data....
 
 ---
 
