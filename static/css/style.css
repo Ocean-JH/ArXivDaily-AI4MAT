@@ -156,32 +156,6 @@ footer a {
     color: #0366d6;
 }
 
-/* Button Styles */
-
-.email-btn {
-    bottom: 20px;
-    right: 20px;
-    background-color: #0366d6;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-size: 1em;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.star-btn {
-    left: 20px;
-    bottom: 20px;
-    background-color: #ffc400;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-size: 1em;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
 /* Theme Toggle */
 
 #theme-toggle {
