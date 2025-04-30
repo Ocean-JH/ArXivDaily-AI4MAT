@@ -260,7 +260,6 @@ class ArxivTracker:
         # Fill in the template
         html_content = html_template.format(
             title="ArXiv Daily - Latest Papers",
-            query=self.query,
             content=content,
             navbar=navbar,
             timestamp=datetime.datetime.now(SGT).strftime("%Y-%m-%d %H:%M:%S") + " (SGT)"
@@ -319,7 +318,6 @@ class ArxivTracker:
 
         html_content = html_template.format(
             title="ArXiv Daily - Archive",
-            query=self.query,
             content=content,
             navbar=navbar,
             timestamp=datetime.datetime.now(SGT).strftime("%Y-%m-%d %H:%M:%S") + " (SGT)"

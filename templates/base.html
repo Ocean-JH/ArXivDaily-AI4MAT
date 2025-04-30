@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F3PL2Q961N"></script>
+    <script src="static/js/gtag-init.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{title}</title>
@@ -20,7 +24,7 @@
 </a>
 
 <div class="header">
-    <h1>Welcome to the ArXiv Daily - AI for Materials Science!</h1>
+    <h1>ArXiv Daily - AI for Materials Science!</h1>
     <p>Discover the latest research at the intersection of <strong>Artificial Intelligence</strong> and <strong>Materials
         Science</strong>.</p>
     <p>Every day, we track and curate new papers from <a href="https://arxiv.org" target="_blank">arXiv.org</a>,
@@ -42,21 +46,20 @@
 
     <footer>
         <p>Last updated: {timestamp}</p>
-        <p>Search query: <code>{query}</code></p>
         <p>2025 <a href="https://ocean-jh.github.io/" target="_blank">Wang Jianghai</a> @ Nanyang Technological University | All Rights Reserved</p>
         <p><a href="https://github.com/Ocean-JH/ArXivDaily-AI4MAT">View on GitHub</a></p>
         <p>Powered by <a href="https://arxiv.org/" target="_blank">arXiv</a> · Updated Daily</p>
     </footer>
 
-    <!-- Floating email contact button -->
     <a href="mailto:jianghai001@e.ntu.edu.sg" class="email-btn">
         Contact me 📧
     </a>
 
-    <!-- Floating 'Star it' button (with direct GitHub link) -->
     <a href="https://github.com/Ocean-JH/ArXivDaily-AI4MAT" target="_blank" class="star-btn">
         ⭐ Star it
     </a>
+
+    <button id="back-to-top" title="Back to Top">↑</button>
 
     <!-- JavaScript -->
     <script src="static/js/dark-mode.js"></script>

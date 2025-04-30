@@ -57,7 +57,17 @@ body.dark-mode .paper-divider {
     border-top-color: #333;
 }
 
-.notice {
+body.dark-mode #back-to-top {
+    background-color: #ffffff;
+    color: #0366d6;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+body.dark-mode #back-to-top:hover {
+    background-color: #e0e0e0;
+}
+
+body.dark-mode .notice {
     background-color: #1e1e1e;
     padding: 20px 30px;
     border-radius: 16px;
@@ -66,23 +76,4 @@ body.dark-mode .paper-divider {
     font-weight: bold;
     color: #91e5ff;
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
-    animation: bounce 1s ease forwards;
-}
-
-@keyframes bounce {
-    0% {
-        transform: translateY(0);
-    }
-    30% {
-        transform: translateY(-15px);
-    }
-    50% {
-        transform: translateY(0);
-    }
-    70% {
-        transform: translateY(-8px);
-    }
-    100% {
-        transform: translateY(0);
-    }
 }
