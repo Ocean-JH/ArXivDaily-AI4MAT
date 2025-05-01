@@ -36,45 +36,33 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-04-30 16:30:05 (SGT)*
+*Last updated: 2025-05-02 06:16:32 (SGT)*
 
-### 1. 3D variational autoencoder for fingerprinting microstructure volume elements
+### 1. WyckoffDiff -- A Generative Diffusion Model for Crystal Symmetry
 
-**Authors:** Michael D. White, Michael D. Atkinson, Adam J. Plowman, Pratheek Shanthraj
+**Authors:** Filip Ekström Kelvinius, Oskar B. Andersson, Abhijith S. Parackal, Dong Qian, Rickard Armiento, Fredrik Lindsten
 
-**Published:** 2025-03-21
+**Published:** 2025-02-10
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2503.17427v2
+**ID:** 2502.06485v2
 
-**Link:** [http://arxiv.org/abs/2503.17427v2](http://arxiv.org/abs/2503.17427v2)
+**Link:** [http://arxiv.org/abs/2502.06485v2](http://arxiv.org/abs/2502.06485v2)
 
-**Summary:** Microstructure quantification is an important step towards establishing
-structure-property relationships in materials. Machine learning-based image
-processing methods have been shown to outperform conventional image processing
-techniques and are increasingly applied to microstructure quantification tasks.
-In this work, we present a 3D variational autoencoder (VAE) for encoding
-microstructure volume elements (VEs) comprising voxelated crystallographic
-orientation data. Crystal symmetries in the orientation space are accounted for
-by mapping to the crystallographic fundamental zone as a preprocessing step,
-which allows for a continuous loss function to be used and improves the
-training convergence rate. The VAE is then used to encode a training set of VEs
-with an equiaxed polycrystalline microstructure with random texture. Accurate
-reconstructions are achieved with a relative average misorientation error of
-9x10-3 on the test dataset, for a continuous latent space with dimension 256.
-We show that the model generalises well to microstructures with textures, grain
-sizes and aspect ratios outside the training distribution. Structure-property
-relationships are explored through using the training set of VEs as initial
-configurations in various crystal plasticity (CP) simulations. Microstructural
-fingerprints extracted from the VAE, which parameterise the VEs in a
-low-dimensional latent space, are stored alongside the volume-averaged stress
-response, at each strain increment, to uniaxial tensile deformation from CP
-simulations. This is then used to train a fully connected neural network
-mapping the input fingerprint to the resulting stress response, which acts as a
-surrogate model for the CP simulation. The fingerprint-based surrogate model is
-shown to accurately predict the microstructural dependence in the CP stress
-response, with a relative mean-squared error of 8.9x10-4 on unseen test data....
+**Summary:** Crystalline materials often exhibit a high level of symmetry. However, most
+generative models do not account for symmetry, but rather model each atom
+without any constraints on its position or element. We propose a generative
+model, Wyckoff Diffusion (WyckoffDiff), which generates symmetry-based
+descriptions of crystals. This is enabled by considering a crystal structure
+representation that encodes all symmetry, and we design a novel neural network
+architecture which enables using this representation inside a discrete
+generative model framework. In addition to respecting symmetry by construction,
+the discrete nature of our model enables fast generation. We additionally
+present a new metric, Fr\'echet Wrenformer Distance, which captures the
+symmetry aspects of the materials generated, and we benchmark WyckoffDiff
+against recently proposed generative models for crystal generation. Code is
+available online at https://github.com/httk/wyckoffdiff...
 
 ---
 
