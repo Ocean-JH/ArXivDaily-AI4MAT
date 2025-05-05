@@ -36,33 +36,40 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-05-02 06:16:32 (SGT)*
+*Last updated: 2025-05-06 06:17:10 (SGT)*
 
-### 1. WyckoffDiff -- A Generative Diffusion Model for Crystal Symmetry
+### 1. Fully independent response in disordered solids
 
-**Authors:** Filip Ekström Kelvinius, Oskar B. Andersson, Abhijith S. Parackal, Dong Qian, Rickard Armiento, Fredrik Lindsten
+**Authors:** Mengjie Zu, Aayush Desai, Carl P. Goodrich
 
-**Published:** 2025-02-10
+**Published:** 2024-12-06
 
-**Category:** cond-mat.mtrl-sci
+**Category:** physics.comp-ph
 
-**ID:** 2502.06485v2
+**ID:** 2412.05031v2
 
-**Link:** [http://arxiv.org/abs/2502.06485v2](http://arxiv.org/abs/2502.06485v2)
+**Link:** [http://arxiv.org/abs/2412.05031v2](http://arxiv.org/abs/2412.05031v2)
 
-**Summary:** Crystalline materials often exhibit a high level of symmetry. However, most
-generative models do not account for symmetry, but rather model each atom
-without any constraints on its position or element. We propose a generative
-model, Wyckoff Diffusion (WyckoffDiff), which generates symmetry-based
-descriptions of crystals. This is enabled by considering a crystal structure
-representation that encodes all symmetry, and we design a novel neural network
-architecture which enables using this representation inside a discrete
-generative model framework. In addition to respecting symmetry by construction,
-the discrete nature of our model enables fast generation. We additionally
-present a new metric, Fr\'echet Wrenformer Distance, which captures the
-symmetry aspects of the materials generated, and we benchmark WyckoffDiff
-against recently proposed generative models for crystal generation. Code is
-available online at https://github.com/httk/wyckoffdiff...
+**Summary:** Unlike in crystals, it is difficult to trace emergent material properties of
+amorphous solids to their underlying structure. Nevertheless, one can tune
+features of a disordered spring network, ranging from bulk elastic constants to
+specific allosteric responses, through highly precise alterations of the
+structure. This has been understood through the notion of independent
+bond-level response -- the observation that in many cases, different springs
+have different effects on different properties. While this idea has motivated
+inverse design in numerous contexts, it has not been formalized and quantified
+in a general context that not just informs but enables and predicts inverse
+design. Here, we show how to quantify independent response by linearizing the
+simultaneous change in multiple emergent features, and introduce the much
+stronger notion of fully independent response. Remarkably, we find that the
+mechanical properties of disordered solids are always fully independent across
+a wide array of scenarios, regardless of the target features, tunable
+parameters, and details of particle-particle interactions. Furthermore, our
+formulation quantifies the susceptibility of feature changes to parameter
+changes, which we find to be correlated with the maximum linear tunability.
+These results formalize our understanding of a key fundamental difference
+between ordered and disordered solids while also creating a practical tool to
+both understand and perform inverse design....
 
 ---
 
