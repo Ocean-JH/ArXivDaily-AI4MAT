@@ -1,0 +1,25 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2505.07442v1",
+    "title": "DiffCrysGen: A Score-Based Diffusion Model for Design of Diverse Inorganic Crystalline Materials",
+    "authors": [
+      "Sourav Mal",
+      "Subhankar Mishra",
+      "Prasenjit Sen"
+    ],
+    "summary": "Crystal structure generation is a foundational challenge in materials\ndiscovery, particularly in designing functional inorganic crystalline materials\nwith desired properties. Most existing diffusion-based generative models for\ncrystals rely on complex, hand-crafted priors and modular architectures to\nseparately model atom types, atomic positions, and lattice parameters. These\nmethods often require customized diffusion processes and conditional denoising,\nwhich can introduce additional model complexities and inconsistencies. Here we\nintroduce DiffCrysGen, a fully data-driven, score-based diffusion model that\njointly learns the distribution of all structural components in crystalline\nmaterials. With crystal structure representation as unified 2D matrices,\nDiffCrysGen bypasses the need for task-specific priors or decoupled modules,\nenabling end-to-end generation of atom types, fractional coordinates, and\nlattice parameters within a single framework. Our model learns crystallographic\nsymmetry and chemical validity directly from large-scale datasets, allowing it\nto scale to complex materials discovery tasks. As a demonstration, we applied\nDiffCrysGen to the design of rare-earth-free magnetic materials with high\nsaturation magnetization, showing its effectiveness in generating stable,\ndiverse, and property-aligned candidates for sustainable magnet applications.",
+    "published": "2025-05-12T11:07:24+00:00",
+    "updated": "2025-05-12T11:07:24+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2505.07442v1",
+    "short_id": "2505.07442v1",
+    "url": "http://arxiv.org/abs/2505.07442v1"
+  }
+]

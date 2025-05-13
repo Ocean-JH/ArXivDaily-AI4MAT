@@ -36,40 +36,38 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-05-06 06:17:10 (SGT)*
+*Last updated: 2025-05-14 06:17:21 (SGT)*
 
-### 1. Fully independent response in disordered solids
+### 1. DiffCrysGen: A Score-Based Diffusion Model for Design of Diverse Inorganic Crystalline Materials
 
-**Authors:** Mengjie Zu, Aayush Desai, Carl P. Goodrich
+**Authors:** Sourav Mal, Subhankar Mishra, Prasenjit Sen
 
-**Published:** 2024-12-06
+**Published:** 2025-05-12
 
-**Category:** physics.comp-ph
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2412.05031v2
+**ID:** 2505.07442v1
 
-**Link:** [http://arxiv.org/abs/2412.05031v2](http://arxiv.org/abs/2412.05031v2)
+**Link:** [http://arxiv.org/abs/2505.07442v1](http://arxiv.org/abs/2505.07442v1)
 
-**Summary:** Unlike in crystals, it is difficult to trace emergent material properties of
-amorphous solids to their underlying structure. Nevertheless, one can tune
-features of a disordered spring network, ranging from bulk elastic constants to
-specific allosteric responses, through highly precise alterations of the
-structure. This has been understood through the notion of independent
-bond-level response -- the observation that in many cases, different springs
-have different effects on different properties. While this idea has motivated
-inverse design in numerous contexts, it has not been formalized and quantified
-in a general context that not just informs but enables and predicts inverse
-design. Here, we show how to quantify independent response by linearizing the
-simultaneous change in multiple emergent features, and introduce the much
-stronger notion of fully independent response. Remarkably, we find that the
-mechanical properties of disordered solids are always fully independent across
-a wide array of scenarios, regardless of the target features, tunable
-parameters, and details of particle-particle interactions. Furthermore, our
-formulation quantifies the susceptibility of feature changes to parameter
-changes, which we find to be correlated with the maximum linear tunability.
-These results formalize our understanding of a key fundamental difference
-between ordered and disordered solids while also creating a practical tool to
-both understand and perform inverse design....
+**Summary:** Crystal structure generation is a foundational challenge in materials
+discovery, particularly in designing functional inorganic crystalline materials
+with desired properties. Most existing diffusion-based generative models for
+crystals rely on complex, hand-crafted priors and modular architectures to
+separately model atom types, atomic positions, and lattice parameters. These
+methods often require customized diffusion processes and conditional denoising,
+which can introduce additional model complexities and inconsistencies. Here we
+introduce DiffCrysGen, a fully data-driven, score-based diffusion model that
+jointly learns the distribution of all structural components in crystalline
+materials. With crystal structure representation as unified 2D matrices,
+DiffCrysGen bypasses the need for task-specific priors or decoupled modules,
+enabling end-to-end generation of atom types, fractional coordinates, and
+lattice parameters within a single framework. Our model learns crystallographic
+symmetry and chemical validity directly from large-scale datasets, allowing it
+to scale to complex materials discovery tasks. As a demonstration, we applied
+DiffCrysGen to the design of rare-earth-free magnetic materials with high
+saturation magnetization, showing its effectiveness in generating stable,
+diverse, and property-aligned candidates for sustainable magnet applications....
 
 ---
 
