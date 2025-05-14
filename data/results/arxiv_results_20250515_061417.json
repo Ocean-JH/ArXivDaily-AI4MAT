@@ -1,0 +1,60 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2505.08531v1",
+    "title": "Building-Block Aware Generative Modeling for 3D Crystals of Metal Organic Frameworks",
+    "authors": [
+      "Chenru Duan",
+      "Aditya Nandy",
+      "Sizhan Liu",
+      "Yuanqi Du",
+      "Liu He",
+      "Yi Qu",
+      "Haojun Jia",
+      "Jin-Hu Dou"
+    ],
+    "summary": "Metal-organic frameworks (MOFs) marry inorganic nodes, organic edges, and\ntopological nets into programmable porous crystals, yet their astronomical\ndesign space defies brute-force synthesis. Generative modeling holds ultimate\npromise, but existing models either recycle known building blocks or are\nrestricted to small unit cells. We introduce Building-Block-Aware MOF Diffusion\n(BBA MOF Diffusion), an SE(3)-equivariant diffusion model that learns 3D\nall-atom representations of individual building blocks, encoding\ncrystallographic topological nets explicitly. Trained on the CoRE-MOF database,\nBBA MOF Diffusion readily samples MOFs with unit cells containing 1000 atoms\nwith great geometric validity, novelty, and diversity mirroring experimental\ndatabases. Its native building-block representation produces unprecedented\nmetal nodes and organic edges, expanding accessible chemical space by orders of\nmagnitude. One high-scoring [Zn(1,4-TDC)(EtOH)2] MOF predicted by the model was\nsynthesized, where powder X-ray diffraction, thermogravimetric analysis, and N2\nsorption confirm its structural fidelity. BBA-Diff thus furnishes a practical\npathway to synthesizable and high-performing MOFs.",
+    "published": "2025-05-13T13:02:28+00:00",
+    "updated": "2025-05-13T13:02:28+00:00",
+    "categories": [
+      "physics.chem-ph",
+      "cond-mat.mtrl-sci",
+      "cs.LG"
+    ],
+    "primary_category": "physics.chem-ph",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2505.08531v1",
+    "short_id": "2505.08531v1",
+    "url": "http://arxiv.org/abs/2505.08531v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2311.04418v4",
+    "title": "AI-accelerated Discovery of Altermagnetic Materials",
+    "authors": [
+      "Ze-Feng Gao",
+      "Shuai Qu",
+      "Bocheng Zeng",
+      "Yang Liu",
+      "Ji-Rong Wen",
+      "Hao Sun",
+      "Peng-Jie Guo",
+      "Zhong-Yi Lu"
+    ],
+    "summary": "Altermagnetism, a new magnetic phase, has been theoretically proposed and\nexperimentally verified to be distinct from ferromagnetism and\nantiferromagnetism. Although altermagnets have been found to possess many\nexotic physical properties, the limited availability of known altermagnetic\nmaterials hinders the study of such properties. Hence, discovering more types\nof altermagnetic materials with different properties is crucial for a\ncomprehensive understanding of altermagnetism and thus facilitating new\napplications in the next generation information technologies, e.g., storage\ndevices and high-sensitivity sensors. Since each altermagnetic material has a\nunique crystal structure, we propose an automated discovery approach empowered\nby an AI search engine that employs a pre-trained graph neural network to learn\nthe intrinsic features of the material crystal structure, followed by\nfine-tuning a classifier with limited positive samples to predict the\naltermagnetism probability of a given material candidate. Finally, we\nsuccessfully discovered 50 new altermagnetic materials that cover metals,\nsemiconductors, and insulators confirmed by the first-principles electronic\nstructure calculations. The wide range of electronic structural characteristics\nreveals that various novel physical properties manifest in these newly\ndiscovered altermagnetic materials, e.g., anomalous Hall effect, anomalous Kerr\neffect, and topological property. Noteworthy, we discovered 4 $i$-wave\naltermagnetic materials for the first time. Overall, the AI search engine\nperforms much better than human experts and suggests a set of new altermagnetic\nmaterials with unique properties, outlining its potential for accelerated\ndiscovery of the materials with targeted properties.",
+    "published": "2023-11-08T01:06:48+00:00",
+    "updated": "2025-05-13T08:00:39+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "46 pages; 23 figures; 4 tables",
+    "journal_ref": "National Science Review, Volume 12, Issue 4, April 2025",
+    "doi": "10.1093/nsr/nwaf066",
+    "pdf_url": "http://arxiv.org/pdf/2311.04418v4",
+    "short_id": "2311.04418v4",
+    "url": "http://arxiv.org/abs/2311.04418v4"
+  }
+]
