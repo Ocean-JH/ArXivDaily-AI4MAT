@@ -387,7 +387,7 @@ def main():
 
     # Load config  
     config = {
-        "query": "cat:cond-mat.mtrl-sci AND (cat:cs.AI OR cat:cs.LG OR physics.comp-ph) AND all:\"crystal\" AND (all:\"materials design\" OR all:\"materials discovery\" OR all:generative OR all:symmetry)",
+        "query": "cat:cond-mat.mtrl-sci AND (cat:cs.AI OR cat:cs.LG OR physics.comp-ph) AND (all:\"crystal\" OR all:\"crystalline\") AND (all:\"materials design\" OR all:\"materials discovery\" OR all:\"generative\" OR all:\"symmetry\" OR all:\"space group\")",
         "max_results": 30,
         "output_dir": "./data/results",
         "known_papers_file": "./data/known_papers.json"
