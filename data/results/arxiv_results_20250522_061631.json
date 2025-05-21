@@ -1,0 +1,26 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2502.09890v2",
+    "title": "Rao-Blackwell Gradient Estimators for Equivariant Denoising Diffusion",
+    "authors": [
+      "Vinh Tong",
+      "Trung-Dung Hoang",
+      "Anji Liu",
+      "Guy Van den Broeck",
+      "Mathias Niepert"
+    ],
+    "summary": "In domains such as molecular and protein generation, physical systems exhibit\ninherent symmetries that are critical to model. Two main strategies have\nemerged for learning invariant distributions: designing equivariant network\narchitectures and using data augmentation to approximate equivariance. While\nequivariant architectures preserve symmetry by design, they often involve\ngreater complexity and pose optimization challenges. Data augmentation, on the\nother hand, offers flexibility but may fall short in fully capturing\nsymmetries. Our framework enhances both approaches by reducing training\nvariance and providing a provably lower-variance gradient estimator. We achieve\nthis by interpreting data augmentation as a Monte Carlo estimator of the\ntraining gradient and applying Rao-Blackwellization. This leads to more stable\noptimization, faster convergence, and reduced variance, all while requiring\nonly a single forward and backward pass per sample. We also present a practical\nimplementation of this estimator incorporating the loss and sampling procedure\nthrough a method we call Orbit Diffusion. Theoretically, we guarantee that our\nloss admits equivariant minimizers. Empirically, Orbit Diffusion achieves\nstate-of-the-art results on GEOM-QM9 for molecular conformation generation,\nimproves crystal structure prediction, and advances text-guided crystal\ngeneration on the Perov-5 and MP-20 benchmarks. Additionally, it enhances\nprotein designability in protein structure generation.",
+    "published": "2025-02-14T03:26:57+00:00",
+    "updated": "2025-05-20T07:36:10+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2502.09890v2",
+    "short_id": "2502.09890v2",
+    "url": "http://arxiv.org/abs/2502.09890v2"
+  }
+]
