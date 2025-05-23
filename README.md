@@ -36,40 +36,39 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-05-22 06:16:32 (SGT)*
+*Last updated: 2025-05-24 06:16:35 (SGT)*
 
-### 1. Rao-Blackwell Gradient Estimators for Equivariant Denoising Diffusion
+### 1. Materials Generation in the Era of Artificial Intelligence: A Comprehensive Survey
 
-**Authors:** Vinh Tong, Trung-Dung Hoang, Anji Liu, Guy Van den Broeck, Mathias Niepert
+**Authors:** Zhixun Li, Bin Cao, Rui Jiao, Liang Wang, Ding Wang, Yang Liu, Dingshuo Chen, Jia Li, Qiang Liu, Yu Rong, Liang Wang, Tong-yi Zhang, Jeffrey Xu Yu
 
-**Published:** 2025-02-14
+**Published:** 2025-05-22
 
-**Category:** cs.LG
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2502.09890v2
+**ID:** 2505.16379v1
 
-**Link:** [http://arxiv.org/abs/2502.09890v2](http://arxiv.org/abs/2502.09890v2)
+**Link:** [http://arxiv.org/abs/2505.16379v1](http://arxiv.org/abs/2505.16379v1)
 
-**Summary:** In domains such as molecular and protein generation, physical systems exhibit
-inherent symmetries that are critical to model. Two main strategies have
-emerged for learning invariant distributions: designing equivariant network
-architectures and using data augmentation to approximate equivariance. While
-equivariant architectures preserve symmetry by design, they often involve
-greater complexity and pose optimization challenges. Data augmentation, on the
-other hand, offers flexibility but may fall short in fully capturing
-symmetries. Our framework enhances both approaches by reducing training
-variance and providing a provably lower-variance gradient estimator. We achieve
-this by interpreting data augmentation as a Monte Carlo estimator of the
-training gradient and applying Rao-Blackwellization. This leads to more stable
-optimization, faster convergence, and reduced variance, all while requiring
-only a single forward and backward pass per sample. We also present a practical
-implementation of this estimator incorporating the loss and sampling procedure
-through a method we call Orbit Diffusion. Theoretically, we guarantee that our
-loss admits equivariant minimizers. Empirically, Orbit Diffusion achieves
-state-of-the-art results on GEOM-QM9 for molecular conformation generation,
-improves crystal structure prediction, and advances text-guided crystal
-generation on the Perov-5 and MP-20 benchmarks. Additionally, it enhances
-protein designability in protein structure generation....
+**Summary:** Materials are the foundation of modern society, underpinning advancements in
+energy, electronics, healthcare, transportation, and infrastructure. The
+ability to discover and design new materials with tailored properties is
+critical to solving some of the most pressing global challenges. In recent
+years, the growing availability of high-quality materials data combined with
+rapid advances in Artificial Intelligence (AI) has opened new opportunities for
+accelerating materials discovery. Data-driven generative models provide a
+powerful tool for materials design by directly create novel materials that
+satisfy predefined property requirements. Despite the proliferation of related
+work, there remains a notable lack of up-to-date and systematic surveys in this
+area. To fill this gap, this paper provides a comprehensive overview of recent
+progress in AI-driven materials generation. We first organize various types of
+materials and illustrate multiple representations of crystalline materials. We
+then provide a detailed summary and taxonomy of current AI-driven materials
+generation approaches. Furthermore, we discuss the common evaluation metrics
+and summarize open-source codes and benchmark datasets. Finally, we conclude
+with potential future directions and challenges in this fast-growing field. The
+related sources can be found at
+https://github.com/ZhixunLEE/Awesome-AI-for-Materials-Generation....
 
 ---
 

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2505.16379v1",
+    "title": "Materials Generation in the Era of Artificial Intelligence: A Comprehensive Survey",
+    "authors": [
+      "Zhixun Li",
+      "Bin Cao",
+      "Rui Jiao",
+      "Liang Wang",
+      "Ding Wang",
+      "Yang Liu",
+      "Dingshuo Chen",
+      "Jia Li",
+      "Qiang Liu",
+      "Yu Rong",
+      "Liang Wang",
+      "Tong-yi Zhang",
+      "Jeffrey Xu Yu"
+    ],
+    "summary": "Materials are the foundation of modern society, underpinning advancements in\nenergy, electronics, healthcare, transportation, and infrastructure. The\nability to discover and design new materials with tailored properties is\ncritical to solving some of the most pressing global challenges. In recent\nyears, the growing availability of high-quality materials data combined with\nrapid advances in Artificial Intelligence (AI) has opened new opportunities for\naccelerating materials discovery. Data-driven generative models provide a\npowerful tool for materials design by directly create novel materials that\nsatisfy predefined property requirements. Despite the proliferation of related\nwork, there remains a notable lack of up-to-date and systematic surveys in this\narea. To fill this gap, this paper provides a comprehensive overview of recent\nprogress in AI-driven materials generation. We first organize various types of\nmaterials and illustrate multiple representations of crystalline materials. We\nthen provide a detailed summary and taxonomy of current AI-driven materials\ngeneration approaches. Furthermore, we discuss the common evaluation metrics\nand summarize open-source codes and benchmark datasets. Finally, we conclude\nwith potential future directions and challenges in this fast-growing field. The\nrelated sources can be found at\nhttps://github.com/ZhixunLEE/Awesome-AI-for-Materials-Generation.",
+    "published": "2025-05-22T08:33:21+00:00",
+    "updated": "2025-05-22T08:33:21+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "Work in progress",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2505.16379v1",
+    "short_id": "2505.16379v1",
+    "url": "http://arxiv.org/abs/2505.16379v1"
+  }
+]
