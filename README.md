@@ -36,39 +36,38 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-05-24 06:16:35 (SGT)*
+*Last updated: 2025-05-28 06:16:35 (SGT)*
 
-### 1. Materials Generation in the Era of Artificial Intelligence: A Comprehensive Survey
+### 1. SymmCD: Symmetry-Preserving Crystal Generation with Diffusion Models
 
-**Authors:** Zhixun Li, Bin Cao, Rui Jiao, Liang Wang, Ding Wang, Yang Liu, Dingshuo Chen, Jia Li, Qiang Liu, Yu Rong, Liang Wang, Tong-yi Zhang, Jeffrey Xu Yu
+**Authors:** Daniel Levy, Siba Smarak Panigrahi, Sékou-Oumar Kaba, Qiang Zhu, Kin Long Kelvin Lee, Mikhail Galkin, Santiago Miret, Siamak Ravanbakhsh
 
-**Published:** 2025-05-22
+**Published:** 2025-02-05
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2505.16379v1
+**ID:** 2502.03638v3
 
-**Link:** [http://arxiv.org/abs/2505.16379v1](http://arxiv.org/abs/2505.16379v1)
+**Link:** [http://arxiv.org/abs/2502.03638v3](http://arxiv.org/abs/2502.03638v3)
 
-**Summary:** Materials are the foundation of modern society, underpinning advancements in
-energy, electronics, healthcare, transportation, and infrastructure. The
-ability to discover and design new materials with tailored properties is
-critical to solving some of the most pressing global challenges. In recent
-years, the growing availability of high-quality materials data combined with
-rapid advances in Artificial Intelligence (AI) has opened new opportunities for
-accelerating materials discovery. Data-driven generative models provide a
-powerful tool for materials design by directly create novel materials that
-satisfy predefined property requirements. Despite the proliferation of related
-work, there remains a notable lack of up-to-date and systematic surveys in this
-area. To fill this gap, this paper provides a comprehensive overview of recent
-progress in AI-driven materials generation. We first organize various types of
-materials and illustrate multiple representations of crystalline materials. We
-then provide a detailed summary and taxonomy of current AI-driven materials
-generation approaches. Furthermore, we discuss the common evaluation metrics
-and summarize open-source codes and benchmark datasets. Finally, we conclude
-with potential future directions and challenges in this fast-growing field. The
-related sources can be found at
-https://github.com/ZhixunLEE/Awesome-AI-for-Materials-Generation....
+**Summary:** Generating novel crystalline materials has the potential to lead to
+advancements in fields such as electronics, energy storage, and catalysis. The
+defining characteristic of crystals is their symmetry, which plays a central
+role in determining their physical properties. However, existing crystal
+generation methods either fail to generate materials that display the
+symmetries of real-world crystals, or simply replicate the symmetry information
+from examples in a database. To address this limitation, we propose SymmCD, a
+novel diffusion-based generative model that explicitly incorporates
+crystallographic symmetry into the generative process. We decompose crystals
+into two components and learn their joint distribution through diffusion: 1)
+the asymmetric unit, the smallest subset of the crystal which can generate the
+whole crystal through symmetry transformations, and; 2) the symmetry
+transformations needed to be applied to each atom in the asymmetric unit. We
+also use a novel and interpretable representation for these transformations,
+enabling generalization across different crystallographic symmetry groups. We
+showcase the competitive performance of SymmCD on a subset of the Materials
+Project, obtaining diverse and valid crystals with realistic symmetries and
+predicted properties....
 
 ---
 
