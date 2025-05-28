@@ -36,38 +36,38 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-05-28 06:16:35 (SGT)*
+*Last updated: 2025-05-29 06:16:38 (SGT)*
 
-### 1. SymmCD: Symmetry-Preserving Crystal Generation with Diffusion Models
+### 1. A Generation Framework with Strict Constraints for Crystal Materials Design
 
-**Authors:** Daniel Levy, Siba Smarak Panigrahi, Sékou-Oumar Kaba, Qiang Zhu, Kin Long Kelvin Lee, Mikhail Galkin, Santiago Miret, Siamak Ravanbakhsh
+**Authors:** Chao Huang, Jiahui Chen, Chen Chen, Chunyan Chen, Renjie Su, Shiyu Du, ChenChen, Hongrui Liang, Daojing Lin
 
-**Published:** 2025-02-05
+**Published:** 2024-11-13
 
-**Category:** cond-mat.mtrl-sci
+**Category:** cs.AI
 
-**ID:** 2502.03638v3
+**ID:** 2411.08464v2
 
-**Link:** [http://arxiv.org/abs/2502.03638v3](http://arxiv.org/abs/2502.03638v3)
+**Link:** [http://arxiv.org/abs/2411.08464v2](http://arxiv.org/abs/2411.08464v2)
 
-**Summary:** Generating novel crystalline materials has the potential to lead to
-advancements in fields such as electronics, energy storage, and catalysis. The
-defining characteristic of crystals is their symmetry, which plays a central
-role in determining their physical properties. However, existing crystal
-generation methods either fail to generate materials that display the
-symmetries of real-world crystals, or simply replicate the symmetry information
-from examples in a database. To address this limitation, we propose SymmCD, a
-novel diffusion-based generative model that explicitly incorporates
-crystallographic symmetry into the generative process. We decompose crystals
-into two components and learn their joint distribution through diffusion: 1)
-the asymmetric unit, the smallest subset of the crystal which can generate the
-whole crystal through symmetry transformations, and; 2) the symmetry
-transformations needed to be applied to each atom in the asymmetric unit. We
-also use a novel and interpretable representation for these transformations,
-enabling generalization across different crystallographic symmetry groups. We
-showcase the competitive performance of SymmCD on a subset of the Materials
-Project, obtaining diverse and valid crystals with realistic symmetries and
-predicted properties....
+**Summary:** The design of crystal materials plays a critical role in areas such as new
+energy development, biomedical engineering, and semiconductors. Recent advances
+in data-driven methods have enabled the generation of diverse crystal
+structures. However, most existing approaches still rely on random sampling
+without strict constraints, requiring multiple post-processing steps to
+identify stable candidates with the desired physical and chemical properties.
+In this work, we present a new constrained generation framework that takes
+multiple constraints as input and enables the generation of crystal structures
+with specific chemical and properties. In this framework, intermediate
+constraints, such as symmetry information and composition ratio, are generated
+by a constraint generator based on large language models (LLMs), which
+considers the target properties. These constraints are then used by a
+subsequent crystal structure generator to ensure that the structure generation
+process is under control. Our method generates crystal structures with a
+probability of meeting the target properties that is more than twice that of
+existing approaches. Furthermore, nearly 100% of the generated crystals
+strictly adhere to predefined chemical composition, eliminating the risks of
+supply chain during production....
 
 ---
 
