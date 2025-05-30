@@ -36,38 +36,38 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-05-29 06:16:38 (SGT)*
+*Last updated: 2025-05-31 06:16:27 (SGT)*
 
-### 1. A Generation Framework with Strict Constraints for Crystal Materials Design
+### 1. Rethinking Gradient-Based Methods: Multi-Property Materials Design Beyond Differentiable Targets
 
-**Authors:** Chao Huang, Jiahui Chen, Chen Chen, Chunyan Chen, Renjie Su, Shiyu Du, ChenChen, Hongrui Liang, Daojing Lin
+**Authors:** Akihiro Fujii, Yoshitaka Ushiku, Koji Shimizu, Anh Khoa Augustin Lu, Satoshi Watanabe
 
-**Published:** 2024-11-13
+**Published:** 2024-10-11
 
-**Category:** cs.AI
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2411.08464v2
+**ID:** 2410.08562v4
 
-**Link:** [http://arxiv.org/abs/2411.08464v2](http://arxiv.org/abs/2411.08464v2)
+**Link:** [http://arxiv.org/abs/2410.08562v4](http://arxiv.org/abs/2410.08562v4)
 
-**Summary:** The design of crystal materials plays a critical role in areas such as new
-energy development, biomedical engineering, and semiconductors. Recent advances
-in data-driven methods have enabled the generation of diverse crystal
-structures. However, most existing approaches still rely on random sampling
-without strict constraints, requiring multiple post-processing steps to
-identify stable candidates with the desired physical and chemical properties.
-In this work, we present a new constrained generation framework that takes
-multiple constraints as input and enables the generation of crystal structures
-with specific chemical and properties. In this framework, intermediate
-constraints, such as symmetry information and composition ratio, are generated
-by a constraint generator based on large language models (LLMs), which
-considers the target properties. These constraints are then used by a
-subsequent crystal structure generator to ensure that the structure generation
-process is under control. Our method generates crystal structures with a
-probability of meeting the target properties that is more than twice that of
-existing approaches. Furthermore, nearly 100% of the generated crystals
-strictly adhere to predefined chemical composition, eliminating the risks of
-supply chain during production....
+**Summary:** Gradient-based methods offer a simple, efficient strategy for materials
+design by directly optimizing candidates using gradients from pretrained
+property predictors. However, their use in crystal structure optimization is
+hindered by two key challenges: handling non-differentiable constraints, such
+as charge neutrality and structural fidelity, and susceptibility to poor local
+minima. We revisit and extend the gradient-based methods to address these
+issues. We propose Simultaneous Multi-property Optimization using Adaptive
+Crystal Synthesizer (SMOACS), which integrates oxidation-number masks and
+template-based initialization to enforce non-differentiable constraints, avoid
+poor local minima, and flexibly incorporate additional constraints without
+retraining. SMOACS enables multi-property optimization. including exceptional
+targets such as high-temperature superconductivity, and scales to large crystal
+systems, both persistent challenges for generative models, even those enhanced
+with gradient-based guidance from property predictors. In experiments on five
+target properties and three datasets, SMOACS outperforms generative models and
+Bayesian optimization methods, successfully designing 135-atom perovskite
+structures that satisfy multiple property targets and constraints, a task at
+which the other methods fail entirely....
 
 ---
 
