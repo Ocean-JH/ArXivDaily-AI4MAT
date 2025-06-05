@@ -36,38 +36,37 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-05-31 06:16:27 (SGT)*
+*Last updated: 2025-06-06 06:15:59 (SGT)*
 
-### 1. Rethinking Gradient-Based Methods: Multi-Property Materials Design Beyond Differentiable Targets
+### 1. Wyckoff Transformer: Generation of Symmetric Crystals
 
-**Authors:** Akihiro Fujii, Yoshitaka Ushiku, Koji Shimizu, Anh Khoa Augustin Lu, Satoshi Watanabe
+**Authors:** Nikita Kazeev, Wei Nong, Ignat Romanov, Ruiming Zhu, Andrey Ustyuzhanin, Shuya Yamazaki, Kedar Hippalgaonkar
 
-**Published:** 2024-10-11
+**Published:** 2025-03-04
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2410.08562v4
+**ID:** 2503.02407v3
 
-**Link:** [http://arxiv.org/abs/2410.08562v4](http://arxiv.org/abs/2410.08562v4)
+**Link:** [http://arxiv.org/abs/2503.02407v3](http://arxiv.org/abs/2503.02407v3)
 
-**Summary:** Gradient-based methods offer a simple, efficient strategy for materials
-design by directly optimizing candidates using gradients from pretrained
-property predictors. However, their use in crystal structure optimization is
-hindered by two key challenges: handling non-differentiable constraints, such
-as charge neutrality and structural fidelity, and susceptibility to poor local
-minima. We revisit and extend the gradient-based methods to address these
-issues. We propose Simultaneous Multi-property Optimization using Adaptive
-Crystal Synthesizer (SMOACS), which integrates oxidation-number masks and
-template-based initialization to enforce non-differentiable constraints, avoid
-poor local minima, and flexibly incorporate additional constraints without
-retraining. SMOACS enables multi-property optimization. including exceptional
-targets such as high-temperature superconductivity, and scales to large crystal
-systems, both persistent challenges for generative models, even those enhanced
-with gradient-based guidance from property predictors. In experiments on five
-target properties and three datasets, SMOACS outperforms generative models and
-Bayesian optimization methods, successfully designing 135-atom perovskite
-structures that satisfy multiple property targets and constraints, a task at
-which the other methods fail entirely....
+**Summary:** Crystal symmetry plays a fundamental role in determining its physical,
+chemical, and electronic properties such as electrical and thermal
+conductivity, optical and polarization behavior, and mechanical strength.
+Almost all known crystalline materials have internal symmetry. However, this is
+often inadequately addressed by existing generative models, making the
+consistent generation of stable and symmetrically valid crystal structures a
+significant challenge. We introduce WyFormer, a generative model that directly
+tackles this by formally conditioning on space group symmetry. It achieves this
+by using Wyckoff positions as the basis for an elegant, compressed, and
+discrete structure representation. To model the distribution, we develop a
+permutation-invariant autoregressive model based on the Transformer encoder and
+an absence of positional encoding. Extensive experimentation demonstrates
+WyFormer's compelling combination of attributes: it achieves best-in-class
+symmetry-conditioned generation, incorporates a physics-motivated inductive
+bias, produces structures with competitive stability, predicts material
+properties with competitive accuracy even without atomic coordinates, and
+exhibits unparalleled inference speed....
 
 ---
 
