@@ -36,7 +36,7 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-06-06 06:15:59 (SGT)*
+*Last updated: 2025-06-07 06:16:56 (SGT)*
 
 ### 1. Wyckoff Transformer: Generation of Symmetric Crystals
 
@@ -46,9 +46,9 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2503.02407v3
+**ID:** 2503.02407v4
 
-**Link:** [http://arxiv.org/abs/2503.02407v3](http://arxiv.org/abs/2503.02407v3)
+**Link:** [http://arxiv.org/abs/2503.02407v4](http://arxiv.org/abs/2503.02407v4)
 
 **Summary:** Crystal symmetry plays a fundamental role in determining its physical,
 chemical, and electronic properties such as electrical and thermal
