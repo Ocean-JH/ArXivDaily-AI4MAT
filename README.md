@@ -36,37 +36,38 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-06-07 06:16:56 (SGT)*
+*Last updated: 2025-06-10 06:17:09 (SGT)*
 
-### 1. Wyckoff Transformer: Generation of Symmetric Crystals
+### 1. Toward Greater Autonomy in Materials Discovery Agents: Unifying Planning, Physics, and Scientists
 
-**Authors:** Nikita Kazeev, Wei Nong, Ignat Romanov, Ruiming Zhu, Andrey Ustyuzhanin, Shuya Yamazaki, Kedar Hippalgaonkar
+**Authors:** Lianhao Zhou, Hongyi Ling, Keqiang Yan, Kaiji Zhao, Xiaoning Qian, Raymundo Arróyave, Xiaofeng Qian, Shuiwang Ji
 
-**Published:** 2025-03-04
+**Published:** 2025-06-05
 
-**Category:** cond-mat.mtrl-sci
+**Category:** cs.AI
 
-**ID:** 2503.02407v4
+**ID:** 2506.05616v1
 
-**Link:** [http://arxiv.org/abs/2503.02407v4](http://arxiv.org/abs/2503.02407v4)
+**Link:** [http://arxiv.org/abs/2506.05616v1](http://arxiv.org/abs/2506.05616v1)
 
-**Summary:** Crystal symmetry plays a fundamental role in determining its physical,
-chemical, and electronic properties such as electrical and thermal
-conductivity, optical and polarization behavior, and mechanical strength.
-Almost all known crystalline materials have internal symmetry. However, this is
-often inadequately addressed by existing generative models, making the
-consistent generation of stable and symmetrically valid crystal structures a
-significant challenge. We introduce WyFormer, a generative model that directly
-tackles this by formally conditioning on space group symmetry. It achieves this
-by using Wyckoff positions as the basis for an elegant, compressed, and
-discrete structure representation. To model the distribution, we develop a
-permutation-invariant autoregressive model based on the Transformer encoder and
-an absence of positional encoding. Extensive experimentation demonstrates
-WyFormer's compelling combination of attributes: it achieves best-in-class
-symmetry-conditioned generation, incorporates a physics-motivated inductive
-bias, produces structures with competitive stability, predicts material
-properties with competitive accuracy even without atomic coordinates, and
-exhibits unparalleled inference speed....
+**Summary:** We aim at designing language agents with greater autonomy for crystal
+materials discovery. While most of existing studies restrict the agents to
+perform specific tasks within predefined workflows, we aim to automate workflow
+planning given high-level goals and scientist intuition. To this end, we
+propose Materials Agent unifying Planning, Physics, and Scientists, known as
+MAPPS. MAPPS consists of a Workflow Planner, a Tool Code Generator, and a
+Scientific Mediator. The Workflow Planner uses large language models (LLMs) to
+generate structured and multi-step workflows. The Tool Code Generator
+synthesizes executable Python code for various tasks, including invoking a
+force field foundation model that encodes physics. The Scientific Mediator
+coordinates communications, facilitates scientist feedback, and ensures
+robustness through error reflection and recovery. By unifying planning,
+physics, and scientists, MAPPS enables flexible and reliable materials
+discovery with greater autonomy, achieving a five-fold improvement in
+stability, uniqueness, and novelty rates compared with prior generative models
+when evaluated on the MP-20 data. We provide extensive experiments across
+diverse tasks to show that MAPPS is a promising framework for autonomous
+materials discovery....
 
 ---
 
