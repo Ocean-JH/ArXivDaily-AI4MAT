@@ -36,7 +36,7 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-06-10 06:17:09 (SGT)*
+*Last updated: 2025-06-11 06:17:04 (SGT)*
 
 ### 1. Toward Greater Autonomy in Materials Discovery Agents: Unifying Planning, Physics, and Scientists
 
@@ -46,9 +46,9 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 **Category:** cs.AI
 
-**ID:** 2506.05616v1
+**ID:** 2506.05616v2
 
-**Link:** [http://arxiv.org/abs/2506.05616v1](http://arxiv.org/abs/2506.05616v1)
+**Link:** [http://arxiv.org/abs/2506.05616v2](http://arxiv.org/abs/2506.05616v2)
 
 **Summary:** We aim at designing language agents with greater autonomy for crystal
 materials discovery. While most of existing studies restrict the agents to
