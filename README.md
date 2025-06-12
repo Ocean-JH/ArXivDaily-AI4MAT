@@ -36,38 +36,38 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-06-11 06:17:04 (SGT)*
+*Last updated: 2025-06-13 06:16:47 (SGT)*
 
-### 1. Toward Greater Autonomy in Materials Discovery Agents: Unifying Planning, Physics, and Scientists
+### 1. AI-Assisted Rapid Crystal Structure Generation Towards a Target Local Environment
 
-**Authors:** Lianhao Zhou, Hongyi Ling, Keqiang Yan, Kaiji Zhao, Xiaoning Qian, Raymundo Arróyave, Xiaofeng Qian, Shuiwang Ji
+**Authors:** Osman Goni Ridwan, Sylvain Pitié, Monish Soundar Raj, Dong Dai, Gilles Frapper, Hongfei Xue, Qiang Zhu
 
-**Published:** 2025-06-05
+**Published:** 2025-06-09
 
-**Category:** cs.AI
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2506.05616v2
+**ID:** 2506.08224v1
 
-**Link:** [http://arxiv.org/abs/2506.05616v2](http://arxiv.org/abs/2506.05616v2)
+**Link:** [http://arxiv.org/abs/2506.08224v1](http://arxiv.org/abs/2506.08224v1)
 
-**Summary:** We aim at designing language agents with greater autonomy for crystal
-materials discovery. While most of existing studies restrict the agents to
-perform specific tasks within predefined workflows, we aim to automate workflow
-planning given high-level goals and scientist intuition. To this end, we
-propose Materials Agent unifying Planning, Physics, and Scientists, known as
-MAPPS. MAPPS consists of a Workflow Planner, a Tool Code Generator, and a
-Scientific Mediator. The Workflow Planner uses large language models (LLMs) to
-generate structured and multi-step workflows. The Tool Code Generator
-synthesizes executable Python code for various tasks, including invoking a
-force field foundation model that encodes physics. The Scientific Mediator
-coordinates communications, facilitates scientist feedback, and ensures
-robustness through error reflection and recovery. By unifying planning,
-physics, and scientists, MAPPS enables flexible and reliable materials
-discovery with greater autonomy, achieving a five-fold improvement in
-stability, uniqueness, and novelty rates compared with prior generative models
-when evaluated on the MP-20 data. We provide extensive experiments across
-diverse tasks to show that MAPPS is a promising framework for autonomous
-materials discovery....
+**Summary:** In the field of material design, traditional crystal structure prediction
+approaches require extensive structural sampling through computationally
+expensive energy minimization methods using either force fields or quantum
+mechanical simulations. While emerging artificial intelligence (AI) generative
+models have shown great promise in generating realistic crystal structures more
+rapidly, most existing models fail to account for the unique symmetries and
+periodicity of crystalline materials, and they are limited to handling
+structures with only a few tens of atoms per unit cell. Here, we present a
+symmetry-informed AI generative approach called Local Environment
+Geometry-Oriented Crystal Generator (LEGO-xtal) that overcomes these
+limitations. Our method generates initial structures using AI models trained on
+an augmented small dataset, and then optimizes them using machine learning
+structure descriptors rather than traditional energy-based optimization. We
+demonstrate the effectiveness of LEGO-xtal by expanding from 25 known
+low-energy sp2 carbon allotropes to over 1,700, all within 0.5 eV/atom of the
+ground-state energy of graphite. This framework offers a generalizable strategy
+for the targeted design of materials with modular building blocks, such as
+metal-organic frameworks and next-generation battery materials....
 
 ---
 
