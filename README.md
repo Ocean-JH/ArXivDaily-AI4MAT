@@ -36,34 +36,37 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-06-27 06:16:55 (SGT)*
+*Last updated: 2025-07-01 06:17:29 (SGT)*
 
-### 1. WyckoffDiff -- A Generative Diffusion Model for Crystal Symmetry
+### 1. deCIFer: Crystal Structure Prediction from Powder Diffraction Data using Autoregressive Language Models
 
-**Authors:** Filip Ekström Kelvinius, Oskar B. Andersson, Abhijith S. Parackal, Dong Qian, Rickard Armiento, Fredrik Lindsten
+**Authors:** Frederik Lizak Johansen, Ulrik Friis-Jensen, Erik Bjørnager Dam, Kirsten Marie Ørnsbjerg Jensen, Rocío Mercado, Raghavendra Selvan
 
-**Published:** 2025-02-10
+**Published:** 2025-02-04
 
-**Category:** cond-mat.mtrl-sci
+**Category:** cs.LG
 
-**ID:** 2502.06485v3
+**ID:** 2502.02189v3
 
-**Link:** [http://arxiv.org/abs/2502.06485v3](http://arxiv.org/abs/2502.06485v3)
+**Link:** [http://arxiv.org/abs/2502.02189v3](http://arxiv.org/abs/2502.02189v3)
 
-**Summary:** Crystalline materials often exhibit a high level of symmetry. However, most
-generative models do not account for symmetry, but rather model each atom
-without any constraints on its position or element. We propose a generative
-model, Wyckoff Diffusion (WyckoffDiff), which generates symmetry-based
-descriptions of crystals. This is enabled by considering a crystal structure
-representation that encodes all symmetry, and we design a novel neural network
-architecture which enables using this representation inside a discrete
-generative model framework. In addition to respecting symmetry by construction,
-the discrete nature of our model enables fast generation. We additionally
-present a new metric, Fr\'echet Wrenformer Distance, which captures the
-symmetry aspects of the materials generated, and we benchmark WyckoffDiff
-against recently proposed generative models for crystal generation. As a
-proof-of-concept study, we use WyckoffDiff to find new materials below the
-convex hull of thermodynamical stability....
+**Summary:** Novel materials drive progress across applications from energy storage to
+electronics. Automated characterization of material structures with machine
+learning methods offers a promising strategy for accelerating this key step in
+material design. In this work, we introduce an autoregressive language model
+that performs crystal structure prediction (CSP) from powder diffraction data.
+The presented model, deCIFer, generates crystal structures in the widely used
+Crystallographic Information File (CIF) format and can be conditioned on powder
+X-ray diffraction (PXRD) data. Unlike earlier works that primarily rely on
+high-level descriptors like composition, deCIFer is also able to use
+diffraction data to perform CSP. We train deCIFer on nearly 2.3M crystal
+structures and validate on diverse sets of PXRD patterns for characterizing
+challenging inorganic crystal systems. Qualitative checks and quantitative
+assessments using the residual weighted profile show that deCIFer produces
+structures that more accurately match the target diffraction data. Notably,
+deCIFer can achieve a 94% match rate on test data. deCIFer bridges experimental
+diffraction data with computational CSP, lending itself as a powerful tool for
+crystal structure characterization....
 
 ---
 
