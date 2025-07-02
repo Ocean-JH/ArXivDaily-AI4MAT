@@ -1,0 +1,25 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2501.02144v2",
+    "title": "Establishing baselines for generative discovery of inorganic crystals",
+    "authors": [
+      "Nathan J. Szymanski",
+      "Christopher J. Bartel"
+    ],
+    "summary": "Generative artificial intelligence offers a promising avenue for materials\ndiscovery, yet its advantages over traditional methods remain unclear. In this\nwork, we introduce and benchmark two baseline approaches - random enumeration\nof charge-balanced prototypes and data-driven ion exchange of known compounds -\nagainst four generative techniques based on diffusion models, variational\nautoencoders, and large language models. Our results show that established\nmethods such as ion exchange are better at generating novel materials that are\nstable, although many of these closely resemble known compounds. In contrast,\ngenerative models excel at proposing novel structural frameworks and, when\nsufficient training data is available, can more effectively target properties\nsuch as electronic band gap and bulk modulus. To enhance the performance of\nboth the baseline and generative approaches, we implement a post-generation\nscreening step in which all proposed structures are passed through stability\nand property filters from pre-trained machine learning models including\nuniversal interatomic potentials. This low-cost filtering step leads to\nsubstantial improvement in the success rates of all methods, remains\ncomputationally efficient, and ultimately provides a practical pathway toward\nmore effective generative strategies for materials discovery. By establishing\nbaselines for comparison, this work highlights opportunities for continued\nadvancement of generative models, especially for the targeted generation of\nnovel materials that are thermodynamically stable.",
+    "published": "2025-01-04T00:14:59+00:00",
+    "updated": "2025-06-30T18:43:44+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "physics.chem-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2501.02144v2",
+    "short_id": "2501.02144v2",
+    "url": "http://arxiv.org/abs/2501.02144v2"
+  }
+]
