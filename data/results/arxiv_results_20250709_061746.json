@@ -1,0 +1,53 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2507.04053v1",
+    "title": "TopoMAS: Large Language Model Driven Topological Materials Multiagent System",
+    "authors": [
+      "Baohua Zhang",
+      "Xin Li",
+      "Huangchao Xu",
+      "Zhong Jin",
+      "Quansheng Wu",
+      "Ce Li"
+    ],
+    "summary": "Topological materials occupy a frontier in condensed-matter physics thanks to\ntheir remarkable electronic and quantum properties, yet their cross-scale\ndesign remains bottlenecked by inefficient discovery workflows. Here, we\nintroduce TopoMAS (Topological materials Multi-Agent System), an interactive\nhuman-AI framework that seamlessly orchestrates the entire materials-discovery\npipeline: from user-defined queries and multi-source data retrieval, through\ntheoretical inference and crystal-structure generation, to first-principles\nvalidation. Crucially, TopoMAS closes the loop by autonomously integrating\ncomputational outcomes into a dynamic knowledge graph, enabling continuous\nknowledge refinement. In collaboration with human experts, it has already\nguided the identification of novel topological phases SrSbO3, confirmed by\nfirst-principles calculations. Comprehensive benchmarks demonstrate robust\nadaptability across base Large Language Model, with the lightweight Qwen2.5-72B\nmodel achieving 94.55% accuracy while consuming only 74.3-78.4% of tokens\nrequired by Qwen3-235B and 83.0% of DeepSeek-V3's usage--delivering responses\ntwice as fast as Qwen3-235B. This efficiency establishes TopoMAS as an\naccelerator for computation-driven discovery pipelines. By harmonizing rational\nagent orchestration with a self-evolving knowledge graph, our framework not\nonly delivers immediate advances in topological materials but also establishes\na transferable, extensible paradigm for materials-science domain.",
+    "published": "2025-07-05T14:23:12+00:00",
+    "updated": "2025-07-05T14:23:12+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "13 pages,7 figures,3 tables",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2507.04053v1",
+    "short_id": "2507.04053v1",
+    "url": "http://arxiv.org/abs/2507.04053v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2507.03602v1",
+    "title": "Kinetic Langevin Diffusion for Crystalline Materials Generation",
+    "authors": [
+      "François Cornet",
+      "Federico Bergamin",
+      "Arghya Bhowmik",
+      "Juan Maria Garcia Lastra",
+      "Jes Frellsen",
+      "Mikkel N. Schmidt"
+    ],
+    "summary": "Generative modeling of crystalline materials using diffusion models presents\na series of challenges: the data distribution is characterized by inherent\nsymmetries and involves multiple modalities, with some defined on specific\nmanifolds. Notably, the treatment of fractional coordinates representing atomic\npositions in the unit cell requires careful consideration, as they lie on a\nhypertorus. In this work, we introduce Kinetic Langevin Diffusion for Materials\n(KLDM), a novel diffusion model for crystalline materials generation, where the\nkey innovation resides in the modeling of the coordinates. Instead of resorting\nto Riemannian diffusion on the hypertorus directly, we generalize Trivialized\nDiffusion Model (TDM) to account for the symmetries inherent to crystals. By\ncoupling coordinates with auxiliary Euclidean variables representing\nvelocities, the diffusion process is now offset to a flat space. This allows us\nto effectively perform diffusion on the hypertorus while providing a training\nobjective that accounts for the periodic translation symmetry of the true data\ndistribution. We evaluate KLDM on both Crystal Structure Prediction (CSP) and\nDe-novo Generation (DNG) tasks, demonstrating its competitive performance with\ncurrent state-of-the-art models.",
+    "published": "2025-07-04T14:18:26+00:00",
+    "updated": "2025-07-04T14:18:26+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "Accepted at ICML 2025",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2507.03602v1",
+    "short_id": "2507.03602v1",
+    "url": "http://arxiv.org/abs/2507.03602v1"
+  }
+]
