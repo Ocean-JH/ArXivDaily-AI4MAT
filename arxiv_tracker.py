@@ -246,11 +246,13 @@ class ArxivTracker:
         html += f"<p><em>Last updated: {datetime.datetime.now(SGT).strftime('%Y-%m-%d %H:%M:%S')} SGT</em></p>\n"
 
         for i, paper in enumerate(papers):
-            tag_html = ""
-            if paper.get_short_id().split("v")[-1] == 1:
-                tag_html = "<span style='color:green;font-weight:bold;'>🆕 New Paper</span>"
+            if paper.get_short_id().split("v")[-1] == "1":
+                tag_html = "<span style='color:yellow;font-weight:bold;'>🌟 New</span>"
+            elif paper.get_short_id().split("v")[-1]:
+                tag_html = "<span style='color:orange;font-weight:bold;'>🔄 Updated</span>"
             else:
-                tag_html = "<span style='color:orange;font-weight:bold;'>🔄 Updated Paper</span>"
+                tag_html = ""
+
             paper_html = paper_template.format(
                 index=i + 1,
                 title=paper.title,

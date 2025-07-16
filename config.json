@@ -1,5 +1,5 @@
 {
-  "query": "(cat:cond-mat.mtrl-sci OR cat:cs.AI OR cat:cs.LG) AND (all:\"materials design\" OR all:\"materials discovery\" OR all:\"symmetry\" OR all:\"space group\") AND (all:\"generative\" OR all:\"crystal structure prediction\")",
+  "query": "(cat:cond-mat.mtrl-sci OR cat:cs.AI OR cat:cs.LG) AND (all:\"materials design\" OR all:\"materials discovery\") AND (all:\"generative\" OR all:\"crystal structure prediction\")",
   "max_results": 200,
   "output_dir": "./data/results",
   "known_papers_file": "./data/known_papers.json"
