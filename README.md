@@ -36,7 +36,7 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (200)
 
-*Last updated: 2025-07-16 12:52:28 (SGT)*
+*Last updated: 2025-07-16 13:01:48 (SGT)*
 
 ### 1. Quantum-Annealing Enhanced Machine Learning for Interpretable Phase Classification of High-Entropy Alloys
 
