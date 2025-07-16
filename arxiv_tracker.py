@@ -416,7 +416,7 @@ def main():
 
     # Load config  
     config = {
-        "query": "(cat:cond-mat.mtrl-sci OR cat:cs.AI OR cat:cs.LG) AND (all:\"materials design\" OR all:\"materials discovery\" OR all:\"generative design\") AND (all:\"generative\" OR all:\"crystal structure prediction\")",
+        "query": "(cat:cond-mat.mtrl-sci OR cat:cs.AI OR cat:cs.LG) AND (all:\"materials design\" OR all:\"materials discovery\" OR all:\"inverse design\") AND (all:\"generative\" OR all:\"crystal structure prediction\")",
         "max_results": 200,         # It will report error if more than 200 results are requested
         "output_dir": "./data/results",
         "known_papers_file": "./data/known_papers.json"
