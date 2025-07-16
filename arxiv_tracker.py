@@ -27,16 +27,17 @@
 
     Author: Wang Jianghai@NTU (Ocean-JH)
     GitHub: https://github.com/Ocean-JH/ArXivDaily-AI4MAT
-    Date: 2025-04-26
+    Date: 2025-07-16
 """
-
 import os
-import arxiv
 import datetime
 import json
 import argparse
 import logging
 from typing import List, Dict, Any, Optional
+
+import arxiv
+
 
 # Configure logging  
 logging.basicConfig(
@@ -52,7 +53,7 @@ class ArxivTracker:
 
     def __init__(self,
                  query: str,
-                 max_results: int = 30,
+                 max_results: int = 200,
                  output_dir: str = "./data/results",
                  known_papers_file: str = "./data/known_papers.json",
                  templates_dir: str = "./templates"):
@@ -79,22 +80,23 @@ class ArxivTracker:
         os.makedirs(os.path.dirname(known_papers_file), exist_ok=True)
         os.makedirs(templates_dir, exist_ok=True)
 
-    def _load_known_papers(self) -> set:
+    def _load_known_papers(self) -> dict:
         """Load the set of known papers from file"""
         if os.path.exists(self.known_papers_file):
             try:
                 with open(self.known_papers_file, 'r', encoding='utf-8') as f:
-                    return set(json.load(f))
-            except Exception as e:
-                logger.error(f"Error loading known papers: {e}")
-                return set()
-        return set()
+                    data = json.load(f)
+                    return {str(k): int(v) for k, v in data.items()}
+            except FileNotFoundError as e:
+                logger.error(f"Known papers file not found: {e}")
+                return {}
+        return {}
 
     def _save_known_papers(self):
         """Save the set of known papers to file"""
         try:
             with open(self.known_papers_file, 'w', encoding='utf-8') as f:
-                json.dump(list(self.known_papers), f)
+                json.dump(self.known_papers, f)
         except Exception as e:
             logger.error(f"Error saving known papers: {e}")
 
@@ -103,12 +105,20 @@ class ArxivTracker:
         search = arxiv.Search(
             query=self.query,
             max_results=self.max_results,
-            sort_by=arxiv.SortCriterion.SubmittedDate,
+            sort_by=arxiv.SortCriterion.LastUpdatedDate,
             sort_order=arxiv.SortOrder.Descending
         )
 
         results = list(self.client.results(search))
         return results
+
+    def _get_base_id(self, short_id: str):
+        """Extract base ID from short ID (removing version)"""
+        return short_id.split("v")[0] if "v" in short_id else short_id
+
+    def _get_version(self, short_id: str):
+        """Extract version from short ID"""
+        return int(short_id.split("v")[-1]) if "v" in short_id else 1
 
     def paper_to_dict(self, paper: arxiv.Result) -> Dict[str, Any]:
         """Convert paper object to dictionary for saving"""
@@ -125,20 +135,30 @@ class ArxivTracker:
             "journal_ref": paper.journal_ref,
             "doi": paper.doi,
             "pdf_url": paper.pdf_url,
-            "short_id": paper.get_short_id(),
+            "base_id": paper.get_short_id().split("v")[0],  # Remove version if present
+            "version": paper.get_short_id().split("v")[-1] if "v" in paper.get_short_id() else "1",
             "url": paper.entry_id
         }
 
-    def filter_new_papers(self, papers: List[arxiv.Result]) -> List[arxiv.Result]:
+    def filter_new_papers(self, papers: List[arxiv.Result]) -> List[Dict[str, Any]]:
         """Filter out papers we've already seen"""
         new_papers = []
         for paper in papers:
-            if paper.entry_id not in self.known_papers:
-                new_papers.append(paper)
-                self.known_papers.add(paper.entry_id)
+            base_id = self._get_base_id(paper.get_short_id())
+            version = self._get_version(paper.get_short_id())
+            prev_version = self.known_papers.get(base_id, 0)
+            if version > prev_version:
+                tag = "new" if prev_version == 0 else "update"
+                new_papers.append({
+                    "paper": paper,
+                    "tag": tag,
+                    "base_id": base_id,
+                    "version": version,
+                })
+                self.known_papers[base_id] = version
         return new_papers
 
-    def save_results(self, papers: List[arxiv.Result], timestamp: str) -> Optional[str]:
+    def save_results(self, papers: List[Dict[str, Any]], timestamp: str) -> Optional[str]:
         """Save results to file"""
         if not papers:
             return None
@@ -147,7 +167,7 @@ class ArxivTracker:
         filepath = os.path.join(self.output_dir, filename)
 
         with open(filepath, 'w', encoding='utf-8') as f:
-            json.dump([self.paper_to_dict(paper) for paper in papers], f,
+            json.dump([self.paper_to_dict(paper["paper"]) for paper in papers], f,
                       ensure_ascii=False, indent=2)
 
         return filepath
@@ -174,9 +194,9 @@ class ArxivTracker:
 
         return md
 
-    def update_readme(self, papers: List[arxiv.Result], readme_path: str = "README.md"):
+    def update_readme(self, papers: List[Dict[str, Any]], readme_path: str = "README.md"):
         """Update the README.md with new papers"""
-
+        papers = [paper['paper'] for paper in papers]  # Extract arxiv.Result objects
         # Generate markdown for new papers
         new_papers_md = self.generate_markdown(papers, is_new=True)
 
@@ -226,6 +246,11 @@ class ArxivTracker:
         html += f"<p><em>Last updated: {datetime.datetime.now(SGT).strftime('%Y-%m-%d %H:%M:%S')} SGT</em></p>\n"
 
         for i, paper in enumerate(papers):
+            tag_html = ""
+            if paper.get_short_id().split("v")[-1] == 1:
+                tag_html = "<span style='color:green;font-weight:bold;'>🆕 New Paper</span>"
+            else:
+                tag_html = "<span style='color:orange;font-weight:bold;'>🔄 Updated Paper</span>"
             paper_html = paper_template.format(
                 index=i + 1,
                 title=paper.title,
@@ -234,7 +259,8 @@ class ArxivTracker:
                 category=paper.primary_category,
                 paper_id=paper.get_short_id(),
                 url=paper.entry_id,
-                summary=paper.summary
+                summary=paper.summary,
+                tag=tag_html
             )
             html += paper_html
 
@@ -245,7 +271,7 @@ class ArxivTracker:
         with open("templates/base.html", 'r', encoding='utf-8') as f:
             return f.read()
 
-    def create_index_html(self, papers: List[arxiv.Result], output_path: str = "index.html"):
+    def create_index_html(self, papers: List[Dict[str, Any]], output_path: str = "index.html"):
         """Create an index.html file with new papers"""
         html_template = self.load_base_template()
         navbar = """
@@ -253,7 +279,7 @@ class ArxivTracker:
         <strong>Latest Papers</strong> | <a href="archive.html">View Archive</a>
     </div>
     """
-
+        papers = [paper['paper'] for paper in papers]  # Extract arxiv.Result objects
         # Generate HTML content for papers
         content = self.generate_html(papers, is_new=True)
 
@@ -307,9 +333,10 @@ class ArxivTracker:
                 authors=", ".join(paper["authors"]),
                 published_date=paper["published"][:10],
                 category=paper["primary_category"],
-                paper_id=paper["short_id"],
+                paper_id=paper["base_id"],
                 url=paper["url"],
-                summary=paper["summary"]
+                summary=paper["summary"],
+                tag=""
             )
             content += paper_html
 
@@ -387,8 +414,8 @@ def main():
 
     # Load config  
     config = {
-        "query": "cat:cond-mat.mtrl-sci OR (cat:cs.AI OR cat:cs.LG) AND (all:\"crystal\" OR all:\"crystalline\") AND (all:\"materials design\" OR all:\"materials discovery\" OR all:\"symmetry\" OR all:\"space group\") AND all:\"generative\"",
-        "max_results": 30,
+        "query": "(cat:cond-mat.mtrl-sci OR cat:cs.AI OR cat:cs.LG) AND (all:\"materials design\" OR all:\"materials discovery\" OR all:\"symmetry\" OR all:\"space group\") AND (all:\"generative\" OR all:\"crystal structure prediction\")",
+        "max_results": 200,         # It will report error if more than 200 results are requested
         "output_dir": "./data/results",
         "known_papers_file": "./data/known_papers.json"
     }
