@@ -72,8 +72,11 @@ class ArxivTracker:
         self.output_dir = output_dir
         self.known_papers_file = known_papers_file
         self.templates_dir = templates_dir
-        self.client = arxiv.Client()
         self.known_papers = self._load_known_papers()
+        self.client = arxiv.Client(
+            page_size=500,
+            delay_seconds=5.0
+        )
 
         # Create directories
         os.makedirs(output_dir, exist_ok=True)
@@ -417,7 +420,7 @@ def main():
     # Load config  
     config = {
         "query": "(cat:cond-mat.mtrl-sci OR cat:cs.AI OR cat:cs.LG) AND (all:\"materials design\" OR all:\"materials discovery\" OR all:\"inverse design\") AND (all:\"generative\" OR all:\"crystal structure prediction\")",
-        "max_results": 200,         # It will report error if more than 200 results are requested
+        "max_results": 500,
         "output_dir": "./data/results",
         "known_papers_file": "./data/known_papers.json"
     }
