@@ -1,0 +1,29 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2504.12075v2",
+    "title": "Generative Deep Learning Framework for Inverse Design of Fuels",
+    "authors": [
+      "Kiran K. Yalamanchi",
+      "Pinaki Pal",
+      "Balaji Mohan",
+      "Abdullah S. AlRamadan",
+      "Jihad A. Badra",
+      "Yuanjiang Pei"
+    ],
+    "summary": "In the present work, a generative deep learning framework combining a\nCo-optimized Variational Autoencoder (Co-VAE) architecture with quantitative\nstructure-property relationship (QSPR) techniques is developed to enable\naccelerated inverse design of fuels. The Co-VAE integrates a property\nprediction component coupled with the VAE latent space, enhancing molecular\nreconstruction and accurate estimation of Research Octane Number (RON) (chosen\nas the fuel property of interest). A subset of the GDB-13 database, enriched\nwith a curated RON database, is used for model training. Hyperparameter tuning\nis further utilized to optimize the balance among reconstruction fidelity,\nchemical validity, and RON prediction. An independent regression model is then\nused to refine RON prediction, while a differential evolution algorithm is\nemployed to efficiently navigate the VAE latent space and identify promising\nfuel molecule candidates with high RON. This methodology addresses the\nlimitations of traditional fuel screening approaches by capturing complex\nstructure-property relationships within a comprehensive latent representation.\nThe generative model can be adapted to different target properties, enabling\nsystematic exploration of large chemical spaces relevant to fuel design\napplications. Furthermore, the demonstrated framework can be readily extended\nby incorporating additional synthesizability criteria to improve applicability\nand reliability for de novo design of new fuels.",
+    "published": "2025-04-16T13:32:25+00:00",
+    "updated": "2025-07-17T23:34:50+00:00",
+    "categories": [
+      "cs.LG",
+      "physics.chem-ph"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2504.12075v2",
+    "base_id": "2504.12075",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2504.12075v2"
+  }
+]
