@@ -1,0 +1,83 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2507.16307v1",
+    "title": "Perovskite-R1: A Domain-Specialized LLM for Intelligent Discovery of Precursor Additives and Experimental Design",
+    "authors": [
+      "Xin-De Wang",
+      "Zhi-Rui Chen",
+      "Peng-Jie Guo",
+      "Ze-Feng Gao",
+      "Cheng Mu",
+      "Zhong-Yi Lu"
+    ],
+    "summary": "Perovskite solar cells (PSCs) have rapidly emerged as a leading contender in\nnext-generation photovoltaic technologies, owing to their exceptional power\nconversion efficiencies and advantageous material properties. Despite these\nadvances, challenges such as long-term stability, environmental sustainability,\nand scalable manufacturing continue to hinder their commercialization.\nPrecursor additive engineering has shown promise in addressing these issues by\nenhancing both the performance and durability of PSCs. However, the explosive\ngrowth of scientific literature and the complex interplay of materials,\nprocesses, and device architectures make it increasingly difficult for\nresearchers to efficiently access, organize, and utilize domain knowledge in\nthis rapidly evolving field. To address this gap, we introduce Perovskite-R1, a\nspecialized large language model (LLM) with advanced reasoning capabilities\ntailored for the discovery and design of PSC precursor additives. By\nsystematically mining and curating 1,232 high-quality scientific publications\nand integrating a comprehensive library of 33,269 candidate materials, we\nconstructed a domain-specific instruction-tuning dataset using automated\nquestion-answer generation and chain-of-thought reasoning. Fine-tuning the\nQwQ-32B model on this dataset resulted in Perovskite-R1, which can\nintelligently synthesize literature insights and generate innovative and\npractical solutions for defect passivation and the selection of precursor\nadditives. Experimental validation of several model-proposed strategies\nconfirms their effectiveness in improving material stability and performance.\nOur work demonstrates the potential of domain-adapted LLMs in accelerating\nmaterials discovery and provides a closed-loop framework for intelligent,\ndata-driven advancements in perovskite photovoltaic research.",
+    "published": "2025-07-22T07:48:32+00:00",
+    "updated": "2025-07-22T07:48:32+00:00",
+    "categories": [
+      "cs.LG",
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "physics.chem-ph"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "24 pages; 5 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2507.16307v1",
+    "base_id": "2507.16307",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2507.16307v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2507.15753v1",
+    "title": "DiffuMeta: Algebraic Language Models for Inverse Design of Metamaterials via Diffusion Transformers",
+    "authors": [
+      "Li Zheng",
+      "Siddhant Kumar",
+      "Dennis M. Kochmann"
+    ],
+    "summary": "Generative machine learning models have revolutionized material discovery by\ncapturing complex structure-property relationships, yet extending these\napproaches to the inverse design of three-dimensional metamaterials remains\nlimited by computational complexity and underexplored design spaces due to the\nlack of expressive representations. Here, we present DiffuMeta, a generative\nframework integrating diffusion transformers with a novel algebraic language\nrepresentation, encoding 3D geometries as mathematical sentences. This compact,\nunified parameterization spans diverse topologies while enabling direct\napplication of transformers to structural design. DiffuMeta leverages diffusion\nmodels to generate novel shell structures with precisely targeted stress-strain\nresponses under large deformations, accounting for buckling and contact while\naddressing the inherent one-to-many mapping by producing diverse solutions.\nUniquely, our approach enables simultaneous control over multiple mechanical\nobjectives, including linear and nonlinear responses beyond training domains.\nExperimental validation of fabricated structures further confirms the efficacy\nof our approach for accelerated design of metamaterials and structures with\ntailored properties.",
+    "published": "2025-07-21T16:09:26+00:00",
+    "updated": "2025-07-21T16:09:26+00:00",
+    "categories": [
+      "cs.CE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CE",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2507.15753v1",
+    "base_id": "2507.15753",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2507.15753v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2507.14267v1",
+    "title": "DREAMS: Density Functional Theory Based Research Engine for Agentic Materials Simulation",
+    "authors": [
+      "Ziqi Wang",
+      "Hongshuo Huang",
+      "Hancheng Zhao",
+      "Changwen Xu",
+      "Shang Zhu",
+      "Jan Janssen",
+      "Venkatasubramanian Viswanathan"
+    ],
+    "summary": "Materials discovery relies on high-throughput, high-fidelity simulation\ntechniques such as Density Functional Theory (DFT), which require years of\ntraining, extensive parameter fine-tuning and systematic error handling. To\naddress these challenges, we introduce the DFT-based Research Engine for\nAgentic Materials Screening (DREAMS), a hierarchical, multi-agent framework for\nDFT simulation that combines a central Large Language Model (LLM) planner agent\nwith domain-specific LLM agents for atomistic structure generation, systematic\nDFT convergence testing, High-Performance Computing (HPC) scheduling, and error\nhandling. In addition, a shared canvas helps the LLM agents to structure their\ndiscussions, preserve context and prevent hallucination. We validate DREAMS\ncapabilities on the Sol27LC lattice-constant benchmark, achieving average\nerrors below 1\\% compared to the results of human DFT experts. Furthermore, we\napply DREAMS to the long-standing CO/Pt(111) adsorption puzzle, demonstrating\nits long-term and complex problem-solving capabilities. The framework again\nreproduces expert-level literature adsorption-energy differences. Finally,\nDREAMS is employed to quantify functional-driven uncertainties with Bayesian\nensemble sampling, confirming the Face Centered Cubic (FCC)-site preference at\nthe Generalized Gradient Approximation (GGA) DFT level. In conclusion, DREAMS\napproaches L3-level automation - autonomous exploration of a defined design\nspace - and significantly reduces the reliance on human expertise and\nintervention, offering a scalable path toward democratized, high-throughput,\nhigh-fidelity computational materials discovery.",
+    "published": "2025-07-18T15:26:04+00:00",
+    "updated": "2025-07-18T15:26:04+00:00",
+    "categories": [
+      "cs.AI",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cs.AI",
+    "comment": "34 pages, 28 pages of Supporting Information",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2507.14267v1",
+    "base_id": "2507.14267",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2507.14267v1"
+  }
+]
