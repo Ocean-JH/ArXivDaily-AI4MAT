@@ -1,0 +1,29 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2507.16833v1",
+    "title": "Exploring the Frontiers of kNN Noisy Feature Detection and Recovery for Self-Driving Labs",
+    "authors": [
+      "Qiuyu Shi",
+      "Kangming Li",
+      "Yao Fehlis",
+      "Daniel Persaud",
+      "Robert Black",
+      "Jason Hattrick-Simpers"
+    ],
+    "summary": "Self-driving laboratories (SDLs) have shown promise to accelerate materials\ndiscovery by integrating machine learning with automated experimental\nplatforms. However, errors in the capture of input parameters may corrupt the\nfeatures used to model system performance, compromising current and future\ncampaigns. This study develops an automated workflow to systematically detect\nnoisy features, determine sample-feature pairings that can be corrected, and\nfinally recover the correct feature values. A systematic study is then\nperformed to examine how dataset size, noise intensity, and feature value\ndistribution affect both the detectability and recoverability of noisy\nfeatures. In general, high-intensity noise and large training datasets are\nconducive to the detection and correction of noisy features. Low-intensity\nnoise reduces detection and recovery but can be compensated for by larger clean\ntraining data sets. Detection and correction results vary between features with\ncontinuous and dispersed feature distributions showing greater recoverability\ncompared to features with discrete or narrow distributions. This systematic\nstudy not only demonstrates a model agnostic framework for rational data\nrecovery in the presence of noise, limited data, and differing feature\ndistributions but also provides a tangible benchmark of kNN imputation in\nmaterials data sets. Ultimately, it aims to enhance data quality and\nexperimental precision in automated materials discovery.",
+    "published": "2025-07-15T03:35:56+00:00",
+    "updated": "2025-07-15T03:35:56+00:00",
+    "categories": [
+      "cs.LG",
+      "physics.data-an"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "15 pages, 6 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2507.16833v1",
+    "base_id": "2507.16833",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2507.16833v1"
+  }
+]
