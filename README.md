@@ -36,40 +36,39 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-07-25 06:18:47 (SGT)*
+*Last updated: 2025-07-26 06:18:15 (SGT)*
 
-### 1. Exploring the Frontiers of kNN Noisy Feature Detection and Recovery for Self-Driving Labs
+### 1. Deep learning-aided inverse design of porous metamaterials
 
-**Authors:** Qiuyu Shi, Kangming Li, Yao Fehlis, Daniel Persaud, Robert Black, Jason Hattrick-Simpers
+**Authors:** Phu Thien Nguyen, Yousef Heider, Dennis M. Kochmann, Fadi Aldakheel
 
-**Published:** 2025-07-15
+**Published:** 2025-07-23
 
 **Category:** cs.LG
 
-**ID:** 2507.16833v1
+**ID:** 2507.17907v1
 
-**Link:** [http://arxiv.org/abs/2507.16833v1](http://arxiv.org/abs/2507.16833v1)
+**Link:** [http://arxiv.org/abs/2507.17907v1](http://arxiv.org/abs/2507.17907v1)
 
-**Summary:** Self-driving laboratories (SDLs) have shown promise to accelerate materials
-discovery by integrating machine learning with automated experimental
-platforms. However, errors in the capture of input parameters may corrupt the
-features used to model system performance, compromising current and future
-campaigns. This study develops an automated workflow to systematically detect
-noisy features, determine sample-feature pairings that can be corrected, and
-finally recover the correct feature values. A systematic study is then
-performed to examine how dataset size, noise intensity, and feature value
-distribution affect both the detectability and recoverability of noisy
-features. In general, high-intensity noise and large training datasets are
-conducive to the detection and correction of noisy features. Low-intensity
-noise reduces detection and recovery but can be compensated for by larger clean
-training data sets. Detection and correction results vary between features with
-continuous and dispersed feature distributions showing greater recoverability
-compared to features with discrete or narrow distributions. This systematic
-study not only demonstrates a model agnostic framework for rational data
-recovery in the presence of noise, limited data, and differing feature
-distributions but also provides a tangible benchmark of kNN imputation in
-materials data sets. Ultimately, it aims to enhance data quality and
-experimental precision in automated materials discovery....
+**Summary:** The ultimate aim of the study is to explore the inverse design of porous
+metamaterials using a deep learning-based generative framework. Specifically,
+we develop a property-variational autoencoder (pVAE), a variational autoencoder
+(VAE) augmented with a regressor, to generate structured metamaterials with
+tailored hydraulic properties, such as porosity and permeability. While this
+work uses the lattice Boltzmann method (LBM) to generate intrinsic permeability
+tensor data for limited porous microstructures, a convolutional neural network
+(CNN) is trained using a bottom-up approach to predict effective hydraulic
+properties. This significantly reduces the computational cost compared to
+direct LBM simulations. The pVAE framework is trained on two datasets: a
+synthetic dataset of artificial porous microstructures and CT-scan images of
+volume elements from real open-cell foams. The encoder-decoder architecture of
+the VAE captures key microstructural features, mapping them into a compact and
+interpretable latent space for efficient structure-property exploration. The
+study provides a detailed analysis and interpretation of the latent space,
+demonstrating its role in structure-property mapping, interpolation, and
+inverse design. This approach facilitates the generation of new metamaterials
+with desired properties. The datasets and codes used in this study will be made
+open-access to support further research....
 
 ---
 

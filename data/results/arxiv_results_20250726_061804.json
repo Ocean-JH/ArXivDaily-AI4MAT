@@ -1,0 +1,27 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2507.17907v1",
+    "title": "Deep learning-aided inverse design of porous metamaterials",
+    "authors": [
+      "Phu Thien Nguyen",
+      "Yousef Heider",
+      "Dennis M. Kochmann",
+      "Fadi Aldakheel"
+    ],
+    "summary": "The ultimate aim of the study is to explore the inverse design of porous\nmetamaterials using a deep learning-based generative framework. Specifically,\nwe develop a property-variational autoencoder (pVAE), a variational autoencoder\n(VAE) augmented with a regressor, to generate structured metamaterials with\ntailored hydraulic properties, such as porosity and permeability. While this\nwork uses the lattice Boltzmann method (LBM) to generate intrinsic permeability\ntensor data for limited porous microstructures, a convolutional neural network\n(CNN) is trained using a bottom-up approach to predict effective hydraulic\nproperties. This significantly reduces the computational cost compared to\ndirect LBM simulations. The pVAE framework is trained on two datasets: a\nsynthetic dataset of artificial porous microstructures and CT-scan images of\nvolume elements from real open-cell foams. The encoder-decoder architecture of\nthe VAE captures key microstructural features, mapping them into a compact and\ninterpretable latent space for efficient structure-property exploration. The\nstudy provides a detailed analysis and interpretation of the latent space,\ndemonstrating its role in structure-property mapping, interpolation, and\ninverse design. This approach facilitates the generation of new metamaterials\nwith desired properties. The datasets and codes used in this study will be made\nopen-access to support further research.",
+    "published": "2025-07-23T20:07:53+00:00",
+    "updated": "2025-07-23T20:07:53+00:00",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "31 pages, 29 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2507.17907v1",
+    "base_id": "2507.17907",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2507.17907v1"
+  }
+]
