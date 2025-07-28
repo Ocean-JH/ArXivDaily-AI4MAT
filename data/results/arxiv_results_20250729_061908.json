@@ -1,0 +1,79 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2507.19307v1",
+    "title": "Stability and Symmetry-Assured Crystal Structure Generation for Inverse Design of Photocatalysts in Water Splitting",
+    "authors": [
+      "Zhilong Song",
+      "Chongyi Ling",
+      "Qiang Li",
+      "Qionghua Zhou",
+      "Jinlan Wang"
+    ],
+    "summary": "Generative models are revolutionizing materials discovery by enabling inverse\ndesign-direct generation of structures from desired properties. However,\nexisting approaches often struggle to ensure inherent stability and symmetry\nwhile precisely generating structures with target compositions, space groups,\nand lattices without fine-tuning. Here, we present SSAGEN (Stability and\nSymmetry-Assured GENerative framework), which overcomes these limitations by\ndecoupling structure generation into two distinct stages: crystal information\n(lattice, composition, and space group) generation and coordinate optimization.\nSSAGEN first generates diverse yet physically plausible crystal information,\nthen derives stable and metastable atomic positions through universal machine\nlearning potentials, combined global and local optimization with symmetry and\nWyckoff position constraints, and dynamically refined search spaces. Compared\nto prior generative models such as CDVAE, SSAGEN improves the thermodynamic and\nkinetic stability of generated structures by 148% and 180%, respectively, while\ninherently satisfying target compositions, space groups, and lattices. Applied\nto photocatalytic water splitting (PWS), SSAGEN generates 200,000\nstructures-81.2% novel-with 3,318 meeting all stability and band gap criteria.\nDensity functional theory (DFT) validation confirms 95.6% structures satisfy\nPWS requirements, with 24 optimal candidates identified through comprehensive\nscreening based on electronic structure, thermodynamic, kinetic, and aqueous\nstability criteria. SSAGEN not only precisely generates materials with desired\ncrystal information but also ensures inherent stability and symmetry,\nestablishing a new paradigm for targeted inverse design of functional\nmaterials.",
+    "published": "2025-07-25T14:22:52+00:00",
+    "updated": "2025-07-25T14:22:52+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2507.19307v1",
+    "base_id": "2507.19307",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2507.19307v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2407.06489v2",
+    "title": "T2MAT (text-to-materials): A universal agent for generating material structures with goal properties from a single sentence",
+    "authors": [
+      "Zhilong Song",
+      "Shuaihua Lu",
+      "Qionghua Zhou",
+      "Jinlan Wang"
+    ],
+    "summary": "Artificial Intelligence-Generated Content (AIGC)-content autonomously\nproduced by AI systems without human intervention-has significantly boosted\nefficiency across various fields. However, AIGC in material science faces\nchallenges in efficiently discovering novel materials that surpass existing\ndatabases, while simultaneously addressing the invariance and stability of\ncrystal structures. To address these challenges, we develop T2MAT\n(text-to-material), a comprehensive agent processing from a user-input sentence\nto inverse design material structures with goal properties beyond the existing\ndatabase via globally exploring chemical space, followed by an entirely\nautomated workflow of first-principles validation. Furthermore, we propose\nCGTNet (Crystal Graph Transformer NETwork), a graph neural network model that\ncaptures long-range interactions, to enhance the accuracy and data utilization\nefficiency of property prediction and thereby strengthen the reliability of\ninverse design. Through these contributions, T2MAT minimizes the dependency on\nhuman expertise and significantly improves the efficiency of discovering novel,\nhigh-performance functional materials, offering a robust way toward more\nautonomous materials design.",
+    "published": "2024-07-09T01:39:34+00:00",
+    "updated": "2025-07-25T12:58:01+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2407.06489v2",
+    "base_id": "2407.06489",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2407.06489v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2505.19150v3",
+    "title": "A High-Quality Thermoelectric Material Database with Self-Consistent ZT Filtering",
+    "authors": [
+      "Byungki Ryu",
+      "Ji Hui Son",
+      "Sungjin Park",
+      "Jaywan Chung",
+      "Hye-Jin Lim",
+      "SuJi Park",
+      "Yujeong Do",
+      "SuDong Park"
+    ],
+    "summary": "This study presents a curated thermoelectric material database, teMatDb,\nconstructed by digitizing literature-reported data. It includes\ntemperature-dependent thermoelectric properties (TEPs), Seebeck coefficient,\nelectrical resistivity, thermal conductivity, and figure of merit (ZT), along\nwith metadata on materials and their corresponding publications. A\nself-consistent ZT (Sc-ZT) filter set was developed to measure ZT errors by\ncomparing reported ZT's from figures with ZT's recalculated from digitized\nTEPs. Using this Sc-ZT protocol, we generated tMatDb272, comprising 14,717\ntemperature-property pairs from 272 high-quality TEP sets across 262\npublications. The method identifies various types of ZT errors, such as\nresolution error, publication bias, ZT overestimation, interpolation and\nextrapolation error, and digitization noise, and excludes inconsistent samples\nfrom the dataset. teMatDb272 and the Sc-ZT filtering framework offer a robust\ndataset for data-driven and machine-learning-based materials design, device\nmodeling, and future thermoelectric research.",
+    "published": "2025-05-25T13:56:29+00:00",
+    "updated": "2025-07-25T07:01:10+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "45 pages, 4 tables, 5 figures, 3 supporting tables, 10 supporting\n  figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2505.19150v3",
+    "base_id": "2505.19150",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2505.19150v3"
+  }
+]
