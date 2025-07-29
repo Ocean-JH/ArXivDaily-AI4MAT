@@ -1,0 +1,32 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2507.19799v1",
+    "title": "Enhancing Materials Discovery with Valence Constrained Design in Generative Modeling",
+    "authors": [
+      "Mouyang Cheng",
+      "Weiliang Luo",
+      "Hao Tang",
+      "Bowen Yu",
+      "Yongqiang Cheng",
+      "Weiwei Xie",
+      "Ju Li",
+      "Heather J. Kulik",
+      "Mingda Li"
+    ],
+    "summary": "Diffusion-based deep generative models have emerged as powerful tools for\ninverse materials design. Yet, many existing approaches overlook essential\nchemical constraints such as oxidation state balance, which can lead to\nchemically invalid structures. Here we introduce CrysVCD (Crystal generator\nwith Valence-Constrained Design), a modular framework that integrates chemical\nrules directly into the generative process. CrysVCD first employs a\ntransformer-based elemental language model to generate valence-balanced\ncompositions, followed by a diffusion model to generate crystal structures. The\nvalence constraint enables orders-of-magnitude more efficient chemical valence\nchecking, compared to pure data-driven approaches with post-screening. When\nfine-tuned on stability metrics, CrysVCD achieves 85% thermodynamic stability\nand 68% phonon stability. Moreover, CrysVCD supports conditional generation of\nfunctional materials, enabling discovery of candidates such as high thermal\nconductivity semiconductors and high-$\\kappa$ dielectric compounds. Designed as\na general-purpose plugin, CrysVCD can be integrated into diverse generative\npipeline to promote chemical validity, offering a reliable, scientifically\ngrounded path for materials discovery.",
+    "published": "2025-07-26T05:15:33+00:00",
+    "updated": "2025-07-26T05:15:33+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.LG"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "13 pages, 4 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2507.19799v1",
+    "base_id": "2507.19799",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2507.19799v1"
+  }
+]

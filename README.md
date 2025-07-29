@@ -34,108 +34,39 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (3)
+## New Papers (1)
 
-*Last updated: 2025-07-29 06:19:12 (SGT)*
+*Last updated: 2025-07-30 06:18:51 (SGT)*
 
-### 1. Stability and Symmetry-Assured Crystal Structure Generation for Inverse Design of Photocatalysts in Water Splitting
+### 1. Enhancing Materials Discovery with Valence Constrained Design in Generative Modeling
 
-**Authors:** Zhilong Song, Chongyi Ling, Qiang Li, Qionghua Zhou, Jinlan Wang
+**Authors:** Mouyang Cheng, Weiliang Luo, Hao Tang, Bowen Yu, Yongqiang Cheng, Weiwei Xie, Ju Li, Heather J. Kulik, Mingda Li
 
-**Published:** 2025-07-25
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2507.19307v1
-
-**Link:** [http://arxiv.org/abs/2507.19307v1](http://arxiv.org/abs/2507.19307v1)
-
-**Summary:** Generative models are revolutionizing materials discovery by enabling inverse
-design-direct generation of structures from desired properties. However,
-existing approaches often struggle to ensure inherent stability and symmetry
-while precisely generating structures with target compositions, space groups,
-and lattices without fine-tuning. Here, we present SSAGEN (Stability and
-Symmetry-Assured GENerative framework), which overcomes these limitations by
-decoupling structure generation into two distinct stages: crystal information
-(lattice, composition, and space group) generation and coordinate optimization.
-SSAGEN first generates diverse yet physically plausible crystal information,
-then derives stable and metastable atomic positions through universal machine
-learning potentials, combined global and local optimization with symmetry and
-Wyckoff position constraints, and dynamically refined search spaces. Compared
-to prior generative models such as CDVAE, SSAGEN improves the thermodynamic and
-kinetic stability of generated structures by 148% and 180%, respectively, while
-inherently satisfying target compositions, space groups, and lattices. Applied
-to photocatalytic water splitting (PWS), SSAGEN generates 200,000
-structures-81.2% novel-with 3,318 meeting all stability and band gap criteria.
-Density functional theory (DFT) validation confirms 95.6% structures satisfy
-PWS requirements, with 24 optimal candidates identified through comprehensive
-screening based on electronic structure, thermodynamic, kinetic, and aqueous
-stability criteria. SSAGEN not only precisely generates materials with desired
-crystal information but also ensures inherent stability and symmetry,
-establishing a new paradigm for targeted inverse design of functional
-materials....
-
----
-
-### 2. T2MAT (text-to-materials): A universal agent for generating material structures with goal properties from a single sentence
-
-**Authors:** Zhilong Song, Shuaihua Lu, Qionghua Zhou, Jinlan Wang
-
-**Published:** 2024-07-09
+**Published:** 2025-07-26
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2407.06489v2
+**ID:** 2507.19799v1
 
-**Link:** [http://arxiv.org/abs/2407.06489v2](http://arxiv.org/abs/2407.06489v2)
+**Link:** [http://arxiv.org/abs/2507.19799v1](http://arxiv.org/abs/2507.19799v1)
 
-**Summary:** Artificial Intelligence-Generated Content (AIGC)-content autonomously
-produced by AI systems without human intervention-has significantly boosted
-efficiency across various fields. However, AIGC in material science faces
-challenges in efficiently discovering novel materials that surpass existing
-databases, while simultaneously addressing the invariance and stability of
-crystal structures. To address these challenges, we develop T2MAT
-(text-to-material), a comprehensive agent processing from a user-input sentence
-to inverse design material structures with goal properties beyond the existing
-database via globally exploring chemical space, followed by an entirely
-automated workflow of first-principles validation. Furthermore, we propose
-CGTNet (Crystal Graph Transformer NETwork), a graph neural network model that
-captures long-range interactions, to enhance the accuracy and data utilization
-efficiency of property prediction and thereby strengthen the reliability of
-inverse design. Through these contributions, T2MAT minimizes the dependency on
-human expertise and significantly improves the efficiency of discovering novel,
-high-performance functional materials, offering a robust way toward more
-autonomous materials design....
-
----
-
-### 3. A High-Quality Thermoelectric Material Database with Self-Consistent ZT Filtering
-
-**Authors:** Byungki Ryu, Ji Hui Son, Sungjin Park, Jaywan Chung, Hye-Jin Lim, SuJi Park, Yujeong Do, SuDong Park
-
-**Published:** 2025-05-25
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2505.19150v3
-
-**Link:** [http://arxiv.org/abs/2505.19150v3](http://arxiv.org/abs/2505.19150v3)
-
-**Summary:** This study presents a curated thermoelectric material database, teMatDb,
-constructed by digitizing literature-reported data. It includes
-temperature-dependent thermoelectric properties (TEPs), Seebeck coefficient,
-electrical resistivity, thermal conductivity, and figure of merit (ZT), along
-with metadata on materials and their corresponding publications. A
-self-consistent ZT (Sc-ZT) filter set was developed to measure ZT errors by
-comparing reported ZT's from figures with ZT's recalculated from digitized
-TEPs. Using this Sc-ZT protocol, we generated tMatDb272, comprising 14,717
-temperature-property pairs from 272 high-quality TEP sets across 262
-publications. The method identifies various types of ZT errors, such as
-resolution error, publication bias, ZT overestimation, interpolation and
-extrapolation error, and digitization noise, and excludes inconsistent samples
-from the dataset. teMatDb272 and the Sc-ZT filtering framework offer a robust
-dataset for data-driven and machine-learning-based materials design, device
-modeling, and future thermoelectric research....
+**Summary:** Diffusion-based deep generative models have emerged as powerful tools for
+inverse materials design. Yet, many existing approaches overlook essential
+chemical constraints such as oxidation state balance, which can lead to
+chemically invalid structures. Here we introduce CrysVCD (Crystal generator
+with Valence-Constrained Design), a modular framework that integrates chemical
+rules directly into the generative process. CrysVCD first employs a
+transformer-based elemental language model to generate valence-balanced
+compositions, followed by a diffusion model to generate crystal structures. The
+valence constraint enables orders-of-magnitude more efficient chemical valence
+checking, compared to pure data-driven approaches with post-screening. When
+fine-tuned on stability metrics, CrysVCD achieves 85% thermodynamic stability
+and 68% phonon stability. Moreover, CrysVCD supports conditional generation of
+functional materials, enabling discovery of candidates such as high thermal
+conductivity semiconductors and high-$\kappa$ dielectric compounds. Designed as
+a general-purpose plugin, CrysVCD can be integrated into diverse generative
+pipeline to promote chemical validity, offering a reliable, scientifically
+grounded path for materials discovery....
 
 ---
 
