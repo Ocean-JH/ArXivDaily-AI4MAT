@@ -1,0 +1,29 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2507.21143v1",
+    "title": "Molecular Mechanisms of Polymer Crosslinking via Thermal Activation",
+    "authors": [
+      "Javed Akhtar",
+      "Jogeswar Chhatria",
+      "Sooraj Kunnikuruvan",
+      "Satyesh K. Yadav",
+      "Tarak K. Patra"
+    ],
+    "summary": "Developing efficient and universal polymer crosslinking strategies is pivotal\nfor advanced material design, especially for challenging matrixes like\npolyethylene, polypropylene, and polystyrene. Traditional crosslinkers such as\ndivinylbenzene (DVB) often requires high-temperature radical initiators and are\nlimited by poor compatibility with saturated hydrocarbon matrices. In contrast,\nbis-diazirine (BD) crosslinkers offer a promising alternative by harnessing\nthermally or photochemically generated carbene intermediates for highly\nselective C-H bond insertions. Here, we employ density functional theory\n(DFT)-based electronic structure calculations to elucidate the molecular\nmechanisms and energetics of BD-mediated crosslinking across PE, PP, and PS. We\ndemonstrate that BD enables efficient covalent linkage through low free energy\nbarriers , facilitating crosslinking at moderate temperatures without catalysts\nand with minimal sensitivity to polymer chain length. Moreover, BD exhibits\nselective reactivity towards the tertiary and secondary C-H bonds in PP and PS,\nrespectively. Comparative analysis shows that BD dramatically outperforms DVB,\nespecially in saturated polymers, enabling reaction times that are orders of\nmagnitude faster. Our findings provide atomistic insights into BD crosslinker\nreactivity and establish a mechanistic foundation for next-generation,\nuniversal C-H activation-based crosslinking technologies.",
+    "published": "2025-07-23T09:17:29+00:00",
+    "updated": "2025-07-23T09:17:29+00:00",
+    "categories": [
+      "physics.chem-ph",
+      "cond-mat.mtrl-sci",
+      "cond-mat.soft"
+    ],
+    "primary_category": "physics.chem-ph",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2507.21143v1",
+    "base_id": "2507.21143",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2507.21143v1"
+  }
+]
