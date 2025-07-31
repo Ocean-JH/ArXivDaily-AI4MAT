@@ -1,0 +1,35 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2504.18728v3",
+    "title": "A Unified Predictive and Generative Solution for Liquid Electrolyte Formulation",
+    "authors": [
+      "Zhenze Yang",
+      "Yifan Wu",
+      "Xu Han",
+      "Ziqing Zhang",
+      "Haoen Lai",
+      "Zhenliang Mu",
+      "Tianze Zheng",
+      "Siyuan Liu",
+      "Zhichen Pu",
+      "Zhi Wang",
+      "Zhiao Yu",
+      "Sheng Gong",
+      "Wen Yan"
+    ],
+    "summary": "Liquid electrolytes are critical components of next-generation energy storage\nsystems, enabling fast ion transport, minimizing interfacial resistance, and\nensuring electrochemical stability for long-term battery performance. However,\nmeasuring electrolyte properties and designing formulations remain\nexperimentally and computationally expensive. In this work, we present a\nunified framework for designing liquid electrolyte formulation, integrating a\nforward predictive model with an inverse generative approach. Leveraging both\ncomputational and experimental data collected from literature and extensive\nmolecular simulations, we train a predictive model capable of accurately\nestimating electrolyte properties from ionic conductivity to solvation\nstructure. Our physics-informed architecture preserves permutation invariance\nand incorporates empirical dependencies on temperature and salt concentration,\nmaking it broadly applicable to property prediction tasks across molecular\nmixtures. Furthermore, we introduce -- to the best of our knowledge -- the\nfirst generative machine learning framework for molecular mixture design,\ndemonstrated on electrolyte systems. This framework supports\nmulti-condition-constrained generation, addressing the inherently\nmulti-objective nature of materials design. As a proof of concept, we\nexperimentally identified three liquid electrolytes with both high ionic\nconductivity and anion-concentrated solvation structure. This unified framework\nadvances data-driven electrolyte design and can be readily extended to other\ncomplex chemical systems beyond electrolytes.",
+    "published": "2025-04-25T22:40:50+00:00",
+    "updated": "2025-07-29T20:41:47+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2504.18728v3",
+    "base_id": "2504.18728",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2504.18728v3"
+  }
+]
