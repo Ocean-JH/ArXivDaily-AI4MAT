@@ -36,42 +36,39 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-08-01 06:18:39 (SGT)*
+*Last updated: 2025-08-02 06:18:26 (SGT)*
 
-### 1. A Unified Predictive and Generative Solution for Liquid Electrolyte Formulation
+### 1. Extended Factorization Machine Annealing for Rapid Discovery of Transparent Conducting Materials
 
-**Authors:** Zhenze Yang, Yifan Wu, Xu Han, Ziqing Zhang, Haoen Lai, Zhenliang Mu, Tianze Zheng, Siyuan Liu, Zhichen Pu, Zhi Wang, Zhiao Yu, Sheng Gong, Wen Yan
+**Authors:** Daisuke Makino, Tatsuya Goto, Yoshinori Suga
 
-**Published:** 2025-04-25
+**Published:** 2025-07-30
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2504.18728v3
+**ID:** 2507.23160v1
 
-**Link:** [http://arxiv.org/abs/2504.18728v3](http://arxiv.org/abs/2504.18728v3)
+**Link:** [http://arxiv.org/abs/2507.23160v1](http://arxiv.org/abs/2507.23160v1)
 
-**Summary:** Liquid electrolytes are critical components of next-generation energy storage
-systems, enabling fast ion transport, minimizing interfacial resistance, and
-ensuring electrochemical stability for long-term battery performance. However,
-measuring electrolyte properties and designing formulations remain
-experimentally and computationally expensive. In this work, we present a
-unified framework for designing liquid electrolyte formulation, integrating a
-forward predictive model with an inverse generative approach. Leveraging both
-computational and experimental data collected from literature and extensive
-molecular simulations, we train a predictive model capable of accurately
-estimating electrolyte properties from ionic conductivity to solvation
-structure. Our physics-informed architecture preserves permutation invariance
-and incorporates empirical dependencies on temperature and salt concentration,
-making it broadly applicable to property prediction tasks across molecular
-mixtures. Furthermore, we introduce -- to the best of our knowledge -- the
-first generative machine learning framework for molecular mixture design,
-demonstrated on electrolyte systems. This framework supports
-multi-condition-constrained generation, addressing the inherently
-multi-objective nature of materials design. As a proof of concept, we
-experimentally identified three liquid electrolytes with both high ionic
-conductivity and anion-concentrated solvation structure. This unified framework
-advances data-driven electrolyte design and can be readily extended to other
-complex chemical systems beyond electrolytes....
+**Summary:** The development of novel transparent conducting materials (TCMs) is essential
+for enhancing the performance and reducing the cost of next-generation devices
+such as solar cells and displays. In this research, we focus on the
+(Al$_x$Ga$_y$In$_z$)$_2$O$_3$ system and extend the FMA framework, which
+combines a Factorization Machine (FM) and annealing, to search for optimal
+compositions and crystal structures with high accuracy and low cost. The
+proposed method introduces (i) the binarization of continuous variables, (ii)
+the utilization of good solutions using a Hopfield network, (iii) the
+activation of global search through adaptive random flips, and (iv) fine-tuning
+via a bit-string local search. Validation using the
+(Al$_x$Ga$_y$In$_z$)$_2$O$_3$ data from the Kaggle "Nomad2018 Predicting
+Transparent Conductors" competition demonstrated that our method achieves
+faster and more accurate searches than Bayesian optimization and genetic
+algorithms. Furthermore, its application to multi-objective optimization showed
+its capability in designing materials by simultaneously considering both the
+band gap and formation energy. These results suggest that applying our method
+to larger, more complex search problems and diverse material designs that
+reflect realistic experimental conditions is expected to contribute to the
+further advancement of materials informatics....
 
 ---
 

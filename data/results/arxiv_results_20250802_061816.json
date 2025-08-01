@@ -1,0 +1,26 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2507.23160v1",
+    "title": "Extended Factorization Machine Annealing for Rapid Discovery of Transparent Conducting Materials",
+    "authors": [
+      "Daisuke Makino",
+      "Tatsuya Goto",
+      "Yoshinori Suga"
+    ],
+    "summary": "The development of novel transparent conducting materials (TCMs) is essential\nfor enhancing the performance and reducing the cost of next-generation devices\nsuch as solar cells and displays. In this research, we focus on the\n(Al$_x$Ga$_y$In$_z$)$_2$O$_3$ system and extend the FMA framework, which\ncombines a Factorization Machine (FM) and annealing, to search for optimal\ncompositions and crystal structures with high accuracy and low cost. The\nproposed method introduces (i) the binarization of continuous variables, (ii)\nthe utilization of good solutions using a Hopfield network, (iii) the\nactivation of global search through adaptive random flips, and (iv) fine-tuning\nvia a bit-string local search. Validation using the\n(Al$_x$Ga$_y$In$_z$)$_2$O$_3$ data from the Kaggle \"Nomad2018 Predicting\nTransparent Conductors\" competition demonstrated that our method achieves\nfaster and more accurate searches than Bayesian optimization and genetic\nalgorithms. Furthermore, its application to multi-objective optimization showed\nits capability in designing materials by simultaneously considering both the\nband gap and formation energy. These results suggest that applying our method\nto larger, more complex search problems and diverse material designs that\nreflect realistic experimental conditions is expected to contribute to the\nfurther advancement of materials informatics.",
+    "published": "2025-07-30T23:43:40+00:00",
+    "updated": "2025-07-30T23:43:40+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.LG"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "12pages, 6figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2507.23160v1",
+    "base_id": "2507.23160",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2507.23160v1"
+  }
+]
