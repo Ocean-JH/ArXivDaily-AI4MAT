@@ -1,0 +1,85 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2508.03278v1",
+    "title": "Artificial Intelligence and Generative Models for Materials Discovery -- A Review",
+    "authors": [
+      "Albertus Denny Handoko",
+      "Riko I Made"
+    ],
+    "summary": "High throughput experimentation tools, machine learning (ML) methods, and\nopen material databases are radically changing the way new materials are\ndiscovered. From the experimentally driven approach in the past, we are moving\nquickly towards the artificial intelligence (AI) driven approach, realizing the\n'inverse design' capabilities that allow the discovery of new materials given\nthe desired properties. This review aims to discuss different principles of\nAI-driven generative models that are applicable for materials discovery,\nincluding different materials representations available for this purpose. We\nwill also highlight specific applications of generative models in designing new\ncatalysts, semiconductors, polymers, or crystals while addressing challenges\nsuch as data scarcity, computational cost, interpretability, synthesizability,\nand dataset biases. Emerging approaches to overcome limitations and integrate\nAI with experimental workflows will be discussed, including multimodal models,\nphysics informed architectures, and closed-loop discovery systems. This review\naims to provide insights for researchers aiming to harness AI's transformative\npotential in accelerating materials discovery for sustainability, healthcare,\nand energy innovation.",
+    "published": "2025-08-05T09:56:27+00:00",
+    "updated": "2025-08-05T09:56:27+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "physics.app-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "Review Article in the Thematic Issue on Artificial Intelligence for\n  Materials Discovery in World Scientific Annual Review of Functional Materials",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2508.03278v1",
+    "base_id": "2508.03278",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2508.03278v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.02956v1",
+    "title": "Autonomous Inorganic Materials Discovery via Multi-Agent Physics-Aware Scientific Reasoning",
+    "authors": [
+      "Alireza Ghafarollahi",
+      "Markus J. Buehler"
+    ],
+    "summary": "Conventional machine learning approaches accelerate inorganic materials\ndesign via accurate property prediction and targeted material generation, yet\nthey operate as single-shot models limited by the latent knowledge baked into\ntheir training data. A central challenge lies in creating an intelligent system\ncapable of autonomously executing the full inorganic materials discovery cycle,\nfrom ideation and planning to experimentation and iterative refinement. We\nintroduce SparksMatter, a multi-agent AI model for automated inorganic\nmaterials design that addresses user queries by generating ideas, designing and\nexecuting experimental workflows, continuously evaluating and refining results,\nand ultimately proposing candidate materials that meet the target objectives.\nSparksMatter also critiques and improves its own responses, identifies research\ngaps and limitations, and suggests rigorous follow-up validation steps,\nincluding DFT calculations and experimental synthesis and characterization,\nembedded in a well-structured final report. The model's performance is\nevaluated across case studies in thermoelectrics, semiconductors, and\nperovskite oxides materials design. The results demonstrate the capacity of\nSparksMatter to generate novel stable inorganic structures that target the\nuser's needs. Benchmarking against frontier models reveals that SparksMatter\nconsistently achieves higher scores in relevance, novelty, and scientific\nrigor, with a significant improvement in novelty across multiple real-world\ndesign tasks as assessed by a blinded evaluator. These results demonstrate\nSparksMatter's unique capacity to generate chemically valid, physically\nmeaningful, and creative inorganic materials hypotheses beyond existing\nmaterials knowledge.",
+    "published": "2025-08-04T23:40:43+00:00",
+    "updated": "2025-08-04T23:40:43+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cond-mat.dis-nn",
+      "cond-mat.mes-hall",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2508.02956v1",
+    "base_id": "2508.02956",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2508.02956v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2501.08998v3",
+    "title": "CrystalGRW: Generative Modeling of Crystal Structures with Targeted Properties via Geodesic Random Walks",
+    "authors": [
+      "Krit Tangsongcharoen",
+      "Teerachote Pakornchote",
+      "Chayanon Atthapak",
+      "Natthaphon Choomphon-anomakhun",
+      "Annop Ektarawong",
+      "Björn Alling",
+      "Christopher Sutton",
+      "Thiti Bovornratanaraks",
+      "Thiparat Chotibut"
+    ],
+    "summary": "Determining whether a candidate crystalline material is thermodynamically\nstable depends on identifying its true ground-state structure, a central\nchallenge in computational materials science. We introduce CrystalGRW, a\ndiffusion-based generative model on Riemannian manifolds that proposes novel\ncrystal configurations and can predict stable phases validated by density\nfunctional theory. The crystal properties, such as fractional coordinates,\natomic types, and lattice matrices, are represented on suitable Riemannian\nmanifolds, ensuring that new predictions generated through the diffusion\nprocess preserve the periodicity of crystal structures. We incorporate an\nequivariant graph neural network to also account for rotational and\ntranslational symmetries during the generation process. CrystalGRW demonstrates\nthe ability to generate realistic crystal structures that are close to their\nground states with accuracy comparable to existing models, while also enabling\nconditional control, such as specifying a desired crystallographic point group.\nThese features help accelerate materials discovery and inverse design by\noffering stable, symmetry-consistent crystal candidates for experimental\nvalidation.",
+    "published": "2025-01-15T18:26:35+00:00",
+    "updated": "2025-08-04T23:18:32+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cond-mat.stat-mech",
+      "cs.LG",
+      "physics.comp-ph",
+      "68T07"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "Updated results using the model trained on the ALEX-MP-20 dataset.\n  13+14 pages, 12 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2501.08998v3",
+    "base_id": "2501.08998",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2501.08998v3"
+  }
+]
