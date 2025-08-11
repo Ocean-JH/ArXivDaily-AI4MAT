@@ -1,0 +1,25 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2508.06436v1",
+    "title": "Leveraging transfer learning for accurate estimation of ionic migration barriers in solids",
+    "authors": [
+      "Reshma Devi",
+      "Keith T. Butler",
+      "Gopalakrishnan Sai Gautam"
+    ],
+    "summary": "Ionic mobility determines the rate performance of several applications, such\nas batteries, fuel cells, and electrochemical sensors and is exponentially\ndependent on the migration barrier ($E_m$), a difficult to measure/calculate\nquantity. Previous approaches to identify materials with high ionic mobility\nhave relied on imprecise descriptors given the lack of generalizable models to\npredict $E_m$. Here, we present a graph neural network based architecture that\nleverages principles of transfer learning to efficiently and accurately predict\n$E_m$ across a diverse set of materials. We use a model pre-trained\nsimultaneously on seven distinct bulk properties (labeled MPT), modify the MPT\nmodel to classify different migration pathways in a structure, and fine-tune\n(FT) on a manually-curated literature-derived dataset of 619 $E_m$ data points\ncalculated with density functional theory. Importantly, our best-performing FT\nmodel (labeled MODEL-3) demonstrates substantial improvements in prediction\naccuracy compared to classical machine learning methods, graph models trained\nfrom scratch, and a universal machine learned interatomic potential, with a\nR$^2$ score of 0.703 and a mean absolute error of 0.261 eV on the test set.\nNotably, MODEL-3 is able to distinguish different migration pathways within a\nstructure and also demonstrates excellent ability to generalize across\nintercalant compositions and chemistries. As a classifier, MODEL-3 exhibits\n80\\% accuracy and 82.8\\% precision in identifying materials that are `good'\nionic conductors (i.e., structures with $E_m <$0.65~eV). Thus, our work\ndemonstrates the effective use of FT strategies and architectural modifications\nnecessary for making swift and accurate $E_m$ predictions, which will be useful\nfor materials discovery in batteries and for predicting other data-scarce\nmaterial properties.",
+    "published": "2025-08-08T16:23:49+00:00",
+    "updated": "2025-08-08T16:23:49+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2508.06436v1",
+    "base_id": "2508.06436",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2508.06436v1"
+  }
+]
