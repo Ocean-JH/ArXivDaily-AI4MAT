@@ -46,54 +46,203 @@
     </div>
 
     <!-- Main Content -->
-    <h2>New Papers (1)</h2>
-<p><em>Last updated: 2025-08-12 06:17:26 SGT</em></p>
+    <h2>New Papers (5)</h2>
+<p><em>Last updated: 2025-08-13 06:17:09 SGT</em></p>
 <div class="paper">
-  <h3 class="paper-title">1. Leveraging transfer learning for accurate estimation of ionic migration barriers in solids<br><span style='color:yellow;font-weight:bold;'>🌟 New</span><br></h3>
+  <h3 class="paper-title">1. Generative Inversion for Property-Targeted Materials Design: Application to Shape Memory Alloys<br><span style='color:yellow;font-weight:bold;'>🌟 New</span><br></h3>
 
   <div class="paper-info">
-    <p class="paper-authors"><strong>Authors:</strong> Reshma Devi, Keith T. Butler, Gopalakrishnan Sai Gautam</p>
-    <p class="paper-date"><strong>Published:</strong> 2025-08-08</p>
+    <p class="paper-authors"><strong>Authors:</strong> Cheng Li, Pengfei Danga, Yuehui Xiana, Yumei Zhou, Bofeng Shi, Xiangdong Ding, Jun Suna, Dezhen Xue</p>
+    <p class="paper-date"><strong>Published:</strong> 2025-08-11</p>
     <p class="paper-category"><strong>Category:</strong> cond-mat.mtrl-sci</p>
-    <p class="paper-id"><strong>ID:</strong> 2508.06436v1</p>
+    <p class="paper-id"><strong>ID:</strong> 2508.07798v1</p>
   </div>
 
-  <p class="paper-link"><strong>Link:</strong> <a href="http://arxiv.org/abs/2508.06436v1">http://arxiv.org/abs/2508.06436v1</a></p>
+  <p class="paper-link"><strong>Link:</strong> <a href="http://arxiv.org/abs/2508.07798v1">http://arxiv.org/abs/2508.07798v1</a></p>
 
   <details class="paper-summary">
     <summary>Summary (Click to Expand)</summary>
-    <p>Ionic mobility determines the rate performance of several applications, such
-as batteries, fuel cells, and electrochemical sensors and is exponentially
-dependent on the migration barrier ($E_m$), a difficult to measure/calculate
-quantity. Previous approaches to identify materials with high ionic mobility
-have relied on imprecise descriptors given the lack of generalizable models to
-predict $E_m$. Here, we present a graph neural network based architecture that
-leverages principles of transfer learning to efficiently and accurately predict
-$E_m$ across a diverse set of materials. We use a model pre-trained
-simultaneously on seven distinct bulk properties (labeled MPT), modify the MPT
-model to classify different migration pathways in a structure, and fine-tune
-(FT) on a manually-curated literature-derived dataset of 619 $E_m$ data points
-calculated with density functional theory. Importantly, our best-performing FT
-model (labeled MODEL-3) demonstrates substantial improvements in prediction
-accuracy compared to classical machine learning methods, graph models trained
-from scratch, and a universal machine learned interatomic potential, with a
-R$^2$ score of 0.703 and a mean absolute error of 0.261 eV on the test set.
-Notably, MODEL-3 is able to distinguish different migration pathways within a
-structure and also demonstrates excellent ability to generalize across
-intercalant compositions and chemistries. As a classifier, MODEL-3 exhibits
-80\% accuracy and 82.8\% precision in identifying materials that are `good'
-ionic conductors (i.e., structures with $E_m <$0.65~eV). Thus, our work
-demonstrates the effective use of FT strategies and architectural modifications
-necessary for making swift and accurate $E_m$ predictions, which will be useful
-for materials discovery in batteries and for predicting other data-scarce
-material properties.</p>
+    <p>The design of shape memory alloys (SMAs) with high transformation
+temperatures and large mechanical work output remains a longstanding challenge
+in functional materials engineering. Here, we introduce a data-driven framework
+based on generative adversarial network (GAN) inversion for the inverse design
+of high-performance SMAs. By coupling a pretrained GAN with a property
+prediction model, we perform gradient-based latent space optimization to
+directly generate candidate alloy compositions and processing parameters that
+satisfy user-defined property targets. The framework is experimentally
+validated through the synthesis and characterization of five NiTi-based SMAs.
+Among them, the Ni$_{49.8}$Ti$_{26.4}$Hf$_{18.6}$Zr$_{5.2}$ alloy achieves a
+high transformation temperature of 404 $^\circ$C, a large mechanical work
+output of 9.9 J/cm$^3$, a transformation enthalpy of 43 J/g , and a thermal
+hysteresis of 29 {\deg}C, outperforming existing NiTi alloys. The enhanced
+performance is attributed to a pronounced transformation volume change and a
+finely dispersed of Ti$_2$Ni-type precipitates, enabled by sluggish Zr and Hf
+diffusion, and semi-coherent interfaces with localized strain fields. This
+study demonstrates that GAN inversion offers an efficient and generalizable
+route for the property-targeted discovery of complex alloys.</p>
+  </details>
+
+  <hr class="paper-divider">
+</div><div class="paper">
+  <h3 class="paper-title">2. Discovery Learning accelerates battery design evaluation<br><span style='color:yellow;font-weight:bold;'>🌟 New</span><br></h3>
+
+  <div class="paper-info">
+    <p class="paper-authors"><strong>Authors:</strong> Jiawei Zhang, Yifei Zhang, Baozhao Yi, Yao Ren, Qi Jiao, Hanyu Bai, Weiran Jiang, Ziyou Song</p>
+    <p class="paper-date"><strong>Published:</strong> 2025-08-09</p>
+    <p class="paper-category"><strong>Category:</strong> cs.LG</p>
+    <p class="paper-id"><strong>ID:</strong> 2508.06985v1</p>
+  </div>
+
+  <p class="paper-link"><strong>Link:</strong> <a href="http://arxiv.org/abs/2508.06985v1">http://arxiv.org/abs/2508.06985v1</a></p>
+
+  <details class="paper-summary">
+    <summary>Summary (Click to Expand)</summary>
+    <p>Fast and reliable validation of novel designs in complex physical systems
+such as batteries is critical to accelerating technological innovation.
+However, battery research and development remain bottlenecked by the
+prohibitively high time and energy costs required to evaluate numerous new
+design candidates, particularly in battery prototyping and life testing.
+Despite recent progress in data-driven battery lifetime prediction, existing
+methods require labeled data of target designs to improve accuracy and cannot
+make reliable predictions until after prototyping, thus falling far short of
+the efficiency needed to enable rapid feedback for battery design. Here, we
+introduce Discovery Learning (DL), a scientific machine-learning paradigm that
+integrates active learning, physics-guided learning, and zero-shot learning
+into a human-like reasoning loop, drawing inspiration from learning theories in
+educational psychology. DL can learn from historical battery designs and
+actively reduce the need for prototyping, thus enabling rapid lifetime
+evaluation for unobserved material-design combinations without requiring
+additional data labeling. To test DL, we present 123 industrial-grade
+large-format lithium-ion pouch cells, spanning eight material-design
+combinations and diverse cycling protocols. Trained solely on public datasets
+of small-capacity cylindrical cells, DL achieves 7.2% test error in predicting
+the average cycle life under unknown device variability. This results in
+savings of 98% in time and 95% in energy compared to industrial practices. This
+work highlights the potential of uncovering insights from historical designs to
+inform and accelerate the development of next-generation battery technologies.
+DL represents a key advance toward efficient data-driven modeling and helps
+realize the promise of machine learning for accelerating scientific discovery
+and engineering innovation.</p>
+  </details>
+
+  <hr class="paper-divider">
+</div><div class="paper">
+  <h3 class="paper-title">3. Role of Large Language Models and Retrieval-Augmented Generation for Accelerating Crystalline Material Discovery: A Systematic Review<br><span style='color:yellow;font-weight:bold;'>🌟 New</span><br></h3>
+
+  <div class="paper-info">
+    <p class="paper-authors"><strong>Authors:</strong> Agada Joseph Oche, Arpan Biswas</p>
+    <p class="paper-date"><strong>Published:</strong> 2025-08-08</p>
+    <p class="paper-category"><strong>Category:</strong> cond-mat.mtrl-sci</p>
+    <p class="paper-id"><strong>ID:</strong> 2508.06691v1</p>
+  </div>
+
+  <p class="paper-link"><strong>Link:</strong> <a href="http://arxiv.org/abs/2508.06691v1">http://arxiv.org/abs/2508.06691v1</a></p>
+
+  <details class="paper-summary">
+    <summary>Summary (Click to Expand)</summary>
+    <p>Large language models (LLMs) have emerged as powerful tools for
+knowledge-intensive tasks across domains. In materials science, to find novel
+materials for various energy efficient devices for various real-world
+applications, requires several time and cost expensive simulations and
+experiments. In order to tune down the uncharted material search space,
+minimizing the experimental cost, LLMs can play a bigger role to first provide
+an accelerated search of promising known material candidates. Furthermore, the
+integration of LLMs with domain-specific information via retrieval-augmented
+generation (RAG) is poised to revolutionize how researchers predict materials
+structures, analyze defects, discover novel compounds, and extract knowledge
+from literature and databases. In motivation to the potentials of LLMs and RAG
+in accelerating material discovery, this paper presents a broad and systematic
+review to examine the recent advancements in applying LLMs and RAG to key
+materials science problems. We survey state-of-the-art developments in crystal
+structure prediction, defect analysis, materials discovery, literature mining,
+database integration, and multi-modal retrieval, highlighting how combining
+LLMs with external knowledge sources enables new capabilities. We discuss the
+performance, limitations, and implications of these approaches, and outline
+future directions for leveraging LLMs to accelerate materials research and
+discovery for advancement in technologies in the area of electronics, optics,
+biomedical, and energy storage.</p>
+  </details>
+
+  <hr class="paper-divider">
+</div><div class="paper">
+  <h3 class="paper-title">4. Engineering snags for spatial curvature in weaves: Fabrication, mechanics, and inverse design<br><span style='color:yellow;font-weight:bold;'>🌟 New</span><br></h3>
+
+  <div class="paper-info">
+    <p class="paper-authors"><strong>Authors:</strong> Guowei Wayne Tu, Evgueni T. Filipov</p>
+    <p class="paper-date"><strong>Published:</strong> 2025-08-08</p>
+    <p class="paper-category"><strong>Category:</strong> cond-mat.soft</p>
+    <p class="paper-id"><strong>ID:</strong> 2508.06673v1</p>
+  </div>
+
+  <p class="paper-link"><strong>Link:</strong> <a href="http://arxiv.org/abs/2508.06673v1">http://arxiv.org/abs/2508.06673v1</a></p>
+
+  <details class="paper-summary">
+    <summary>Summary (Click to Expand)</summary>
+    <p>Weaving as an old craft has extensive applications in modern science and
+technology such as smart textiles and intelligent soft robots. However, weaving
+irregular curved surfaces has been difficult, with prior alternatives requiring
+curved ribbons and triaxial weaving patterns. In this work, we present a simple
+strategy to achieve complex spatial curvature by purposely introducing 'snags',
+a traditionally unwanted textile defect, into dense plain weaves consisting of
+straight ribbons assembled in a straightforward biaxial network. We detail the
+fabrication methodology where we pull out ribbons of initially smooth two- (2D)
+and three-dimensional (3D) plain weaves to form local snags. We show that these
+local defects cause global curvatures through the propagation of geometric
+frustration. We then use a reduced-order bar & hinge model to simulate the
+mechanics-guided deformation of snagged plain weaves, and we investigate how
+the curvature scales with system parameters such as the thickness and Young's
+modulus of the ribbons. Finally, we introduce an inverse design platform where
+an evolutionary algorithm is used to inversely compute the optimal snag
+patterns of smooth plain weaves to approximate arbitrary target surfaces
+including 2D and 3D woven exoskeletons that fit human legs and elbows,
+respectively. Engineering snags in plain weaves as a general strategy can pave
+the way for future design of customizable wearable devices, adaptive soft
+robots, reconfigurable architecture, and more.</p>
+  </details>
+
+  <hr class="paper-divider">
+</div><div class="paper">
+  <h3 class="paper-title">5. Generative Artificial Intelligence Extracts Structure-Function Relationships from Plants for New Materials<br><span style='color:yellow;font-weight:bold;'>🌟 New</span><br></h3>
+
+  <div class="paper-info">
+    <p class="paper-authors"><strong>Authors:</strong> Rachel K. Luu, Jingyu Deng, Mohammed Shahrudin Ibrahim, Nam-Joon Cho, Ming Dao, Subra Suresh, Markus J. Buehler</p>
+    <p class="paper-date"><strong>Published:</strong> 2025-08-08</p>
+    <p class="paper-category"><strong>Category:</strong> cs.LG</p>
+    <p class="paper-id"><strong>ID:</strong> 2508.06591v1</p>
+  </div>
+
+  <p class="paper-link"><strong>Link:</strong> <a href="http://arxiv.org/abs/2508.06591v1">http://arxiv.org/abs/2508.06591v1</a></p>
+
+  <details class="paper-summary">
+    <summary>Summary (Click to Expand)</summary>
+    <p>Large language models (LLMs) have reshaped the research landscape by enabling
+new approaches to knowledge retrieval and creative ideation. Yet their
+application in discipline-specific experimental science, particularly in highly
+multi-disciplinary domains like materials science, remains limited. We present
+a first-of-its-kind framework that integrates generative AI with literature
+from hitherto-unconnected fields such as plant science, biomimetics, and
+materials engineering to extract insights and design experiments for materials.
+We focus on humidity-responsive systems such as pollen-based materials and
+Rhapis excelsa (broadleaf lady palm) leaves, which exhibit self-actuation and
+adaptive performance. Using a suite of AI tools, including a fine-tuned model
+(BioinspiredLLM), Retrieval-Augmented Generation (RAG), agentic systems, and a
+Hierarchical Sampling strategy, we extract structure-property relationships and
+translate them into new classes of bioinspired materials. Structured inference
+protocols generate and evaluate hundreds of hypotheses from a single query,
+surfacing novel and experimentally tractable ideas. We validate our approach
+through real-world implementation: LLM-generated procedures, materials designs,
+and mechanical predictions were tested in the laboratory, culminating in the
+fabrication of a novel pollen-based adhesive with tunable morphology and
+measured shear strength, establishing a foundation for future plant-derived
+adhesive design. This work demonstrates how AI-assisted ideation can drive
+real-world materials design and enable effective human-AI collaboration.</p>
   </details>
 
   <hr class="paper-divider">
 </div>
 
     <footer>
-        <p>Last updated: 2025-08-12 06:17:26 (SGT)</p>
+        <p>Last updated: 2025-08-13 06:17:09 (SGT)</p>
         <p>2025 <a href="https://ocean-jh.github.io/" target="_blank">Wang Jianghai</a><a href="mailto:jianghai001@e.ntu.edu.sg">📧</a> @ Nanyang Technological University | All Rights Reserved</p>
         <p><a href="https://github.com/Ocean-JH/ArXivDaily-AI4MAT">Star on GitHub</a></p>
         <p>Powered by <a href="https://arxiv.org/" target="_blank">arXiv</a> · Updated Daily</p>
