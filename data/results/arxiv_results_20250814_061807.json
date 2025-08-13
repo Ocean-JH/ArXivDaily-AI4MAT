@@ -1,0 +1,23 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2508.08349v1",
+    "title": "DiffractGPT: Atomic Structure Determination from X-ray Diffraction Patterns using Generative Pre-trained Transformer",
+    "authors": [
+      "Kamal Choudhary"
+    ],
+    "summary": "Crystal structure determination from powder diffraction patterns is a complex\nchallenge in materials science, often requiring extensive expertise and\ncomputational resources. This study introduces DiffractGPT, a generative\npre-trained transformer model designed to predict atomic structures directly\nfrom X-ray diffraction (XRD) patterns. By capturing the intricate relationships\nbetween diffraction patterns and crystal structures, DiffractGPT enables fast\nand accurate inverse design. Trained on thousands of atomic structures and\ntheir simulated XRD patterns from the JARVIS-DFT dataset, we evaluate the model\nacross three scenarios: (1) without chemical information, (2) with a list of\nelements, and (3) with an explicit chemical formula. The results demonstrate\nthat incorporating chemical information significantly enhances prediction\naccuracy. Additionally, the training process is straightforward and fast,\nbridging gaps between computational, data science, and experimental\ncommunities. This work represents a significant advancement in automating\ncrystal structure determination, offering a robust tool for data-driven\nmaterials discovery and design.",
+    "published": "2025-08-11T13:17:20+00:00",
+    "updated": "2025-08-11T13:17:20+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": "10.1021/acs.jpclett.4c03137",
+    "pdf_url": "http://arxiv.org/pdf/2508.08349v1",
+    "base_id": "2508.08349",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2508.08349v1"
+  }
+]
