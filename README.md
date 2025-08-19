@@ -36,36 +36,39 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-08-14 06:18:13 (SGT)*
+*Last updated: 2025-08-20 06:16:35 (SGT)*
 
-### 1. DiffractGPT: Atomic Structure Determination from X-ray Diffraction Patterns using Generative Pre-trained Transformer
+### 1. Denoising diffusion models for inverse design of inflatable structures with programmable deformations
 
-**Authors:** Kamal Choudhary
+**Authors:** Sara Karimi, Nikolaos N. Vlassis
 
-**Published:** 2025-08-11
+**Published:** 2025-08-18
 
-**Category:** cond-mat.mtrl-sci
+**Category:** cs.CE
 
-**ID:** 2508.08349v1
+**ID:** 2508.13097v1
 
-**Link:** [http://arxiv.org/abs/2508.08349v1](http://arxiv.org/abs/2508.08349v1)
+**Link:** [http://arxiv.org/abs/2508.13097v1](http://arxiv.org/abs/2508.13097v1)
 
-**Summary:** Crystal structure determination from powder diffraction patterns is a complex
-challenge in materials science, often requiring extensive expertise and
-computational resources. This study introduces DiffractGPT, a generative
-pre-trained transformer model designed to predict atomic structures directly
-from X-ray diffraction (XRD) patterns. By capturing the intricate relationships
-between diffraction patterns and crystal structures, DiffractGPT enables fast
-and accurate inverse design. Trained on thousands of atomic structures and
-their simulated XRD patterns from the JARVIS-DFT dataset, we evaluate the model
-across three scenarios: (1) without chemical information, (2) with a list of
-elements, and (3) with an explicit chemical formula. The results demonstrate
-that incorporating chemical information significantly enhances prediction
-accuracy. Additionally, the training process is straightforward and fast,
-bridging gaps between computational, data science, and experimental
-communities. This work represents a significant advancement in automating
-crystal structure determination, offering a robust tool for data-driven
-materials discovery and design....
+**Summary:** Programmable structures are systems whose undeformed geometries and material
+property distributions are deliberately designed to achieve prescribed deformed
+configurations under specific loading conditions. Inflatable structures are a
+prominent example, using internal pressurization to realize large, nonlinear
+deformations in applications ranging from soft robotics and deployable
+aerospace systems to biomedical devices and adaptive architecture. We present a
+generative design framework based on denoising diffusion probabilistic models
+(DDPMs) for the inverse design of elastic structures undergoing large,
+nonlinear deformations under pressure-driven actuation. The method formulates
+the inverse design as a conditional generation task, using geometric
+descriptors of target deformed states as inputs and outputting image-based
+representations of the undeformed configuration. Representing these
+configurations as simple images is achieved by establishing a pre- and
+postprocessing pipeline that involves a fixed image processing, simulation
+setup, and descriptor extraction methods. Numerical experiments with scalar and
+higher-dimensional descriptors show that the framework can quickly produce
+diverse undeformed configurations that achieve the desired deformations when
+inflated, enabling parallel exploration of viable design candidates while
+accommodating complex constraints....
 
 ---
 

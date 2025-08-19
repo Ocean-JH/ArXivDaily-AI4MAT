@@ -1,0 +1,25 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2508.13097v1",
+    "title": "Denoising diffusion models for inverse design of inflatable structures with programmable deformations",
+    "authors": [
+      "Sara Karimi",
+      "Nikolaos N. Vlassis"
+    ],
+    "summary": "Programmable structures are systems whose undeformed geometries and material\nproperty distributions are deliberately designed to achieve prescribed deformed\nconfigurations under specific loading conditions. Inflatable structures are a\nprominent example, using internal pressurization to realize large, nonlinear\ndeformations in applications ranging from soft robotics and deployable\naerospace systems to biomedical devices and adaptive architecture. We present a\ngenerative design framework based on denoising diffusion probabilistic models\n(DDPMs) for the inverse design of elastic structures undergoing large,\nnonlinear deformations under pressure-driven actuation. The method formulates\nthe inverse design as a conditional generation task, using geometric\ndescriptors of target deformed states as inputs and outputting image-based\nrepresentations of the undeformed configuration. Representing these\nconfigurations as simple images is achieved by establishing a pre- and\npostprocessing pipeline that involves a fixed image processing, simulation\nsetup, and descriptor extraction methods. Numerical experiments with scalar and\nhigher-dimensional descriptors show that the framework can quickly produce\ndiverse undeformed configurations that achieve the desired deformations when\ninflated, enabling parallel exploration of viable design candidates while\naccommodating complex constraints.",
+    "published": "2025-08-18T17:07:51+00:00",
+    "updated": "2025-08-18T17:07:51+00:00",
+    "categories": [
+      "cs.CE",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CE",
+    "comment": "21 pages, 12 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2508.13097v1",
+    "base_id": "2508.13097",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2508.13097v1"
+  }
+]
