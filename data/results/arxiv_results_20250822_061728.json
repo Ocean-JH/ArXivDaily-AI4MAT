@@ -1,0 +1,36 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2507.07060v2",
+    "title": "DeepRetro: Retrosynthetic Pathway Discovery using Iterative LLM Reasoning",
+    "authors": [
+      "Shreyas Vinaya Sathyanarayana",
+      "Sharanabasava D. Hiremath",
+      "Rahil Shah",
+      "Rishikesh Panda",
+      "Rahul Jana",
+      "Riya Singh",
+      "Rida Irfan",
+      "Ashwin Murali",
+      "Bharath Ramsundar"
+    ],
+    "summary": "The synthesis of complex natural products remains one of the grand challenges\nof organic chemistry. We present DeepRetro, a major advancement in\ncomputational retrosynthesis that enables the discovery of viable synthetic\nroutes for complex molecules typically considered beyond the reach of existing\nretrosynthetic methods. DeepRetro is a novel, open-source framework that\ntightly integrates large language models (LLMs), traditional retrosynthetic\nengines, and expert human feedback in an iterative design loop. Prior\napproaches rely solely on template-based methods or unconstrained LLM outputs.\nIn contrast, DeepRetro combines the precision of template-based methods with\nthe generative flexibility of LLMs, controlled by rigorous chemical validity\nchecks and enhanced by recursive refinement. This hybrid system dynamically\nexplores and revises synthetic pathways, guided by both algorithmic checks and\nexpert chemist feedback through an interactive user interface. While DeepRetro\nachieves strong performance on standard retrosynthesis benchmarks, its true\nstrength lies in its ability to propose novel, viable pathways to highly\ncomplex natural products-targets that have historically eluded automated\nplanning. Through detailed case studies, we illustrate how this approach\nenables new routes for total synthesis and facilitates human-machine\ncollaboration in organic chemistry. Beyond retrosynthesis, DeepRetro represents\na working model for how to leverage LLMs in scientific discovery. We provide a\ntransparent account of the system's design, algorithms, and human-feedback\nloop, enabling broad adaptation across scientific domains. By releasing\nDeepRetro as an open-source tool, we aim to empower chemists to tackle\nincreasingly ambitious synthetic targets, accelerating progress in drug\ndiscovery, materials design, and beyond.",
+    "published": "2025-07-07T19:41:39+00:00",
+    "updated": "2025-08-19T18:39:25+00:00",
+    "categories": [
+      "q-bio.QM",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "q-bio.BM",
+      "q-bio.MN"
+    ],
+    "primary_category": "q-bio.QM",
+    "comment": "64 pages,",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2507.07060v2",
+    "base_id": "2507.07060",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2507.07060v2"
+  }
+]
