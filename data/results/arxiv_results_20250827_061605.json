@@ -1,0 +1,84 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2508.17568v1",
+    "title": "MetaGen: A DSL, Database, and Benchmark for VLM-Assisted Metamaterial Generation",
+    "authors": [
+      "Liane Makatura",
+      "Benjamin Jones",
+      "Siyuan Bian",
+      "Wojciech Matusik"
+    ],
+    "summary": "Metamaterials are micro-architected structures whose geometry imparts highly\ntunable-often counter-intuitive-bulk properties. Yet their design is difficult\nbecause of geometric complexity and a non-trivial mapping from architecture to\nbehaviour. We address these challenges with three complementary contributions.\n(i) MetaDSL: a compact, semantically rich domain-specific language that\ncaptures diverse metamaterial designs in a form that is both human-readable and\nmachine-parsable. (ii) MetaDB: a curated repository of more than 150,000\nparameterized MetaDSL programs together with their\nderivatives-three-dimensional geometry, multi-view renderings, and simulated\nelastic properties. (iii) MetaBench: benchmark suites that test three core\ncapabilities of vision-language metamaterial assistants-structure\nreconstruction, property-driven inverse design, and performance prediction. We\nestablish baselines by fine-tuning state-of-the-art vision-language models and\ndeploy an omni-model within an interactive, CAD-like interface. Case studies\nshow that our framework provides a strong first step toward integrated design\nand understanding of structure-representation-property relationships.",
+    "published": "2025-08-25T00:36:07+00:00",
+    "updated": "2025-08-25T00:36:07+00:00",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CE",
+      "cs.LG",
+      "cs.PL"
+    ],
+    "primary_category": "cs.CV",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2508.17568v1",
+    "base_id": "2508.17568",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2508.17568v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.00056v2",
+    "title": "Toward Knowledge-Guided AI for Inverse Design in Manufacturing: A Perspective on Domain, Physics, and Human-AI Synergy",
+    "authors": [
+      "Hugon Lee",
+      "Hyeonbin Moon",
+      "Junhyeong Lee",
+      "Seunghwa RYu"
+    ],
+    "summary": "Artificial intelligence (AI) is reshaping inverse design in manufacturing,\nenabling high-performance discovery in materials, products, and processes.\nHowever, purely data-driven approaches often struggle in realistic\nmanufacturing settings characterized by sparse data, high-dimensional design\nspaces, and complex constraints. This perspective proposes an integrated\nframework built on three complementary pillars: domain knowledge to establish\nphysically meaningful objectives and constraints while removing variables with\nlimited relevance, physics-informed machine learning to enhance generalization\nunder limited or biased data, and large language model-based interfaces to\nsupport intuitive, human-centered interaction. Using injection molding as an\nillustrative example, we demonstrate how these components can operate in\npractice and conclude by highlighting key challenges for applying such\napproaches in realistic manufacturing environments.",
+    "published": "2025-05-29T08:15:27+00:00",
+    "updated": "2025-08-23T04:47:22+00:00",
+    "categories": [
+      "cs.AI",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cs.AI",
+    "comment": "34 pages, 6 figures, 1 table",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2506.00056v2",
+    "base_id": "2506.00056",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2506.00056v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.16614v1",
+    "title": "CrystalDiT: A Diffusion Transformer for Crystal Generation",
+    "authors": [
+      "Xiaohan Yi",
+      "Guikun Xu",
+      "Xi Xiao",
+      "Zhong Zhang",
+      "Liu Liu",
+      "Yatao Bian",
+      "Peilin Zhao"
+    ],
+    "summary": "We present CrystalDiT, a diffusion transformer for crystal structure\ngeneration that achieves state-of-the-art performance by challenging the trend\nof architectural complexity. Instead of intricate, multi-stream designs,\nCrystalDiT employs a unified transformer that imposes a powerful inductive\nbias: treating lattice and atomic properties as a single, interdependent\nsystem. Combined with a periodic table-based atomic representation and a\nbalanced training strategy, our approach achieves 9.62% SUN (Stable, Unique,\nNovel) rate on MP-20, substantially outperforming recent methods including\nFlowMM (4.38%) and MatterGen (3.42%). Notably, CrystalDiT generates 63.28%\nunique and novel structures while maintaining comparable stability rates,\ndemonstrating that architectural simplicity can be more effective than\ncomplexity for materials discovery. Our results suggest that in data-limited\nscientific domains, carefully designed simple architectures outperform\nsophisticated alternatives that are prone to overfitting.",
+    "published": "2025-08-13T12:53:32+00:00",
+    "updated": "2025-08-13T12:53:32+00:00",
+    "categories": [
+      "cs.LG",
+      "cond-mat.mtrl-sci",
+      "I.2.6; I.2.10"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "18 pages, 18 figures. Code available at\n  https://github.com/hanyi2021/CrystalDiT.git",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2508.16614v1",
+    "base_id": "2508.16614",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2508.16614v1"
+  }
+]
