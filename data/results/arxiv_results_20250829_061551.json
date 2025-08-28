@@ -1,0 +1,31 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2508.16614v2",
+    "title": "CrystalDiT: A Diffusion Transformer for Crystal Generation",
+    "authors": [
+      "Xiaohan Yi",
+      "Guikun Xu",
+      "Xi Xiao",
+      "Zhong Zhang",
+      "Liu Liu",
+      "Yatao Bian",
+      "Peilin Zhao"
+    ],
+    "summary": "We present CrystalDiT, a diffusion transformer for crystal structure\ngeneration that achieves state-of-the-art performance by challenging the trend\nof architectural complexity. Instead of intricate, multi-stream designs,\nCrystalDiT employs a unified transformer that imposes a powerful inductive\nbias: treating lattice and atomic properties as a single, interdependent\nsystem. Combined with a periodic table-based atomic representation and a\nbalanced training strategy, our approach achieves 9.62% SUN (Stable, Unique,\nNovel) rate on MP-20, substantially outperforming recent methods including\nFlowMM (4.38%) and MatterGen (3.42%). Notably, CrystalDiT generates 63.28%\nunique and novel structures while maintaining comparable stability rates,\ndemonstrating that architectural simplicity can be more effective than\ncomplexity for materials discovery. Our results suggest that in data-limited\nscientific domains, carefully designed simple architectures outperform\nsophisticated alternatives that are prone to overfitting.",
+    "published": "2025-08-13T12:53:32+00:00",
+    "updated": "2025-08-27T03:45:12+00:00",
+    "categories": [
+      "cs.LG",
+      "cond-mat.mtrl-sci",
+      "I.2.6; I.2.10"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "18 pages, 18 figures. Code available at\n  https://github.com/hanyi2021/CrystalDiT.git. Updated to remove copyright\n  notice",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2508.16614v2",
+    "base_id": "2508.16614",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2508.16614v2"
+  }
+]
