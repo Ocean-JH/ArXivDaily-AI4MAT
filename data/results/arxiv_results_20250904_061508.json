@@ -1,0 +1,25 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2508.04052v2",
+    "title": "EAC-Net: Predicting real-space charge density via equivariant atomic contributions",
+    "authors": [
+      "Xuejian Qin Taoyuze Lv",
+      "Zhicheng Zhong"
+    ],
+    "summary": "Charge density is central to density functional theory (DFT), as it fully\ndefines the ground-state properties of a material system. Obtaining it with\nhigh accuracy is a computational bottleneck. Existing machine learning models\nare constrained by trade-offs among accuracy, efficiency, and generalization.\nHere, we introduce the Equivariant Atomic Contribution Network (EAC-Net), which\ncouples atoms and grids to integrate the strengths of grid-based and\nbasis-function frameworks. EAC-Net achieves high accuracy (typically below 1%\nerror), enhanced efficiency, and strong generalization across complex systems.\nBuilding on this framework, we develop EAC-mp, a universal charge density model\ncovering the periodic table. The model demonstrates robust zero-shot\nperformance across diverse systems, and generalizes beyond the training\ndistribution, supporting downstream applications such as band structure\ncalculations. By linking local chemical environments to charge densities,\nEAC-Net provides a scalable framework for accelerating electronic structure\nprediction and enabling high-throughput materials discovery.",
+    "published": "2025-08-06T03:26:05+00:00",
+    "updated": "2025-09-01T03:04:58+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "21pages, 5figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2508.04052v2",
+    "base_id": "2508.04052",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2508.04052v2"
+  }
+]

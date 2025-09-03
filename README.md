@@ -36,34 +36,35 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-08-29 06:16:01 (SGT)*
+*Last updated: 2025-09-04 06:15:13 (SGT)*
 
-### 1. CrystalDiT: A Diffusion Transformer for Crystal Generation
+### 1. EAC-Net: Predicting real-space charge density via equivariant atomic contributions
 
-**Authors:** Xiaohan Yi, Guikun Xu, Xi Xiao, Zhong Zhang, Liu Liu, Yatao Bian, Peilin Zhao
+**Authors:** Xuejian Qin Taoyuze Lv, Zhicheng Zhong
 
-**Published:** 2025-08-13
+**Published:** 2025-08-06
 
-**Category:** cs.LG
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2508.16614v2
+**ID:** 2508.04052v2
 
-**Link:** [http://arxiv.org/abs/2508.16614v2](http://arxiv.org/abs/2508.16614v2)
+**Link:** [http://arxiv.org/abs/2508.04052v2](http://arxiv.org/abs/2508.04052v2)
 
-**Summary:** We present CrystalDiT, a diffusion transformer for crystal structure
-generation that achieves state-of-the-art performance by challenging the trend
-of architectural complexity. Instead of intricate, multi-stream designs,
-CrystalDiT employs a unified transformer that imposes a powerful inductive
-bias: treating lattice and atomic properties as a single, interdependent
-system. Combined with a periodic table-based atomic representation and a
-balanced training strategy, our approach achieves 9.62% SUN (Stable, Unique,
-Novel) rate on MP-20, substantially outperforming recent methods including
-FlowMM (4.38%) and MatterGen (3.42%). Notably, CrystalDiT generates 63.28%
-unique and novel structures while maintaining comparable stability rates,
-demonstrating that architectural simplicity can be more effective than
-complexity for materials discovery. Our results suggest that in data-limited
-scientific domains, carefully designed simple architectures outperform
-sophisticated alternatives that are prone to overfitting....
+**Summary:** Charge density is central to density functional theory (DFT), as it fully
+defines the ground-state properties of a material system. Obtaining it with
+high accuracy is a computational bottleneck. Existing machine learning models
+are constrained by trade-offs among accuracy, efficiency, and generalization.
+Here, we introduce the Equivariant Atomic Contribution Network (EAC-Net), which
+couples atoms and grids to integrate the strengths of grid-based and
+basis-function frameworks. EAC-Net achieves high accuracy (typically below 1%
+error), enhanced efficiency, and strong generalization across complex systems.
+Building on this framework, we develop EAC-mp, a universal charge density model
+covering the periodic table. The model demonstrates robust zero-shot
+performance across diverse systems, and generalizes beyond the training
+distribution, supporting downstream applications such as band structure
+calculations. By linking local chemical environments to charge densities,
+EAC-Net provides a scalable framework for accelerating electronic structure
+prediction and enabling high-throughput materials discovery....
 
 ---
 
