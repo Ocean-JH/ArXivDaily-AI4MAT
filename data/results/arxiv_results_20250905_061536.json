@@ -1,0 +1,52 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.02723v1",
+    "title": "Generative AI for Crystal Structures: A Review",
+    "authors": [
+      "Pierre-Paul De Breuck",
+      "Hai-Chen Wang",
+      "Gian-Marco Rignanese",
+      "Silvana Botti",
+      "Miguel A. L. Marques"
+    ],
+    "summary": "As in many other fields, the rapid rise of generative artificial intelligence\nis reshaping materials discovery by offering new ways to propose crystal\nstructures and, in some cases, even predict desired properties. This review\nprovides a comprehensive survey of recent advancements in generative models\nspecifically for inorganic crystalline materials. We begin by introducing the\nfundamentals of generative modeling and invertible material descriptors. We\nthen propose a taxonomy based on architecture, representation, conditioning,\nand materials domain to categorize the diverse range of current generative AI\nmodels. We discuss data sources and address challenges related to performance\nmetrics, emphasizing the need for standardized benchmarks. Specific examples\nand applications of novel generated structures are presented. Finally, we\nexamine current limitations and future directions in this rapidly evolving\nfield, highlighting its potential to accelerate the discovery of new inorganic\nmaterials.",
+    "published": "2025-09-02T18:19:26+00:00",
+    "updated": "2025-09-02T18:19:26+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "23 pages, 4 figures, 3 tables",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.02723v1",
+    "base_id": "2509.02723",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.02723v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.00832v1",
+    "title": "Crystal Structure Prediction with a Geometric Permutation-Invariant Loss Function",
+    "authors": [
+      "Emmanuel Jehanno",
+      "Romain Menegaux",
+      "Julien Mairal",
+      "Sergei Grudinin"
+    ],
+    "summary": "Crystalline structure prediction remains an open challenge in materials\ndesign. Despite recent advances in computational materials science, accurately\npredicting the three-dimensional crystal structures of organic materials--an\nessential first step for designing materials with targeted properties--remains\nelusive. In this work, we address the problem of molecular assembly, where a\nset $\\mathcal{S}$ of identical rigid molecules is packed to form a crystalline\nstructure. Existing state-of-the-art models typically rely on computationally\nexpensive, iterative flow-matching approaches. We propose a novel loss function\nthat correctly captures key geometric molecular properties while maintaining\npermutation invariance over $\\mathcal{S}$. We achieve this via a differentiable\nlinear assignment scheme based on the Sinkhorn algorithm. Remarkably, we show\nthat even a simple regression using our method {\\em SinkFast} significantly\noutperforms more complex flow-matching approaches on the COD-Cluster17\nbenchmark, a curated subset of the Crystallography Open Database (COD).",
+    "published": "2025-08-31T13:03:08+00:00",
+    "updated": "2025-08-31T13:03:08+00:00",
+    "categories": [
+      "cs.LG",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.00832v1",
+    "base_id": "2509.00832",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.00832v1"
+  }
+]

@@ -34,37 +34,65 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (1)
+## New Papers (2)
 
-*Last updated: 2025-09-04 06:15:13 (SGT)*
+*Last updated: 2025-09-05 06:15:39 (SGT)*
 
-### 1. EAC-Net: Predicting real-space charge density via equivariant atomic contributions
+### 1. Generative AI for Crystal Structures: A Review
 
-**Authors:** Xuejian Qin Taoyuze Lv, Zhicheng Zhong
+**Authors:** Pierre-Paul De Breuck, Hai-Chen Wang, Gian-Marco Rignanese, Silvana Botti, Miguel A. L. Marques
 
-**Published:** 2025-08-06
+**Published:** 2025-09-02
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2508.04052v2
+**ID:** 2509.02723v1
 
-**Link:** [http://arxiv.org/abs/2508.04052v2](http://arxiv.org/abs/2508.04052v2)
+**Link:** [http://arxiv.org/abs/2509.02723v1](http://arxiv.org/abs/2509.02723v1)
 
-**Summary:** Charge density is central to density functional theory (DFT), as it fully
-defines the ground-state properties of a material system. Obtaining it with
-high accuracy is a computational bottleneck. Existing machine learning models
-are constrained by trade-offs among accuracy, efficiency, and generalization.
-Here, we introduce the Equivariant Atomic Contribution Network (EAC-Net), which
-couples atoms and grids to integrate the strengths of grid-based and
-basis-function frameworks. EAC-Net achieves high accuracy (typically below 1%
-error), enhanced efficiency, and strong generalization across complex systems.
-Building on this framework, we develop EAC-mp, a universal charge density model
-covering the periodic table. The model demonstrates robust zero-shot
-performance across diverse systems, and generalizes beyond the training
-distribution, supporting downstream applications such as band structure
-calculations. By linking local chemical environments to charge densities,
-EAC-Net provides a scalable framework for accelerating electronic structure
-prediction and enabling high-throughput materials discovery....
+**Summary:** As in many other fields, the rapid rise of generative artificial intelligence
+is reshaping materials discovery by offering new ways to propose crystal
+structures and, in some cases, even predict desired properties. This review
+provides a comprehensive survey of recent advancements in generative models
+specifically for inorganic crystalline materials. We begin by introducing the
+fundamentals of generative modeling and invertible material descriptors. We
+then propose a taxonomy based on architecture, representation, conditioning,
+and materials domain to categorize the diverse range of current generative AI
+models. We discuss data sources and address challenges related to performance
+metrics, emphasizing the need for standardized benchmarks. Specific examples
+and applications of novel generated structures are presented. Finally, we
+examine current limitations and future directions in this rapidly evolving
+field, highlighting its potential to accelerate the discovery of new inorganic
+materials....
+
+---
+
+### 2. Crystal Structure Prediction with a Geometric Permutation-Invariant Loss Function
+
+**Authors:** Emmanuel Jehanno, Romain Menegaux, Julien Mairal, Sergei Grudinin
+
+**Published:** 2025-08-31
+
+**Category:** cs.LG
+
+**ID:** 2509.00832v1
+
+**Link:** [http://arxiv.org/abs/2509.00832v1](http://arxiv.org/abs/2509.00832v1)
+
+**Summary:** Crystalline structure prediction remains an open challenge in materials
+design. Despite recent advances in computational materials science, accurately
+predicting the three-dimensional crystal structures of organic materials--an
+essential first step for designing materials with targeted properties--remains
+elusive. In this work, we address the problem of molecular assembly, where a
+set $\mathcal{S}$ of identical rigid molecules is packed to form a crystalline
+structure. Existing state-of-the-art models typically rely on computationally
+expensive, iterative flow-matching approaches. We propose a novel loss function
+that correctly captures key geometric molecular properties while maintaining
+permutation invariance over $\mathcal{S}$. We achieve this via a differentiable
+linear assignment scheme based on the Sinkhorn algorithm. Remarkably, we show
+that even a simple regression using our method {\em SinkFast} significantly
+outperforms more complex flow-matching approaches on the COD-Cluster17
+benchmark, a curated subset of the Crystallography Open Database (COD)....
 
 ---
 
