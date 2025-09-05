@@ -1,0 +1,30 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.04039v1",
+    "title": "Physically Interpretable Descriptors Drive the Materials Design of Metal Hydrides for Hydrogen Storage",
+    "authors": [
+      "Seong-Hoon Jang",
+      "Di Zhang",
+      "Hung Ba Tran",
+      "Xue Jia",
+      "Kiyoe Konno",
+      "Ryuhei Sato",
+      "Shin-ichi Orimo",
+      "and Hao Li"
+    ],
+    "summary": "Designing metal hydrides for hydrogen storage remains a longstanding\nchallenge due to the vast compositional space and complex structure-property\nrelationships. Herein, for the first time, we present physically interpretable\nmodels for predicting two key performance metrics, gravimetric hydrogen density\n$w$ and equilibrium pressure $P_{\\rm eq,RT}$ at room temperature, based on a\nminimal set of chemically meaningful descriptors. Using a rigorously curated\ndataset of $5,089$ metal hydride compositions from our recently developed\nDigital Hydrogen Platform (\\it{DigHyd}) based on large-scale data mining from\navailable experimental literature of solid-state hydrogen storage materials, we\nsystematically constructed over $1.6$ million candidate models using\ncombinations of scalar transformations and nonlinear link functions. The final\nclosed-form models, derived from $2$-$3$ descriptors each, achieve predictive\naccuracies on par with state-of-the-art machine learning methods, while\nmaintaining full physical transparency. Strikingly, descriptor-based design\nmaps generated from these models reveal a fundamental trade-off between $w$ and\n$P_{\\rm eq,RT}$: saline-type hydrides, composed of light electropositive\nelements, offer high $w$ but low $P_{\\rm eq,RT}$, whereas interstitial-type\nhydrides based on heavier electronegative transition metals show the opposite\ntrend. Notably, Be-based systems, such as Be-Na alloys, emerge as rare\ncandidates that simultaneously satisfy both performance metrics, attributed to\nthe unique combination of light mass and high molar density for Be. Our models\nindicate that Be-based systems may offer renewed prospects for approaching\nthese benchmarks. These results provide chemically intuitive guidelines for\nmaterials design and establish a scalable framework for the rational discovery\nof materials in complex chemical spaces.",
+    "published": "2025-09-04T09:18:04+00:00",
+    "updated": "2025-09-04T09:18:04+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.04039v1",
+    "base_id": "2509.04039",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.04039v1"
+  }
+]
