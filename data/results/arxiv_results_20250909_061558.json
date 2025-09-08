@@ -1,0 +1,56 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.00832v2",
+    "title": "Crystal Structure Prediction with a Geometric Permutation-Invariant Loss Function",
+    "authors": [
+      "Emmanuel Jehanno",
+      "Romain Menegaux",
+      "Julien Mairal",
+      "Sergei Grudinin"
+    ],
+    "summary": "Crystalline structure prediction remains an open challenge in materials\ndesign. Despite recent advances in computational materials science, accurately\npredicting the three-dimensional crystal structures of organic materials--an\nessential first step for designing materials with targeted properties--remains\nelusive. In this work, we address the problem of molecular assembly, where a\nset $\\mathcal{S}$ of identical rigid molecules is packed to form a crystalline\nstructure. Existing state-of-the-art models typically rely on computationally\nexpensive, iterative flow-matching approaches. We propose a novel loss function\nthat correctly captures key geometric molecular properties while maintaining\npermutation invariance over $\\mathcal{S}$. We achieve this via a differentiable\nlinear assignment scheme based on the Sinkhorn algorithm. Remarkably, we show\nthat even a simple regression using our method {\\em SinkFast} significantly\noutperforms more complex flow-matching approaches on the COD-Cluster17\nbenchmark, a curated subset of the Crystallography Open Database (COD).",
+    "published": "2025-08-31T13:03:08+00:00",
+    "updated": "2025-09-05T10:10:19+00:00",
+    "categories": [
+      "cs.LG",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.00832v2",
+    "base_id": "2509.00832",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2509.00832v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.08224v2",
+    "title": "AI-Assisted Rapid Crystal Structure Generation Towards a Target Local Environment",
+    "authors": [
+      "Osman Goni Ridwan",
+      "Sylvain Pitié",
+      "Monish Soundar Raj",
+      "Dong Dai",
+      "Gilles Frapper",
+      "Hongfei Xue",
+      "Qiang Zhu"
+    ],
+    "summary": "In the field of material design, traditional crystal structure prediction\napproaches require extensive structural sampling through computationally\nexpensive energy minimization methods using either force fields or quantum\nmechanical simulations. While emerging artificial intelligence (AI) generative\nmodels have shown great promise in generating realistic crystal structures more\nrapidly, most existing models fail to account for the unique symmetries and\nperiodicity of crystalline materials, and they are limited to handling\nstructures with only a few tens of atoms per unit cell. Here, we present a\nsymmetry-informed AI generative approach called Local Environment\nGeometry-Oriented Crystal Generator (LEGO-xtal) that overcomes these\nlimitations. Our method generates initial structures using AI models trained on\nan augmented small dataset, and then optimizes them using machine learning\nstructure descriptors rather than traditional energy-based optimization. We\ndemonstrate the effectiveness of LEGO-xtal by expanding from 25 known\nlow-energy sp2 carbon allotropes to over 1,700, all within 0.5 eV/atom of the\nground-state energy of graphite. This framework offers a generalizable strategy\nfor the targeted design of materials with modular building blocks, such as\nmetal-organic frameworks and next-generation battery materials.",
+    "published": "2025-06-09T20:47:36+00:00",
+    "updated": "2025-09-05T02:02:24+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "27 pages, 15 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2506.08224v2",
+    "base_id": "2506.08224",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2506.08224v2"
+  }
+]

@@ -34,47 +34,69 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (1)
+## New Papers (2)
 
-*Last updated: 2025-09-06 06:15:16 (SGT)*
+*Last updated: 2025-09-09 06:16:02 (SGT)*
 
-### 1. Physically Interpretable Descriptors Drive the Materials Design of Metal Hydrides for Hydrogen Storage
+### 1. Crystal Structure Prediction with a Geometric Permutation-Invariant Loss Function
 
-**Authors:** Seong-Hoon Jang, Di Zhang, Hung Ba Tran, Xue Jia, Kiyoe Konno, Ryuhei Sato, Shin-ichi Orimo, and Hao Li
+**Authors:** Emmanuel Jehanno, Romain Menegaux, Julien Mairal, Sergei Grudinin
 
-**Published:** 2025-09-04
+**Published:** 2025-08-31
+
+**Category:** cs.LG
+
+**ID:** 2509.00832v2
+
+**Link:** [http://arxiv.org/abs/2509.00832v2](http://arxiv.org/abs/2509.00832v2)
+
+**Summary:** Crystalline structure prediction remains an open challenge in materials
+design. Despite recent advances in computational materials science, accurately
+predicting the three-dimensional crystal structures of organic materials--an
+essential first step for designing materials with targeted properties--remains
+elusive. In this work, we address the problem of molecular assembly, where a
+set $\mathcal{S}$ of identical rigid molecules is packed to form a crystalline
+structure. Existing state-of-the-art models typically rely on computationally
+expensive, iterative flow-matching approaches. We propose a novel loss function
+that correctly captures key geometric molecular properties while maintaining
+permutation invariance over $\mathcal{S}$. We achieve this via a differentiable
+linear assignment scheme based on the Sinkhorn algorithm. Remarkably, we show
+that even a simple regression using our method {\em SinkFast} significantly
+outperforms more complex flow-matching approaches on the COD-Cluster17
+benchmark, a curated subset of the Crystallography Open Database (COD)....
+
+---
+
+### 2. AI-Assisted Rapid Crystal Structure Generation Towards a Target Local Environment
+
+**Authors:** Osman Goni Ridwan, Sylvain Pitié, Monish Soundar Raj, Dong Dai, Gilles Frapper, Hongfei Xue, Qiang Zhu
+
+**Published:** 2025-06-09
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2509.04039v1
+**ID:** 2506.08224v2
 
-**Link:** [http://arxiv.org/abs/2509.04039v1](http://arxiv.org/abs/2509.04039v1)
+**Link:** [http://arxiv.org/abs/2506.08224v2](http://arxiv.org/abs/2506.08224v2)
 
-**Summary:** Designing metal hydrides for hydrogen storage remains a longstanding
-challenge due to the vast compositional space and complex structure-property
-relationships. Herein, for the first time, we present physically interpretable
-models for predicting two key performance metrics, gravimetric hydrogen density
-$w$ and equilibrium pressure $P_{\rm eq,RT}$ at room temperature, based on a
-minimal set of chemically meaningful descriptors. Using a rigorously curated
-dataset of $5,089$ metal hydride compositions from our recently developed
-Digital Hydrogen Platform (\it{DigHyd}) based on large-scale data mining from
-available experimental literature of solid-state hydrogen storage materials, we
-systematically constructed over $1.6$ million candidate models using
-combinations of scalar transformations and nonlinear link functions. The final
-closed-form models, derived from $2$-$3$ descriptors each, achieve predictive
-accuracies on par with state-of-the-art machine learning methods, while
-maintaining full physical transparency. Strikingly, descriptor-based design
-maps generated from these models reveal a fundamental trade-off between $w$ and
-$P_{\rm eq,RT}$: saline-type hydrides, composed of light electropositive
-elements, offer high $w$ but low $P_{\rm eq,RT}$, whereas interstitial-type
-hydrides based on heavier electronegative transition metals show the opposite
-trend. Notably, Be-based systems, such as Be-Na alloys, emerge as rare
-candidates that simultaneously satisfy both performance metrics, attributed to
-the unique combination of light mass and high molar density for Be. Our models
-indicate that Be-based systems may offer renewed prospects for approaching
-these benchmarks. These results provide chemically intuitive guidelines for
-materials design and establish a scalable framework for the rational discovery
-of materials in complex chemical spaces....
+**Summary:** In the field of material design, traditional crystal structure prediction
+approaches require extensive structural sampling through computationally
+expensive energy minimization methods using either force fields or quantum
+mechanical simulations. While emerging artificial intelligence (AI) generative
+models have shown great promise in generating realistic crystal structures more
+rapidly, most existing models fail to account for the unique symmetries and
+periodicity of crystalline materials, and they are limited to handling
+structures with only a few tens of atoms per unit cell. Here, we present a
+symmetry-informed AI generative approach called Local Environment
+Geometry-Oriented Crystal Generator (LEGO-xtal) that overcomes these
+limitations. Our method generates initial structures using AI models trained on
+an augmented small dataset, and then optimizes them using machine learning
+structure descriptors rather than traditional energy-based optimization. We
+demonstrate the effectiveness of LEGO-xtal by expanding from 25 known
+low-energy sp2 carbon allotropes to over 1,700, all within 0.5 eV/atom of the
+ground-state energy of graphite. This framework offers a generalizable strategy
+for the targeted design of materials with modular building blocks, such as
+metal-organic frameworks and next-generation battery materials....
 
 ---
 
