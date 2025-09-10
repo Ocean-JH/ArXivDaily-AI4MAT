@@ -1,0 +1,162 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.07150v1",
+    "title": "PLaID++: A Preference Aligned Language Model for Targeted Inorganic Materials Design",
+    "authors": [
+      "Andy Xu",
+      "Rohan Desai",
+      "Larry Wang",
+      "Gabriel Hope",
+      "Ethan Ritz"
+    ],
+    "summary": "Discovering novel materials is critical for technological advancements such\nas solar cells, batteries, and carbon capture. However, the development of new\nmaterials is constrained by a slow and expensive trial-and-error process. To\naccelerate this pipeline, we introduce PLaID++, a Large Language Model (LLM)\nfine-tuned for stable and property-guided crystal generation. We fine-tune\nQwen-2.5 7B to generate crystal structures using a novel Wyckoff-based text\nrepresentation. We show that generation can be effectively guided with a\nreinforcement learning technique based on Direct Preference Optimization (DPO),\nwith sampled structures categorized by their stability, novelty, and space\ngroup. By encoding symmetry constraints directly into text and guiding model\noutputs towards desirable chemical space, PLaID++ generates structures that are\nthermodynamically stable, unique, and novel at a $\\sim$50\\% greater rate than\nprior methods and conditionally generates structures with desired space group\nproperties. Our experiments highlight the effectiveness of iterative DPO,\nachieving $\\sim$115\\% and $\\sim$50\\% improvements in unconditional and space\ngroup conditioned generation, respectively, compared to fine-tuning alone. Our\nwork demonstrates the potential of adapting post-training techniques from\nnatural language processing to materials design, paving the way for targeted\nand efficient discovery of novel materials.",
+    "published": "2025-09-08T18:57:57+00:00",
+    "updated": "2025-09-08T18:57:57+00:00",
+    "categories": [
+      "cs.LG",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.07150v1",
+    "base_id": "2509.07150",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.07150v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.06093v1",
+    "title": "Language Native Lightly Structured Databases for Large Language Model Driven Composite Materials Research",
+    "authors": [
+      "Yuze Liu",
+      "Zhaoyuan Zhang",
+      "Xiangsheng Zeng",
+      "Yihe Zhang",
+      "Leping Yu",
+      "Lejia Wang",
+      "Xi Yu"
+    ],
+    "summary": "Chemical and materials research has traditionally relied heavily on knowledge\nnarrative, with progress often driven by language-based descriptions of\nprinciples, mechanisms, and experimental experiences, rather than tables,\nlimiting what conventional databases and ML can exploit. We present a\nlanguage-native database for boron nitride nanosheet (BNNS) polymer thermally\nconductive composites that captures lightly structured information from papers\nacross preparation, characterization, theory-computation, and mechanistic\nreasoning, with evidence-linked snippets. Records are organized in a\nheterogeneous database and queried via composite retrieval with semantics, key\nwords and value filters. The system can synthesizes literature into accurate,\nverifiable, and expert style guidance. This substrate enables high fidelity\nefficient Retrieval Augmented Generation (RAG) and tool augmented agents to\ninterleave retrieval with reasoning and deliver actionable SOP. The framework\nsupplies the language rich foundation required for LLM-driven materials\ndiscovery.",
+    "published": "2025-09-07T15:15:55+00:00",
+    "updated": "2025-09-07T15:15:55+00:00",
+    "categories": [
+      "cs.DB",
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "primary_category": "cs.DB",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.06093v1",
+    "base_id": "2509.06093",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.06093v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.05926v1",
+    "title": "Meta-training of diffractive meta-neural networks for super-resolution direction of arrival estimation",
+    "authors": [
+      "Songtao Yang",
+      "Sheng Gao",
+      "Chu Wu",
+      "Zejia Zhao",
+      "Haiou Zhang",
+      "Xing Lin"
+    ],
+    "summary": "Diffractive neural networks leverage the high-dimensional characteristics of\nelectromagnetic (EM) fields for high-throughput computing. However, the\nexisting architectures face challenges in integrating large-scale\nmultidimensional metasurfaces with precise network training and haven't\nutilized multidimensional EM field coding scheme for super-resolution sensing.\nHere, we propose diffractive meta-neural networks (DMNNs) for accurate EM field\nmodulation through metasurfaces, which enable multidimensional multiplexing and\ncoding for multi-task learning and high-throughput super-resolution direction\nof arrival estimation. DMNN integrates pre-trained mini-metanets to\ncharacterize the amplitude and phase responses of meta-atoms across different\npolarizations and frequencies, with structure parameters inversely designed\nusing the gradient-based meta-training. For wide-field super-resolution angle\nestimation, the system simultaneously resolves azimuthal and elevational angles\nthrough x and y-polarization channels, while the interleaving of\nfrequency-multiplexed angular intervals generates spectral-encoded optical\nsuper-oscillations to achieve full-angle high-resolution estimation.\nPost-processing lightweight electronic neural networks further enhance the\nperformance. Experimental results validate that a three-layer DMNN operating at\n27 GHz, 29 GHz, and 31 GHz achieves $\\sim7\\times$ Rayleigh diffraction-limited\nangular resolution (0.5$^\\circ$), a mean absolute error of 0.048$^\\circ$ for\ntwo incoherent targets within a $\\pm 11.5^\\circ$ field of view, and an angular\nestimation throughput an order of magnitude higher (1917) than that of existing\nmethods. The proposed architecture advances high-dimensional photonic computing\nsystems by utilizing inherent high-parallelism and all-optical coding methods\nfor ultra-high-resolution, high-throughput applications.",
+    "published": "2025-09-07T04:49:51+00:00",
+    "updated": "2025-09-07T04:49:51+00:00",
+    "categories": [
+      "physics.optics",
+      "cs.AI",
+      "physics.app-ph"
+    ],
+    "primary_category": "physics.optics",
+    "comment": "47 pages, 17 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.05926v1",
+    "base_id": "2509.05926",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.05926v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2504.16893v2",
+    "title": "Crystal structure prediction with host-guided inpainting generation and foundation potentials",
+    "authors": [
+      "Peichen Zhong",
+      "Xinzhe Dai",
+      "Bowen Deng",
+      "Gerbrand Ceder",
+      "Kristin A. Persson"
+    ],
+    "summary": "Unconditional crystal structure generation with diffusion models faces\nchallenges in identifying symmetric crystals as the unit cell size increases.\nWe present the Crystal Host-Guided Generation (CHGGen) framework to address\nthis challenge through conditional generation using an inpainting method, which\noptimizes a fraction of atomic positions within a predefined and symmetrized\nhost structure to improve the success rate for symmetric structure generation.\nBy integrating inpainting structure generation with a foundation potential for\nstructure optimization, we demonstrate the method on the ZnS-P$_2$S$_5$ and\nLi-Si chemical systems, where the inpainting method generates a higher fraction\nof symmetric structures than unconditional generation. The practical\nsignificance of CHGGen extends to enabling the structural modification of\ncrystal structures, particularly for systems with partial occupancy or\nintercalation chemistry. The inpainting method also allows for seamless\nintegration with other generative models, providing a versatile framework for\naccelerating materials discovery.",
+    "published": "2025-04-23T17:21:03+00:00",
+    "updated": "2025-09-07T02:16:35+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": "10.1039/D5MH00774G",
+    "pdf_url": "http://arxiv.org/pdf/2504.16893v2",
+    "base_id": "2504.16893",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2504.16893v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.04039v2",
+    "title": "Physically Interpretable Descriptors Drive the Materials Design of Metal Hydrides for Hydrogen Storage",
+    "authors": [
+      "Seong-Hoon Jang",
+      "Di Zhang",
+      "Hung Ba Tran",
+      "Xue Jia",
+      "Kiyoe Konno",
+      "Ryuhei Sato",
+      "Shin-ichi Orimo",
+      "Hao Li"
+    ],
+    "summary": "Designing metal hydrides for hydrogen storage remains a longstanding\nchallenge due to the vast compositional space and complex structure-property\nrelationships. Herein, for the first time, we present physically interpretable\nmodels for predicting two key performance metrics, gravimetric hydrogen density\n$w$ and equilibrium pressure $P_{\\rm eq,RT}$ at room temperature, based on a\nminimal set of chemically meaningful descriptors. Using a rigorously curated\ndataset of $5,089$ metal hydride compositions from our recently developed\nDigital Hydrogen Platform (\\it{DigHyd}) based on large-scale data mining from\navailable experimental literature of solid-state hydrogen storage materials, we\nsystematically constructed over $1.6$ million candidate models using\ncombinations of scalar transformations and nonlinear link functions. The final\nclosed-form models, derived from $2$-$3$ descriptors each, achieve predictive\naccuracies on par with state-of-the-art machine learning methods, while\nmaintaining full physical transparency. Strikingly, descriptor-based design\nmaps generated from these models reveal a fundamental trade-off between $w$ and\n$P_{\\rm eq,RT}$: saline-type hydrides, composed of light electropositive\nelements, offer high $w$ but low $P_{\\rm eq,RT}$, whereas interstitial-type\nhydrides based on heavier electronegative transition metals show the opposite\ntrend. Notably, Be-based systems, such as Be-Na alloys, emerge as rare\ncandidates that simultaneously satisfy both performance metrics, attributed to\nthe unique combination of light mass and high molar density for Be. Our models\nindicate that Be-based systems may offer renewed prospects for approaching\nthese benchmarks. These results provide chemically intuitive guidelines for\nmaterials design and establish a scalable framework for the rational discovery\nof materials in complex chemical spaces.",
+    "published": "2025-09-04T09:18:04+00:00",
+    "updated": "2025-09-06T19:46:37+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.04039v2",
+    "base_id": "2509.04039",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2509.04039v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.05712v1",
+    "title": "Unveiling the critical factors in crystal structure graph representation: a comparative analysis using streamlined MLPSets frameworks",
+    "authors": [
+      "Hongwei Du",
+      "Hong Wang"
+    ],
+    "summary": "Graph Neural Networks have rapidly advanced in materials science and\nchemistry,with their performance critically dependent on comprehensive\nrepresentations of crystal or molecular structures across five dimensions:\nelemental information, geometric topology, electronic interactions, symmetry,\nand long-range interactions. Existing models still exhibit limitations in\nrepresenting electronic interactions, symmetry, and long-range information.\nThis study compares physics-based site feature calculators with data-driven\ngraph representation strategies. We find that the latter achieve superior\nperformance in representation completeness, convergence speed, and\nextrapolation capability by incorporating electronic structure generation\nmodels-such as variational autoencoders (VAEs) that compress Kohn-Sham wave\nfunctions and leveraging multi-task learning. Notably, the CHGNet-V1/V2\nstrategies, when integrated into the DenseGNN model,significantly outperform\nstate-of-the-art models across 35 datasets from Matbench and JARVIS-DFT,\nyielding predictions with accuracy close to that of DFT calculations.\nFurthermore, applying a pre-training and fine-tuning strategy substantially\nreduces the prediction error for band gaps of complex disordered materials,\ndemonstrating the superiority and potential of data-driven graph\nrepresentations in accelerating materials discovery.",
+    "published": "2025-09-06T13:20:42+00:00",
+    "updated": "2025-09-06T13:20:42+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.05712v1",
+    "base_id": "2509.05712",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.05712v1"
+  }
+]
