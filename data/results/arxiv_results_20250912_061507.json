@@ -1,0 +1,32 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.08418v1",
+    "title": "Facet: highly efficient E(3)-equivariant networks for interatomic potentials",
+    "authors": [
+      "Nicholas Miklaucic",
+      "Lai Wei",
+      "Rongzhi Dong",
+      "Nihang Fu",
+      "Sadman Sadeed Omee",
+      "Qingyang Li",
+      "Sourin Dey",
+      "Victor Fung",
+      "Jianjun Hu"
+    ],
+    "summary": "Computational materials discovery is limited by the high cost of\nfirst-principles calculations. Machine learning (ML) potentials that predict\nenergies from crystal structures are promising, but existing methods face\ncomputational bottlenecks. Steerable graph neural networks (GNNs) encode\ngeometry with spherical harmonics, respecting atomic symmetries -- permutation,\nrotation, and translation -- for physically realistic predictions. Yet\nmaintaining equivariance is difficult: activation functions must be modified,\nand each layer must handle multiple data types for different harmonic orders.\nWe present Facet, a GNN architecture for efficient ML potentials, developed\nthrough systematic analysis of steerable GNNs. Our innovations include\nreplacing expensive multi-layer perceptrons (MLPs) for interatomic distances\nwith splines, which match performance while cutting computational and memory\ndemands. We also introduce a general-purpose equivariant layer that mixes node\ninformation via spherical grid projection followed by standard MLPs -- faster\nthan tensor products and more expressive than linear or gate layers. On the\nMPTrj dataset, Facet matches leading models with far fewer parameters and under\n10% of their training compute. On a crystal relaxation task, it runs twice as\nfast as MACE models. We further show SevenNet-0's parameters can be reduced by\nover 25% with no accuracy loss. These techniques enable more than 10x faster\ntraining of large-scale foundation models for ML potentials, potentially\nreshaping computational materials discovery.",
+    "published": "2025-09-10T09:06:24+00:00",
+    "updated": "2025-09-10T09:06:24+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.LG"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.08418v1",
+    "base_id": "2509.08418",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.08418v1"
+  }
+]
