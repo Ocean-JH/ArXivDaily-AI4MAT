@@ -1,0 +1,66 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2505.08159v2",
+    "title": "Self-Optimizing Machine Learning Potential Assisted Automated Workflow for Highly Efficient Complex Systems Material Design",
+    "authors": [
+      "Jiaxiang Li",
+      "Junwei Feng",
+      "Jie Luo",
+      "Bowen Jiang",
+      "Xiangyu Zheng",
+      "Qigang Song",
+      "Jian Lv",
+      "Keith Butler",
+      "Hanyu Liu",
+      "Congwei Xie",
+      "Yu Xie",
+      "Yanming Ma"
+    ],
+    "summary": "Machine learning interatomic potentials have revolutionized complex materials\ndesign by enabling rapid exploration of material configurational spaces via\ncrystal structure prediction with ab initio accuracy. However, critical\nchallenges persist in ensuring robust generalization to unknown structures and\nminimizing the requirement for substantial expert knowledge and time-consuming\nmanual interventions. Here, we propose an automated crystal structure\nprediction framework built upon the attention-coupled neural networks potential\nto address these limitations. The generalizability of the potential is achieved\nby sampling regions across the local minima of the potential energy surface,\nwhere the self-evolving pipeline autonomously refines the potential iteratively\nwhile minimizing human intervention. The workflow is validated on Mg-Ca-H\nternary and Be-P-N-O quaternary systems by exploring nearly 10 million\nconfigurations, demonstrating substantial speedup compared to first-principles\ncalculations. These results underscore the effectiveness of our approach in\naccelerating the exploration and discovery of complex multi-component\nfunctional materials.",
+    "published": "2025-05-13T01:34:34+00:00",
+    "updated": "2025-09-11T13:13:45+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.LG"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2505.08159v2",
+    "base_id": "2505.08159",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2505.08159v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.09307v1",
+    "title": "Can Multimodal LLMs See Materials Clearly? A Multimodal Benchmark on Materials Characterization",
+    "authors": [
+      "Zhengzhao Lai",
+      "Youbin Zheng",
+      "Zhenyang Cai",
+      "Haonan Lyu",
+      "Jinpu Yang",
+      "Hongqing Liang",
+      "Yan Hu",
+      "Benyou Wang"
+    ],
+    "summary": "Materials characterization is fundamental to acquiring materials information,\nrevealing the processing-microstructure-property relationships that guide\nmaterial design and optimization. While multimodal large language models\n(MLLMs) have recently shown promise in generative and predictive tasks within\nmaterials science, their capacity to understand real-world characterization\nimaging data remains underexplored. To bridge this gap, we present MatCha, the\nfirst benchmark for materials characterization image understanding, comprising\n1,500 questions that demand expert-level domain expertise. MatCha encompasses\nfour key stages of materials research comprising 21 distinct tasks, each\ndesigned to reflect authentic challenges faced by materials scientists. Our\nevaluation of state-of-the-art MLLMs on MatCha reveals a significant\nperformance gap compared to human experts. These models exhibit degradation\nwhen addressing questions requiring higher-level expertise and sophisticated\nvisual perception. Simple few-shot and chain-of-thought prompting struggle to\nalleviate these limitations. These findings highlight that existing MLLMs still\nexhibit limited adaptability to real-world materials characterization\nscenarios. We hope MatCha will facilitate future research in areas such as new\nmaterial discovery and autonomous scientific agents. MatCha is available at\nhttps://github.com/FreedomIntelligence/MatCha.",
+    "published": "2025-09-11T09:50:16+00:00",
+    "updated": "2025-09-11T09:50:16+00:00",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL",
+      "cs.MM"
+    ],
+    "primary_category": "cs.CV",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.09307v1",
+    "base_id": "2509.09307",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.09307v1"
+  }
+]

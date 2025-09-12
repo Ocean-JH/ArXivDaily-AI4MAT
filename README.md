@@ -34,43 +34,72 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (1)
+## New Papers (2)
 
-*Last updated: 2025-09-12 06:15:16 (SGT)*
+*Last updated: 2025-09-13 06:14:41 (SGT)*
 
-### 1. Facet: highly efficient E(3)-equivariant networks for interatomic potentials
+### 1. Self-Optimizing Machine Learning Potential Assisted Automated Workflow for Highly Efficient Complex Systems Material Design
 
-**Authors:** Nicholas Miklaucic, Lai Wei, Rongzhi Dong, Nihang Fu, Sadman Sadeed Omee, Qingyang Li, Sourin Dey, Victor Fung, Jianjun Hu
+**Authors:** Jiaxiang Li, Junwei Feng, Jie Luo, Bowen Jiang, Xiangyu Zheng, Qigang Song, Jian Lv, Keith Butler, Hanyu Liu, Congwei Xie, Yu Xie, Yanming Ma
 
-**Published:** 2025-09-10
+**Published:** 2025-05-13
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2509.08418v1
+**ID:** 2505.08159v2
 
-**Link:** [http://arxiv.org/abs/2509.08418v1](http://arxiv.org/abs/2509.08418v1)
+**Link:** [http://arxiv.org/abs/2505.08159v2](http://arxiv.org/abs/2505.08159v2)
 
-**Summary:** Computational materials discovery is limited by the high cost of
-first-principles calculations. Machine learning (ML) potentials that predict
-energies from crystal structures are promising, but existing methods face
-computational bottlenecks. Steerable graph neural networks (GNNs) encode
-geometry with spherical harmonics, respecting atomic symmetries -- permutation,
-rotation, and translation -- for physically realistic predictions. Yet
-maintaining equivariance is difficult: activation functions must be modified,
-and each layer must handle multiple data types for different harmonic orders.
-We present Facet, a GNN architecture for efficient ML potentials, developed
-through systematic analysis of steerable GNNs. Our innovations include
-replacing expensive multi-layer perceptrons (MLPs) for interatomic distances
-with splines, which match performance while cutting computational and memory
-demands. We also introduce a general-purpose equivariant layer that mixes node
-information via spherical grid projection followed by standard MLPs -- faster
-than tensor products and more expressive than linear or gate layers. On the
-MPTrj dataset, Facet matches leading models with far fewer parameters and under
-10% of their training compute. On a crystal relaxation task, it runs twice as
-fast as MACE models. We further show SevenNet-0's parameters can be reduced by
-over 25% with no accuracy loss. These techniques enable more than 10x faster
-training of large-scale foundation models for ML potentials, potentially
-reshaping computational materials discovery....
+**Summary:** Machine learning interatomic potentials have revolutionized complex materials
+design by enabling rapid exploration of material configurational spaces via
+crystal structure prediction with ab initio accuracy. However, critical
+challenges persist in ensuring robust generalization to unknown structures and
+minimizing the requirement for substantial expert knowledge and time-consuming
+manual interventions. Here, we propose an automated crystal structure
+prediction framework built upon the attention-coupled neural networks potential
+to address these limitations. The generalizability of the potential is achieved
+by sampling regions across the local minima of the potential energy surface,
+where the self-evolving pipeline autonomously refines the potential iteratively
+while minimizing human intervention. The workflow is validated on Mg-Ca-H
+ternary and Be-P-N-O quaternary systems by exploring nearly 10 million
+configurations, demonstrating substantial speedup compared to first-principles
+calculations. These results underscore the effectiveness of our approach in
+accelerating the exploration and discovery of complex multi-component
+functional materials....
+
+---
+
+### 2. Can Multimodal LLMs See Materials Clearly? A Multimodal Benchmark on Materials Characterization
+
+**Authors:** Zhengzhao Lai, Youbin Zheng, Zhenyang Cai, Haonan Lyu, Jinpu Yang, Hongqing Liang, Yan Hu, Benyou Wang
+
+**Published:** 2025-09-11
+
+**Category:** cs.CV
+
+**ID:** 2509.09307v1
+
+**Link:** [http://arxiv.org/abs/2509.09307v1](http://arxiv.org/abs/2509.09307v1)
+
+**Summary:** Materials characterization is fundamental to acquiring materials information,
+revealing the processing-microstructure-property relationships that guide
+material design and optimization. While multimodal large language models
+(MLLMs) have recently shown promise in generative and predictive tasks within
+materials science, their capacity to understand real-world characterization
+imaging data remains underexplored. To bridge this gap, we present MatCha, the
+first benchmark for materials characterization image understanding, comprising
+1,500 questions that demand expert-level domain expertise. MatCha encompasses
+four key stages of materials research comprising 21 distinct tasks, each
+designed to reflect authentic challenges faced by materials scientists. Our
+evaluation of state-of-the-art MLLMs on MatCha reveals a significant
+performance gap compared to human experts. These models exhibit degradation
+when addressing questions requiring higher-level expertise and sophisticated
+visual perception. Simple few-shot and chain-of-thought prompting struggle to
+alleviate these limitations. These findings highlight that existing MLLMs still
+exhibit limited adaptability to real-world materials characterization
+scenarios. We hope MatCha will facilitate future research in areas such as new
+material discovery and autonomous scientific agents. MatCha is available at
+https://github.com/FreedomIntelligence/MatCha....
 
 ---
 
