@@ -1,0 +1,118 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.10293v1",
+    "title": "OpenCSP: A Deep Learning Framework for Crystal Structure Prediction from Ambient to High Pressure",
+    "authors": [
+      "Yinan Wang",
+      "Xiaoyang Wang",
+      "Zhenyu Wang",
+      "Jing Wu",
+      "Jian Lv",
+      "Han Wang"
+    ],
+    "summary": "High-pressure crystal structure prediction (CSP) underpins advances in\ncondensed matter physics, planetary science, and materials discovery. Yet, most\nlarge atomistic models are trained on near-ambient, equilibrium data, leading\nto degraded stress accuracy at tens to hundreds of gigapascals and sparse\ncoverage of pressure-stabilized stoichiometries and dense coordination motifs.\nHere, we introduce OpenCSP, a machine learning framework for CSP tasks spanning\nambient to high-pressure conditions. This framework comprises an open-source\npressure-resolved dataset alongside a suite of publicly available atomistic\nmodels that are jointly optimized for accuracy in energy, force, and stress\npredictions. The dataset is constructed via randomized high-pressure sampling\nand iteratively refined through an uncertainty-guided concurrent learning\nstrategy, which enriches underrepresented compression regimes while suppressing\nredundant DFT labeling. Despite employing a training corpus one to two orders\nof magnitude smaller than those of leading large models, OpenCSP achieves\ncomparable or superior performance in high-pressure enthalpy ranking and\nstability prediction. Across benchmark CSP tasks spanning a wide pressure\nwindow, our models match or surpass MACE-MPA-0, MatterSim v1 5M, and\nGRACE-2L-OAM, with the largest gains observed at elevated pressures. These\nresults demonstrate that targeted, pressure-aware data acquisition coupled with\nscalable architectures enables data-efficient, high-fidelity CSP, paving the\nway for autonomous materials discovery under ambient and extreme conditions.",
+    "published": "2025-09-12T14:35:42+00:00",
+    "updated": "2025-09-12T14:35:42+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "15 pages, 5 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.10293v1",
+    "base_id": "2509.10293",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.10293v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2403.15734v3",
+    "title": "Space Group Informed Transformer for Crystalline Materials Generation",
+    "authors": [
+      "Zhendong Cao",
+      "Xiaoshan Luo",
+      "Jian Lv",
+      "Lei Wang"
+    ],
+    "summary": "We introduce CrystalFormer, a transformer-based autoregressive model\nspecifically designed for space group-controlled generation of crystalline\nmaterials. By explicitly incorporating space group symmetry, CrystalFormer\ngreatly reduces the effective complexity of crystal space, which is essential\nfor data-and compute-efficient generative modeling of crystalline materials.\nLeveraging the prominent discrete and sequential nature of the Wyckoff\npositions, CrystalFormer learns to generate crystals by directly predicting the\nspecies and coordinates of symmetry-inequivalent atoms in the unit cell. We\ndemonstrate the advantages of CrystalFormer in standard tasks such as symmetric\nstructure initialization and element substitution over widely used conventional\napproaches. Furthermore, we showcase its plug-and-play application to\nproperty-guided materials design, highlighting its flexibility. Our analysis\nreveals that CrystalFormer ingests sensible solid-state chemistry knowledge and\nheuristics by compressing the material dataset, thus enabling systematic\nexploration of crystalline materials space. The simplicity, generality, and\nadaptability of CrystalFormer position it as a promising architecture to be the\nfoundational model of the entire crystalline materials space, heralding a new\nera in materials discovery and design.",
+    "published": "2024-03-23T06:01:45+00:00",
+    "updated": "2025-09-12T13:52:28+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.LG",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "29 pages, 12 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2403.15734v3",
+    "base_id": "2403.15734",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2403.15734v3"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.09998v1",
+    "title": "Unveiling the Role of Solvents in DBTTF:HATCN Ternary Cocrystals",
+    "authors": [
+      "Ana M. Valencia",
+      "Lisa Schraut-May",
+      "Marie Siegert",
+      "Sebastian Hammer",
+      "Beatrice Cula",
+      "Alexandra Friedrich",
+      "Holger Helten",
+      "Jens Pflaum",
+      "Caterina Cocchi",
+      "Andreas Opitz"
+    ],
+    "summary": "Donor-acceptor (D:A) cocrystals offer a promising platform for\nnext-generation optoelectronic applications, but the impact of residual solvent\nmolecules on their properties remains an open question. We investigate six\nnovel D:A cocrystals of dibenzotetrathiafulvalene (DBTTF) and\n1,4,5,8,9,11-hexaazatriphenylenehexacarbo-nitrile (HATCN), prepared via solvent\nevaporation, yielding 1:1 molar ratios, and horizontal vapor deposition,\nresulting in solvent-free 3:2 cocrystals. Combining spectroscopy and\ndensity-functional theory (DFT) calculations, we find that, while the\nelectronic and optical properties of the cocrystals are largely unaffected by\nsolvent inclusion, the charge transfer mechanism is surprisingly complex. Raman\nspectroscopy reveals a consistent charge transfer of 0.11 $e$ across all\nconsidered structures, corroborated by DFT calculations on solvent-free\nsystems. Partial charge analysis reveals that in solvated cocrystals, solvent\nmolecules actively participate in the charge transfer process as primary\nelectron acceptors. This involvement can perturb the expected D:A behavior,\nrevealing a faceted charge-transfer mechanism in HATCN even beyond the\nestablished involvement of its cyano group. Overall, our study demonstrates\nthat while solution-based methods preserve the intrinsic D:A characteristics,\nsolvents can be leveraged as active electronic components, opening new avenues\nfor material design.",
+    "published": "2025-09-12T06:47:20+00:00",
+    "updated": "2025-09-12T06:47:20+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.chem-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.09998v1",
+    "base_id": "2509.09998",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.09998v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2505.08159v3",
+    "title": "Self-Optimizing Machine Learning Potential Assisted Automated Workflow for Highly Efficient Complex Systems Material Design",
+    "authors": [
+      "Jiaxiang Li",
+      "Junwei Feng",
+      "Jie Luo",
+      "Bowen Jiang",
+      "Xiangyu Zheng",
+      "Qigang Song",
+      "Jian Lv",
+      "Keith Butler",
+      "Hanyu Liu",
+      "Congwei Xie",
+      "Yu Xie",
+      "Yanming Ma"
+    ],
+    "summary": "Machine learning interatomic potentials have revolutionized complex materials\ndesign by enabling rapid exploration of material configurational spaces via\ncrystal structure prediction with ab initio accuracy. However, critical\nchallenges persist in ensuring robust generalization to unknown structures and\nminimizing the requirement for substantial expert knowledge and time-consuming\nmanual interventions. Here, we propose an automated crystal structure\nprediction framework built upon the attention-coupled neural networks potential\nto address these limitations. The generalizability of the potential is achieved\nby sampling regions across the local minima of the potential energy surface,\nwhere the self-evolving pipeline autonomously refines the potential iteratively\nwhile minimizing human intervention. The workflow is validated on Mg-Ca-H\nternary and Be-P-N-O quaternary systems by exploring nearly 10 million\nconfigurations, demonstrating substantial speedup compared to first-principles\ncalculations. These results underscore the effectiveness of our approach in\naccelerating the exploration and discovery of complex multi-component\nfunctional materials.",
+    "published": "2025-05-13T01:34:34+00:00",
+    "updated": "2025-09-12T01:19:46+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.LG"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2505.08159v3",
+    "base_id": "2505.08159",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2505.08159v3"
+  }
+]
