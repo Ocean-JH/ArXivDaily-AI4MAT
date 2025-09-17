@@ -1,0 +1,28 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2505.17491v2",
+    "title": "HiLAB: A Hybrid Inverse-Design Framework",
+    "authors": [
+      "Reza Marzban",
+      "Hamed Abiri",
+      "Raphael Pestourie",
+      "Ali Adibi"
+    ],
+    "summary": "HiLAB (Hybrid inverse-design with Latent-space learning, Adjoint-based\npartial optimizations, and Bayesian optimization) is a new paradigm for inverse\ndesign of nanophotonic structures. Combining early-terminated topological\noptimization (TO) with a Vision Transformer-based variational autoencoder (VAE)\nand a Bayesian search, HiLAB addresses multi-functional device design by\ngenerating diverse freeform configurations at reduced simulation costs.\nShortened adjoint-driven TO runs, coupled with randomized physical parameters,\nproduce robust initial structures. These structures are compressed into a\ncompact latent space by the VAE, enabling Bayesian optimization to co-optimize\ngeometry and physical hyperparameters. Crucially, the trained VAE can be reused\nfor alternative objectives or constraints by adjusting only the acquisition\nfunction. Compared to conventional TO pipelines prone to local optima, HiLAB\nsystematically explores near-global optima with considerably fewer\nelectromagnetic simulations. Even after accounting for training overhead, the\ntotal number of full simulations decreases by over an order of magnitude,\naccelerating the discovery of fabrication-friendly devices. Demonstrating its\nefficacy, HiLAB is used to design an achromatic beam deflector for red, green,\nand blue wavelengths, achieving balanced diffraction efficiencies of ~25% while\nmitigating chromatic aberrations-a performance surpassing existing\ndemonstrations. Overall, HiLAB provides a flexible platform for robust,\nmulti-parameter photonic designs and rapid adaptation to next-generation\nnanophotonic challenges.",
+    "published": "2025-05-23T05:34:56+00:00",
+    "updated": "2025-09-16T14:30:32+00:00",
+    "categories": [
+      "physics.optics",
+      "cs.AI",
+      "physics.app-ph"
+    ],
+    "primary_category": "physics.optics",
+    "comment": "20 pages, 7 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2505.17491v2",
+    "base_id": "2505.17491",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2505.17491v2"
+  }
+]
