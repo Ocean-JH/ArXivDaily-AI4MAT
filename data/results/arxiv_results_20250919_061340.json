@@ -1,0 +1,27 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.13916v1",
+    "title": "Inverse Design of Amorphous Materials with Targeted Properties",
+    "authors": [
+      "Jonas A. Finkler",
+      "Yan Lin",
+      "Tao Du",
+      "Jilin Hu",
+      "Morten M. Smedskjaer"
+    ],
+    "summary": "Disordered (amorphous) materials, such as glasses, are emerging as promising\ncandidates for applications within energy storage, nonlinear optics, and\ncatalysis. Their lack of long-range order and complex short- and medium-range\norderings, which depend on composition as well as thermal and pressure history,\noffer a vast materials design space. To this end, relying on machine learning\nmethods instead of trial and error is promising, and among these, inverse\ndesign has emerged as a tool for discovering novel materials with desired\nproperties. Although inverse design methods based on diffusion models have\nshown success for crystalline materials and molecules, similar methods\ntargeting amorphous materials remain less developed, mainly because of the\nlimited availability of large-scale datasets and the requirement for larger\nsimulation cells. In this work, we propose and validate an inverse design\nmethod for amorphous materials, introducing AMDEN (Amorphous Material DEnoising\nNetwork), a diffusion model-based framework that generates structures of\namorphous materials. These low-energy configurations are typically obtained\nthrough a thermal motion-driven random search-like process that cannot be\nreplicated by standard denoising procedures. We therefore introduce an\nenergy-based AMDEN variant that implements Hamiltonian Monte Carlo refinement\nfor generating these relaxed structures. We further introduce several amorphous\nmaterial datasets with diverse properties and compositions to evaluate our\nframework and support future development.",
+    "published": "2025-09-17T11:19:55+00:00",
+    "updated": "2025-09-17T11:19:55+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.13916v1",
+    "base_id": "2509.13916",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.13916v1"
+  }
+]
