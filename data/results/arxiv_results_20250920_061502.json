@@ -1,0 +1,55 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.14729v1",
+    "title": "High-Throughput Quantification of Altermagnetic Band Splitting",
+    "authors": [
+      "Ali Sufyan",
+      "Brahim Marfoua",
+      "J. Andreas Larsson",
+      "Erik van Loon",
+      "Rickard Armiento"
+    ],
+    "summary": "Altermagnetism represents a recently established class of collinear magnetism\nthat combines zero net magnetization with momentum-dependent spin polarization,\nenabled by symmetry constraints rather than spin-orbit coupling. This\ndistinctive behavior gives rise to sizable spin splitting even in materials\ncomposed of light, earth-abundant elements, offering promising prospects for\nnext-generation spintronics applications. Despite growing theoretical and\nexperimental interest, the discovery of altermagnetic materials remains limited\ndue to the complexity of magnetic symmetry and the inefficiency of conventional\napproaches. Here, we present a comprehensive high-throughput screening of the\nentire MAGNDATA database, integrating symmetry analysis with spin-polarized\ndensity functional theory (DFT) calculations to identify and characterize\naltermagnetic candidates. Our workflow uncovers 173 materials exhibiting\nsignificant spin splitting ($\\geq 50$ meV within $\\pm 3$ eV of the Fermi\nlevel), spanning both metallic and semiconducting systems. Crucially, our\nmomentum-resolved analysis reveals that the spin splitting varies strongly\nacross the Brillouin zone, and that the maximal splitting tends to occur away\nfrom the high-symmetry paths, a result that directly informs and guides future\nphotoemission experiments. By expanding the catalog of known altermagnets and\nelucidating the symmetry-protected origins of spin splitting, this work lays a\nrobust foundation for future experimental and theoretical advances in\nspintronics and quantum materials discovery.",
+    "published": "2025-09-18T08:27:23+00:00",
+    "updated": "2025-09-18T08:27:23+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.14729v1",
+    "base_id": "2509.14729",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.14729v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.14542v1",
+    "title": "S1-MatAgent: A planner driven multi-agent system for material discovery",
+    "authors": [
+      "Xinrui Wang",
+      "Chengbo Li",
+      "Boxuan Zhang",
+      "Jiahui Shi",
+      "Nian Ran",
+      "Linjing Li",
+      "Jianjun Liu",
+      "Dajun Zeng"
+    ],
+    "summary": "The discovery of high-performance materials is crucial for technological\nadvancement. Inverse design using multi-agent systems (MAS) shows great\npotential for new material discovery. However, current MAS for materials\nresearch rely on predefined configurations and tools, limiting their\nadaptability and scalability. To address these limitations, we developed a\nplanner driven multi-agent system (S1-MatAgent) which adopts a Planner-Executor\narchitecture. Planner automatically decomposes complex materials design tasks,\ndynamically configures various tools to generate dedicated Executor agents for\neach subtask, significantly reducing reliance on manual workflow construction\nand specialized configuration. Applied to high-entropy alloy catalysts for\nhydrogen evolution reactions in alkaline conditions, S1-MatAgent completed\nfull-cycle closed-loop design from literature analysis and composition\nrecommendation to performance optimization and experimental validation. To\ntackle the deviations between designed materials and target, as well as high\nexperimental verification costs, S1-MatAgent employs a novel composition\noptimization algorithm based on gradients of machine learning interatomic\npotential, achieving 27.7 % improvement in material performance. S1-MatAgent\ndesigned 13 high-performance catalysts from 20 million candidates, with\nNi4Co4Cu1Mo3Ru4 exhibiting an overpotential of 18.6 mV at 10 mA cm-2 and\nmaintaining 97.5 % activity after 500 hours at 500 mA cm-2. The universal MAS\nframework offers a universal and scalable solution for material discovery,\nsignificantly improving design efficiency and adaptability.",
+    "published": "2025-09-18T02:18:24+00:00",
+    "updated": "2025-09-18T02:18:24+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.14542v1",
+    "base_id": "2509.14542",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.14542v1"
+  }
+]

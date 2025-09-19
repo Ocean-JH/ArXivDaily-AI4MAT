@@ -34,43 +34,80 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (1)
+## New Papers (2)
 
-*Last updated: 2025-09-19 06:13:49 (SGT)*
+*Last updated: 2025-09-20 06:15:17 (SGT)*
 
-### 1. Inverse Design of Amorphous Materials with Targeted Properties
+### 1. High-Throughput Quantification of Altermagnetic Band Splitting
 
-**Authors:** Jonas A. Finkler, Yan Lin, Tao Du, Jilin Hu, Morten M. Smedskjaer
+**Authors:** Ali Sufyan, Brahim Marfoua, J. Andreas Larsson, Erik van Loon, Rickard Armiento
 
-**Published:** 2025-09-17
+**Published:** 2025-09-18
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2509.13916v1
+**ID:** 2509.14729v1
 
-**Link:** [http://arxiv.org/abs/2509.13916v1](http://arxiv.org/abs/2509.13916v1)
+**Link:** [http://arxiv.org/abs/2509.14729v1](http://arxiv.org/abs/2509.14729v1)
 
-**Summary:** Disordered (amorphous) materials, such as glasses, are emerging as promising
-candidates for applications within energy storage, nonlinear optics, and
-catalysis. Their lack of long-range order and complex short- and medium-range
-orderings, which depend on composition as well as thermal and pressure history,
-offer a vast materials design space. To this end, relying on machine learning
-methods instead of trial and error is promising, and among these, inverse
-design has emerged as a tool for discovering novel materials with desired
-properties. Although inverse design methods based on diffusion models have
-shown success for crystalline materials and molecules, similar methods
-targeting amorphous materials remain less developed, mainly because of the
-limited availability of large-scale datasets and the requirement for larger
-simulation cells. In this work, we propose and validate an inverse design
-method for amorphous materials, introducing AMDEN (Amorphous Material DEnoising
-Network), a diffusion model-based framework that generates structures of
-amorphous materials. These low-energy configurations are typically obtained
-through a thermal motion-driven random search-like process that cannot be
-replicated by standard denoising procedures. We therefore introduce an
-energy-based AMDEN variant that implements Hamiltonian Monte Carlo refinement
-for generating these relaxed structures. We further introduce several amorphous
-material datasets with diverse properties and compositions to evaluate our
-framework and support future development....
+**Summary:** Altermagnetism represents a recently established class of collinear magnetism
+that combines zero net magnetization with momentum-dependent spin polarization,
+enabled by symmetry constraints rather than spin-orbit coupling. This
+distinctive behavior gives rise to sizable spin splitting even in materials
+composed of light, earth-abundant elements, offering promising prospects for
+next-generation spintronics applications. Despite growing theoretical and
+experimental interest, the discovery of altermagnetic materials remains limited
+due to the complexity of magnetic symmetry and the inefficiency of conventional
+approaches. Here, we present a comprehensive high-throughput screening of the
+entire MAGNDATA database, integrating symmetry analysis with spin-polarized
+density functional theory (DFT) calculations to identify and characterize
+altermagnetic candidates. Our workflow uncovers 173 materials exhibiting
+significant spin splitting ($\geq 50$ meV within $\pm 3$ eV of the Fermi
+level), spanning both metallic and semiconducting systems. Crucially, our
+momentum-resolved analysis reveals that the spin splitting varies strongly
+across the Brillouin zone, and that the maximal splitting tends to occur away
+from the high-symmetry paths, a result that directly informs and guides future
+photoemission experiments. By expanding the catalog of known altermagnets and
+elucidating the symmetry-protected origins of spin splitting, this work lays a
+robust foundation for future experimental and theoretical advances in
+spintronics and quantum materials discovery....
+
+---
+
+### 2. S1-MatAgent: A planner driven multi-agent system for material discovery
+
+**Authors:** Xinrui Wang, Chengbo Li, Boxuan Zhang, Jiahui Shi, Nian Ran, Linjing Li, Jianjun Liu, Dajun Zeng
+
+**Published:** 2025-09-18
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2509.14542v1
+
+**Link:** [http://arxiv.org/abs/2509.14542v1](http://arxiv.org/abs/2509.14542v1)
+
+**Summary:** The discovery of high-performance materials is crucial for technological
+advancement. Inverse design using multi-agent systems (MAS) shows great
+potential for new material discovery. However, current MAS for materials
+research rely on predefined configurations and tools, limiting their
+adaptability and scalability. To address these limitations, we developed a
+planner driven multi-agent system (S1-MatAgent) which adopts a Planner-Executor
+architecture. Planner automatically decomposes complex materials design tasks,
+dynamically configures various tools to generate dedicated Executor agents for
+each subtask, significantly reducing reliance on manual workflow construction
+and specialized configuration. Applied to high-entropy alloy catalysts for
+hydrogen evolution reactions in alkaline conditions, S1-MatAgent completed
+full-cycle closed-loop design from literature analysis and composition
+recommendation to performance optimization and experimental validation. To
+tackle the deviations between designed materials and target, as well as high
+experimental verification costs, S1-MatAgent employs a novel composition
+optimization algorithm based on gradients of machine learning interatomic
+potential, achieving 27.7 % improvement in material performance. S1-MatAgent
+designed 13 high-performance catalysts from 20 million candidates, with
+Ni4Co4Cu1Mo3Ru4 exhibiting an overpotential of 18.6 mV at 10 mA cm-2 and
+maintaining 97.5 % activity after 500 hours at 500 mA cm-2. The universal MAS
+framework offers a universal and scalable solution for material discovery,
+significantly improving design efficiency and adaptability....
 
 ---
 
