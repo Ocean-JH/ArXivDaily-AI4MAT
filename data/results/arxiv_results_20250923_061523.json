@@ -1,0 +1,30 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2505.10994v2",
+    "title": "Space Group Equivariant Crystal Diffusion",
+    "authors": [
+      "Rees Chang",
+      "Angela Pak",
+      "Alex Guerra",
+      "Ni Zhan",
+      "Nick Richardson",
+      "Elif Ertekin",
+      "Ryan P. Adams"
+    ],
+    "summary": "Accelerating inverse design of crystalline materials with generative models\nhas significant implications for a range of technologies. Unlike other atomic\nsystems, 3D crystals are invariant to discrete groups of isometries called the\nspace groups. Crucially, these space group symmetries are known to heavily\ninfluence materials properties. We propose SGEquiDiff, a crystal generative\nmodel which naturally handles space group constraints with space group\ninvariant likelihoods. SGEquiD-iff consists of an SE(3)-invariant, telescoping\ndiscrete sampler of crystal lattices; permutation-invariant, transformer-based\nautoregressive sampling of Wyckoff positions, elements, and numbers of\nsymmetrically unique atoms; and space group equivariant diffusion of atomic\ncoordinates. We show that space group equivariant vector fields automatically\nlive in the tangent spaces of the Wyckoff positions. SGEquiDiff achieves\nstate-of-the-art performance on standard benchmark datasets as assessed by\nquantitative proxy metrics and quantum mechanical calculations. Our code is\navailable at https://github.com/rees-c/sgequidiff.",
+    "published": "2025-05-16T08:45:04+00:00",
+    "updated": "2025-09-19T16:41:09+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": "NeurIPS 2025",
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2505.10994v2",
+    "base_id": "2505.10994",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2505.10994v2"
+  }
+]
