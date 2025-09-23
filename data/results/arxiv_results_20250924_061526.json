@@ -1,0 +1,65 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.17761v1",
+    "title": "Design, synthesis, and physical properties of the intergrowth compound Eu$_2$CuZn$_2$As$_3$",
+    "authors": [
+      "Xiyu Chen",
+      "Ziwen Wang",
+      "Wuzhang Yang",
+      "Jia-Yi Lu",
+      "Zhiyu Zhou",
+      "Shanshan Wang",
+      "Zhi Ren",
+      "Guang-Han Cao",
+      "Shuai Dong",
+      "Zhi-Cheng Wang"
+    ],
+    "summary": "The rational combination of existing magnetic topological compounds presents\na promising route for designing new topological materials. We report the\nsynthesis and comprehensive characterization of the layered quaternary\nintergrowth compound Eu$_2$CuZn$_2$As$_3$, which combines structural units of\ntwo known magnetic topological materials, EuCuAs and EuZn$_2$As$_2$.\nEu$_2$CuZn$_2$As$_3$ exhibits an antiferromagnetic ground state with successive\nmagnetic transitions: quasi-two-dimensional ordering at $T_\\mathrm{M} =\n29.3$\\,K, long-range antiferromagnetic ordering at $T_\\mathrm{N} = 19$\\,K, and\nspin-reorientation at $T_\\mathrm{SR} = 16.3$\\,K. The stepwise magnetic\ntransitions manifest as plateau-like anomalies in the heat capacity. These\ntransitions originate from multiple superexchange pathways and periodic\nvariation of interplane Eu-Eu distances in the intergrowth structure. Charge\ntransport shows a pronounced resistivity increase above $T_\\mathrm{N}$ followed\nby minimal change below the ordering temperature. Magnetic fields rapidly\nsuppress this resistivity rise, yielding significant negative\nmagnetoresistance. Remarkably, Eu$_2$CuZn$_2$As$_3$ inherits the nonlinear\nanomalous Hall effect characteristic of its parent compounds. Energy\nevaluations of collinear spin configurations reveal a lowest-energy state with\nferromagnetic coupling between Eu planes in EuCuAs units while maintaining\nantiferromagnetic coupling within EuZn$_2$As$_2$ units. The corresponding\nelectronic structure displays potentially topologically nontrivial features.\nOur work demonstrates the efficacy of structural hybridization for discovering\nnovel magnetic topological materials and establishes a general strategy for\nmaterials discovery.",
+    "published": "2025-09-22T13:23:51+00:00",
+    "updated": "2025-09-22T13:23:51+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cond-mat.str-el"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.17761v1",
+    "base_id": "2509.17761",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.17761v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.17662v1",
+    "title": "The Roadmap of New Capabilities of High-Intensity Lasers in Material Design and Manipulation",
+    "authors": [
+      "Alexander V. Bulgakov",
+      "Yury V. Ryabchikov",
+      "Yoann Levy",
+      "Nathan T. Goodfriend",
+      "Inam Mirza",
+      "Petr Hauschwitz",
+      "Vladimir A. Volodin",
+      "Martin Divoky",
+      "Carlos Doñate-Buendía",
+      "Bilal Gökce",
+      "Nadezhda M. Bulgakova"
+    ],
+    "summary": "One of the current trends of laser applications in material science is using\nhigh-intensity lasers to provide fast and efficient surface or volume\nmodifications for achieving controllable material properties, synthesis of\nnovel materials with desired functionalities, and upscaling laser technologies\nwith industry-demanded throughputs. Depending on the parameters, lasers can\noffer versatile solutions for scientific and industrial applications, starting\nfrom exploring the fundamental physics of warm dense matter and molecular\nchemistry at ultrashort timescales to large-scale fabrication of surfaces with\nanti-bacterial, tribological, hydrophobic, or hydrophilic properties. The\nobjectives of this Chapter are to provide a review of recent advancements in\nseveral laser application fields, which involve high-intensity lasers, both\nultrashort (femto- and picosecond) and short (nanosecond). After summarizing\ngeneral trends in high-intensity laser processing of materials, we will first\nfocus on the new opportunities offered by high-intensity lasers for the\ncontrolled synthesis of multielement nanoparticles for catalytic and\ntheranostic applications. Then, the blister-based laser-induced forward\ntransfer (BB-LIFT) technique will be presented, allowing a one-step,\nhigh-precision printing of nanomaterials on any substrates. The next section\nwill discuss the selective crystallization of amorphous (as prepared)\nsemiconductor nanoscale materials. The processes enabling high selectivity of\ncrystallization into the desired phase using ultrashort powerful lasers will be\nanalyzed. After that, opportunities for using high-power lasers will be\ndiscussed for upscaling surface nanostructuring with high throughput for\nbio-medical and industrial applications. Finally, an introduction to the Open\nAccess program of the HiLASE Centre, which is targeted at offering users\nhigh-intensity beam time, will be given.",
+    "published": "2025-09-22T12:05:40+00:00",
+    "updated": "2025-09-22T12:05:40+00:00",
+    "categories": [
+      "physics.optics",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "physics.optics",
+    "comment": "93 pages, 54 figures, Chapter",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.17662v1",
+    "base_id": "2509.17662",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.17662v1"
+  }
+]
