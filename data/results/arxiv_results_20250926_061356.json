@@ -1,0 +1,57 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.20087v1",
+    "title": "Enhanced White-Light Emission from Self-Trapped Excitons in Antimony and Bismuth Halides through Structural Design",
+    "authors": [
+      "Philip Klement",
+      "Lukas Gümbel",
+      "Meng Yang",
+      "Jan-Heinrich Littmann",
+      "Tatsuhiko Ohto",
+      "Hirokazu Tada",
+      "Sangam Chatterjee",
+      "Johanna Heine"
+    ],
+    "summary": "Lead halide perovskites have catalyzed the rise of main-group metal halide\nmaterials as promising candidates for next-generation optoelectronics,\nincluding solar cells, light-emitting diodes, lasers, sensors, and\nphotocatalysts. Among these, effi-cient light-emission arises from self-trapped\nexcitons, wherein excited states induce transient lattice distortions that\nlocalize excitons. However, the complex interplay of factors, such as lattice\ndistortions, lattice softness, and electron-phonon cou-pling dynamics, obscures\nthe direct structure-property relationships complicating the targeted material\ndesign. In this study, we advance the understanding of self-trapped exciton\n(STE)-based emission in hybrid antimony and bismuth halides, em-phasizing the\ninterplay of structural and electronic factors that enhance white-light\nemission. We systematically vary com-position, anion dimensionality,\nconnectivity, and the organic cation and find that the presence of Bi/Sb and Cl\nin edge-sharing anion motifs promotes white-light emission and optimal\nelectron-phonon coupling. Chlorides outperform bromides, and organic cations,\nsuch as CMA and BZA, only subtly influence optical behavior by altering lattice\ndynamics and rigidity, resulting in tunable emission characteristics without\ncompromising STEs. This work deepens the understanding of the emis-sion\nmechanisms in hybrid halide perovskites and establishes guiding principles for\ntailoring optoelectronic properties, paving the way for advanced materials with\nenhanced white-light emission for next-generation optoelectronic applications.",
+    "published": "2025-09-24T13:06:28+00:00",
+    "updated": "2025-09-24T13:06:28+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.chem-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "main manuscriot has 13 Pages, 5 figures, 2 tables and supporting\n  information",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.20087v1",
+    "base_id": "2509.20087",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.20087v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.18604v1",
+    "title": "A closed-loop AI framework for hypothesis-driven and interpretable materials design",
+    "authors": [
+      "Kangyu Ji",
+      "Tianran Liu",
+      "Fang Sheng",
+      "Shaun Tan",
+      "Moungi Bawendi",
+      "Tonio Buonassisi"
+    ],
+    "summary": "Scientific hypothesis generation is central to materials discovery, yet\ncurrent approaches often emphasize either conceptual (idea-to-data) reasoning\nor data-driven (data-to-idea) analysis, rarely achieving an effective\nintegration of both. Here, we present a generalizable active learning workflow\nthat integrates top-down, theory-driven hypothesis generation, guided by a\nlarge language model. This is complemented by bottom-up, data-driven hypothesis\ntesting through a root-cause association study. We demonstrate this approach\nthrough the design of equimolar quinary-cation two-dimensional perovskite, a\nchemically complex system with over 850,000 possible cation combinations. In\nthe top-down component, the large language model drives closed-loop\noptimization by proposing candidates that are likely to achieve phase purity,\nleveraging domain knowledge and chain-of-thought reasoning. With each\niteration, the model identifies an increasing number of near phase-pure\ncompositions, sampling less than 0.004% of the design space. In parallel, the\nbottom-up association study identifies molecular features with statistically\nsignificant influences on phase purity. The integration of these approaches\nenables the convergence of conceptual and statistical hypotheses, leading to\ngeneralizable and rational design rules for phase-pure quinary-cation\ntwo-dimensional perovskites. As a proof of concept, we applied the optimized\nphase-pure quinary-cation two-dimensional perovskite film as a surface capping\nlayer in perovskite solar cells, achieving good performance and stability. Our\nframework enables the development of interpretable and generalizable design\nrules that are applicable to a wide range of optimization processes within\ncomplex design spaces, providing a foundational strategy for rational,\nscalable, and efficient materials discovery.",
+    "published": "2025-09-23T03:50:22+00:00",
+    "updated": "2025-09-23T03:50:22+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.18604v1",
+    "base_id": "2509.18604",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.18604v1"
+  }
+]
