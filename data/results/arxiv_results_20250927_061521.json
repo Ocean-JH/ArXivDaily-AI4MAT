@@ -1,0 +1,84 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.20988v1",
+    "title": "AOT*: Efficient Synthesis Planning via LLM-Empowered AND-OR Tree Search",
+    "authors": [
+      "Xiaozhuang Song",
+      "Xuanhao Pan",
+      "Xinjian Zhao",
+      "Hangting Ye",
+      "Shufei Zhang",
+      "Jian Tang",
+      "Tianshu Yu"
+    ],
+    "summary": "Retrosynthesis planning enables the discovery of viable synthetic routes for\ntarget molecules, playing a crucial role in domains like drug discovery and\nmaterials design. Multi-step retrosynthetic planning remains computationally\nchallenging due to exponential search spaces and inference costs. While Large\nLanguage Models (LLMs) demonstrate chemical reasoning capabilities, their\napplication to synthesis planning faces constraints on efficiency and cost. To\naddress these challenges, we introduce AOT*, a framework that transforms\nretrosynthetic planning by integrating LLM-generated chemical synthesis\npathways with systematic AND-OR tree search. To this end, AOT* atomically maps\nthe generated complete synthesis routes onto AND-OR tree components, with a\nmathematically sound design of reward assignment strategy and retrieval-based\ncontext engineering, thus enabling LLMs to efficiently navigate in the chemical\nspace. Experimental evaluation on multiple synthesis benchmarks demonstrates\nthat AOT* achieves SOTA performance with significantly improved search\nefficiency. AOT* exhibits competitive solve rates using 3-5$\\times$ fewer\niterations than existing LLM-based approaches, with the efficiency advantage\nbecoming more pronounced on complex molecular targets.",
+    "published": "2025-09-25T10:30:37+00:00",
+    "updated": "2025-09-25T10:30:37+00:00",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "comment": "34 pages, 21 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.20988v1",
+    "base_id": "2509.20988",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.20988v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.06985v2",
+    "title": "Discovery Learning accelerates battery design evaluation",
+    "authors": [
+      "Jiawei Zhang",
+      "Yifei Zhang",
+      "Baozhao Yi",
+      "Yao Ren",
+      "Qi Jiao",
+      "Hanyu Bai",
+      "Weiran Jiang",
+      "Ziyou Song"
+    ],
+    "summary": "Fast and reliable validation of novel designs in complex physical systems\nsuch as batteries is critical to accelerating technological innovation.\nHowever, battery research and development remain bottlenecked by the\nprohibitively high time and energy costs required to evaluate numerous new\ndesign candidates, particularly in battery prototyping and life testing.\nDespite recent progress in data-driven battery lifetime prediction, existing\nmethods require labeled data of target designs to improve accuracy and cannot\nmake reliable predictions until after prototyping, thus falling far short of\nthe efficiency needed to enable rapid feedback for battery design. Here, we\nintroduce Discovery Learning (DL), a scientific machine-learning paradigm that\nintegrates active learning, physics-guided learning, and zero-shot learning\ninto a human-like reasoning loop, drawing inspiration from learning theories in\neducational psychology. DL can learn from historical battery designs and\nactively reduce the need for prototyping, thus enabling rapid lifetime\nevaluation for unobserved material-design combinations without requiring\nadditional data labeling. To test DL, we present 123 industrial-grade\nlarge-format lithium-ion pouch cells, spanning eight material-design\ncombinations and diverse cycling protocols. Trained solely on public datasets\nof small-capacity cylindrical cells, DL achieves 7.2% test error in predicting\nthe average cycle life under unknown device variability. This results in\nsavings of 98% in time and 95% in energy compared to industrial practices. This\nwork highlights the potential of uncovering insights from historical designs to\ninform and accelerate the development of next-generation battery technologies.\nDL represents a key advance toward efficient data-driven modeling and helps\nrealize the promise of machine learning for accelerating scientific discovery\nand engineering innovation.",
+    "published": "2025-08-09T13:45:18+00:00",
+    "updated": "2025-09-25T07:08:19+00:00",
+    "categories": [
+      "cs.LG",
+      "cs.CE",
+      "cs.SY",
+      "eess.SY",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "Main text, 20 pages, 5 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2508.06985v2",
+    "base_id": "2508.06985",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2508.06985v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.20372v1",
+    "title": "AI-Guided Quantum Material Simulator for Education. Case Example: The Neuromorphic Materials Calculator 2025",
+    "authors": [
+      "Santiago D. Barrionuevo",
+      "Myriam H. Aguirre"
+    ],
+    "summary": "Teaching and learning in advanced materials science are often limited by two\nbarriers: the technical complexity of quantum-mechanical simulations and the\nlack of individualized support in inquiry-based education. Here, we introduce\nthe Neuromorphic Materials Calculator 2025 (NMC2025), a command-line platform\nthat integrates a conversational artificial intelligence (AI) tutor with\nautomated simulation workflows. NMC2025 combines large language model (LLM)\nguidance, real-time literature feedback, and domain-specific computation to\ncreate an adaptive learning environment. The system includes modular Python\ncomponents for material discovery, simulation parameter optimization, and\nautomated input generation for Quantum ESPRESSO (QE). Grounded in\nconstructivist pedagogy, the tool enables students to carry out authentic\nresearch tasks such as identifying candidate materials for neuromorphic\nmemristors or tuning density functional theory (DFT) inputs, while receiving\ncontext-aware explanations from the AI tutor. A case study illustrates how\niterative, AI-guided refinement of hypotheses and calculations enhances both\naccuracy and understanding. NMC2025 fosters deeper conceptual insight,\nindependent exploration, and smooth transfer of research methods into the\nclassroom. This approach highlights the potential of AI-augmented education to\nreduce barriers to complex simulations and to expand access to computational\nmodeling across science, technology, engineering, and mathematics (STEM).",
+    "published": "2025-09-19T10:15:16+00:00",
+    "updated": "2025-09-19T10:15:16+00:00",
+    "categories": [
+      "physics.ed-ph",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "physics.ed-ph",
+    "comment": "40 pages, 5 figures, 1 table. Submitted to International Journal of\n  Artificial Intelligence in Education (Springer)",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.20372v1",
+    "base_id": "2509.20372",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.20372v1"
+  }
+]

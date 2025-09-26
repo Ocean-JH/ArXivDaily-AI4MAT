@@ -34,83 +34,115 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (2)
+## New Papers (3)
 
-*Last updated: 2025-09-26 06:13:59 (SGT)*
+*Last updated: 2025-09-27 06:15:31 (SGT)*
 
-### 1. Enhanced White-Light Emission from Self-Trapped Excitons in Antimony and Bismuth Halides through Structural Design
+### 1. AOT*: Efficient Synthesis Planning via LLM-Empowered AND-OR Tree Search
 
-**Authors:** Philip Klement, Lukas Gümbel, Meng Yang, Jan-Heinrich Littmann, Tatsuhiko Ohto, Hirokazu Tada, Sangam Chatterjee, Johanna Heine
+**Authors:** Xiaozhuang Song, Xuanhao Pan, Xinjian Zhao, Hangting Ye, Shufei Zhang, Jian Tang, Tianshu Yu
 
-**Published:** 2025-09-24
+**Published:** 2025-09-25
 
-**Category:** cond-mat.mtrl-sci
+**Category:** cs.AI
 
-**ID:** 2509.20087v1
+**ID:** 2509.20988v1
 
-**Link:** [http://arxiv.org/abs/2509.20087v1](http://arxiv.org/abs/2509.20087v1)
+**Link:** [http://arxiv.org/abs/2509.20988v1](http://arxiv.org/abs/2509.20988v1)
 
-**Summary:** Lead halide perovskites have catalyzed the rise of main-group metal halide
-materials as promising candidates for next-generation optoelectronics,
-including solar cells, light-emitting diodes, lasers, sensors, and
-photocatalysts. Among these, effi-cient light-emission arises from self-trapped
-excitons, wherein excited states induce transient lattice distortions that
-localize excitons. However, the complex interplay of factors, such as lattice
-distortions, lattice softness, and electron-phonon cou-pling dynamics, obscures
-the direct structure-property relationships complicating the targeted material
-design. In this study, we advance the understanding of self-trapped exciton
-(STE)-based emission in hybrid antimony and bismuth halides, em-phasizing the
-interplay of structural and electronic factors that enhance white-light
-emission. We systematically vary com-position, anion dimensionality,
-connectivity, and the organic cation and find that the presence of Bi/Sb and Cl
-in edge-sharing anion motifs promotes white-light emission and optimal
-electron-phonon coupling. Chlorides outperform bromides, and organic cations,
-such as CMA and BZA, only subtly influence optical behavior by altering lattice
-dynamics and rigidity, resulting in tunable emission characteristics without
-compromising STEs. This work deepens the understanding of the emis-sion
-mechanisms in hybrid halide perovskites and establishes guiding principles for
-tailoring optoelectronic properties, paving the way for advanced materials with
-enhanced white-light emission for next-generation optoelectronic applications....
+**Summary:** Retrosynthesis planning enables the discovery of viable synthetic routes for
+target molecules, playing a crucial role in domains like drug discovery and
+materials design. Multi-step retrosynthetic planning remains computationally
+challenging due to exponential search spaces and inference costs. While Large
+Language Models (LLMs) demonstrate chemical reasoning capabilities, their
+application to synthesis planning faces constraints on efficiency and cost. To
+address these challenges, we introduce AOT*, a framework that transforms
+retrosynthetic planning by integrating LLM-generated chemical synthesis
+pathways with systematic AND-OR tree search. To this end, AOT* atomically maps
+the generated complete synthesis routes onto AND-OR tree components, with a
+mathematically sound design of reward assignment strategy and retrieval-based
+context engineering, thus enabling LLMs to efficiently navigate in the chemical
+space. Experimental evaluation on multiple synthesis benchmarks demonstrates
+that AOT* achieves SOTA performance with significantly improved search
+efficiency. AOT* exhibits competitive solve rates using 3-5$\times$ fewer
+iterations than existing LLM-based approaches, with the efficiency advantage
+becoming more pronounced on complex molecular targets....
 
 ---
 
-### 2. A closed-loop AI framework for hypothesis-driven and interpretable materials design
+### 2. Discovery Learning accelerates battery design evaluation
 
-**Authors:** Kangyu Ji, Tianran Liu, Fang Sheng, Shaun Tan, Moungi Bawendi, Tonio Buonassisi
+**Authors:** Jiawei Zhang, Yifei Zhang, Baozhao Yi, Yao Ren, Qi Jiao, Hanyu Bai, Weiran Jiang, Ziyou Song
 
-**Published:** 2025-09-23
+**Published:** 2025-08-09
 
-**Category:** cond-mat.mtrl-sci
+**Category:** cs.LG
 
-**ID:** 2509.18604v1
+**ID:** 2508.06985v2
 
-**Link:** [http://arxiv.org/abs/2509.18604v1](http://arxiv.org/abs/2509.18604v1)
+**Link:** [http://arxiv.org/abs/2508.06985v2](http://arxiv.org/abs/2508.06985v2)
 
-**Summary:** Scientific hypothesis generation is central to materials discovery, yet
-current approaches often emphasize either conceptual (idea-to-data) reasoning
-or data-driven (data-to-idea) analysis, rarely achieving an effective
-integration of both. Here, we present a generalizable active learning workflow
-that integrates top-down, theory-driven hypothesis generation, guided by a
-large language model. This is complemented by bottom-up, data-driven hypothesis
-testing through a root-cause association study. We demonstrate this approach
-through the design of equimolar quinary-cation two-dimensional perovskite, a
-chemically complex system with over 850,000 possible cation combinations. In
-the top-down component, the large language model drives closed-loop
-optimization by proposing candidates that are likely to achieve phase purity,
-leveraging domain knowledge and chain-of-thought reasoning. With each
-iteration, the model identifies an increasing number of near phase-pure
-compositions, sampling less than 0.004% of the design space. In parallel, the
-bottom-up association study identifies molecular features with statistically
-significant influences on phase purity. The integration of these approaches
-enables the convergence of conceptual and statistical hypotheses, leading to
-generalizable and rational design rules for phase-pure quinary-cation
-two-dimensional perovskites. As a proof of concept, we applied the optimized
-phase-pure quinary-cation two-dimensional perovskite film as a surface capping
-layer in perovskite solar cells, achieving good performance and stability. Our
-framework enables the development of interpretable and generalizable design
-rules that are applicable to a wide range of optimization processes within
-complex design spaces, providing a foundational strategy for rational,
-scalable, and efficient materials discovery....
+**Summary:** Fast and reliable validation of novel designs in complex physical systems
+such as batteries is critical to accelerating technological innovation.
+However, battery research and development remain bottlenecked by the
+prohibitively high time and energy costs required to evaluate numerous new
+design candidates, particularly in battery prototyping and life testing.
+Despite recent progress in data-driven battery lifetime prediction, existing
+methods require labeled data of target designs to improve accuracy and cannot
+make reliable predictions until after prototyping, thus falling far short of
+the efficiency needed to enable rapid feedback for battery design. Here, we
+introduce Discovery Learning (DL), a scientific machine-learning paradigm that
+integrates active learning, physics-guided learning, and zero-shot learning
+into a human-like reasoning loop, drawing inspiration from learning theories in
+educational psychology. DL can learn from historical battery designs and
+actively reduce the need for prototyping, thus enabling rapid lifetime
+evaluation for unobserved material-design combinations without requiring
+additional data labeling. To test DL, we present 123 industrial-grade
+large-format lithium-ion pouch cells, spanning eight material-design
+combinations and diverse cycling protocols. Trained solely on public datasets
+of small-capacity cylindrical cells, DL achieves 7.2% test error in predicting
+the average cycle life under unknown device variability. This results in
+savings of 98% in time and 95% in energy compared to industrial practices. This
+work highlights the potential of uncovering insights from historical designs to
+inform and accelerate the development of next-generation battery technologies.
+DL represents a key advance toward efficient data-driven modeling and helps
+realize the promise of machine learning for accelerating scientific discovery
+and engineering innovation....
+
+---
+
+### 3. AI-Guided Quantum Material Simulator for Education. Case Example: The Neuromorphic Materials Calculator 2025
+
+**Authors:** Santiago D. Barrionuevo, Myriam H. Aguirre
+
+**Published:** 2025-09-19
+
+**Category:** physics.ed-ph
+
+**ID:** 2509.20372v1
+
+**Link:** [http://arxiv.org/abs/2509.20372v1](http://arxiv.org/abs/2509.20372v1)
+
+**Summary:** Teaching and learning in advanced materials science are often limited by two
+barriers: the technical complexity of quantum-mechanical simulations and the
+lack of individualized support in inquiry-based education. Here, we introduce
+the Neuromorphic Materials Calculator 2025 (NMC2025), a command-line platform
+that integrates a conversational artificial intelligence (AI) tutor with
+automated simulation workflows. NMC2025 combines large language model (LLM)
+guidance, real-time literature feedback, and domain-specific computation to
+create an adaptive learning environment. The system includes modular Python
+components for material discovery, simulation parameter optimization, and
+automated input generation for Quantum ESPRESSO (QE). Grounded in
+constructivist pedagogy, the tool enables students to carry out authentic
+research tasks such as identifying candidate materials for neuromorphic
+memristors or tuning density functional theory (DFT) inputs, while receiving
+context-aware explanations from the AI tutor. A case study illustrates how
+iterative, AI-guided refinement of hypotheses and calculations enhances both
+accuracy and understanding. NMC2025 fosters deeper conceptual insight,
+independent exploration, and smooth transfer of research methods into the
+classroom. This approach highlights the potential of AI-augmented education to
+reduce barriers to complex simulations and to expand access to computational
+modeling across science, technology, engineering, and mathematics (STEM)....
 
 ---
 
