@@ -34,115 +34,79 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (3)
+## New Papers (2)
 
-*Last updated: 2025-09-27 06:15:31 (SGT)*
+*Last updated: 2025-09-30 06:14:30 (SGT)*
 
-### 1. AOT*: Efficient Synthesis Planning via LLM-Empowered AND-OR Tree Search
+### 1. Challenges in Non-Polymeric Crystal Structure Prediction: Why a Geometric, Permutation-Invariant Loss is Needed
 
-**Authors:** Xiaozhuang Song, Xuanhao Pan, Xinjian Zhao, Hangting Ye, Shufei Zhang, Jian Tang, Tianshu Yu
+**Authors:** Emmanuel Jehanno, Romain Menegaux, Julien Mairal, Sergei Grudinin
 
-**Published:** 2025-09-25
-
-**Category:** cs.AI
-
-**ID:** 2509.20988v1
-
-**Link:** [http://arxiv.org/abs/2509.20988v1](http://arxiv.org/abs/2509.20988v1)
-
-**Summary:** Retrosynthesis planning enables the discovery of viable synthetic routes for
-target molecules, playing a crucial role in domains like drug discovery and
-materials design. Multi-step retrosynthetic planning remains computationally
-challenging due to exponential search spaces and inference costs. While Large
-Language Models (LLMs) demonstrate chemical reasoning capabilities, their
-application to synthesis planning faces constraints on efficiency and cost. To
-address these challenges, we introduce AOT*, a framework that transforms
-retrosynthetic planning by integrating LLM-generated chemical synthesis
-pathways with systematic AND-OR tree search. To this end, AOT* atomically maps
-the generated complete synthesis routes onto AND-OR tree components, with a
-mathematically sound design of reward assignment strategy and retrieval-based
-context engineering, thus enabling LLMs to efficiently navigate in the chemical
-space. Experimental evaluation on multiple synthesis benchmarks demonstrates
-that AOT* achieves SOTA performance with significantly improved search
-efficiency. AOT* exhibits competitive solve rates using 3-5$\times$ fewer
-iterations than existing LLM-based approaches, with the efficiency advantage
-becoming more pronounced on complex molecular targets....
-
----
-
-### 2. Discovery Learning accelerates battery design evaluation
-
-**Authors:** Jiawei Zhang, Yifei Zhang, Baozhao Yi, Yao Ren, Qi Jiao, Hanyu Bai, Weiran Jiang, Ziyou Song
-
-**Published:** 2025-08-09
+**Published:** 2025-08-31
 
 **Category:** cs.LG
 
-**ID:** 2508.06985v2
+**ID:** 2509.00832v3
 
-**Link:** [http://arxiv.org/abs/2508.06985v2](http://arxiv.org/abs/2508.06985v2)
+**Link:** [http://arxiv.org/abs/2509.00832v3](http://arxiv.org/abs/2509.00832v3)
 
-**Summary:** Fast and reliable validation of novel designs in complex physical systems
-such as batteries is critical to accelerating technological innovation.
-However, battery research and development remain bottlenecked by the
-prohibitively high time and energy costs required to evaluate numerous new
-design candidates, particularly in battery prototyping and life testing.
-Despite recent progress in data-driven battery lifetime prediction, existing
-methods require labeled data of target designs to improve accuracy and cannot
-make reliable predictions until after prototyping, thus falling far short of
-the efficiency needed to enable rapid feedback for battery design. Here, we
-introduce Discovery Learning (DL), a scientific machine-learning paradigm that
-integrates active learning, physics-guided learning, and zero-shot learning
-into a human-like reasoning loop, drawing inspiration from learning theories in
-educational psychology. DL can learn from historical battery designs and
-actively reduce the need for prototyping, thus enabling rapid lifetime
-evaluation for unobserved material-design combinations without requiring
-additional data labeling. To test DL, we present 123 industrial-grade
-large-format lithium-ion pouch cells, spanning eight material-design
-combinations and diverse cycling protocols. Trained solely on public datasets
-of small-capacity cylindrical cells, DL achieves 7.2% test error in predicting
-the average cycle life under unknown device variability. This results in
-savings of 98% in time and 95% in energy compared to industrial practices. This
-work highlights the potential of uncovering insights from historical designs to
-inform and accelerate the development of next-generation battery technologies.
-DL represents a key advance toward efficient data-driven modeling and helps
-realize the promise of machine learning for accelerating scientific discovery
-and engineering innovation....
+**Summary:** Crystalline structure prediction is an essential prerequisite for designing
+materials with targeted properties. Yet, it is still an open challenge in
+materials design and drug discovery. Despite recent advances in computational
+materials science, accurately predicting three-dimensional non-polymeric
+crystal structures remains elusive. In this work, we focus on the molecular
+assembly problem, where a set $\mathcal{S}$ of identical rigid molecules is
+packed to form a crystalline structure. Such a simplified formulation provides
+a useful approximation to the actual problem. However, while recent
+state-of-the-art methods have increasingly adopted sophisticated techniques,
+the underlying learning objective remains ill-posed. We propose a better
+formulation that introduces a loss function capturing key geometric molecular
+properties while ensuring permutation invariance over $\mathcal{S}$.
+Remarkably, we demonstrate that within this framework, a simple regression
+model already outperforms prior approaches, including flow matching techniques,
+on the COD-Cluster17 benchmark, a curated non-polymeric subset of the
+Crystallography Open Database (COD)....
 
 ---
 
-### 3. AI-Guided Quantum Material Simulator for Education. Case Example: The Neuromorphic Materials Calculator 2025
+### 2. Interpretable Spectral Features Predict Conductivity in Self-Driving Doped Conjugated Polymer Labs
 
-**Authors:** Santiago D. Barrionuevo, Myriam H. Aguirre
+**Authors:** Ankush Kumar Mishra, Jacob P. Mauthe, Nicholas Luke, Aram Amassian, Baskar Ganapathysubramanian
 
-**Published:** 2025-09-19
+**Published:** 2025-09-06
 
-**Category:** physics.ed-ph
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2509.20372v1
+**ID:** 2509.21330v1
 
-**Link:** [http://arxiv.org/abs/2509.20372v1](http://arxiv.org/abs/2509.20372v1)
+**Link:** [http://arxiv.org/abs/2509.21330v1](http://arxiv.org/abs/2509.21330v1)
 
-**Summary:** Teaching and learning in advanced materials science are often limited by two
-barriers: the technical complexity of quantum-mechanical simulations and the
-lack of individualized support in inquiry-based education. Here, we introduce
-the Neuromorphic Materials Calculator 2025 (NMC2025), a command-line platform
-that integrates a conversational artificial intelligence (AI) tutor with
-automated simulation workflows. NMC2025 combines large language model (LLM)
-guidance, real-time literature feedback, and domain-specific computation to
-create an adaptive learning environment. The system includes modular Python
-components for material discovery, simulation parameter optimization, and
-automated input generation for Quantum ESPRESSO (QE). Grounded in
-constructivist pedagogy, the tool enables students to carry out authentic
-research tasks such as identifying candidate materials for neuromorphic
-memristors or tuning density functional theory (DFT) inputs, while receiving
-context-aware explanations from the AI tutor. A case study illustrates how
-iterative, AI-guided refinement of hypotheses and calculations enhances both
-accuracy and understanding. NMC2025 fosters deeper conceptual insight,
-independent exploration, and smooth transfer of research methods into the
-classroom. This approach highlights the potential of AI-augmented education to
-reduce barriers to complex simulations and to expand access to computational
-modeling across science, technology, engineering, and mathematics (STEM)....
+**Summary:** Self-driving labs (SDLs) promise faster materials discovery by coupling
+automation with machine learning, but a central challenge is predicting costly,
+slow-to-measure properties from inexpensive, automatable readouts. We address
+this for doped conjugated polymers by learning interpretable spectral
+fingerprints from optical spectroscopy to predict electrical conductivity.
+Optical spectra are fast, non-destructive, and sensitive to aggregation and
+charge generation; we automate their featurization by combining a genetic
+algorithm (GA) with area-under-the-curve (AUC) computations over adaptively
+selected spectral windows. These data-driven spectral features, together with
+processing parameters, are used to train a quantitative structure-property
+relationship (QSPR) linking optical response and processing to conductivity. To
+improve accuracy and interpretability in the small-data regime, we add
+domain-knowledge-based feature expansions and apply SHAP-guided selection to
+retain a compact, physically meaningful feature set. The pipeline is evaluated
+under a leak-free train/test protocol, and GA is repeated to assess feature
+stability. The data-driven model matches the performance of a baseline built
+from expert-curated descriptors while reducing experimental effort (about 33%)
+by limiting direct conductivity measurements. Combining data-driven and expert
+features yields a hybrid QSPR with superior predictive performance,
+highlighting productive human-ML collaboration. The learned features recover
+known descriptors in pBTTT (0-0/0-1 vibronic intensity ratio) and reveal a
+tail-state region correlated with polymer bleaching during successful doping.
+This approach delivers interpretable, noise-robust, small-data-friendly
+features that convert rapid measurements into reliable predictions of costly
+properties and readily extends to other spectral modalities (e.g., XANES,
+Raman, FTIR)....
 
 ---
 

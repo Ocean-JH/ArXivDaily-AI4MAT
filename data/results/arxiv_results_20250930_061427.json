@@ -1,0 +1,54 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.00832v3",
+    "title": "Challenges in Non-Polymeric Crystal Structure Prediction: Why a Geometric, Permutation-Invariant Loss is Needed",
+    "authors": [
+      "Emmanuel Jehanno",
+      "Romain Menegaux",
+      "Julien Mairal",
+      "Sergei Grudinin"
+    ],
+    "summary": "Crystalline structure prediction is an essential prerequisite for designing\nmaterials with targeted properties. Yet, it is still an open challenge in\nmaterials design and drug discovery. Despite recent advances in computational\nmaterials science, accurately predicting three-dimensional non-polymeric\ncrystal structures remains elusive. In this work, we focus on the molecular\nassembly problem, where a set $\\mathcal{S}$ of identical rigid molecules is\npacked to form a crystalline structure. Such a simplified formulation provides\na useful approximation to the actual problem. However, while recent\nstate-of-the-art methods have increasingly adopted sophisticated techniques,\nthe underlying learning objective remains ill-posed. We propose a better\nformulation that introduces a loss function capturing key geometric molecular\nproperties while ensuring permutation invariance over $\\mathcal{S}$.\nRemarkably, we demonstrate that within this framework, a simple regression\nmodel already outperforms prior approaches, including flow matching techniques,\non the COD-Cluster17 benchmark, a curated non-polymeric subset of the\nCrystallography Open Database (COD).",
+    "published": "2025-08-31T13:03:08+00:00",
+    "updated": "2025-09-26T11:33:29+00:00",
+    "categories": [
+      "cs.LG",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.00832v3",
+    "base_id": "2509.00832",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2509.00832v3"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.21330v1",
+    "title": "Interpretable Spectral Features Predict Conductivity in Self-Driving Doped Conjugated Polymer Labs",
+    "authors": [
+      "Ankush Kumar Mishra",
+      "Jacob P. Mauthe",
+      "Nicholas Luke",
+      "Aram Amassian",
+      "Baskar Ganapathysubramanian"
+    ],
+    "summary": "Self-driving labs (SDLs) promise faster materials discovery by coupling\nautomation with machine learning, but a central challenge is predicting costly,\nslow-to-measure properties from inexpensive, automatable readouts. We address\nthis for doped conjugated polymers by learning interpretable spectral\nfingerprints from optical spectroscopy to predict electrical conductivity.\nOptical spectra are fast, non-destructive, and sensitive to aggregation and\ncharge generation; we automate their featurization by combining a genetic\nalgorithm (GA) with area-under-the-curve (AUC) computations over adaptively\nselected spectral windows. These data-driven spectral features, together with\nprocessing parameters, are used to train a quantitative structure-property\nrelationship (QSPR) linking optical response and processing to conductivity. To\nimprove accuracy and interpretability in the small-data regime, we add\ndomain-knowledge-based feature expansions and apply SHAP-guided selection to\nretain a compact, physically meaningful feature set. The pipeline is evaluated\nunder a leak-free train/test protocol, and GA is repeated to assess feature\nstability. The data-driven model matches the performance of a baseline built\nfrom expert-curated descriptors while reducing experimental effort (about 33%)\nby limiting direct conductivity measurements. Combining data-driven and expert\nfeatures yields a hybrid QSPR with superior predictive performance,\nhighlighting productive human-ML collaboration. The learned features recover\nknown descriptors in pBTTT (0-0/0-1 vibronic intensity ratio) and reveal a\ntail-state region correlated with polymer bleaching during successful doping.\nThis approach delivers interpretable, noise-robust, small-data-friendly\nfeatures that convert rapid measurements into reliable predictions of costly\nproperties and readily extends to other spectral modalities (e.g., XANES,\nRaman, FTIR).",
+    "published": "2025-09-06T18:00:40+00:00",
+    "updated": "2025-09-06T18:00:40+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cond-mat.soft",
+      "cs.LG"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "31 Pages, 19 Figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.21330v1",
+    "base_id": "2509.21330",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.21330v1"
+  }
+]
