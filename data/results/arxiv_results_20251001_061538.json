@@ -1,0 +1,76 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2503.18975v3",
+    "title": "Machine Learning - Driven Materials Discovery: Unlocking Next-Generation Functional Materials - A review",
+    "authors": [
+      "Dilshod Nematov",
+      "Mirabbos Hojamberdiev"
+    ],
+    "summary": "The rapid advancement of machine learning and artificial intelligence\n(AI)-driven techniques is revolutionizing materials discovery, property\nprediction, and material design by minimizing human intervention and\naccelerating scientific progress. This review provides a comprehensive overview\nof smart, machine learning (ML)-driven approaches, emphasizing their role in\npredicting material properties, discovering novel compounds, and optimizing\nmaterial structures. Key methodologies in this field include deep learning,\ngraph neural networks, Bayesian optimization, and automated generative models\n(GANs, VAEs). These approaches enable the autonomous design of materials with\ntailored functionalities. By leveraging AutoML frameworks (AutoGluon, TPOT, and\nH2O.ai), researchers can automate the model selection, hyperparameter tuning,\nand feature engineering, significantly improving the efficiency of materials\ninformatics. Furthermore, the integration of AI-driven robotic laboratories and\nhigh-throughput computing has established a fully automated pipeline for rapid\nsynthesis and experimental validation, drastically reducing the time and cost\nof material discovery. This review highlights real-world applications of\nautomated ML-driven approaches in predicting mechanical, thermal, electrical,\nand optical properties of materials, demonstrating successful cases in\nsuperconductors, catalysts, photovoltaics, and energy storage systems. We also\naddress key challenges, such as data quality, interpretability, and the\nintegration of AutoML with quantum computing, which are essential for future\nadvancements. Ultimately, combining AI with automated experimentation and\ncomputational modeling is transforming the way materials are discovered and\noptimized. This synergy paves the way for new innovations in energy,\nelectronics, and nanotechnology.",
+    "published": "2025-03-22T15:24:38+00:00",
+    "updated": "2025-09-29T11:58:22+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": "Computational Condensed Matter, 2025",
+    "doi": "10.1016/j.cocom.2025.e01139",
+    "pdf_url": "http://arxiv.org/pdf/2503.18975v3",
+    "base_id": "2503.18975",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2503.18975v3"
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.04052v3",
+    "title": "EAC-Net: Predicting real-space charge density via equivariant atomic contributions",
+    "authors": [
+      "Xuejian Qin",
+      "Taoyuze Lv",
+      "Zhicheng Zhong"
+    ],
+    "summary": "Charge density is central to density functional theory (DFT), as it fully\ndefines the ground-state properties of a material system. Obtaining it with\nhigh accuracy is a computational bottleneck. Existing machine learning models\nare constrained by trade-offs among accuracy, efficiency, and generalization.\nHere, we introduce the Equivariant Atomic Contribution Network (EAC-Net), which\ncouples atoms and grids to integrate the strengths of grid-based and\nbasis-function frameworks. EAC-Net achieves high accuracy (typically below 1%\nerror), enhanced efficiency, and strong generalization across complex systems.\nBuilding on this framework, we develop EAC-mp, a universal charge density model\ncovering the periodic table. The model demonstrates robust zero-shot\nperformance across diverse systems, and generalizes beyond the training\ndistribution, supporting downstream applications such as band structure\ncalculations. By linking local chemical environments to charge densities,\nEAC-Net provides a scalable framework for accelerating electronic structure\nprediction and enabling high-throughput materials discovery.",
+    "published": "2025-08-06T03:26:05+00:00",
+    "updated": "2025-09-29T02:23:47+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "21pages, 5figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2508.04052v3",
+    "base_id": "2508.04052",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2508.04052v3"
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.23156v1",
+    "title": "CrystalGym: A New Benchmark for Materials Discovery Using Reinforcement Learning",
+    "authors": [
+      "Prashant Govindarajan",
+      "Mathieu Reymond",
+      "Antoine Clavaud",
+      "Mariano Phielipp",
+      "Santiago Miret",
+      "Sarath Chandar"
+    ],
+    "summary": "In silico design and optimization of new materials primarily relies on\nhigh-accuracy atomic simulators that perform density functional theory (DFT)\ncalculations. While recent works showcase the strong potential of machine\nlearning to accelerate the material design process, they mostly consist of\ngenerative approaches that do not use direct DFT signals as feedback to improve\ntraining and generation mainly due to DFT's high computational cost. To aid the\nadoption of direct DFT signals in the materials design loop through online\nreinforcement learning (RL), we propose CrystalGym, an open-source RL\nenvironment for crystalline material discovery. Using CrystalGym, we benchmark\ncommon value- and policy-based reinforcement learning algorithms for designing\nvarious crystals conditioned on target properties. Concretely, we optimize for\nchallenging properties like the band gap, bulk modulus, and density, which are\ndirectly calculated from DFT in the environment. While none of the algorithms\nwe benchmark solve all CrystalGym tasks, our extensive experiments and\nablations show different sample efficiencies and ease of convergence to\noptimality for different algorithms and environment settings. Additionally, we\ninclude a case study on the scope of fine-tuning large language models with\nreinforcement learning for improving DFT-based rewards. Our goal is for\nCrystalGym to serve as a test bed for reinforcement learning researchers and\nmaterial scientists to address these real-world design problems with practical\napplications. We therefore introduce a novel class of challenges for\nreinforcement learning methods dealing with time-consuming reward signals,\npaving the way for future interdisciplinary research for machine learning\nmotivated by real-world applications.",
+    "published": "2025-09-27T07:02:14+00:00",
+    "updated": "2025-09-27T07:02:14+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.23156v1",
+    "base_id": "2509.23156",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2509.23156v1"
+  }
+]
