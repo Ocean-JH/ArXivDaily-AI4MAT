@@ -34,102 +34,78 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (3)
+## New Papers (2)
 
-*Last updated: 2025-10-02 06:15:40 (SGT)*
+*Last updated: 2025-10-04 06:14:52 (SGT)*
 
-### 1. Fine-Tuning Bulk-oriented Universal Interatomic Potentials for Surfaces: Accuracy, Efficiency, and Forgetting Control
+### 1. Benchmarking Agentic Systems in Automated Scientific Information Extraction with ChemX
 
-**Authors:** Jaekyun Hwang, Taehun Lee, Yonghyuk Lee, Su-Hyun Yoo
+**Authors:** Anastasia Vepreva, Julia Razlivina, Maria Eremeeva, Nina Gubina, Anastasia Orlova, Aleksei Dmitrenko, Ksenya Kapranova, Susan Jyakhwo, Nikita Vasilev, Arsen Sarkisyan, Ivan Yu. Chernyshov, Vladimir Vinogradov, Andrei Dmitrenko
 
-**Published:** 2025-09-30
+**Published:** 2025-10-01
 
-**Category:** cond-mat.mtrl-sci
+**Category:** cs.AI
 
-**ID:** 2509.25807v1
+**ID:** 2510.00795v1
 
-**Link:** [http://arxiv.org/abs/2509.25807v1](http://arxiv.org/abs/2509.25807v1)
+**Link:** [http://arxiv.org/abs/2510.00795v1](http://arxiv.org/abs/2510.00795v1)
 
-**Summary:** Accurate prediction of surface energies and stabilities is essential for
-materials design, yet first-principles calculations remain computationally
-expensive and most existing interatomic potentials are trained only on bulk
-systems. Here, we demonstrate that fine-tuning foundation machine learning
-potentials (MLPs) significantly improves both computational efficiency and
-predictive accuracy for surface modeling. While existing universal interatomic
-potentials (UIPs) have been solely trained and validated on bulk datasets, we
-extend their applicability to complex and scientifically significant unary,
-binary, and ternary surface systems. We systematically compare models trained
-from scratch, zero-shot inference, conventional fine-tuning, and multi-head
-fine-tuning approach that enhances transferability and mitigates catastrophic
-forgetting. Fine-tuning consistently reduces prediction errors with
-orders-of-magnitude fewer training configurations, and multi-head fine-tuning
-delivers robust and generalizable predictions even for materials beyond the
-initial training domain. These findings offer practical guidance for leveraging
-pre-trained MLPs to accelerate surface modeling and highlight a scalable path
-toward data-efficient, next-generation atomic-scale simulations in
-computational materials science....
+**Summary:** The emergence of agent-based systems represents a significant advancement in
+artificial intelligence, with growing applications in automated data
+extraction. However, chemical information extraction remains a formidable
+challenge due to the inherent heterogeneity of chemical data. Current
+agent-based approaches, both general-purpose and domain-specific, exhibit
+limited performance in this domain. To address this gap, we present ChemX, a
+comprehensive collection of 10 manually curated and domain-expert-validated
+datasets focusing on nanomaterials and small molecules. These datasets are
+designed to rigorously evaluate and enhance automated extraction methodologies
+in chemistry. To demonstrate their utility, we conduct an extensive
+benchmarking study comparing existing state-of-the-art agentic systems such as
+ChatGPT Agent and chemical-specific data extraction agents. Additionally, we
+introduce our own single-agent approach that enables precise control over
+document preprocessing prior to extraction. We further evaluate the performance
+of modern baselines, such as GPT-5 and GPT-5 Thinking, to compare their
+capabilities with agentic approaches. Our empirical findings reveal persistent
+challenges in chemical information extraction, particularly in processing
+domain-specific terminology, complex tabular and schematic representations, and
+context-dependent ambiguities. The ChemX benchmark serves as a critical
+resource for advancing automated information extraction in chemistry,
+challenging the generalization capabilities of existing methods, and providing
+valuable insights into effective evaluation strategies....
 
 ---
 
-### 2. Steering an Active Learning Workflow Towards Novel Materials Discovery via Queue Prioritization
+### 2. Learning Inter-Atomic Potentials without Explicit Equivariance
 
-**Authors:** Marcus Schwarting, Logan Ward, Nathaniel Hudson, Xiaoli Yan, Ben Blaiszik, Santanu Chaudhuri, Eliu Huerta, Ian Foster
+**Authors:** Ahmed A. Elhag, Arun Raja, Alex Morehead, Samuel M. Blau, Garrett M. Morris, Michael M. Bronstein
 
-**Published:** 2025-09-29
+**Published:** 2025-09-25
 
 **Category:** cs.LG
 
-**ID:** 2509.25538v1
+**ID:** 2510.00027v1
 
-**Link:** [http://arxiv.org/abs/2509.25538v1](http://arxiv.org/abs/2509.25538v1)
+**Link:** [http://arxiv.org/abs/2510.00027v1](http://arxiv.org/abs/2510.00027v1)
 
-**Summary:** Generative AI poses both opportunities and risks for solving inverse design
-problems in the sciences. Generative tools provide the ability to expand and
-refine a search space autonomously, but do so at the cost of exploring
-low-quality regions until sufficiently fine tuned. Here, we propose a queue
-prioritization algorithm that combines generative modeling and active learning
-in the context of a distributed workflow for exploring complex design spaces.
-We find that incorporating an active learning model to prioritize top design
-candidates can prevent a generative AI workflow from expending resources on
-nonsensical candidates and halt potential generative model decay. For an
-existing generative AI workflow for discovering novel molecular structure
-candidates for carbon capture, our active learning approach significantly
-increases the number of high-quality candidates identified by the generative
-model. We find that, out of 1000 novel candidates, our workflow without active
-learning can generate an average of 281 high-performing candidates, while our
-proposed prioritization with active learning can generate an average 604
-high-performing candidates....
-
----
-
-### 3. Guided Diffusion for the Discovery of New Superconductors
-
-**Authors:** Pawan Prakash, Jason B. Gibson, Zhongwei Li, Gabriele Di Gianluca, Juan Esquivel, Eric Fuemmeler, Benjamin Geisler, Jung Soo Kim, Adrian Roitberg, Ellad B. Tadmor, Mingjie Liu, Stefano Martiniani, Gregory R. Stewart, James J. Hamlin, Peter J. Hirschfeld, Richard G. Hennig
-
-**Published:** 2025-09-29
-
-**Category:** cond-mat.supr-con
-
-**ID:** 2509.25186v1
-
-**Link:** [http://arxiv.org/abs/2509.25186v1](http://arxiv.org/abs/2509.25186v1)
-
-**Summary:** The inverse design of materials with specific desired properties, such as
-high-temperature superconductivity, represents a formidable challenge in
-materials science due to the vastness of chemical and structural space. We
-present a guided diffusion framework to accelerate the discovery of novel
-superconductors. A DiffCSP foundation model is pretrained on the Alexandria
-Database and fine-tuned on 7,183 superconductors with first principles derived
-labels. Employing classifier-free guidance, we sample 200,000 structures, which
-lead to 34,027 unique candidates. A multistage screening process that combines
-machine learning and density functional theory (DFT) calculations to assess
-stability and electronic properties, identifies 773 candidates with
-DFT-calculated $T_\mathrm{c}>5$ K. Notably, our generative model demonstrates
-effective property-driven design. Our computational findings were validated
-against experimental synthesis and characterization performed as part of this
-work, which highlighted challenges in sparsely charted chemistries. This
-end-to-end workflow accelerates superconductor discovery while underscoring the
-challenge of predicting and synthesizing experimentally realizable materials....
+**Summary:** Accurate and scalable machine-learned inter-atomic potentials (MLIPs) are
+essential for molecular simulations ranging from drug discovery to new material
+design. Current state-of-the-art models enforce roto-translational symmetries
+through equivariant neural network architectures, a hard-wired inductive bias
+that can often lead to reduced flexibility, computational efficiency, and
+scalability. In this work, we introduce TransIP: Transformer-based Inter-Atomic
+Potentials, a novel training paradigm for interatomic potentials achieving
+symmetry compliance without explicit architectural constraints. Our approach
+guides a generic non-equivariant Transformer-based model to learn
+SO(3)-equivariance by optimizing its representations in the embedding space.
+Trained on the recent Open Molecules (OMol25) collection, a large and diverse
+molecular dataset built specifically for MLIPs and covering different types of
+molecules (including small organics, biomolecular fragments, and
+electrolyte-like species), TransIP attains comparable performance in
+machine-learning force fields versus state-of-the-art equivariant baselines.
+Further, compared to a data augmentation baseline, TransIP achieves 40% to 60%
+improvement in performance across varying OMol25 dataset sizes. More broadly,
+our work shows that learned equivariance can be a powerful and efficient
+alternative to equivariant or augmentation-based MLIP models....
 
 ---
 

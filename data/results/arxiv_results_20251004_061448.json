@@ -1,0 +1,65 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2510.00795v1",
+    "title": "Benchmarking Agentic Systems in Automated Scientific Information Extraction with ChemX",
+    "authors": [
+      "Anastasia Vepreva",
+      "Julia Razlivina",
+      "Maria Eremeeva",
+      "Nina Gubina",
+      "Anastasia Orlova",
+      "Aleksei Dmitrenko",
+      "Ksenya Kapranova",
+      "Susan Jyakhwo",
+      "Nikita Vasilev",
+      "Arsen Sarkisyan",
+      "Ivan Yu. Chernyshov",
+      "Vladimir Vinogradov",
+      "Andrei Dmitrenko"
+    ],
+    "summary": "The emergence of agent-based systems represents a significant advancement in\nartificial intelligence, with growing applications in automated data\nextraction. However, chemical information extraction remains a formidable\nchallenge due to the inherent heterogeneity of chemical data. Current\nagent-based approaches, both general-purpose and domain-specific, exhibit\nlimited performance in this domain. To address this gap, we present ChemX, a\ncomprehensive collection of 10 manually curated and domain-expert-validated\ndatasets focusing on nanomaterials and small molecules. These datasets are\ndesigned to rigorously evaluate and enhance automated extraction methodologies\nin chemistry. To demonstrate their utility, we conduct an extensive\nbenchmarking study comparing existing state-of-the-art agentic systems such as\nChatGPT Agent and chemical-specific data extraction agents. Additionally, we\nintroduce our own single-agent approach that enables precise control over\ndocument preprocessing prior to extraction. We further evaluate the performance\nof modern baselines, such as GPT-5 and GPT-5 Thinking, to compare their\ncapabilities with agentic approaches. Our empirical findings reveal persistent\nchallenges in chemical information extraction, particularly in processing\ndomain-specific terminology, complex tabular and schematic representations, and\ncontext-dependent ambiguities. The ChemX benchmark serves as a critical\nresource for advancing automated information extraction in chemistry,\nchallenging the generalization capabilities of existing methods, and providing\nvaluable insights into effective evaluation strategies.",
+    "published": "2025-10-01T11:50:11+00:00",
+    "updated": "2025-10-01T11:50:11+00:00",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "comment": "Accepted at The AI for Accelerated Materials Discovery (AI4Mat)\n  Workshop, NeurIPS 2025",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.00795v1",
+    "base_id": "2510.00795",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.00795v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.00027v1",
+    "title": "Learning Inter-Atomic Potentials without Explicit Equivariance",
+    "authors": [
+      "Ahmed A. Elhag",
+      "Arun Raja",
+      "Alex Morehead",
+      "Samuel M. Blau",
+      "Garrett M. Morris",
+      "Michael M. Bronstein"
+    ],
+    "summary": "Accurate and scalable machine-learned inter-atomic potentials (MLIPs) are\nessential for molecular simulations ranging from drug discovery to new material\ndesign. Current state-of-the-art models enforce roto-translational symmetries\nthrough equivariant neural network architectures, a hard-wired inductive bias\nthat can often lead to reduced flexibility, computational efficiency, and\nscalability. In this work, we introduce TransIP: Transformer-based Inter-Atomic\nPotentials, a novel training paradigm for interatomic potentials achieving\nsymmetry compliance without explicit architectural constraints. Our approach\nguides a generic non-equivariant Transformer-based model to learn\nSO(3)-equivariance by optimizing its representations in the embedding space.\nTrained on the recent Open Molecules (OMol25) collection, a large and diverse\nmolecular dataset built specifically for MLIPs and covering different types of\nmolecules (including small organics, biomolecular fragments, and\nelectrolyte-like species), TransIP attains comparable performance in\nmachine-learning force fields versus state-of-the-art equivariant baselines.\nFurther, compared to a data augmentation baseline, TransIP achieves 40% to 60%\nimprovement in performance across varying OMol25 dataset sizes. More broadly,\nour work shows that learned equivariance can be a powerful and efficient\nalternative to equivariant or augmentation-based MLIP models.",
+    "published": "2025-09-25T22:15:10+00:00",
+    "updated": "2025-09-25T22:15:10+00:00",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "q-bio.BM",
+      "q-bio.QM",
+      "I.2.1; J.3"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "19 pages, 3 tables, 10 figures. Under review",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.00027v1",
+    "base_id": "2510.00027",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.00027v1"
+  }
+]
