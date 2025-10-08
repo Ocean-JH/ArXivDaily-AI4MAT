@@ -1,0 +1,82 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2502.20933v2",
+    "title": "MatLLMSearch: Crystal Structure Discovery with Evolution-Guided Large Language Models",
+    "authors": [
+      "Jingru Gan",
+      "Peichen Zhong",
+      "Yuanqi Du",
+      "Yanqiao Zhu",
+      "Chenru Duan",
+      "Haorui Wang",
+      "Daniel Schwalbe-Koda",
+      "Carla P. Gomes",
+      "Kristin A. Persson",
+      "Wei Wang"
+    ],
+    "summary": "Crystal structure generation is fundamental to materials science, enabling\nthe discovery of novel materials with desired properties. While existing\napproaches leverage Large Language Models (LLMs) through extensive fine-tuning\non materials databases, we show that pre-trained LLMs can inherently generate\nnovel and stable crystal structures without additional fine-tuning. Our\nframework employs LLMs as intelligent proposal agents within an evolutionary\npipeline that guides them to perform implicit crossover and mutation operations\nwhile maintaining chemical validity. We demonstrate that MatLLMSearch achieves\na 78.38% metastable rate validated by machine learning interatomic potentials\nand 31.7% DFT-verified stability, outperforming specialized models such as\nCrystalTextLLM. Beyond crystal structure generation, we further demonstrate\nthat our framework adapts to diverse materials design tasks, including crystal\nstructure prediction and multi-objective optimization of properties such as\ndeformation energy and bulk modulus, all without fine-tuning. These results\nestablish our framework as a versatile and effective framework for consistent\nhigh-quality materials discovery, offering training-free generation of novel\nstable structures with reduced overhead and broader accessibility.",
+    "published": "2025-02-28T10:41:16+00:00",
+    "updated": "2025-10-06T19:52:50+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.LG"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "Preprint, 25 pages",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2502.20933v2",
+    "base_id": "2502.20933",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2502.20933v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.05160v1",
+    "title": "Generative Inverse Design: From Single Point Optimization to a Diverse Design Portfolio via Conditional Variational Autoencoders",
+    "authors": [
+      "Muhammad Arif Hakimi Zamrai"
+    ],
+    "summary": "Inverse design, which seeks to find optimal parameters for a target output,\nis a central challenge in engineering. Surrogate-based optimization (SBO) has\nbecome a standard approach, yet it is fundamentally structured to converge to a\nsingle-point solution, thereby limiting design space exploration and ignoring\npotentially valuable alternative topologies. This paper presents a paradigm\nshift from single-point optimization to generative inverse design. We introduce\na framework based on a Conditional Variational Autoencoder (CVAE) that learns a\nprobabilistic mapping between a system's design parameters and its performance,\nenabling the generation of a diverse portfolio of high-performing candidates\nconditioned on a specific performance objective. We apply this methodology to\nthe complex, non-linear problem of minimizing airfoil self-noise, using a\nhigh-performing SBO method from a prior benchmark study as a rigorous baseline.\nThe CVAE framework successfully generated 256 novel designs with a 94.1\\%\nvalidity rate. A subsequent surrogate-based evaluation revealed that 77.2\\% of\nthese valid designs achieved superior performance compared to the single\noptimal design found by the SBO baseline. This work demonstrates that the\ngenerative approach not only discovers higher-quality solutions but also\nprovides a rich portfolio of diverse candidates, fundamentally enhancing the\nengineering design process by enabling multi-criteria decision-making.",
+    "published": "2025-10-03T16:28:19+00:00",
+    "updated": "2025-10-03T16:28:19+00:00",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.05160v1",
+    "base_id": "2510.05160",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.05160v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.05142v1",
+    "title": "Reliable End-to-End Material Information Extraction from the Literature with Source-Tracked Multi-Stage Large Language Models",
+    "authors": [
+      "Xin Wang",
+      "Anshu Raj",
+      "Matthew Luebbe",
+      "Haiming Wen",
+      "Shuozhi Xu",
+      "Kun Lu"
+    ],
+    "summary": "Data-driven materials discovery requires large-scale experimental datasets,\nyet most of the information remains trapped in unstructured literature.\nExisting extraction efforts often focus on a limited set of features and have\nnot addressed the integrated composition-processing-microstructure-property\nrelationships essential for understanding materials behavior, thereby posing\nchallenges for building comprehensive databases. To address this gap, we\npropose a multi-stage information extraction pipeline powered by large language\nmodels, which captures 47 features spanning composition, processing,\nmicrostructure, and properties exclusively from experimentally reported\nmaterials. The pipeline integrates iterative extraction with source tracking to\nenhance both accuracy and reliability. Evaluations at the feature level\n(independent attributes) and tuple level (interdependent features) yielded F1\nscores around 0.96. Compared with single-pass extraction without source\ntracking, our approach improved F1 scores of microstructure category by 10.0%\n(feature level) and 13.7% (tuple level), and reduced missed materials from 49\nto 13 out of 396 materials in 100 articles on precipitate-containing\nmulti-principal element alloys (miss rate reduced from 12.4% to 3.3%). The\npipeline enables scalable and efficient literature mining, producing databases\nwith high precision, minimal omissions, and zero false positives. These\ndatasets provide trustworthy inputs for machine learning and materials\ninformatics, while the modular design generalizes to diverse material classes,\nenabling comprehensive materials information extraction.",
+    "published": "2025-10-01T22:03:28+00:00",
+    "updated": "2025-10-01T22:03:28+00:00",
+    "categories": [
+      "cs.CL",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cs.CL",
+    "comment": "27 pages, 4 figures, 7 tables",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.05142v1",
+    "base_id": "2510.05142",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.05142v1"
+  }
+]

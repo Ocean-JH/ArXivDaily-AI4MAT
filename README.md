@@ -34,78 +34,110 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (2)
+## New Papers (3)
 
-*Last updated: 2025-10-04 06:14:52 (SGT)*
+*Last updated: 2025-10-09 06:16:05 (SGT)*
 
-### 1. Benchmarking Agentic Systems in Automated Scientific Information Extraction with ChemX
+### 1. MatLLMSearch: Crystal Structure Discovery with Evolution-Guided Large Language Models
 
-**Authors:** Anastasia Vepreva, Julia Razlivina, Maria Eremeeva, Nina Gubina, Anastasia Orlova, Aleksei Dmitrenko, Ksenya Kapranova, Susan Jyakhwo, Nikita Vasilev, Arsen Sarkisyan, Ivan Yu. Chernyshov, Vladimir Vinogradov, Andrei Dmitrenko
+**Authors:** Jingru Gan, Peichen Zhong, Yuanqi Du, Yanqiao Zhu, Chenru Duan, Haorui Wang, Daniel Schwalbe-Koda, Carla P. Gomes, Kristin A. Persson, Wei Wang
 
-**Published:** 2025-10-01
+**Published:** 2025-02-28
 
-**Category:** cs.AI
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2510.00795v1
+**ID:** 2502.20933v2
 
-**Link:** [http://arxiv.org/abs/2510.00795v1](http://arxiv.org/abs/2510.00795v1)
+**Link:** [http://arxiv.org/abs/2502.20933v2](http://arxiv.org/abs/2502.20933v2)
 
-**Summary:** The emergence of agent-based systems represents a significant advancement in
-artificial intelligence, with growing applications in automated data
-extraction. However, chemical information extraction remains a formidable
-challenge due to the inherent heterogeneity of chemical data. Current
-agent-based approaches, both general-purpose and domain-specific, exhibit
-limited performance in this domain. To address this gap, we present ChemX, a
-comprehensive collection of 10 manually curated and domain-expert-validated
-datasets focusing on nanomaterials and small molecules. These datasets are
-designed to rigorously evaluate and enhance automated extraction methodologies
-in chemistry. To demonstrate their utility, we conduct an extensive
-benchmarking study comparing existing state-of-the-art agentic systems such as
-ChatGPT Agent and chemical-specific data extraction agents. Additionally, we
-introduce our own single-agent approach that enables precise control over
-document preprocessing prior to extraction. We further evaluate the performance
-of modern baselines, such as GPT-5 and GPT-5 Thinking, to compare their
-capabilities with agentic approaches. Our empirical findings reveal persistent
-challenges in chemical information extraction, particularly in processing
-domain-specific terminology, complex tabular and schematic representations, and
-context-dependent ambiguities. The ChemX benchmark serves as a critical
-resource for advancing automated information extraction in chemistry,
-challenging the generalization capabilities of existing methods, and providing
-valuable insights into effective evaluation strategies....
+**Summary:** Crystal structure generation is fundamental to materials science, enabling
+the discovery of novel materials with desired properties. While existing
+approaches leverage Large Language Models (LLMs) through extensive fine-tuning
+on materials databases, we show that pre-trained LLMs can inherently generate
+novel and stable crystal structures without additional fine-tuning. Our
+framework employs LLMs as intelligent proposal agents within an evolutionary
+pipeline that guides them to perform implicit crossover and mutation operations
+while maintaining chemical validity. We demonstrate that MatLLMSearch achieves
+a 78.38% metastable rate validated by machine learning interatomic potentials
+and 31.7% DFT-verified stability, outperforming specialized models such as
+CrystalTextLLM. Beyond crystal structure generation, we further demonstrate
+that our framework adapts to diverse materials design tasks, including crystal
+structure prediction and multi-objective optimization of properties such as
+deformation energy and bulk modulus, all without fine-tuning. These results
+establish our framework as a versatile and effective framework for consistent
+high-quality materials discovery, offering training-free generation of novel
+stable structures with reduced overhead and broader accessibility....
 
 ---
 
-### 2. Learning Inter-Atomic Potentials without Explicit Equivariance
+### 2. Generative Inverse Design: From Single Point Optimization to a Diverse Design Portfolio via Conditional Variational Autoencoders
 
-**Authors:** Ahmed A. Elhag, Arun Raja, Alex Morehead, Samuel M. Blau, Garrett M. Morris, Michael M. Bronstein
+**Authors:** Muhammad Arif Hakimi Zamrai
 
-**Published:** 2025-09-25
+**Published:** 2025-10-03
 
 **Category:** cs.LG
 
-**ID:** 2510.00027v1
+**ID:** 2510.05160v1
 
-**Link:** [http://arxiv.org/abs/2510.00027v1](http://arxiv.org/abs/2510.00027v1)
+**Link:** [http://arxiv.org/abs/2510.05160v1](http://arxiv.org/abs/2510.05160v1)
 
-**Summary:** Accurate and scalable machine-learned inter-atomic potentials (MLIPs) are
-essential for molecular simulations ranging from drug discovery to new material
-design. Current state-of-the-art models enforce roto-translational symmetries
-through equivariant neural network architectures, a hard-wired inductive bias
-that can often lead to reduced flexibility, computational efficiency, and
-scalability. In this work, we introduce TransIP: Transformer-based Inter-Atomic
-Potentials, a novel training paradigm for interatomic potentials achieving
-symmetry compliance without explicit architectural constraints. Our approach
-guides a generic non-equivariant Transformer-based model to learn
-SO(3)-equivariance by optimizing its representations in the embedding space.
-Trained on the recent Open Molecules (OMol25) collection, a large and diverse
-molecular dataset built specifically for MLIPs and covering different types of
-molecules (including small organics, biomolecular fragments, and
-electrolyte-like species), TransIP attains comparable performance in
-machine-learning force fields versus state-of-the-art equivariant baselines.
-Further, compared to a data augmentation baseline, TransIP achieves 40% to 60%
-improvement in performance across varying OMol25 dataset sizes. More broadly,
-our work shows that learned equivariance can be a powerful and efficient
-alternative to equivariant or augmentation-based MLIP models....
+**Summary:** Inverse design, which seeks to find optimal parameters for a target output,
+is a central challenge in engineering. Surrogate-based optimization (SBO) has
+become a standard approach, yet it is fundamentally structured to converge to a
+single-point solution, thereby limiting design space exploration and ignoring
+potentially valuable alternative topologies. This paper presents a paradigm
+shift from single-point optimization to generative inverse design. We introduce
+a framework based on a Conditional Variational Autoencoder (CVAE) that learns a
+probabilistic mapping between a system's design parameters and its performance,
+enabling the generation of a diverse portfolio of high-performing candidates
+conditioned on a specific performance objective. We apply this methodology to
+the complex, non-linear problem of minimizing airfoil self-noise, using a
+high-performing SBO method from a prior benchmark study as a rigorous baseline.
+The CVAE framework successfully generated 256 novel designs with a 94.1\%
+validity rate. A subsequent surrogate-based evaluation revealed that 77.2\% of
+these valid designs achieved superior performance compared to the single
+optimal design found by the SBO baseline. This work demonstrates that the
+generative approach not only discovers higher-quality solutions but also
+provides a rich portfolio of diverse candidates, fundamentally enhancing the
+engineering design process by enabling multi-criteria decision-making....
+
+---
+
+### 3. Reliable End-to-End Material Information Extraction from the Literature with Source-Tracked Multi-Stage Large Language Models
+
+**Authors:** Xin Wang, Anshu Raj, Matthew Luebbe, Haiming Wen, Shuozhi Xu, Kun Lu
+
+**Published:** 2025-10-01
+
+**Category:** cs.CL
+
+**ID:** 2510.05142v1
+
+**Link:** [http://arxiv.org/abs/2510.05142v1](http://arxiv.org/abs/2510.05142v1)
+
+**Summary:** Data-driven materials discovery requires large-scale experimental datasets,
+yet most of the information remains trapped in unstructured literature.
+Existing extraction efforts often focus on a limited set of features and have
+not addressed the integrated composition-processing-microstructure-property
+relationships essential for understanding materials behavior, thereby posing
+challenges for building comprehensive databases. To address this gap, we
+propose a multi-stage information extraction pipeline powered by large language
+models, which captures 47 features spanning composition, processing,
+microstructure, and properties exclusively from experimentally reported
+materials. The pipeline integrates iterative extraction with source tracking to
+enhance both accuracy and reliability. Evaluations at the feature level
+(independent attributes) and tuple level (interdependent features) yielded F1
+scores around 0.96. Compared with single-pass extraction without source
+tracking, our approach improved F1 scores of microstructure category by 10.0%
+(feature level) and 13.7% (tuple level), and reduced missed materials from 49
+to 13 out of 396 materials in 100 articles on precipitate-containing
+multi-principal element alloys (miss rate reduced from 12.4% to 3.3%). The
+pipeline enables scalable and efficient literature mining, producing databases
+with high precision, minimal omissions, and zero false positives. These
+datasets provide trustworthy inputs for machine learning and materials
+informatics, while the modular design generalizes to diverse material classes,
+enabling comprehensive materials information extraction....
 
 ---
 
