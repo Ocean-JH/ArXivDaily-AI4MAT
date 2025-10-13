@@ -1,0 +1,84 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2510.09406v1",
+    "title": "Are diffusion models ready for materials discovery in unexplored chemical space?",
+    "authors": [
+      "Sanghyun Kim",
+      "Gihyeon Jeon",
+      "Seungwoo Hwang",
+      "Jiho Lee",
+      "Jisu Jung",
+      "Seungwu Han",
+      "Sungwoo Kang"
+    ],
+    "summary": "While diffusion models are attracting increasing attention for the design of\nnovel materials, their ability to generate low-energy structures in unexplored\nchemical spaces has not been systematically assessed. Here, we evaluate the\nperformance of two diffusion models, MatterGen and DiffCSP, against three\ndatabases: a ternary oxide set (constructed by a genetic algorithm), a ternary\nnitride set (constructed by template informatics), and the GNoME database\n(constructed by a combination of both). We find that diffusion models generally\nperform stably in well-sampled chemical spaces (oxides and nitrides), but are\nless effective in uncommon ones (GNoME), which contains many compositions\ninvolving rare-earth elements and unconventional stoichiometry. Finally, we\nassess their size-extrapolation capability and observe a significant drop in\nperformance when the number of atoms exceeds the trained range. This is\nattributed to the limitations imposed by periodic boundary conditions, which we\nrefer to as the curse of periodicity. This study paves the way for future\ndevelopments in materials design by highlighting both the strength and the\nlimitations of diffusion models.",
+    "published": "2025-10-10T14:01:10+00:00",
+    "updated": "2025-10-10T14:01:10+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.09406v1",
+    "base_id": "2510.09406",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.09406v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2311.11092v3",
+    "title": "Quantum Defects in 2D Transition Metal Dichalcogenides for Terahertz Technologies",
+    "authors": [
+      "Jingda Zhang",
+      "Su Ying Quek"
+    ],
+    "summary": "Substitutional transition metal (TM) point defects have recently been\ncontrollably introduced in two-dimensional (2D) transition metal\ndichalcogenides. We identify quantum defect candidates through a\nfirst-principles materials discovery approach with 25 TM elements substituting\nMo and W in 2D MoS2 and WSe2, respectively. We elucidate trends in the charge\ntransition levels for these 50 systems and report the existence of defects with\nspin-triplet ground states and a zero-field splitting (ZFS) in the terahertz\n(THz) regime, in contrast to typical gigahertz values. These defects can couple\nto resonant near-infrared radiation, providing a route to applications as\nhigh-fidelity qubits controlled by spin-dependent optical transitions. The THz\nZFS implies that these high-fidelity operations can take place at higher\ntemperatures compared to the case for GHz qubits. Our results also point toward\nthe possibility of realising a single-photon THz emitter. This work broadens\nthe scope of quantum defects, highlighting the opportunities for next\ngeneration THz quantum technologies - an area of growing interest given the\nrapid advancement in the development of THz sources and detectors.",
+    "published": "2023-11-18T14:42:02+00:00",
+    "updated": "2025-10-10T05:44:30+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "This paper has been published on ACS Nano",
+    "journal_ref": null,
+    "doi": "10.1021/acsnano.5c06007",
+    "pdf_url": "http://arxiv.org/pdf/2311.11092v3",
+    "base_id": "2311.11092",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2311.11092v3"
+  },
+  {
+    "id": "http://arxiv.org/abs/2504.18728v4",
+    "title": "A Unified Predictive and Generative Solution for Liquid Electrolyte Formulation",
+    "authors": [
+      "Zhenze Yang",
+      "Yifan Wu",
+      "Xu Han",
+      "Ziqing Zhang",
+      "Haoen Lai",
+      "Zhenliang Mu",
+      "Tianze Zheng",
+      "Siyuan Liu",
+      "Zhichen Pu",
+      "Zhi Wang",
+      "Zhiao Yu",
+      "Sheng Gong",
+      "Wen Yan"
+    ],
+    "summary": "Liquid electrolytes are critical components of next-generation energy storage\nsystems, enabling fast ion transport, minimizing interfacial resistance, and\nensuring electrochemical stability for long-term battery performance. However,\nmeasuring electrolyte properties and designing formulations remain\nexperimentally and computationally expensive. In this work, we present a\nunified framework for designing liquid electrolyte formulation, integrating a\nforward predictive model with an inverse generative approach. Leveraging both\ncomputational and experimental data collected from literature and extensive\nmolecular simulations, we train a predictive model capable of accurately\nestimating electrolyte properties from ionic conductivity to solvation\nstructure. Our physics-informed architecture preserves permutation invariance\nand incorporates empirical dependencies on temperature and salt concentration,\nmaking it broadly applicable to property prediction tasks across molecular\nmixtures. Furthermore, we introduce -- to the best of our knowledge -- the\nfirst generative machine learning framework for molecular mixture design,\ndemonstrated on electrolyte systems. This framework supports\nmulti-condition-constrained generation, addressing the inherently\nmulti-objective nature of materials design. As a proof of concept, we\nexperimentally identified three liquid electrolytes with both high ionic\nconductivity and anion-concentrated solvation structure. This unified framework\nadvances data-driven electrolyte design and can be readily extended to other\ncomplex chemical systems beyond electrolytes.",
+    "published": "2025-04-25T22:40:50+00:00",
+    "updated": "2025-10-09T19:01:05+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2504.18728v4",
+    "base_id": "2504.18728",
+    "version": "4",
+    "url": "http://arxiv.org/abs/2504.18728v4"
+  }
+]
