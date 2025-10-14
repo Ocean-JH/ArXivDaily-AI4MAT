@@ -34,106 +34,77 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (3)
+## New Papers (2)
 
-*Last updated: 2025-10-14 06:15:44 (SGT)*
+*Last updated: 2025-10-15 06:16:24 (SGT)*
 
-### 1. Are diffusion models ready for materials discovery in unexplored chemical space?
+### 1. Machine Learning-Driven Insights into Excitonic Effects in 2D Materials
 
-**Authors:** Sanghyun Kim, Gihyeon Jeon, Seungwoo Hwang, Jiho Lee, Jisu Jung, Seungwu Han, Sungwoo Kang
+**Authors:** Ahsan Javed, Sajid Ali
 
-**Published:** 2025-10-10
+**Published:** 2025-01-02
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2510.09406v1
+**ID:** 2501.01092v3
 
-**Link:** [http://arxiv.org/abs/2510.09406v1](http://arxiv.org/abs/2510.09406v1)
+**Link:** [http://arxiv.org/abs/2501.01092v3](http://arxiv.org/abs/2501.01092v3)
 
-**Summary:** While diffusion models are attracting increasing attention for the design of
-novel materials, their ability to generate low-energy structures in unexplored
-chemical spaces has not been systematically assessed. Here, we evaluate the
-performance of two diffusion models, MatterGen and DiffCSP, against three
-databases: a ternary oxide set (constructed by a genetic algorithm), a ternary
-nitride set (constructed by template informatics), and the GNoME database
-(constructed by a combination of both). We find that diffusion models generally
-perform stably in well-sampled chemical spaces (oxides and nitrides), but are
-less effective in uncommon ones (GNoME), which contains many compositions
-involving rare-earth elements and unconventional stoichiometry. Finally, we
-assess their size-extrapolation capability and observe a significant drop in
-performance when the number of atoms exceeds the trained range. This is
-attributed to the limitations imposed by periodic boundary conditions, which we
-refer to as the curse of periodicity. This study paves the way for future
-developments in materials design by highlighting both the strength and the
-limitations of diffusion models....
+**Summary:** Understanding excitonic effects in two-dimensional (2D) materials is critical
+for advancing their potential in next-generation electronic and photonic
+devices. In this study, we introduce a machine learning (ML)-based framework to
+predict exciton binding energies in 2D materials, offering a computationally
+efficient alternative to traditional methods such as many-body perturbation
+theory (GW) and the Bethe-Salpeter equation. Leveraging data from the
+Computational 2D Materials Database (C2DB), our ML models establish connections
+between cheaply available material descriptors and complex excitonic
+properties, significantly accelerating the screening process for materials with
+pronounced excitonic effects. Additionally, Bayesian optimization with Gaussian
+process regression was employed to efficiently filter materials with largest
+exciton binding energies, further enhancing the discovery process. Although
+developed for 2D systems, this approach is versatile and can be extended to
+three-dimensional materials, broadening its applicability in materials
+discovery....
 
 ---
 
-### 2. Quantum Defects in 2D Transition Metal Dichalcogenides for Terahertz Technologies
+### 2. Controllable Graph Generation with Diffusion Models via Inference-Time Tree Search Guidance
 
-**Authors:** Jingda Zhang, Su Ying Quek
+**Authors:** Jiachi Zhao, Zehong Wang, Yamei Liao, Chuxu Zhang, Yanfang Ye
 
-**Published:** 2023-11-18
+**Published:** 2025-10-12
 
-**Category:** cond-mat.mtrl-sci
+**Category:** cs.LG
 
-**ID:** 2311.11092v3
+**ID:** 2510.10402v1
 
-**Link:** [http://arxiv.org/abs/2311.11092v3](http://arxiv.org/abs/2311.11092v3)
+**Link:** [http://arxiv.org/abs/2510.10402v1](http://arxiv.org/abs/2510.10402v1)
 
-**Summary:** Substitutional transition metal (TM) point defects have recently been
-controllably introduced in two-dimensional (2D) transition metal
-dichalcogenides. We identify quantum defect candidates through a
-first-principles materials discovery approach with 25 TM elements substituting
-Mo and W in 2D MoS2 and WSe2, respectively. We elucidate trends in the charge
-transition levels for these 50 systems and report the existence of defects with
-spin-triplet ground states and a zero-field splitting (ZFS) in the terahertz
-(THz) regime, in contrast to typical gigahertz values. These defects can couple
-to resonant near-infrared radiation, providing a route to applications as
-high-fidelity qubits controlled by spin-dependent optical transitions. The THz
-ZFS implies that these high-fidelity operations can take place at higher
-temperatures compared to the case for GHz qubits. Our results also point toward
-the possibility of realising a single-photon THz emitter. This work broadens
-the scope of quantum defects, highlighting the opportunities for next
-generation THz quantum technologies - an area of growing interest given the
-rapid advancement in the development of THz sources and detectors....
-
----
-
-### 3. A Unified Predictive and Generative Solution for Liquid Electrolyte Formulation
-
-**Authors:** Zhenze Yang, Yifan Wu, Xu Han, Ziqing Zhang, Haoen Lai, Zhenliang Mu, Tianze Zheng, Siyuan Liu, Zhichen Pu, Zhi Wang, Zhiao Yu, Sheng Gong, Wen Yan
-
-**Published:** 2025-04-25
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2504.18728v4
-
-**Link:** [http://arxiv.org/abs/2504.18728v4](http://arxiv.org/abs/2504.18728v4)
-
-**Summary:** Liquid electrolytes are critical components of next-generation energy storage
-systems, enabling fast ion transport, minimizing interfacial resistance, and
-ensuring electrochemical stability for long-term battery performance. However,
-measuring electrolyte properties and designing formulations remain
-experimentally and computationally expensive. In this work, we present a
-unified framework for designing liquid electrolyte formulation, integrating a
-forward predictive model with an inverse generative approach. Leveraging both
-computational and experimental data collected from literature and extensive
-molecular simulations, we train a predictive model capable of accurately
-estimating electrolyte properties from ionic conductivity to solvation
-structure. Our physics-informed architecture preserves permutation invariance
-and incorporates empirical dependencies on temperature and salt concentration,
-making it broadly applicable to property prediction tasks across molecular
-mixtures. Furthermore, we introduce -- to the best of our knowledge -- the
-first generative machine learning framework for molecular mixture design,
-demonstrated on electrolyte systems. This framework supports
-multi-condition-constrained generation, addressing the inherently
-multi-objective nature of materials design. As a proof of concept, we
-experimentally identified three liquid electrolytes with both high ionic
-conductivity and anion-concentrated solvation structure. This unified framework
-advances data-driven electrolyte design and can be readily extended to other
-complex chemical systems beyond electrolytes....
+**Summary:** Graph generation is a fundamental problem in graph learning with broad
+applications across Web-scale systems, knowledge graphs, and scientific domains
+such as drug and material discovery. Recent approaches leverage diffusion
+models for step-by-step generation, yet unconditional diffusion offers little
+control over desired properties, often leading to unstable quality and
+difficulty in incorporating new objectives. Inference-time guidance methods
+mitigate these issues by adjusting the sampling process without retraining, but
+they remain inherently local, heuristic, and limited in controllability. To
+overcome these limitations, we propose TreeDiff, a Monte Carlo Tree Search
+(MCTS) guided dual-space diffusion framework for controllable graph generation.
+TreeDiff is a plug-and-play inference-time method that expands the search space
+while keeping computation tractable. Specifically, TreeDiff introduces three
+key designs to make it practical and scalable: (1) a macro-step expansion
+strategy that groups multiple denoising updates into a single transition,
+reducing tree depth and enabling long-horizon exploration; (2) a dual-space
+denoising mechanism that couples efficient latent-space denoising with
+lightweight discrete correction in graph space, ensuring both scalability and
+structural fidelity; and (3) a dual-space verifier that predicts long-term
+rewards from partially denoised graphs, enabling early value estimation and
+removing the need for full rollouts. Extensive experiments on 2D and 3D
+molecular generation benchmarks, under both unconditional and conditional
+settings, demonstrate that TreeDiff achieves state-of-the-art performance.
+Notably, TreeDiff exhibits favorable inference-time scaling: it continues to
+improve with additional computation, while existing inference-time methods
+plateau early under limited resources....
 
 ---
 

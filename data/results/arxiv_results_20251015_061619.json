@@ -1,0 +1,52 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2501.01092v3",
+    "title": "Machine Learning-Driven Insights into Excitonic Effects in 2D Materials",
+    "authors": [
+      "Ahsan Javed",
+      "Sajid Ali"
+    ],
+    "summary": "Understanding excitonic effects in two-dimensional (2D) materials is critical\nfor advancing their potential in next-generation electronic and photonic\ndevices. In this study, we introduce a machine learning (ML)-based framework to\npredict exciton binding energies in 2D materials, offering a computationally\nefficient alternative to traditional methods such as many-body perturbation\ntheory (GW) and the Bethe-Salpeter equation. Leveraging data from the\nComputational 2D Materials Database (C2DB), our ML models establish connections\nbetween cheaply available material descriptors and complex excitonic\nproperties, significantly accelerating the screening process for materials with\npronounced excitonic effects. Additionally, Bayesian optimization with Gaussian\nprocess regression was employed to efficiently filter materials with largest\nexciton binding energies, further enhancing the discovery process. Although\ndeveloped for 2D systems, this approach is versatile and can be extended to\nthree-dimensional materials, broadening its applicability in materials\ndiscovery.",
+    "published": "2025-01-02T06:32:25+00:00",
+    "updated": "2025-10-12T10:31:22+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2501.01092v3",
+    "base_id": "2501.01092",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2501.01092v3"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.10402v1",
+    "title": "Controllable Graph Generation with Diffusion Models via Inference-Time Tree Search Guidance",
+    "authors": [
+      "Jiachi Zhao",
+      "Zehong Wang",
+      "Yamei Liao",
+      "Chuxu Zhang",
+      "Yanfang Ye"
+    ],
+    "summary": "Graph generation is a fundamental problem in graph learning with broad\napplications across Web-scale systems, knowledge graphs, and scientific domains\nsuch as drug and material discovery. Recent approaches leverage diffusion\nmodels for step-by-step generation, yet unconditional diffusion offers little\ncontrol over desired properties, often leading to unstable quality and\ndifficulty in incorporating new objectives. Inference-time guidance methods\nmitigate these issues by adjusting the sampling process without retraining, but\nthey remain inherently local, heuristic, and limited in controllability. To\novercome these limitations, we propose TreeDiff, a Monte Carlo Tree Search\n(MCTS) guided dual-space diffusion framework for controllable graph generation.\nTreeDiff is a plug-and-play inference-time method that expands the search space\nwhile keeping computation tractable. Specifically, TreeDiff introduces three\nkey designs to make it practical and scalable: (1) a macro-step expansion\nstrategy that groups multiple denoising updates into a single transition,\nreducing tree depth and enabling long-horizon exploration; (2) a dual-space\ndenoising mechanism that couples efficient latent-space denoising with\nlightweight discrete correction in graph space, ensuring both scalability and\nstructural fidelity; and (3) a dual-space verifier that predicts long-term\nrewards from partially denoised graphs, enabling early value estimation and\nremoving the need for full rollouts. Extensive experiments on 2D and 3D\nmolecular generation benchmarks, under both unconditional and conditional\nsettings, demonstrate that TreeDiff achieves state-of-the-art performance.\nNotably, TreeDiff exhibits favorable inference-time scaling: it continues to\nimprove with additional computation, while existing inference-time methods\nplateau early under limited resources.",
+    "published": "2025-10-12T01:40:33+00:00",
+    "updated": "2025-10-12T01:40:33+00:00",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CE"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.10402v1",
+    "base_id": "2510.10402",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.10402v1"
+  }
+]
