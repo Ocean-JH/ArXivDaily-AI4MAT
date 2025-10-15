@@ -1,0 +1,104 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2507.00546v2",
+    "title": "Inverse Design in Nanophotonics via Representation Learning",
+    "authors": [
+      "Reza Marzban",
+      "Ali Adibi",
+      "Raphael Pestourie"
+    ],
+    "summary": "Inverse design in nanophotonics, the computational discovery of structures\nachieving targeted electromagnetic (EM) responses, has become a key tool for\nrecent optical advances. Traditional intuition-driven or iterative optimization\nmethods struggle with the inherently high-dimensional, non-convex design spaces\nand the substantial computational demands of EM simulations. Recently, machine\nlearning (ML) has emerged to address these bottlenecks effectively. This review\nframes ML-enhanced inverse design methodologies through the lens of\nrepresentation learning, classifying them into two categories: output-side and\ninput-side approaches. Output-side methods use ML to learn a representation in\nthe solution space to create a differentiable solver that accelerates\noptimization. Conversely, input-side techniques employ ML to learn compact,\nlatent-space representations of feasible device geometries, enabling efficient\nglobal exploration through generative models. Each strategy presents unique\ntrade-offs in data requirements, generalization capacity, and novel design\ndiscovery potentials. Hybrid frameworks that combine physics-based optimization\nwith data-driven representations help escape poor local optima, improve\nscalability, and facilitate knowledge transfer. We conclude by highlighting\nopen challenges and opportunities, emphasizing complexity management,\ngeometry-independent representations, integration of fabrication constraints,\nand advancements in multiphysics co-designs.",
+    "published": "2025-07-01T08:10:05+00:00",
+    "updated": "2025-10-14T14:09:50+00:00",
+    "categories": [
+      "physics.app-ph",
+      "cs.AI",
+      "cs.LG",
+      "physics.optics"
+    ],
+    "primary_category": "physics.app-ph",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2507.00546v2",
+    "base_id": "2507.00546",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2507.00546v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.12329v1",
+    "title": "Generative Diffusion Model DiffCrysGen Discovers Rare Earth-Free Magnetic Materials",
+    "authors": [
+      "Sourav Mal",
+      "Nehad Ahmed",
+      "Subhankar Mishra",
+      "Prasenjit Sen"
+    ],
+    "summary": "Efficient exploration of the vast chemical space is a fundamental challenge\nin materials discovery, particularly for designing functional inorganic\ncrystalline materials with targeted properties. Diffusion-based generative\nmodels have emerged as a powerful route, but most existing approaches require\ndomain-specific constraints and separate diffusion processes for atom types,\natomic positions, and lattice parameters, adding complexity and limiting\nefficiency. Here, we present DiffCrysGen, a fully data-driven, score-based\ndiffusion model that generates complete crystal structures in a single,\nend-to-end diffusion process. This unified framework simplifies the model\narchitecture and accelerates sampling by two to three orders of magnitude\ncompared to existing methods without compromising chemical and structural\ndiversity of the generated materials. In order to demonstrate the efficacy of\nDiffCrysGen in generating valid and useful materials, using density functional\ntheory (DFT), we validate a number of newly generated rare earth-free magnetic\nmaterials that are energetically and dynamically stable, and are potentially\nsynthesizable. These include ferromagnets with high saturation magnetization\nand large magnetocrystalline anisotropy, as also metallic antiferromagnets.\nThese results establish DiffCrysGen as a general platform for accelerated\nfunctional materials discovery.",
+    "published": "2025-10-14T09:42:23+00:00",
+    "updated": "2025-10-14T09:42:23+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "52 pages, 9 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.12329v1",
+    "base_id": "2510.12329",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.12329v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.12091v1",
+    "title": "ToPolyAgent: AI Agents for Coarse-Grained Topological Polymer Simulations",
+    "authors": [
+      "Lijie Ding",
+      "Jan-Michael Carrillo",
+      "Changwoo Do"
+    ],
+    "summary": "We introduce ToPolyAgent, a multi-agent AI framework for performing\ncoarse-grained molecular dynamics (MD) simulations of topological polymers\nthrough natural language instructions. By integrating large language models\n(LLMs) with domain-specific computational tools, ToPolyAgent supports both\ninteractive and autonomous simulation workflows across diverse polymer\narchitectures, including linear, ring, brush, and star polymers, as well as\ndendrimers. The system consists of four LLM-powered agents: a Config Agent for\ngenerating initial polymer-solvent configurations, a Simulation Agent for\nexecuting LAMMPS-based MD simulations and conformational analyses, a Report\nAgent for compiling markdown reports, and a Workflow Agent for streamlined\nautonomous operations. Interactive mode incorporates user feedback loops for\niterative refinements, while autonomous mode enables end-to-end task execution\nfrom detailed prompts. We demonstrate ToPolyAgent's versatility through case\nstudies involving diverse polymer architectures under varying solvent\ncondition, thermostats, and simulation lengths. Furthermore, we highlight its\npotential as a research assistant by directing it to investigate the effect of\ninteraction parameters on the linear polymer conformation, and the influence of\ngrafting density on the persistence length of the brush polymer. By coupling\nnatural language interfaces with rigorous simulation tools, ToPolyAgent lowers\nbarriers to complex computational workflows and advances AI-driven materials\ndiscovery in polymer science. It lays the foundation for autonomous and\nextensible multi-agent scientific research ecosystems.",
+    "published": "2025-10-14T02:54:19+00:00",
+    "updated": "2025-10-14T02:54:19+00:00",
+    "categories": [
+      "cs.AI",
+      "cond-mat.mtrl-sci",
+      "cond-mat.soft"
+    ],
+    "primary_category": "cs.AI",
+    "comment": "10 pages, 8 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.12091v1",
+    "base_id": "2510.12091",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.12091v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2504.12075v3",
+    "title": "Generative Deep Learning Framework for Inverse Design of Fuels",
+    "authors": [
+      "Kiran K. Yalamanchi",
+      "Pinaki Pal",
+      "Balaji Mohan",
+      "Abdullah S. AlRamadan",
+      "Jihad A. Badra",
+      "Yuanjiang Pei"
+    ],
+    "summary": "In the present work, a generative deep learning framework combining a\nCo-optimized Variational Autoencoder (Co-VAE) architecture with quantitative\nstructure-property relationship (QSPR) techniques is developed to enable\naccelerated inverse design of fuels. The Co-VAE integrates a property\nprediction component coupled with the VAE latent space, enhancing molecular\nreconstruction and accurate estimation of Research Octane Number (RON) (chosen\nas the fuel property of interest). A subset of the GDB-13 database, enriched\nwith a curated RON database, is used for model training. Hyperparameter tuning\nis further utilized to optimize the balance among reconstruction fidelity,\nchemical validity, and RON prediction. An independent regression model is then\nused to refine RON prediction, while a differential evolution algorithm is\nemployed to efficiently navigate the VAE latent space and identify promising\nfuel molecule candidates with high RON. This methodology addresses the\nlimitations of traditional fuel screening approaches by capturing complex\nstructure-property relationships within a comprehensive latent representation.\nThe generative model can be adapted to different target properties, enabling\nsystematic exploration of large chemical spaces relevant to fuel design\napplications. Furthermore, the demonstrated framework can be readily extended\nby incorporating additional synthesizability criteria to improve applicability\nand reliability for de novo design of new fuels.",
+    "published": "2025-04-16T13:32:25+00:00",
+    "updated": "2025-10-13T20:56:22+00:00",
+    "categories": [
+      "cs.LG",
+      "physics.chem-ph"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2504.12075v3",
+    "base_id": "2504.12075",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2504.12075v3"
+  }
+]
