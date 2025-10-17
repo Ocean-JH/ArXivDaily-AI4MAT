@@ -1,0 +1,85 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2510.00027v2",
+    "title": "Learning Inter-Atomic Potentials without Explicit Equivariance",
+    "authors": [
+      "Ahmed A. Elhag",
+      "Arun Raja",
+      "Alex Morehead",
+      "Samuel M. Blau",
+      "Garrett M. Morris",
+      "Michael M. Bronstein"
+    ],
+    "summary": "Accurate and scalable machine-learned inter-atomic potentials (MLIPs) are\nessential for molecular simulations ranging from drug discovery to new material\ndesign. Current state-of-the-art models enforce roto-translational symmetries\nthrough equivariant neural network architectures, a hard-wired inductive bias\nthat can often lead to reduced flexibility, computational efficiency, and\nscalability. In this work, we introduce TransIP: Transformer-based Inter-Atomic\nPotentials, a novel training paradigm for interatomic potentials achieving\nsymmetry compliance without explicit architectural constraints. Our approach\nguides a generic non-equivariant Transformer-based model to learn\nSO(3)-equivariance by optimizing its representations in the embedding space.\nTrained on the recent Open Molecules (OMol25) collection, a large and diverse\nmolecular dataset built specifically for MLIPs and covering different types of\nmolecules (including small organics, biomolecular fragments, and\nelectrolyte-like species), TransIP effectively learns symmetry in its latent\nspace, providing low equivariance error. Further, compared to a data\naugmentation baseline, TransIP achieves 40% to 60% improvement in performance\nacross varying OMol25 dataset sizes. More broadly, our work shows that learned\nequivariance can be a powerful and efficient alternative to augmentation-based\nMLIP models.",
+    "published": "2025-09-25T22:15:10+00:00",
+    "updated": "2025-10-15T17:55:37+00:00",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "q-bio.BM",
+      "q-bio.QM",
+      "I.2.1; J.3"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "19 pages, 3 tables, 10 figures. Under review. Changes from v1 to v2:\n  Clarified concluding phrases in the abstract and introduction, and corrected\n  a single typo in Table 1's total energy MAE reported for eSEN-sm-d",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.00027v2",
+    "base_id": "2510.00027",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2510.00027v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.13699v1",
+    "title": "Strain-induced Moiré Reconstruction and Memorization in Two-Dimensional Materials without Twist",
+    "authors": [
+      "Nazmul Hasan",
+      "Tara Peña",
+      "Aditya Dey",
+      "Dongyoung Yoon",
+      "Zakaria Islam",
+      "Yue Zhang",
+      "Maria Vitoria Guimaraes Leal",
+      "Arend M. van der Zande",
+      "Hesam Askari",
+      "Stephen M. Wu"
+    ],
+    "summary": "Two-dimensional (2D) materials with a twist between layers exhibit a moir\\'e\ninterference pattern with larger periodicity than any of the constituent layer\nunit cells. In these systems, a wealth of exotic phases appear that result from\nmoir\\'e-dependent many-body electron correlation effects or non-trivial band\ntopology. One problem with using twist to generate moir\\'e interference has\nbeen the difficulty in creating high-quality, uniform, and repeatable samples\ndue to fabrication through mechanical stacking with viscoelastic stamps. Here\nwe show, a new method to generate moir\\'e interference through the controlled\napplication of layer-by-layer strain (heterostrain) on non-twisted 2D\nmaterials, where moir\\'e interference results from strain-induced lattice\nmismatch without twisting or stacking. Heterostrain generation is achieved by\ndepositing stressed thin films onto 2D materials to apply large strains to the\ntop layers while leaving layers further down less strained. We achieve\ndeterministic control of moir\\'e periodicity and symmetry in non-twisted 2D\nmultilayers and bilayers, with 97% yield, through varying stressor film force\n(film thickness X film stress) and geometry. Moir\\'e reconstruction effects are\nmemorized after the removal of the stressor layers. Control over the strain\ndegree-of-freedom opens the door to a completely unexplored set of unrealized\ntunable moir\\'e geometric symmetries, which may now be achieved in a high-yield\nand user-skill independent process taking only hours. This technique solves a\nlong-standing throughput bottleneck in new moir\\'e quantum materials discovery\nand opens the door to industrially-compatible manufacturing for 2D\nmoir\\'e-based electronic or optical devices.",
+    "published": "2025-10-15T15:58:30+00:00",
+    "updated": "2025-10-15T15:58:30+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.13699v1",
+    "base_id": "2510.13699",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.13699v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2504.20278v2",
+    "title": "Deep Generative Prior for First Order Inverse Optimization",
+    "authors": [
+      "Haoyu Yang",
+      "Kamyar Azizzadenesheli",
+      "Haoxing Ren"
+    ],
+    "summary": "Inverse design optimization aims to infer system parameters from observed\nsolutions, posing critical challenges across domains such as semiconductor\nmanufacturing, structural engineering, materials science, and fluid dynamics.\nThe lack of explicit mathematical representations in many systems complicates\nthis process and makes the first order optimization impossible. Mainstream\napproaches, including generative AI and Bayesian optimization, address these\nchallenges but have limitations. Generative AI is computationally expensive,\nwhile Bayesian optimization, relying on surrogate models, suffers from\nscalability, sensitivity to priors, and noise issues, often leading to\nsuboptimal solutions. This paper introduces Deep Physics Prior (DPP), a novel\nmethod enabling first-order gradient-based inverse optimization with surrogate\nmachine learning models. By leveraging pretrained auxiliary Neural Operators,\nDPP enforces prior distribution constraints to ensure robust and meaningful\nsolutions. This approach is particularly effective when prior data and\nobservation distributions are unknown.",
+    "published": "2025-04-28T21:48:19+00:00",
+    "updated": "2025-10-14T19:51:44+00:00",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "comment": "15 pages, 6 figures. Under Review",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2504.20278v2",
+    "base_id": "2504.20278",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2504.20278v2"
+  }
+]

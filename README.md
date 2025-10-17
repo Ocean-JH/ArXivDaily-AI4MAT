@@ -34,148 +34,109 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (4)
+## New Papers (3)
 
-*Last updated: 2025-10-16 06:14:36 (SGT)*
+*Last updated: 2025-10-18 06:15:49 (SGT)*
 
-### 1. Inverse Design in Nanophotonics via Representation Learning
+### 1. Learning Inter-Atomic Potentials without Explicit Equivariance
 
-**Authors:** Reza Marzban, Ali Adibi, Raphael Pestourie
+**Authors:** Ahmed A. Elhag, Arun Raja, Alex Morehead, Samuel M. Blau, Garrett M. Morris, Michael M. Bronstein
 
-**Published:** 2025-07-01
-
-**Category:** physics.app-ph
-
-**ID:** 2507.00546v2
-
-**Link:** [http://arxiv.org/abs/2507.00546v2](http://arxiv.org/abs/2507.00546v2)
-
-**Summary:** Inverse design in nanophotonics, the computational discovery of structures
-achieving targeted electromagnetic (EM) responses, has become a key tool for
-recent optical advances. Traditional intuition-driven or iterative optimization
-methods struggle with the inherently high-dimensional, non-convex design spaces
-and the substantial computational demands of EM simulations. Recently, machine
-learning (ML) has emerged to address these bottlenecks effectively. This review
-frames ML-enhanced inverse design methodologies through the lens of
-representation learning, classifying them into two categories: output-side and
-input-side approaches. Output-side methods use ML to learn a representation in
-the solution space to create a differentiable solver that accelerates
-optimization. Conversely, input-side techniques employ ML to learn compact,
-latent-space representations of feasible device geometries, enabling efficient
-global exploration through generative models. Each strategy presents unique
-trade-offs in data requirements, generalization capacity, and novel design
-discovery potentials. Hybrid frameworks that combine physics-based optimization
-with data-driven representations help escape poor local optima, improve
-scalability, and facilitate knowledge transfer. We conclude by highlighting
-open challenges and opportunities, emphasizing complexity management,
-geometry-independent representations, integration of fabrication constraints,
-and advancements in multiphysics co-designs....
-
----
-
-### 2. Generative Diffusion Model DiffCrysGen Discovers Rare Earth-Free Magnetic Materials
-
-**Authors:** Sourav Mal, Nehad Ahmed, Subhankar Mishra, Prasenjit Sen
-
-**Published:** 2025-10-14
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2510.12329v1
-
-**Link:** [http://arxiv.org/abs/2510.12329v1](http://arxiv.org/abs/2510.12329v1)
-
-**Summary:** Efficient exploration of the vast chemical space is a fundamental challenge
-in materials discovery, particularly for designing functional inorganic
-crystalline materials with targeted properties. Diffusion-based generative
-models have emerged as a powerful route, but most existing approaches require
-domain-specific constraints and separate diffusion processes for atom types,
-atomic positions, and lattice parameters, adding complexity and limiting
-efficiency. Here, we present DiffCrysGen, a fully data-driven, score-based
-diffusion model that generates complete crystal structures in a single,
-end-to-end diffusion process. This unified framework simplifies the model
-architecture and accelerates sampling by two to three orders of magnitude
-compared to existing methods without compromising chemical and structural
-diversity of the generated materials. In order to demonstrate the efficacy of
-DiffCrysGen in generating valid and useful materials, using density functional
-theory (DFT), we validate a number of newly generated rare earth-free magnetic
-materials that are energetically and dynamically stable, and are potentially
-synthesizable. These include ferromagnets with high saturation magnetization
-and large magnetocrystalline anisotropy, as also metallic antiferromagnets.
-These results establish DiffCrysGen as a general platform for accelerated
-functional materials discovery....
-
----
-
-### 3. ToPolyAgent: AI Agents for Coarse-Grained Topological Polymer Simulations
-
-**Authors:** Lijie Ding, Jan-Michael Carrillo, Changwoo Do
-
-**Published:** 2025-10-14
-
-**Category:** cs.AI
-
-**ID:** 2510.12091v1
-
-**Link:** [http://arxiv.org/abs/2510.12091v1](http://arxiv.org/abs/2510.12091v1)
-
-**Summary:** We introduce ToPolyAgent, a multi-agent AI framework for performing
-coarse-grained molecular dynamics (MD) simulations of topological polymers
-through natural language instructions. By integrating large language models
-(LLMs) with domain-specific computational tools, ToPolyAgent supports both
-interactive and autonomous simulation workflows across diverse polymer
-architectures, including linear, ring, brush, and star polymers, as well as
-dendrimers. The system consists of four LLM-powered agents: a Config Agent for
-generating initial polymer-solvent configurations, a Simulation Agent for
-executing LAMMPS-based MD simulations and conformational analyses, a Report
-Agent for compiling markdown reports, and a Workflow Agent for streamlined
-autonomous operations. Interactive mode incorporates user feedback loops for
-iterative refinements, while autonomous mode enables end-to-end task execution
-from detailed prompts. We demonstrate ToPolyAgent's versatility through case
-studies involving diverse polymer architectures under varying solvent
-condition, thermostats, and simulation lengths. Furthermore, we highlight its
-potential as a research assistant by directing it to investigate the effect of
-interaction parameters on the linear polymer conformation, and the influence of
-grafting density on the persistence length of the brush polymer. By coupling
-natural language interfaces with rigorous simulation tools, ToPolyAgent lowers
-barriers to complex computational workflows and advances AI-driven materials
-discovery in polymer science. It lays the foundation for autonomous and
-extensible multi-agent scientific research ecosystems....
-
----
-
-### 4. Generative Deep Learning Framework for Inverse Design of Fuels
-
-**Authors:** Kiran K. Yalamanchi, Pinaki Pal, Balaji Mohan, Abdullah S. AlRamadan, Jihad A. Badra, Yuanjiang Pei
-
-**Published:** 2025-04-16
+**Published:** 2025-09-25
 
 **Category:** cs.LG
 
-**ID:** 2504.12075v3
+**ID:** 2510.00027v2
 
-**Link:** [http://arxiv.org/abs/2504.12075v3](http://arxiv.org/abs/2504.12075v3)
+**Link:** [http://arxiv.org/abs/2510.00027v2](http://arxiv.org/abs/2510.00027v2)
 
-**Summary:** In the present work, a generative deep learning framework combining a
-Co-optimized Variational Autoencoder (Co-VAE) architecture with quantitative
-structure-property relationship (QSPR) techniques is developed to enable
-accelerated inverse design of fuels. The Co-VAE integrates a property
-prediction component coupled with the VAE latent space, enhancing molecular
-reconstruction and accurate estimation of Research Octane Number (RON) (chosen
-as the fuel property of interest). A subset of the GDB-13 database, enriched
-with a curated RON database, is used for model training. Hyperparameter tuning
-is further utilized to optimize the balance among reconstruction fidelity,
-chemical validity, and RON prediction. An independent regression model is then
-used to refine RON prediction, while a differential evolution algorithm is
-employed to efficiently navigate the VAE latent space and identify promising
-fuel molecule candidates with high RON. This methodology addresses the
-limitations of traditional fuel screening approaches by capturing complex
-structure-property relationships within a comprehensive latent representation.
-The generative model can be adapted to different target properties, enabling
-systematic exploration of large chemical spaces relevant to fuel design
-applications. Furthermore, the demonstrated framework can be readily extended
-by incorporating additional synthesizability criteria to improve applicability
-and reliability for de novo design of new fuels....
+**Summary:** Accurate and scalable machine-learned inter-atomic potentials (MLIPs) are
+essential for molecular simulations ranging from drug discovery to new material
+design. Current state-of-the-art models enforce roto-translational symmetries
+through equivariant neural network architectures, a hard-wired inductive bias
+that can often lead to reduced flexibility, computational efficiency, and
+scalability. In this work, we introduce TransIP: Transformer-based Inter-Atomic
+Potentials, a novel training paradigm for interatomic potentials achieving
+symmetry compliance without explicit architectural constraints. Our approach
+guides a generic non-equivariant Transformer-based model to learn
+SO(3)-equivariance by optimizing its representations in the embedding space.
+Trained on the recent Open Molecules (OMol25) collection, a large and diverse
+molecular dataset built specifically for MLIPs and covering different types of
+molecules (including small organics, biomolecular fragments, and
+electrolyte-like species), TransIP effectively learns symmetry in its latent
+space, providing low equivariance error. Further, compared to a data
+augmentation baseline, TransIP achieves 40% to 60% improvement in performance
+across varying OMol25 dataset sizes. More broadly, our work shows that learned
+equivariance can be a powerful and efficient alternative to augmentation-based
+MLIP models....
+
+---
+
+### 2. Strain-induced Moiré Reconstruction and Memorization in Two-Dimensional Materials without Twist
+
+**Authors:** Nazmul Hasan, Tara Peña, Aditya Dey, Dongyoung Yoon, Zakaria Islam, Yue Zhang, Maria Vitoria Guimaraes Leal, Arend M. van der Zande, Hesam Askari, Stephen M. Wu
+
+**Published:** 2025-10-15
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2510.13699v1
+
+**Link:** [http://arxiv.org/abs/2510.13699v1](http://arxiv.org/abs/2510.13699v1)
+
+**Summary:** Two-dimensional (2D) materials with a twist between layers exhibit a moir\'e
+interference pattern with larger periodicity than any of the constituent layer
+unit cells. In these systems, a wealth of exotic phases appear that result from
+moir\'e-dependent many-body electron correlation effects or non-trivial band
+topology. One problem with using twist to generate moir\'e interference has
+been the difficulty in creating high-quality, uniform, and repeatable samples
+due to fabrication through mechanical stacking with viscoelastic stamps. Here
+we show, a new method to generate moir\'e interference through the controlled
+application of layer-by-layer strain (heterostrain) on non-twisted 2D
+materials, where moir\'e interference results from strain-induced lattice
+mismatch without twisting or stacking. Heterostrain generation is achieved by
+depositing stressed thin films onto 2D materials to apply large strains to the
+top layers while leaving layers further down less strained. We achieve
+deterministic control of moir\'e periodicity and symmetry in non-twisted 2D
+multilayers and bilayers, with 97% yield, through varying stressor film force
+(film thickness X film stress) and geometry. Moir\'e reconstruction effects are
+memorized after the removal of the stressor layers. Control over the strain
+degree-of-freedom opens the door to a completely unexplored set of unrealized
+tunable moir\'e geometric symmetries, which may now be achieved in a high-yield
+and user-skill independent process taking only hours. This technique solves a
+long-standing throughput bottleneck in new moir\'e quantum materials discovery
+and opens the door to industrially-compatible manufacturing for 2D
+moir\'e-based electronic or optical devices....
+
+---
+
+### 3. Deep Generative Prior for First Order Inverse Optimization
+
+**Authors:** Haoyu Yang, Kamyar Azizzadenesheli, Haoxing Ren
+
+**Published:** 2025-04-28
+
+**Category:** cs.AI
+
+**ID:** 2504.20278v2
+
+**Link:** [http://arxiv.org/abs/2504.20278v2](http://arxiv.org/abs/2504.20278v2)
+
+**Summary:** Inverse design optimization aims to infer system parameters from observed
+solutions, posing critical challenges across domains such as semiconductor
+manufacturing, structural engineering, materials science, and fluid dynamics.
+The lack of explicit mathematical representations in many systems complicates
+this process and makes the first order optimization impossible. Mainstream
+approaches, including generative AI and Bayesian optimization, address these
+challenges but have limitations. Generative AI is computationally expensive,
+while Bayesian optimization, relying on surrogate models, suffers from
+scalability, sensitivity to priors, and noise issues, often leading to
+suboptimal solutions. This paper introduces Deep Physics Prior (DPP), a novel
+method enabling first-order gradient-based inverse optimization with surrogate
+machine learning models. By leveraging pretrained auxiliary Neural Operators,
+DPP enforces prior distribution constraints to ensure robust and meaningful
+solutions. This approach is particularly effective when prior data and
+observation distributions are unknown....
 
 ---
 
