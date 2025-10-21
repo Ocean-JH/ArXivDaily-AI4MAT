@@ -1,0 +1,28 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.07150v2",
+    "title": "PLaID++: A Preference Aligned Language Model for Targeted Inorganic Materials Design",
+    "authors": [
+      "Andy Xu",
+      "Rohan Desai",
+      "Larry Wang",
+      "Gabriel Hope",
+      "Ethan Ritz"
+    ],
+    "summary": "Reinforcement Learning from Verifiable Rewards (RLVR) has emerged as a\npromising approach to improve correctness in LLMs, however, in many scientific\nproblems, the objective is not necessarily to produce the correct answer, but\ninstead to produce a diverse array of candidates which satisfy a set of\nconstraints. We study this challenge in the context of materials generation. To\nthis end, we introduce PLaID++, an LLM post-trained for stable and\nproperty-guided crystal generation. We find that performance hinges on our\ncrystallographic representation and reward formulation. First, we introduce a\ncompact, symmetry-informed Wyckoff text representation which improves\ncomputational efficiency and encourages generalization from physical priors.\nSecond, we demonstrate that temperature scaling acts as an entropy regularizer\nwhich counteracts mode collapse and encourages exploration. By encoding\nsymmetry constraints directly into text and guiding model outputs towards\ndesirable chemical space, PLaID++ generates structures that are\nthermodynamically stable, unique, and novel at a $\\sim$50\\% greater rate than\nprior methods and conditionally generates structures with desired space group\nproperties. Our work demonstrates the potential of adapting post-training\ntechniques from natural language processing to materials design, paving the way\nfor targeted and efficient discovery of novel materials.",
+    "published": "2025-09-08T18:57:57+00:00",
+    "updated": "2025-10-17T04:59:57+00:00",
+    "categories": [
+      "cs.LG",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "Code available at https://github.com/andaero/PLaID, model weights at\n  https://huggingface.co/HOPE-Lab-HMC/PLaID",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2509.07150v2",
+    "base_id": "2509.07150",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2509.07150v2"
+  }
+]
