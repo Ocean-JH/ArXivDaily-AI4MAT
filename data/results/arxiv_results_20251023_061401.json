@@ -1,0 +1,53 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2510.18469v1",
+    "title": "Uncovering critical temperature dependence in Heusler magnets via explicit machine learning",
+    "authors": [
+      "Jean-Baptiste Morée",
+      "Juba Bouaziz",
+      "Ryotaro Arita"
+    ],
+    "summary": "We employ interpretable explicit machine learning to analyze the material\ndependence of the magnetic transition temperature $T_c$ in ferromagnetic and\nferrimagnetic Heusler compounds. For around 200 compounds, we consider both\nexperimental $T_c$ and calculated $T_c$ using \\textit{ab initio} determination\nof magnetic interactions together with a Monte-Carlo solution. We use the\nhierarchical dependence extraction (HDE) procedure [Mor\\'ee and Arita, Phys.\nRev. B 110, 014502 (2024)] to extract the dependencies of $T_c$ on chemical\nproportions and magnetic moments from the main order to the higher order, and\nconstruct an explicit expression of $T_c$ from these dependencies. The main\nresults are: (a) $T_c$ is mainly controlled by the proportions of Fe, Co, and\nMn, and increases with these proportions, consistent with previous machine\nlearning analyses of ferromagnetic materials. (b) The HDE describes $T_c$ with\nan accuracy that is comparable to that of other machine learning procedures.\n(c) The HDE expression of $T_c$ can be interpreted as a generalized order\nparameter that increases with increasing magnetization amplitude, in\nqualitative agreement with various theories of phase transitions. These results\nstrengthen our understanding of the material dependence of $T_c$ in collinear\nHeusler magnets and motivate the further use of HDE in material design.",
+    "published": "2025-10-21T09:46:14+00:00",
+    "updated": "2025-10-21T09:46:14+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "14 pages, 7 figures, 1 table",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.18469v1",
+    "base_id": "2510.18469",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.18469v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2504.08277v2",
+    "title": "Enabling Automatic Differentiation with Mollified Graph Neural Operators",
+    "authors": [
+      "Ryan Y. Lin",
+      "Julius Berner",
+      "Valentin Duruisseaux",
+      "David Pitt",
+      "Daniel Leibovici",
+      "Jean Kossaifi",
+      "Kamyar Azizzadenesheli",
+      "Anima Anandkumar"
+    ],
+    "summary": "Physics-informed neural operators offer a powerful framework for learning\nsolution operators of partial differential equations (PDEs) by combining data\nand physics losses. However, these physics losses rely on derivatives.\nComputing these derivatives remains challenging, with spectral and finite\ndifference methods introducing approximation errors due to finite resolution.\nHere, we propose the mollified graph neural operator ($m$GNO), the first method\nto leverage automatic differentiation and compute exact gradients on arbitrary\ngeometries. This enhancement enables efficient training on irregular grids and\nvarying geometries while allowing seamless evaluation of physics losses at\nrandomly sampled points for improved generalization. For a PDE example on\nregular grids, $m$GNO paired with autograd reduced the L2 relative data error\nby 20x compared to finite differences, although training was slower. It can\nalso solve PDEs on unstructured point clouds seamlessly, using physics losses\nonly, at resolutions vastly lower than those needed for finite differences to\nbe accurate enough. On these unstructured point clouds, $m$GNO leads to errors\nthat are consistently 2 orders of magnitude lower than machine learning\nbaselines (Meta-PDE, which accelerates PINNs) for comparable runtimes, and also\ndelivers speedups from 1 to 3 orders of magnitude compared to the numerical\nsolver for similar accuracy. $m$GNOs can also be used to solve inverse design\nand shape optimization problems on complex geometries.",
+    "published": "2025-04-11T06:16:30+00:00",
+    "updated": "2025-10-20T20:07:32+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2504.08277v2",
+    "base_id": "2504.08277",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2504.08277v2"
+  }
+]
