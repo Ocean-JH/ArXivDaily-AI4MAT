@@ -1,0 +1,80 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2502.05625v4",
+    "title": "Training-Free Constrained Generation With Stable Diffusion Models",
+    "authors": [
+      "Stefano Zampini",
+      "Jacob K. Christopher",
+      "Luca Oneto",
+      "Davide Anguita",
+      "Ferdinando Fioretto"
+    ],
+    "summary": "Stable diffusion models represent the state-of-the-art in data synthesis\nacross diverse domains and hold transformative potential for applications in\nscience and engineering, e.g., by facilitating the discovery of novel solutions\nand simulating systems that are computationally intractable to model\nexplicitly. While there is increasing effort to incorporate physics-based\nconstraints into generative models, existing techniques are either limited in\ntheir applicability to latent diffusion frameworks or lack the capability to\nstrictly enforce domain-specific constraints. To address this limitation this\npaper proposes a novel integration of stable diffusion models with constrained\noptimization frameworks, enabling the generation of outputs satisfying\nstringent physical and functional requirements. The effectiveness of this\napproach is demonstrated through material design experiments requiring\nadherence to precise morphometric properties, challenging inverse design tasks\ninvolving the generation of materials inducing specific stress-strain\nresponses, and copyright-constrained content generation tasks. All code has\nbeen released at\nhttps://github.com/RAISELab-atUVA/Constrained-Stable-Diffusion.",
+    "published": "2025-02-08T16:11:17+00:00",
+    "updated": "2025-10-22T17:02:03+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "Spotlight at the 39th Conference on Neural Information Processing\n  Systems (NeurIPS 2025)",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2502.05625v4",
+    "base_id": "2502.05625",
+    "version": "4",
+    "url": "http://arxiv.org/abs/2502.05625v4"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.19667v1",
+    "title": "Dara: Automated multiple-hypothesis phase identification and refinement from powder X-ray diffraction",
+    "authors": [
+      "Yuxing Fei",
+      "Matthew J. McDermott",
+      "Christopher L. Rom",
+      "Shilong Wang",
+      "Gerbrand Ceder"
+    ],
+    "summary": "Powder X-ray diffraction (XRD) is a foundational technique for characterizing\ncrystalline materials. However, the reliable interpretation of XRD patterns,\nparticularly in multiphase systems, remains a manual and expertise-demanding\ntask. As a characterization method that only provides structural information,\nmultiple reference phases can often be fit to a single pattern, leading to\npotential misinterpretation when alternative solutions are overlooked. To ease\nhumans' efforts and address the challenge, we introduce Dara (Data-driven\nAutomated Rietveld Analysis), a framework designed to automate the robust\nidentification and refinement of multiple phases from powder XRD data. Dara\nperforms an exhaustive tree search over all plausible phase combinations within\na given chemical space and validates each hypothesis using a robust Rietveld\nrefinement routine (BGMN). Key features include structural database filtering,\nautomatic clustering of isostructural phases during tree expansion,\npeak-matching-based scoring to identify promising phases for refinement. When\nambiguity exists, Dara generates multiple hypothesis which can then be decided\nbetween by human experts or with further characteriztion tools. By enhancing\nthe reliability and accuracy of phase identification, Dara enables scalable\nanalysis of realistic complex XRD patterns and provides a foundation for\nintegration into multimodal characterization workflows, moving toward fully\nself-driving materials discovery.",
+    "published": "2025-10-22T15:13:47+00:00",
+    "updated": "2025-10-22T15:13:47+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.SE",
+      "physics.data-an"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.19667v1",
+    "base_id": "2510.19667",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.19667v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.18911v1",
+    "title": "Prospects for Using Artificial Intelligence to Understand Intrinsic Kinetics of Heterogeneous Catalytic Reactions",
+    "authors": [
+      "Andrew J. Medford",
+      "Todd N. Whittaker",
+      "Bjarne Kreitz",
+      "David W. Flaherty",
+      "John R. Kitchin"
+    ],
+    "summary": "Artificial intelligence (AI) is influencing heterogeneous catalysis research\nby accelerating simulations and materials discovery. A key frontier is\nintegrating AI with multiscale models and multimodal experiments to address the\n\"many-to-one\" challenge of linking intrinsic kinetics to observables. Advances\nin machine-learned force fields, microkinetics, and reactor modeling enable\nrapid exploration of chemical spaces, while operando and transient data provide\nunprecedented insight. Yet, inconsistent data quality and model complexity\nlimit mechanistic discovery. Generative and agentic AI can automate model\ngeneration, quantify uncertainty, and couple theory with experiment, realizing\n\"self-driving models\" that produce interpretable, reproducible, and\ntransferable understanding of catalytic systems.",
+    "published": "2025-10-21T04:35:26+00:00",
+    "updated": "2025-10-21T04:35:26+00:00",
+    "categories": [
+      "physics.chem-ph",
+      "cs.AI"
+    ],
+    "primary_category": "physics.chem-ph",
+    "comment": "Submitted to \"Current Opinion in Chemical Engineering\" for peer\n  review",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.18911v1",
+    "base_id": "2510.18911",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.18911v1"
+  }
+]

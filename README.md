@@ -34,75 +34,100 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (2)
+## New Papers (3)
 
-*Last updated: 2025-10-23 06:14:10 (SGT)*
+*Last updated: 2025-10-24 06:16:06 (SGT)*
 
-### 1. Uncovering critical temperature dependence in Heusler magnets via explicit machine learning
+### 1. Training-Free Constrained Generation With Stable Diffusion Models
 
-**Authors:** Jean-Baptiste Morée, Juba Bouaziz, Ryotaro Arita
+**Authors:** Stefano Zampini, Jacob K. Christopher, Luca Oneto, Davide Anguita, Ferdinando Fioretto
 
-**Published:** 2025-10-21
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2510.18469v1
-
-**Link:** [http://arxiv.org/abs/2510.18469v1](http://arxiv.org/abs/2510.18469v1)
-
-**Summary:** We employ interpretable explicit machine learning to analyze the material
-dependence of the magnetic transition temperature $T_c$ in ferromagnetic and
-ferrimagnetic Heusler compounds. For around 200 compounds, we consider both
-experimental $T_c$ and calculated $T_c$ using \textit{ab initio} determination
-of magnetic interactions together with a Monte-Carlo solution. We use the
-hierarchical dependence extraction (HDE) procedure [Mor\'ee and Arita, Phys.
-Rev. B 110, 014502 (2024)] to extract the dependencies of $T_c$ on chemical
-proportions and magnetic moments from the main order to the higher order, and
-construct an explicit expression of $T_c$ from these dependencies. The main
-results are: (a) $T_c$ is mainly controlled by the proportions of Fe, Co, and
-Mn, and increases with these proportions, consistent with previous machine
-learning analyses of ferromagnetic materials. (b) The HDE describes $T_c$ with
-an accuracy that is comparable to that of other machine learning procedures.
-(c) The HDE expression of $T_c$ can be interpreted as a generalized order
-parameter that increases with increasing magnetization amplitude, in
-qualitative agreement with various theories of phase transitions. These results
-strengthen our understanding of the material dependence of $T_c$ in collinear
-Heusler magnets and motivate the further use of HDE in material design....
-
----
-
-### 2. Enabling Automatic Differentiation with Mollified Graph Neural Operators
-
-**Authors:** Ryan Y. Lin, Julius Berner, Valentin Duruisseaux, David Pitt, Daniel Leibovici, Jean Kossaifi, Kamyar Azizzadenesheli, Anima Anandkumar
-
-**Published:** 2025-04-11
+**Published:** 2025-02-08
 
 **Category:** cs.LG
 
-**ID:** 2504.08277v2
+**ID:** 2502.05625v4
 
-**Link:** [http://arxiv.org/abs/2504.08277v2](http://arxiv.org/abs/2504.08277v2)
+**Link:** [http://arxiv.org/abs/2502.05625v4](http://arxiv.org/abs/2502.05625v4)
 
-**Summary:** Physics-informed neural operators offer a powerful framework for learning
-solution operators of partial differential equations (PDEs) by combining data
-and physics losses. However, these physics losses rely on derivatives.
-Computing these derivatives remains challenging, with spectral and finite
-difference methods introducing approximation errors due to finite resolution.
-Here, we propose the mollified graph neural operator ($m$GNO), the first method
-to leverage automatic differentiation and compute exact gradients on arbitrary
-geometries. This enhancement enables efficient training on irregular grids and
-varying geometries while allowing seamless evaluation of physics losses at
-randomly sampled points for improved generalization. For a PDE example on
-regular grids, $m$GNO paired with autograd reduced the L2 relative data error
-by 20x compared to finite differences, although training was slower. It can
-also solve PDEs on unstructured point clouds seamlessly, using physics losses
-only, at resolutions vastly lower than those needed for finite differences to
-be accurate enough. On these unstructured point clouds, $m$GNO leads to errors
-that are consistently 2 orders of magnitude lower than machine learning
-baselines (Meta-PDE, which accelerates PINNs) for comparable runtimes, and also
-delivers speedups from 1 to 3 orders of magnitude compared to the numerical
-solver for similar accuracy. $m$GNOs can also be used to solve inverse design
-and shape optimization problems on complex geometries....
+**Summary:** Stable diffusion models represent the state-of-the-art in data synthesis
+across diverse domains and hold transformative potential for applications in
+science and engineering, e.g., by facilitating the discovery of novel solutions
+and simulating systems that are computationally intractable to model
+explicitly. While there is increasing effort to incorporate physics-based
+constraints into generative models, existing techniques are either limited in
+their applicability to latent diffusion frameworks or lack the capability to
+strictly enforce domain-specific constraints. To address this limitation this
+paper proposes a novel integration of stable diffusion models with constrained
+optimization frameworks, enabling the generation of outputs satisfying
+stringent physical and functional requirements. The effectiveness of this
+approach is demonstrated through material design experiments requiring
+adherence to precise morphometric properties, challenging inverse design tasks
+involving the generation of materials inducing specific stress-strain
+responses, and copyright-constrained content generation tasks. All code has
+been released at
+https://github.com/RAISELab-atUVA/Constrained-Stable-Diffusion....
+
+---
+
+### 2. Dara: Automated multiple-hypothesis phase identification and refinement from powder X-ray diffraction
+
+**Authors:** Yuxing Fei, Matthew J. McDermott, Christopher L. Rom, Shilong Wang, Gerbrand Ceder
+
+**Published:** 2025-10-22
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2510.19667v1
+
+**Link:** [http://arxiv.org/abs/2510.19667v1](http://arxiv.org/abs/2510.19667v1)
+
+**Summary:** Powder X-ray diffraction (XRD) is a foundational technique for characterizing
+crystalline materials. However, the reliable interpretation of XRD patterns,
+particularly in multiphase systems, remains a manual and expertise-demanding
+task. As a characterization method that only provides structural information,
+multiple reference phases can often be fit to a single pattern, leading to
+potential misinterpretation when alternative solutions are overlooked. To ease
+humans' efforts and address the challenge, we introduce Dara (Data-driven
+Automated Rietveld Analysis), a framework designed to automate the robust
+identification and refinement of multiple phases from powder XRD data. Dara
+performs an exhaustive tree search over all plausible phase combinations within
+a given chemical space and validates each hypothesis using a robust Rietveld
+refinement routine (BGMN). Key features include structural database filtering,
+automatic clustering of isostructural phases during tree expansion,
+peak-matching-based scoring to identify promising phases for refinement. When
+ambiguity exists, Dara generates multiple hypothesis which can then be decided
+between by human experts or with further characteriztion tools. By enhancing
+the reliability and accuracy of phase identification, Dara enables scalable
+analysis of realistic complex XRD patterns and provides a foundation for
+integration into multimodal characterization workflows, moving toward fully
+self-driving materials discovery....
+
+---
+
+### 3. Prospects for Using Artificial Intelligence to Understand Intrinsic Kinetics of Heterogeneous Catalytic Reactions
+
+**Authors:** Andrew J. Medford, Todd N. Whittaker, Bjarne Kreitz, David W. Flaherty, John R. Kitchin
+
+**Published:** 2025-10-21
+
+**Category:** physics.chem-ph
+
+**ID:** 2510.18911v1
+
+**Link:** [http://arxiv.org/abs/2510.18911v1](http://arxiv.org/abs/2510.18911v1)
+
+**Summary:** Artificial intelligence (AI) is influencing heterogeneous catalysis research
+by accelerating simulations and materials discovery. A key frontier is
+integrating AI with multiscale models and multimodal experiments to address the
+"many-to-one" challenge of linking intrinsic kinetics to observables. Advances
+in machine-learned force fields, microkinetics, and reactor modeling enable
+rapid exploration of chemical spaces, while operando and transient data provide
+unprecedented insight. Yet, inconsistent data quality and model complexity
+limit mechanistic discovery. Generative and agentic AI can automate model
+generation, quantify uncertainty, and couple theory with experiment, realizing
+"self-driving models" that produce interpretable, reproducible, and
+transferable understanding of catalytic systems....
 
 ---
 
