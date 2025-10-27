@@ -1,0 +1,57 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2505.10994v3",
+    "title": "Space Group Equivariant Crystal Diffusion",
+    "authors": [
+      "Rees Chang",
+      "Angela Pak",
+      "Alex Guerra",
+      "Ni Zhan",
+      "Nick Richardson",
+      "Elif Ertekin",
+      "Ryan P. Adams"
+    ],
+    "summary": "Accelerating inverse design of crystalline materials with generative models\nhas significant implications for a range of technologies. Unlike other atomic\nsystems, 3D crystals are invariant to discrete groups of isometries called the\nspace groups. Crucially, these space group symmetries are known to heavily\ninfluence materials properties. We propose SGEquiDiff, a crystal generative\nmodel which naturally handles space group constraints with space group\ninvariant likelihoods. SGEquiD-iff consists of an SE(3)-invariant, telescoping\ndiscrete sampler of crystal lattices; permutation-invariant, transformer-based\nautoregressive sampling of Wyckoff positions, elements, and numbers of\nsymmetrically unique atoms; and space group equivariant diffusion of atomic\ncoordinates. We show that space group equivariant vector fields automatically\nlive in the tangent spaces of the Wyckoff positions. SGEquiDiff achieves\nstate-of-the-art performance on standard benchmark datasets as assessed by\nquantitative proxy metrics and quantum mechanical calculations. Our code is\navailable at https://github.com/rees-c/sgequidiff.",
+    "published": "2025-05-16T08:45:04+00:00",
+    "updated": "2025-10-23T23:52:51+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": "NeurIPS 2025",
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2505.10994v3",
+    "base_id": "2505.10994",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2505.10994v3"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.20976v1",
+    "title": "L^2M^3OF: A Large Language Multimodal Model for Metal-Organic Frameworks",
+    "authors": [
+      "Jiyu Cui",
+      "Fang Wu",
+      "Haokai Zhao",
+      "Minggao Feng",
+      "Xenophon Evangelopoulos",
+      "Andrew I. Cooper",
+      "Yejin Choi"
+    ],
+    "summary": "Large language models have demonstrated remarkable reasoning capabilities\nacross diverse natural language tasks. However, comparable breakthroughs in\nscientific discovery are more limited, because understanding complex physical\nphenomena demands multifaceted representations far beyond language alone. A\ncompelling example is the design of functional materials such as MOFs-critical\nfor a range of impactful applications like carbon capture and hydrogen storage.\nNavigating their vast and intricate design space in language-based\nrepresentations interpretable by LLMs is challenging due to the numerous\npossible three-dimensional atomic arrangements and strict reticular rules of\ncoordination geometry and topology. Despite promising early results in\nLLM-assisted discovery for simpler materials systems, MOF design remains\nheavily reliant on tacit human expertise rarely codified in textual information\nalone. To overcome this barrier, we introduce L2M3OF, the first multimodal LLM\nfor MOFs. L2M3OF integrates crystal representation learning with language\nunderstanding to process structural, textual, and knowledge modalities jointly.\nL2M3OF employs a pre-trained crystal encoder with a lightweight projection\nlayer to compress structural information into a token space, enabling efficient\nalignment with language instructions. To facilitate training and evaluation, we\ncurate a structure-property-knowledge database of crystalline materials and\nbenchmark L2M3OF against state-of-the-art closed-source LLMs such as GPT-5,\nGemini-2.5-Pro and DeepSeek-R1. Experiments show that L2M3OF outperforms\nleading text-based closed-source LLMs in property prediction and knowledge\ngeneration tasks, despite using far fewer parameters. These results highlight\nthe importance of multimodal approaches for porous material understanding and\nestablish L2M3OF as a foundation for next-generation AI systems in materials\ndiscovery.",
+    "published": "2025-10-23T20:12:46+00:00",
+    "updated": "2025-10-23T20:12:46+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "18 pages, 7 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.20976v1",
+    "base_id": "2510.20976",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.20976v1"
+  }
+]
