@@ -1,0 +1,78 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2510.24238v1",
+    "title": "Unlocking Dynamic Luminescent Mapping of pH with Sustainable Lignin-Derived Carbon Dots with Multimodal Readout Capacity",
+    "authors": [
+      "Maja Szymczak",
+      "Jan Hočevar",
+      "Jernej Iskra",
+      "Darja Lisjak",
+      "Jelena Papan Djaniš",
+      "Lukasz Marciniak",
+      "Karolina Elzbieciak-Piecka"
+    ],
+    "summary": "In this work, we demonstrate the use of CQDs synthesized from lignin -\ncurrently one of the most abundant and underutilized by-products of paper and\npulp production - for advanced pH monitoring applications. The presented\napproach integrates green chemistry principles with an operator-friendly,\nlow-cost, and practical solution for spatial and temporal pH measurement. CQDs\nfunctionalized with m-aminophenylboronic acid enable highly sensitive and\nreversible pH readouts through two complementary mechanisms: ratiometric\nmonitoring of emission band intensities, and direct visual observation of\ncolorimetric changes reflected in the CIE1931 chromaticity coordinates. The\nsystem achieves maximal sensitivities of 137 percent per pH unit and 49.5\npercent per pH unit, respectively, while simultaneously maintaining high\nmeasurement resolution and full reproducibility of the readouts, placing it\namong the most effective CQD-based pH sensors reported to date. Here, we\ndemonstrate the capability of 2D luminescent imaging of pH distributions,\nallowing for both spatially resolved and time-resolved monitoring. Employing\njust an excitation source, a digital camera or smartphone, and RGB channel\nanalysis, the setup eliminates the necessity for specialized filters or\nsophisticated instrumentation. The combination of multimodal readout strategies\nwith the capacity for large-area visualization establishes lignin-derived CQDs\nas a sustainable and practical platform for pH sensing. By simultaneously\naddressing the challenges of waste valorization and the demand for innovative\nsensing technologies, this solution fulfills the requirements of both\nenvironmentally responsible material design and next-generation pH sensor\ndevelopment.",
+    "published": "2025-10-28T09:46:50+00:00",
+    "updated": "2025-10-28T09:46:50+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.24238v1",
+    "base_id": "2510.24238",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.24238v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.18325v2",
+    "title": "GoodRegressor: A General-Purpose Symbolic Regression Framework for Physically Interpretable Materials Modeling",
+    "authors": [
+      "Seong-Hoon Jang"
+    ],
+    "summary": "Machine learning has accelerated materials discovery, yet most\nhigh-performing models remain black boxes, offering predictions without\nphysical understanding. Here I present GoodRegressor, a general-purpose,\nC++-based symbolic regression framework that bridges data-driven modeling and\nphysical interpretability. GoodRegressor systematically explores nonlinear\ntransformations and feature interactions across five integrated modules,\nparser, designer, curator, regressor, and designer as a post-process, to\nconstruct compact, physics-consistent analytical models. For example, applied\nto the experimental activation energy dataset of oxygen-ion conductors,\nGoodRegressor explored an ensemble-sampled model space comprising approximately\n$1.44 \\times 10^{457}$ possible combinations and achieved superior predictive\nperformance ($\\langle R^2 \\rangle =0.804$) compared with conventional machine\nlearning methods, outperforming RandomForest, XGBoost, LightGBM, Ridge, MLP,\nand PySR ($\\langle R^2 \\rangle \\leq 0.652$). Unlike black-box models,\nGoodRegressor reveals transparent structure-property relationships linking\nionic transport to coordination environment and lattice flexibility. This\ninterpretable modeling framework mitigates the opacity of conventional ML,\nenabling hypothesis generation, physical insight, and general applicability to\ncomplex scientific systems beyond materials informatics.",
+    "published": "2025-10-21T06:16:10+00:00",
+    "updated": "2025-10-28T07:40:51+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.18325v2",
+    "base_id": "2510.18325",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2510.18325v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.23667v1",
+    "title": "Optimize Any Topology: A Foundation Model for Shape- and Resolution-Free Structural Topology Optimization",
+    "authors": [
+      "Amin Heyrani Nobari",
+      "Lyle Regenwetter",
+      "Cyril Picard",
+      "Ligong Han",
+      "Faez Ahmed"
+    ],
+    "summary": "Structural topology optimization (TO) is central to engineering design but\nremains computationally intensive due to complex physics and hard constraints.\nExisting deep-learning methods are limited to fixed square grids, a few\nhand-coded boundary conditions, and post-hoc optimization, preventing general\ndeployment. We introduce Optimize Any Topology (OAT), a foundation-model\nframework that directly predicts minimum-compliance layouts for arbitrary\naspect ratios, resolutions, volume fractions, loads, and fixtures. OAT combines\na resolution- and shape-agnostic autoencoder with an implicit neural-field\ndecoder and a conditional latent-diffusion model trained on OpenTO, a new\ncorpus of 2.2 million optimized structures covering 2 million unique\nboundary-condition configurations. On four public benchmarks and two\nchallenging unseen tests, OAT lowers mean compliance up to 90% relative to the\nbest prior models and delivers sub-1 second inference on a single GPU across\nresolutions from 64 x 64 to 256 x 256 and aspect ratios as high as 10:1. These\nresults establish OAT as a general, fast, and resolution-free framework for\nphysics-aware topology optimization and provide a large-scale dataset to spur\nfurther research in generative modeling for inverse design. Code & data can be\nfound at https://github.com/ahnobari/OptimizeAnyTopology.",
+    "published": "2025-10-26T15:11:54+00:00",
+    "updated": "2025-10-26T15:11:54+00:00",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CE"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.23667v1",
+    "base_id": "2510.23667",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.23667v1"
+  }
+]
