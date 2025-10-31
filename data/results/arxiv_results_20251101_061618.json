@@ -1,0 +1,73 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2510.26100v1",
+    "title": "Applications of Machine Learning in Polymer Materials: Property Prediction, Material Design, and Systematic Processes",
+    "authors": [
+      "Hongtao Guo Shuai Li Shu Li"
+    ],
+    "summary": "This paper systematically reviews the research progress and application\nprospects of machine learning technologies in the field of polymer materials.\nCurrently, machine learning methods are developing rapidly in polymer material\nresearch; although they have significantly accelerated material prediction and\ndesign, their complexity has also caused difficulties in understanding and\napplication for researchers in traditional fields. In response to the above\nissues, this paper first analyzes the inherent challenges in the research and\ndevelopment of polymer materials, including structural complexity and the\nlimitations of traditional trial-and-error methods. To address these problems,\nit focuses on introducing key basic technologies such as molecular descriptors\nand feature representation, data standardization and cleaning, and records a\nnumber of high-quality polymer databases. Subsequently, it elaborates on the\nkey role of machine learning in polymer property prediction and material\ndesign, covering the specific applications of algorithms such as traditional\nmachine learning, deep learning, and transfer learning; further, it deeply\nexpounds on data-driven design strategies, such as reverse design,\nhigh-throughput virtual screening, and multi-objective optimization. The paper\nalso systematically introduces the complete process of constructing\nhigh-reliability machine learning models and summarizes effective experimental\nverification, model evaluation, and optimization methods. Finally, it\nsummarizes the current technical challenges in research, such as data quality\nand model generalization ability, and looks forward to future development\ntrends including multi-scale modeling, physics-informed machine learning,\nstandardized data sharing, and interpretable machine learning.",
+    "published": "2025-10-30T03:26:04+00:00",
+    "updated": "2025-10-30T03:26:04+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "55 pages, 6 tables, 9 figures, a systematic review on the research\n  progress and application prospects of machine learning in polymer materials",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.26100v1",
+    "base_id": "2510.26100",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.26100v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.04492v2",
+    "title": "Accurate predictive model of band gap with selected important features based on explainable machine learning",
+    "authors": [
+      "Joohwi Lee",
+      "Kaito Miyamoto"
+    ],
+    "summary": "In the rapidly advancing field of materials informatics, nonlinear machine\nlearning models have demonstrated exceptional predictive capabilities for\nmaterial properties. However, their black-box nature limits interpretability,\nand they may incorporate features that do not contribute to, or even\ndeteriorate, model performance. This study employs explainable ML (XML)\ntechniques, including permutation feature importance and the SHapley Additive\nexPlanation, applied to a pristine support vector regression model designed to\npredict band gaps at the GW level using 18 input features. Guided by\nXML-derived individual feature importance, a simple framework is proposed to\nconstruct reduced-feature predictive models. Model evaluations indicate that an\nXML-guided compact model, consisting of the top five features, achieves\ncomparable accuracy to the pristine model on in-domain datasets (0.254 vs.\n0.247 eV) while demonstrating superior generalization with lower prediction\nerrors on out-of-domain data (0.461 vs. 0.341 eV). Additionally, the study\nunderscores the necessity for eliminating strongly correlated features\n(correlation coefficient greater than 0.8) to prevent misinterpretation and\noverestimation of feature importance before applying XML. This study highlights\nXML's effectiveness in developing simplified yet highly accurate machine\nlearning models by clarifying feature roles, thereby reducing computational\ncosts for feature acquisition and enhancing model trustworthiness for materials\ndiscovery.",
+    "published": "2025-03-06T14:40:21+00:00",
+    "updated": "2025-10-30T03:24:21+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.LG"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "9 pages, 3 figures, SI is included",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2503.04492v2",
+    "base_id": "2503.04492",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2503.04492v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.26058v1",
+    "title": "A Review of AI-Driven Approaches for Nanoscale Heat Conduction and Radiation",
+    "authors": [
+      "Ziqi Guo",
+      "Daniel Carne",
+      "Krutarth Khot",
+      "Dudong Feng",
+      "Guang Lin",
+      "Xiulin Ruan"
+    ],
+    "summary": "Heat conduction and radiation are two of the three fundamental modes of heat\ntransfer, playing a critical role in a wide range of scientific and engineering\napplications ranging from energy systems to materials science. However,\ntraditional physics-based simulation methods for modeling these processes often\nsuffer from prohibitive computational costs. In recent years, the rapid\nadvancements in Artificial Intelligence (AI) and machine learning (ML) have\ndemonstrated remarkable potential in the modeling of nanoscale heat conduction\nand radiation. This review presents a comprehensive overview of recent\nAI-driven developments in modeling heat conduction and radiation at the\nnanoscale. We first discuss the ML techniques for predicting phonon properties,\nincluding phonon dispersion and scattering rates, which are foundational for\ndetermining material thermal properties. Next, we explore the role of\nmachine-learning interatomic potentials (MLIPs) in molecular dynamics\nsimulations and their applications to bulk materials, low-dimensional systems,\nand interfacial transport. We then review the ML approaches for solving\nradiative heat transfer problems, focusing on data-driven solutions to\nMaxwell's equations and the radiative transfer equation. We further discuss the\nML-accelerated inverse design of radiative energy devices, including\noptimization-based and generative model-based methods. Finally, we discuss open\nchallenges and future directions, including data availability, model\ngeneralization, uncertainty quantification, and interpretability. Through this\nsurvey, we aim to provide a foundational understanding of how AI techniques are\nreshaping thermal science and guiding future research in nanoscale heat\ntransfer.",
+    "published": "2025-10-30T01:23:00+00:00",
+    "updated": "2025-10-30T01:23:00+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cond-mat.mes-hall"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.26058v1",
+    "base_id": "2510.26058",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.26058v1"
+  }
+]
