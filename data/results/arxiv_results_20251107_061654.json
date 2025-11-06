@@ -1,0 +1,219 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2510.09406v2",
+    "title": "Are diffusion models ready for materials discovery in unexplored chemical space?",
+    "authors": [
+      "Sanghyun Kim",
+      "Gihyeon Jeon",
+      "Seungwoo Hwang",
+      "Jiho Lee",
+      "Jisu Jung",
+      "Seungwu Han",
+      "Sungwoo Kang"
+    ],
+    "summary": "While diffusion models are attracting increasing attention for the design of\nnovel materials, their ability to generate low-energy structures in unexplored\nchemical spaces has not been systematically assessed. Here, we evaluate the\nperformance of two diffusion models, MatterGen and DiffCSP, against three\ndatabases: a ternary oxide set (constructed by a genetic algorithm), a ternary\nnitride set (constructed by template informatics), and the GNoME database\n(constructed by a combination of both). We find that diffusion models generally\nperform stably in well-sampled chemical spaces (oxides and nitrides), but are\nless effective in uncommon ones (GNoME), which contains many compositions\ninvolving rare-earth elements and unconventional stoichiometry. Finally, we\nassess their size-extrapolation capability and observe a significant drop in\nperformance when the number of atoms exceeds the trained range. This is\nattributed to the limitations imposed by periodic boundary conditions, which we\nrefer to as the curse of periodicity. This study paves the way for future\ndevelopments in materials design by highlighting both the strength and the\nlimitations of diffusion models.",
+    "published": "2025-10-10T14:01:10+00:00",
+    "updated": "2025-11-05T05:13:03+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.09406v2",
+    "base_id": "2510.09406",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2510.09406v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.03122v1",
+    "title": "EGMOF: Efficient Generation of Metal-Organic Frameworks Using a Hybrid Diffusion-Transformer Architecture",
+    "authors": [
+      "Seunghee Han",
+      "Yeonghun Kang",
+      "Taeun Bae",
+      "Varinia Bernales",
+      "Alan Aspuru-Guzik",
+      "Jihan Kim"
+    ],
+    "summary": "Designing materials with targeted properties remains challenging due to the\nvastness of chemical space and the scarcity of property-labeled data. While\nrecent advances in generative models offer a promising way for inverse design,\nmost approaches require large datasets and must be retrained for every new\ntarget property. Here, we introduce the EGMOF (Efficient Generation of MOFs), a\nhybrid diffusion-transformer framework that overcomes these limitations through\na modular, descriptor-mediated workflow. EGMOF decomposes inverse design into\ntwo steps: (1) a one-dimensional diffusion model (Prop2Desc) that maps desired\nproperties to chemically meaningful descriptors followed by (2) a transformer\nmodel (Desc2MOF) that generates structures from these descriptors. This modular\nhybrid design enables minimal retraining and maintains high accuracy even under\nsmall-data conditions. On a hydrogen uptake dataset, EGMOF achieved over 95%\nvalidity and 84% hit rate, representing significant improvements of up to 57%\nin validity and 14% in hit rate compared to existing methods, while remaining\neffective with only 1,000 training samples. Moreover, our model successfully\nperformed conditional generation across 29 diverse property datasets, including\nCoREMOF, QMOF, and text-mined experimental datasets, whereas previous models\nhave not. This work presents a data-efficient, generalizable approach to the\ninverse design of diverse MOFs and highlights the potential of modular inverse\ndesign workflows for broader materials discovery.",
+    "published": "2025-11-05T02:14:13+00:00",
+    "updated": "2025-11-05T02:14:13+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2511.03122v1",
+    "base_id": "2511.03122",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2511.03122v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.03038v1",
+    "title": "A Normalized Descriptor for Unbiased Screening of Second-Order Nonlinear Optical Materials",
+    "authors": [
+      "Aubrey G. J. Nyiri",
+      "Michael J. Waters",
+      "James M. Rondinelli"
+    ],
+    "summary": "Second-order nonlinear optical materials enable frequency doubling of light\n(second-harmonic generation, SHG), which is essential for optoelectronic\napplications ranging from materials characterization to quantum technologies.\nHowever, comparing SHG performance across materials remains challenging as the\nsecond-order nonlinear susceptibility $\\chi^{(2)}$ spans several orders of\nmagnitude and strongly depends on the band gap $E_g$. To address this, we\nempirically validate a theoretical upper bound on $\\chi^{(2)}$ using new\ndatabases of \\textit{ab initio}-computed nonlinear optical (NLO) properties. We\nthen formulate a normalized descriptor, $\\hat{d}$, which expresses the NLO\nresponse of a material relative to the band gap-dependent physical limit. We\nshow that $\\hat{d}$ exhibits a similar distribution across a wide range of band\ngap energies. This universality supports the use of $\\hat{d}$ as a robust,\ngeneralizable descriptor for data-driven and chemistry-informed machine\nlearning models of NLO response, enabling accelerated materials discovery and\noptimization across broad application frequencies.",
+    "published": "2025-11-04T22:21:37+00:00",
+    "updated": "2025-11-04T22:21:37+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.optics"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "20 pages, 3 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2511.03038v1",
+    "base_id": "2511.03038",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2511.03038v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.01790v1",
+    "title": "A Synthesizability-Guided Pipeline for Materials Discovery",
+    "authors": [
+      "Thorben Prein",
+      "Willis O'Leary",
+      "Aikaterini Flessa Savvidou",
+      "Elchaïma Bourneix",
+      "Joonatan E. M. Laulainen"
+    ],
+    "summary": "Computational materials discovery relies on the generation of plausible\ncrystal structures. The plausibility is typically judged through density\nfunctional theory methods which, while typically accurate at zero Kelvin, often\nfavor low-energy structures that are not experimentally accessible. We develop\na combined compositional and structural synthesizability score which provides\nan accurate way of predicting which compounds can actually be synthesized in a\nlaboratory. We use it to evaluate non-synthesized structures from the Materials\nProject, GNoME, and Alexandria, and identified several hundred highly\nsynthesizable candidates. We then predict synthesis pathways, conduct\ncorresponding experiments, and characterize the products across 16 targets,\nsuccessfully synthesizing 7 of 16. The entire experimental process was\ncompleted in only three days. Our results highlight omissions in lists of known\nsynthesized structures, deliver insights into the practical utility of current\nmaterials databases, and showcase the central role synthesizability prediction\ncan play in materials discovery.",
+    "published": "2025-11-03T17:44:30+00:00",
+    "updated": "2025-11-03T17:44:30+00:00",
+    "categories": [
+      "cs.CE",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cs.CE",
+    "comment": "Main: 10 pages, 4 figures, SI: 8 pages, 11 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2511.01790v1",
+    "base_id": "2511.01790",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2511.01790v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2409.07189v2",
+    "title": "AI-Guided Molecular Simulations in VR: Exploring Strategies for Imitation Learning in Hyperdimensional Molecular Systems",
+    "authors": [
+      "Mohamed Dhouioui",
+      "Jonathan Barnoud",
+      "Rhoslyn Roebuck Williams",
+      "Harry J. Stroud",
+      "Phil Bates",
+      "David R. Glowacki"
+    ],
+    "summary": "Molecular dynamics (MD) simulations are a crucial computational tool for\nresearchers to understand and engineer molecular structure and function in\nareas such as drug discovery, protein engineering, and material design. Despite\ntheir utility, MD simulations are expensive, owing to the high dimensionality\nof molecular systems. Interactive molecular dynamics in virtual reality\n(iMD-VR) has recently emerged as a \"human-in-the-loop\" strategy for efficiently\nnavigating hyper-dimensional molecular systems. By providing an immersive 3D\nenvironment that enables visualization and manipulation of real-time molecular\nsimulations running on high-performance computing architectures, iMD-VR enables\nresearchers to reach out and guide molecular conformational dynamics, in order\nto efficiently explore complex, high-dimensional molecular systems. Moreover,\niMD-VR simulations generate rich datasets that capture human experts' spatial\ninsight regarding molecular structure and function. This paper explores the use\nof researcher-generated iMD-VR datasets to train AI agents via imitation\nlearning (IL). IL enables agents to mimic complex behaviours from expert\ndemonstrations, circumventing the need for explicit programming or intricate\nreward design. In this article, we review IL across robotics and Multi-agents\nsystems domains which are comparable to iMD-VR, and discuss how iMD-VR\nrecordings could be used to train IL models to interact with MD simulations. We\nthen illustrate the applications of these ideas through a proof-of-principle\nstudy where iMD-VR data was used to train a CNN network on a simple molecular\nmanipulation task; namely, threading a small molecule through a nanotube pore.\nFinally, we outline future research directions and potential challenges of\nusing AI agents to augment human expertise in navigating vast molecular\nconformational spaces.",
+    "published": "2024-09-11T11:21:02+00:00",
+    "updated": "2025-11-03T11:59:01+00:00",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.HC",
+      "q-bio.BM"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "(First presented at the First Workshop on \"eXtended Reality \\&\n  Intelligent Agents\" (XRIA24) @ ECAI24, Santiago De Compostela (Spain), 20\n  October 2024)",
+    "journal_ref": "SN COMPUT. SCI. 6, 922 (2025)",
+    "doi": "10.1007/s42979-025-04465-5",
+    "pdf_url": "http://arxiv.org/pdf/2409.07189v2",
+    "base_id": "2409.07189",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2409.07189v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.26886v1",
+    "title": "MaterialsGalaxy: A Platform Fusing Experimental and Theoretical Data in Condensed Matter Physics",
+    "authors": [
+      "Tiannian Zhu",
+      "Zhong Fang",
+      "Quansheng Wu",
+      "Hongming Weng"
+    ],
+    "summary": "Modern materials science generates vast and diverse datasets from both\nexperiments and computations, yet these multi-source, heterogeneous data often\nremain disconnected in isolated \"silos\". Here, we introduce MaterialsGalaxy, a\ncomprehensive platform that deeply fuses experimental and theoretical data in\ncondensed matter physics. Its core innovation is a structure similarity-driven\ndata fusion mechanism that quantitatively links cross-modal records - spanning\ndiffraction, crystal growth, computations, and literature - based on their\nunderlying atomic structures. The platform integrates artificial intelligence\n(AI) tools, including large language models (LLMs) for knowledge extraction,\ngenerative models for crystal structure prediction, and machine learning\nproperty predictors, to enhance data interpretation and accelerate materials\ndiscovery. We demonstrate that MaterialsGalaxy effectively integrates these\ndisparate data sources, uncovering hidden correlations and guiding the design\nof novel materials. By bridging the long-standing gap between experiment and\ntheory, MaterialsGalaxy provides a new paradigm for data-driven materials\nresearch and accelerates the discovery of advanced materials.",
+    "published": "2025-10-30T18:00:08+00:00",
+    "updated": "2025-10-30T18:00:08+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "18 pages, 5 figures. Accepted for publication in Chinese Physics B\n  (24 October 2025)",
+    "journal_ref": null,
+    "doi": "10.1088/1674-1056/ae172a",
+    "pdf_url": "http://arxiv.org/pdf/2510.26886v1",
+    "base_id": "2510.26886",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.26886v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.26880v1",
+    "title": "Higher-dimensional Fermiology in bulk moiré metals",
+    "authors": [
+      "Kevin P. Nuckolls",
+      "Nisarga Paul",
+      "Alan Chen",
+      "Filippo Gaggioli",
+      "Joshua P. Wakefield",
+      "Avi Auslender",
+      "Jules Gardener",
+      "Austin J. Akey",
+      "David Graf",
+      "Takehito Suzuki",
+      "David C. Bell",
+      "Liang Fu",
+      "Joseph G. Checkelsky"
+    ],
+    "summary": "In the past decade, moir\\'e materials have revolutionized how we engineer and\ncontrol quantum phases of matter. Among incommensurate materials, moir\\'e\nmaterials are aperiodic composite crystals whose long-wavelength moir\\'e\nsuperlattices enable tunable properties without chemically modifying their\nlayers. To date, nearly all reports of moir\\'e materials have investigated van\nder Waals heterostructures assembled far from thermodynamic equilibrium. Here\nwe introduce a conceptually new approach to synthesizing high-mobility moir\\'e\nmaterials in thermodynamic equilibrium. We report a new family of foliated\nsuperlattice materials (Sr$_6$TaS$_8$)$_{1+\\delta}$(TaS$_2$)$_8$ that are\nexfoliatable van der Waals crystals with atomically incommensurate lattices.\nLattice mismatches between alternating layers generate moir\\'e superlattices,\nanalogous to those of 2D moir\\'e heterobilayers, that are coherent throughout\nthese crystals and are tunable through their synthesis conditions without\naltering their chemical composition. High-field quantum oscillation\nmeasurements map the complex Fermiology of these moir\\'e metals, which can be\ntuned via the moir\\'e superlattice structure. We find that the Fermi surface of\nthe structurally simplest moir\\'e metal is comprised of over 40 distinct\ncross-sectional areas, the most observed in any material to our knowledge. This\ncan be naturally understood by postulating that bulk moir\\'e materials can\nencode electronic properties of higher-dimensional superspace crystals in ways\nthat parallel well-established crystallographic methods used for incommensurate\nlattices. More broadly, our work demonstrates a scalable synthesis approach\npotentially capable of producing moir\\'e materials for electronics applications\nand evidences a novel material design concept for accessing a broad range of\nphysical phenomena proposed in higher dimensions.",
+    "published": "2025-10-30T18:00:02+00:00",
+    "updated": "2025-10-30T18:00:02+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "26 pages, 5 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2510.26880v1",
+    "base_id": "2510.26880",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2510.26880v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.00070v1",
+    "title": "Benchmarking Generative AI Against Bayesian Optimization for Constrained Multi-Objective Inverse Design",
+    "authors": [
+      "Muhammad Bilal Awan",
+      "Abdul Razzaq",
+      "Abdul Shahid"
+    ],
+    "summary": "This paper investigates the performance of Large Language Models (LLMs) as\ngenerative optimizers for solving constrained multi-objective regression tasks,\nspecifically within the challenging domain of inverse design\n(property-to-structure mapping). This problem, critical to materials\ninformatics, demands finding complex, feasible input vectors that lie on the\nPareto optimal front. While LLMs have demonstrated universal effectiveness\nacross generative and reasoning tasks, their utility in constrained,\ncontinuous, high-dimensional numerical spaces tasks they weren't explicitly\narchitected for remains an open research question. We conducted a rigorous\ncomparative study between established Bayesian Optimization (BO) frameworks and\na suite of fine-tuned LLMs and BERT models. For BO, we benchmarked the\nfoundational BoTorch Ax implementation against the state-of-the-art q-Expected\nHypervolume Improvement (qEHVI, BoTorchM). The generative approach involved\nfine-tuning models via Parameter-Efficient Fine-Tuning (PEFT), framing the\nchallenge as a regression problem with a custom output head. Our results show\nthat BoTorch qEHVI achieved perfect convergence (GD=0.0), setting the\nperformance ceiling. Crucially, the best-performing LLM (WizardMath-7B)\nachieved a Generational Distance (GD) of 1.21, significantly outperforming the\ntraditional BoTorch Ax baseline (GD=15.03). We conclude that specialized BO\nframeworks remain the performance leader for guaranteed convergence, but\nfine-tuned LLMs are validated as a promising, computationally fast alternative,\ncontributing essential comparative metrics to the field of AI-driven\noptimization. The findings have direct industrial applications in optimizing\nformulation design for resins, polymers, and paints, where multi-objective\ntrade-offs between mechanical, rheological, and chemical properties are\ncritical to innovation and production efficiency.",
+    "published": "2025-10-29T10:37:09+00:00",
+    "updated": "2025-10-29T10:37:09+00:00",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "90C29 (Primary), 68T07, 65K05 (Secondary)",
+      "G.1.6; I.2.6; J.6"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "17 pages, 2 Figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2511.00070v1",
+    "base_id": "2511.00070",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2511.00070v1"
+  }
+]

@@ -34,121 +34,285 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (3)
+## New Papers (8)
 
-*Last updated: 2025-11-01 06:16:28 (SGT)*
+*Last updated: 2025-11-07 06:17:03 (SGT)*
 
-### 1. Applications of Machine Learning in Polymer Materials: Property Prediction, Material Design, and Systematic Processes
+### 1. Are diffusion models ready for materials discovery in unexplored chemical space?
 
-**Authors:** Hongtao Guo Shuai Li Shu Li
+**Authors:** Sanghyun Kim, Gihyeon Jeon, Seungwoo Hwang, Jiho Lee, Jisu Jung, Seungwu Han, Sungwoo Kang
+
+**Published:** 2025-10-10
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2510.09406v2
+
+**Link:** [http://arxiv.org/abs/2510.09406v2](http://arxiv.org/abs/2510.09406v2)
+
+**Summary:** While diffusion models are attracting increasing attention for the design of
+novel materials, their ability to generate low-energy structures in unexplored
+chemical spaces has not been systematically assessed. Here, we evaluate the
+performance of two diffusion models, MatterGen and DiffCSP, against three
+databases: a ternary oxide set (constructed by a genetic algorithm), a ternary
+nitride set (constructed by template informatics), and the GNoME database
+(constructed by a combination of both). We find that diffusion models generally
+perform stably in well-sampled chemical spaces (oxides and nitrides), but are
+less effective in uncommon ones (GNoME), which contains many compositions
+involving rare-earth elements and unconventional stoichiometry. Finally, we
+assess their size-extrapolation capability and observe a significant drop in
+performance when the number of atoms exceeds the trained range. This is
+attributed to the limitations imposed by periodic boundary conditions, which we
+refer to as the curse of periodicity. This study paves the way for future
+developments in materials design by highlighting both the strength and the
+limitations of diffusion models....
+
+---
+
+### 2. EGMOF: Efficient Generation of Metal-Organic Frameworks Using a Hybrid Diffusion-Transformer Architecture
+
+**Authors:** Seunghee Han, Yeonghun Kang, Taeun Bae, Varinia Bernales, Alan Aspuru-Guzik, Jihan Kim
+
+**Published:** 2025-11-05
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2511.03122v1
+
+**Link:** [http://arxiv.org/abs/2511.03122v1](http://arxiv.org/abs/2511.03122v1)
+
+**Summary:** Designing materials with targeted properties remains challenging due to the
+vastness of chemical space and the scarcity of property-labeled data. While
+recent advances in generative models offer a promising way for inverse design,
+most approaches require large datasets and must be retrained for every new
+target property. Here, we introduce the EGMOF (Efficient Generation of MOFs), a
+hybrid diffusion-transformer framework that overcomes these limitations through
+a modular, descriptor-mediated workflow. EGMOF decomposes inverse design into
+two steps: (1) a one-dimensional diffusion model (Prop2Desc) that maps desired
+properties to chemically meaningful descriptors followed by (2) a transformer
+model (Desc2MOF) that generates structures from these descriptors. This modular
+hybrid design enables minimal retraining and maintains high accuracy even under
+small-data conditions. On a hydrogen uptake dataset, EGMOF achieved over 95%
+validity and 84% hit rate, representing significant improvements of up to 57%
+in validity and 14% in hit rate compared to existing methods, while remaining
+effective with only 1,000 training samples. Moreover, our model successfully
+performed conditional generation across 29 diverse property datasets, including
+CoREMOF, QMOF, and text-mined experimental datasets, whereas previous models
+have not. This work presents a data-efficient, generalizable approach to the
+inverse design of diverse MOFs and highlights the potential of modular inverse
+design workflows for broader materials discovery....
+
+---
+
+### 3. A Normalized Descriptor for Unbiased Screening of Second-Order Nonlinear Optical Materials
+
+**Authors:** Aubrey G. J. Nyiri, Michael J. Waters, James M. Rondinelli
+
+**Published:** 2025-11-04
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2511.03038v1
+
+**Link:** [http://arxiv.org/abs/2511.03038v1](http://arxiv.org/abs/2511.03038v1)
+
+**Summary:** Second-order nonlinear optical materials enable frequency doubling of light
+(second-harmonic generation, SHG), which is essential for optoelectronic
+applications ranging from materials characterization to quantum technologies.
+However, comparing SHG performance across materials remains challenging as the
+second-order nonlinear susceptibility $\chi^{(2)}$ spans several orders of
+magnitude and strongly depends on the band gap $E_g$. To address this, we
+empirically validate a theoretical upper bound on $\chi^{(2)}$ using new
+databases of \textit{ab initio}-computed nonlinear optical (NLO) properties. We
+then formulate a normalized descriptor, $\hat{d}$, which expresses the NLO
+response of a material relative to the band gap-dependent physical limit. We
+show that $\hat{d}$ exhibits a similar distribution across a wide range of band
+gap energies. This universality supports the use of $\hat{d}$ as a robust,
+generalizable descriptor for data-driven and chemistry-informed machine
+learning models of NLO response, enabling accelerated materials discovery and
+optimization across broad application frequencies....
+
+---
+
+### 4. A Synthesizability-Guided Pipeline for Materials Discovery
+
+**Authors:** Thorben Prein, Willis O'Leary, Aikaterini Flessa Savvidou, Elchaïma Bourneix, Joonatan E. M. Laulainen
+
+**Published:** 2025-11-03
+
+**Category:** cs.CE
+
+**ID:** 2511.01790v1
+
+**Link:** [http://arxiv.org/abs/2511.01790v1](http://arxiv.org/abs/2511.01790v1)
+
+**Summary:** Computational materials discovery relies on the generation of plausible
+crystal structures. The plausibility is typically judged through density
+functional theory methods which, while typically accurate at zero Kelvin, often
+favor low-energy structures that are not experimentally accessible. We develop
+a combined compositional and structural synthesizability score which provides
+an accurate way of predicting which compounds can actually be synthesized in a
+laboratory. We use it to evaluate non-synthesized structures from the Materials
+Project, GNoME, and Alexandria, and identified several hundred highly
+synthesizable candidates. We then predict synthesis pathways, conduct
+corresponding experiments, and characterize the products across 16 targets,
+successfully synthesizing 7 of 16. The entire experimental process was
+completed in only three days. Our results highlight omissions in lists of known
+synthesized structures, deliver insights into the practical utility of current
+materials databases, and showcase the central role synthesizability prediction
+can play in materials discovery....
+
+---
+
+### 5. AI-Guided Molecular Simulations in VR: Exploring Strategies for Imitation Learning in Hyperdimensional Molecular Systems
+
+**Authors:** Mohamed Dhouioui, Jonathan Barnoud, Rhoslyn Roebuck Williams, Harry J. Stroud, Phil Bates, David R. Glowacki
+
+**Published:** 2024-09-11
+
+**Category:** cs.LG
+
+**ID:** 2409.07189v2
+
+**Link:** [http://arxiv.org/abs/2409.07189v2](http://arxiv.org/abs/2409.07189v2)
+
+**Summary:** Molecular dynamics (MD) simulations are a crucial computational tool for
+researchers to understand and engineer molecular structure and function in
+areas such as drug discovery, protein engineering, and material design. Despite
+their utility, MD simulations are expensive, owing to the high dimensionality
+of molecular systems. Interactive molecular dynamics in virtual reality
+(iMD-VR) has recently emerged as a "human-in-the-loop" strategy for efficiently
+navigating hyper-dimensional molecular systems. By providing an immersive 3D
+environment that enables visualization and manipulation of real-time molecular
+simulations running on high-performance computing architectures, iMD-VR enables
+researchers to reach out and guide molecular conformational dynamics, in order
+to efficiently explore complex, high-dimensional molecular systems. Moreover,
+iMD-VR simulations generate rich datasets that capture human experts' spatial
+insight regarding molecular structure and function. This paper explores the use
+of researcher-generated iMD-VR datasets to train AI agents via imitation
+learning (IL). IL enables agents to mimic complex behaviours from expert
+demonstrations, circumventing the need for explicit programming or intricate
+reward design. In this article, we review IL across robotics and Multi-agents
+systems domains which are comparable to iMD-VR, and discuss how iMD-VR
+recordings could be used to train IL models to interact with MD simulations. We
+then illustrate the applications of these ideas through a proof-of-principle
+study where iMD-VR data was used to train a CNN network on a simple molecular
+manipulation task; namely, threading a small molecule through a nanotube pore.
+Finally, we outline future research directions and potential challenges of
+using AI agents to augment human expertise in navigating vast molecular
+conformational spaces....
+
+---
+
+### 6. MaterialsGalaxy: A Platform Fusing Experimental and Theoretical Data in Condensed Matter Physics
+
+**Authors:** Tiannian Zhu, Zhong Fang, Quansheng Wu, Hongming Weng
 
 **Published:** 2025-10-30
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2510.26100v1
+**ID:** 2510.26886v1
 
-**Link:** [http://arxiv.org/abs/2510.26100v1](http://arxiv.org/abs/2510.26100v1)
+**Link:** [http://arxiv.org/abs/2510.26886v1](http://arxiv.org/abs/2510.26886v1)
 
-**Summary:** This paper systematically reviews the research progress and application
-prospects of machine learning technologies in the field of polymer materials.
-Currently, machine learning methods are developing rapidly in polymer material
-research; although they have significantly accelerated material prediction and
-design, their complexity has also caused difficulties in understanding and
-application for researchers in traditional fields. In response to the above
-issues, this paper first analyzes the inherent challenges in the research and
-development of polymer materials, including structural complexity and the
-limitations of traditional trial-and-error methods. To address these problems,
-it focuses on introducing key basic technologies such as molecular descriptors
-and feature representation, data standardization and cleaning, and records a
-number of high-quality polymer databases. Subsequently, it elaborates on the
-key role of machine learning in polymer property prediction and material
-design, covering the specific applications of algorithms such as traditional
-machine learning, deep learning, and transfer learning; further, it deeply
-expounds on data-driven design strategies, such as reverse design,
-high-throughput virtual screening, and multi-objective optimization. The paper
-also systematically introduces the complete process of constructing
-high-reliability machine learning models and summarizes effective experimental
-verification, model evaluation, and optimization methods. Finally, it
-summarizes the current technical challenges in research, such as data quality
-and model generalization ability, and looks forward to future development
-trends including multi-scale modeling, physics-informed machine learning,
-standardized data sharing, and interpretable machine learning....
+**Summary:** Modern materials science generates vast and diverse datasets from both
+experiments and computations, yet these multi-source, heterogeneous data often
+remain disconnected in isolated "silos". Here, we introduce MaterialsGalaxy, a
+comprehensive platform that deeply fuses experimental and theoretical data in
+condensed matter physics. Its core innovation is a structure similarity-driven
+data fusion mechanism that quantitatively links cross-modal records - spanning
+diffraction, crystal growth, computations, and literature - based on their
+underlying atomic structures. The platform integrates artificial intelligence
+(AI) tools, including large language models (LLMs) for knowledge extraction,
+generative models for crystal structure prediction, and machine learning
+property predictors, to enhance data interpretation and accelerate materials
+discovery. We demonstrate that MaterialsGalaxy effectively integrates these
+disparate data sources, uncovering hidden correlations and guiding the design
+of novel materials. By bridging the long-standing gap between experiment and
+theory, MaterialsGalaxy provides a new paradigm for data-driven materials
+research and accelerates the discovery of advanced materials....
 
 ---
 
-### 2. Accurate predictive model of band gap with selected important features based on explainable machine learning
+### 7. Higher-dimensional Fermiology in bulk moiré metals
 
-**Authors:** Joohwi Lee, Kaito Miyamoto
-
-**Published:** 2025-03-06
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2503.04492v2
-
-**Link:** [http://arxiv.org/abs/2503.04492v2](http://arxiv.org/abs/2503.04492v2)
-
-**Summary:** In the rapidly advancing field of materials informatics, nonlinear machine
-learning models have demonstrated exceptional predictive capabilities for
-material properties. However, their black-box nature limits interpretability,
-and they may incorporate features that do not contribute to, or even
-deteriorate, model performance. This study employs explainable ML (XML)
-techniques, including permutation feature importance and the SHapley Additive
-exPlanation, applied to a pristine support vector regression model designed to
-predict band gaps at the GW level using 18 input features. Guided by
-XML-derived individual feature importance, a simple framework is proposed to
-construct reduced-feature predictive models. Model evaluations indicate that an
-XML-guided compact model, consisting of the top five features, achieves
-comparable accuracy to the pristine model on in-domain datasets (0.254 vs.
-0.247 eV) while demonstrating superior generalization with lower prediction
-errors on out-of-domain data (0.461 vs. 0.341 eV). Additionally, the study
-underscores the necessity for eliminating strongly correlated features
-(correlation coefficient greater than 0.8) to prevent misinterpretation and
-overestimation of feature importance before applying XML. This study highlights
-XML's effectiveness in developing simplified yet highly accurate machine
-learning models by clarifying feature roles, thereby reducing computational
-costs for feature acquisition and enhancing model trustworthiness for materials
-discovery....
-
----
-
-### 3. A Review of AI-Driven Approaches for Nanoscale Heat Conduction and Radiation
-
-**Authors:** Ziqi Guo, Daniel Carne, Krutarth Khot, Dudong Feng, Guang Lin, Xiulin Ruan
+**Authors:** Kevin P. Nuckolls, Nisarga Paul, Alan Chen, Filippo Gaggioli, Joshua P. Wakefield, Avi Auslender, Jules Gardener, Austin J. Akey, David Graf, Takehito Suzuki, David C. Bell, Liang Fu, Joseph G. Checkelsky
 
 **Published:** 2025-10-30
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2510.26058v1
+**ID:** 2510.26880v1
 
-**Link:** [http://arxiv.org/abs/2510.26058v1](http://arxiv.org/abs/2510.26058v1)
+**Link:** [http://arxiv.org/abs/2510.26880v1](http://arxiv.org/abs/2510.26880v1)
 
-**Summary:** Heat conduction and radiation are two of the three fundamental modes of heat
-transfer, playing a critical role in a wide range of scientific and engineering
-applications ranging from energy systems to materials science. However,
-traditional physics-based simulation methods for modeling these processes often
-suffer from prohibitive computational costs. In recent years, the rapid
-advancements in Artificial Intelligence (AI) and machine learning (ML) have
-demonstrated remarkable potential in the modeling of nanoscale heat conduction
-and radiation. This review presents a comprehensive overview of recent
-AI-driven developments in modeling heat conduction and radiation at the
-nanoscale. We first discuss the ML techniques for predicting phonon properties,
-including phonon dispersion and scattering rates, which are foundational for
-determining material thermal properties. Next, we explore the role of
-machine-learning interatomic potentials (MLIPs) in molecular dynamics
-simulations and their applications to bulk materials, low-dimensional systems,
-and interfacial transport. We then review the ML approaches for solving
-radiative heat transfer problems, focusing on data-driven solutions to
-Maxwell's equations and the radiative transfer equation. We further discuss the
-ML-accelerated inverse design of radiative energy devices, including
-optimization-based and generative model-based methods. Finally, we discuss open
-challenges and future directions, including data availability, model
-generalization, uncertainty quantification, and interpretability. Through this
-survey, we aim to provide a foundational understanding of how AI techniques are
-reshaping thermal science and guiding future research in nanoscale heat
-transfer....
+**Summary:** In the past decade, moir\'e materials have revolutionized how we engineer and
+control quantum phases of matter. Among incommensurate materials, moir\'e
+materials are aperiodic composite crystals whose long-wavelength moir\'e
+superlattices enable tunable properties without chemically modifying their
+layers. To date, nearly all reports of moir\'e materials have investigated van
+der Waals heterostructures assembled far from thermodynamic equilibrium. Here
+we introduce a conceptually new approach to synthesizing high-mobility moir\'e
+materials in thermodynamic equilibrium. We report a new family of foliated
+superlattice materials (Sr$_6$TaS$_8$)$_{1+\delta}$(TaS$_2$)$_8$ that are
+exfoliatable van der Waals crystals with atomically incommensurate lattices.
+Lattice mismatches between alternating layers generate moir\'e superlattices,
+analogous to those of 2D moir\'e heterobilayers, that are coherent throughout
+these crystals and are tunable through their synthesis conditions without
+altering their chemical composition. High-field quantum oscillation
+measurements map the complex Fermiology of these moir\'e metals, which can be
+tuned via the moir\'e superlattice structure. We find that the Fermi surface of
+the structurally simplest moir\'e metal is comprised of over 40 distinct
+cross-sectional areas, the most observed in any material to our knowledge. This
+can be naturally understood by postulating that bulk moir\'e materials can
+encode electronic properties of higher-dimensional superspace crystals in ways
+that parallel well-established crystallographic methods used for incommensurate
+lattices. More broadly, our work demonstrates a scalable synthesis approach
+potentially capable of producing moir\'e materials for electronics applications
+and evidences a novel material design concept for accessing a broad range of
+physical phenomena proposed in higher dimensions....
+
+---
+
+### 8. Benchmarking Generative AI Against Bayesian Optimization for Constrained Multi-Objective Inverse Design
+
+**Authors:** Muhammad Bilal Awan, Abdul Razzaq, Abdul Shahid
+
+**Published:** 2025-10-29
+
+**Category:** cs.LG
+
+**ID:** 2511.00070v1
+
+**Link:** [http://arxiv.org/abs/2511.00070v1](http://arxiv.org/abs/2511.00070v1)
+
+**Summary:** This paper investigates the performance of Large Language Models (LLMs) as
+generative optimizers for solving constrained multi-objective regression tasks,
+specifically within the challenging domain of inverse design
+(property-to-structure mapping). This problem, critical to materials
+informatics, demands finding complex, feasible input vectors that lie on the
+Pareto optimal front. While LLMs have demonstrated universal effectiveness
+across generative and reasoning tasks, their utility in constrained,
+continuous, high-dimensional numerical spaces tasks they weren't explicitly
+architected for remains an open research question. We conducted a rigorous
+comparative study between established Bayesian Optimization (BO) frameworks and
+a suite of fine-tuned LLMs and BERT models. For BO, we benchmarked the
+foundational BoTorch Ax implementation against the state-of-the-art q-Expected
+Hypervolume Improvement (qEHVI, BoTorchM). The generative approach involved
+fine-tuning models via Parameter-Efficient Fine-Tuning (PEFT), framing the
+challenge as a regression problem with a custom output head. Our results show
+that BoTorch qEHVI achieved perfect convergence (GD=0.0), setting the
+performance ceiling. Crucially, the best-performing LLM (WizardMath-7B)
+achieved a Generational Distance (GD) of 1.21, significantly outperforming the
+traditional BoTorch Ax baseline (GD=15.03). We conclude that specialized BO
+frameworks remain the performance leader for guaranteed convergence, but
+fine-tuned LLMs are validated as a promising, computationally fast alternative,
+contributing essential comparative metrics to the field of AI-driven
+optimization. The findings have direct industrial applications in optimizing
+formulation design for resins, polymers, and paints, where multi-objective
+trade-offs between mechanical, rheological, and chemical properties are
+critical to innovation and production efficiency....
 
 ---
 
