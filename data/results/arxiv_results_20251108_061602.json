@@ -1,0 +1,84 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2511.04468v1",
+    "title": "Machine learning-driven elasticity prediction in advanced inorganic materials via convolutional neural networks",
+    "authors": [
+      "Yujie Liu",
+      "Zhenyu Wang",
+      "Hang Lei",
+      "Guoyu Zhang",
+      "Jiawei Xian",
+      "Zhibin Gao",
+      "Jun Sun",
+      "Haifeng Song",
+      "Xiangdong Ding"
+    ],
+    "summary": "Inorganic crystal materials have broad application potential due to excellent\nphysical and chemical properties, with elastic properties (shear modulus, bulk\nmodulus) crucial for predicting materials' electrical conductivity, thermal\nconductivity and mechanical properties. Traditional experimental measurement\nsuffers from high cost and low efficiency, while theoretical simulation and\ngraph neural network-based machine learning methods--especially crystal graph\nconvolutional neural networks (CGCNNs)--have become effective alternatives,\nachieving remarkable results in predicting material elastic properties. This\nstudy trained two CGCNN models using shear modulus and bulk modulus data of\n10987 materials from the Matbench v0.1 dataset, which exhibit high accuracy\n(mean absolute error <13, coefficient of determination R-squared close to 1)\nand good generalization ability. Materials were screened to retain those with\nband gaps between 0.1-3.0 eV and exclude radioactive element-containing\ncompounds. The final predicted dataset comprises two parts: 54359 crystal\nstructures from the Materials Project database and 26305 crystal structures\ndiscovered by Merchant et al. (2023 Nature 624 80). Ultimately, this study\ncompleted the prediction of shear modulus and bulk modulus for 80664 inorganic\ncrystals. This work enriches existing material elastic data resources and\nprovides robust support for material design, with all data openly available at\nhttps://doi.org/10.57760/sciencedb.j00213.00104.",
+    "published": "2025-11-06T15:42:10+00:00",
+    "updated": "2025-11-06T15:42:10+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "21 pages, 7 figures,All the data presented in this paper are openly\n  available at https://doi.org/10.57760/sciencedb.j00213.00104.Published in\n  Acta Physica Sinica",
+    "journal_ref": null,
+    "doi": "10.7498/aps.74.20250127",
+    "pdf_url": "http://arxiv.org/pdf/2511.04468v1",
+    "base_id": "2511.04468",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2511.04468v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.04068v1",
+    "title": "TXL Fusion: A Hybrid Machine Learning Framework Integrating Chemical Heuristics and Large Language Models for Topological Materials Discovery",
+    "authors": [
+      "Arif Ullah",
+      "Rajibul Islam",
+      "Ghulam Hussain",
+      "Zahir Muhammad",
+      "Xiaoguang Li",
+      "Ming Yang"
+    ],
+    "summary": "Topological materials--including insulators (TIs) and semimetals (TSMs)--hold\nimmense promise for quantum technologies, yet their discovery remains\nconstrained by the high computational cost of first-principles calculations and\nthe slow, resource-intensive nature of experimental synthesis. Here, we\nintroduce TXL Fusion, a hybrid machine learning framework that integrates\nchemical heuristics, engineered physical descriptors, and large language model\n(LLM) embeddings to accelerate the discovery of topological materials. By\nincorporating features such as space group symmetry, valence electron\nconfigurations, and composition-derived metrics, TXL Fusion classifies\nmaterials across trivial, TSM, and TI categories with improved accuracy and\ngeneralization compared to conventional approaches. The framework successfully\nidentified new candidates, with representative cases further validated through\ndensity functional theory (DFT), confirming its predictive robustness. By\nuniting data-driven learning with chemical intuition, TXL Fusion enables rapid\nand interpretable exploration of complex materials spaces, establishing a\nscalable paradigm for the intelligent discovery of next-generation topological\nand quantum materials.",
+    "published": "2025-11-06T05:19:18+00:00",
+    "updated": "2025-11-06T05:19:18+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "https://github.com/Arif-PhyChem/txl_fusion",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2511.04068v1",
+    "base_id": "2511.04068",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2511.04068v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.03735v1",
+    "title": "Friction on Demand: A Generative Framework for the Inverse Design of Metainterfaces",
+    "authors": [
+      "Valentin Mouton",
+      "Adrien Mélot"
+    ],
+    "summary": "Designing frictional interfaces to exhibit prescribed macroscopic behavior is\na challenging inverse problem, made difficult by the non-uniqueness of\nsolutions and the computational cost of contact simulations. Traditional\napproaches rely on heuristic search over low-dimensional parameterizations,\nwhich limits their applicability to more complex or nonlinear friction laws. We\nintroduce a generative modeling framework using Variational Autoencoders (VAEs)\nto infer surface topographies from target friction laws. Trained on a synthetic\ndataset composed of 200 million samples constructed from a parameterized\ncontact mechanics model, the proposed method enables efficient, simulation-free\ngeneration of candidate topographies. We examine the potential and limitations\nof generative modeling for this inverse design task, focusing on balancing\naccuracy, throughput, and diversity in the generated solutions. Our results\nhighlight trade-offs and outline practical considerations when balancing these\nobjectives. This approach paves the way for near-real-time control of\nfrictional behavior through tailored surface topographies.",
+    "published": "2025-10-27T13:00:48+00:00",
+    "updated": "2025-10-27T13:00:48+00:00",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "cs.SY",
+      "eess.SY",
+      "physics.comp-ph"
+    ],
+    "primary_category": "stat.ML",
+    "comment": "Preprint",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2511.03735v1",
+    "base_id": "2511.03735",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2511.03735v1"
+  }
+]
