@@ -1,0 +1,50 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2511.05456v1",
+    "title": "Parameter-Efficient Conditioning for Material Generalization in Graph-Based Simulators",
+    "authors": [
+      "Naveen Raj Manoharan",
+      "Hassan Iqbal",
+      "Krishna Kumar"
+    ],
+    "summary": "Graph network-based simulators (GNS) have demonstrated strong potential for\nlearning particle-based physics (such as fluids, deformable solids, and\ngranular flows) while generalizing to unseen geometries due to their inherent\ninductive biases. However, existing models are typically trained for a single\nmaterial type and fail to generalize across distinct constitutive behaviors,\nlimiting their applicability in real-world engineering settings. Using granular\nflows as a running example, we propose a parameter-efficient conditioning\nmechanism that makes the GNS model adaptive to material parameters. We identify\nthat sensitivity to material properties is concentrated in the early\nmessage-passing (MP) layers, a finding we link to the local nature of\nconstitutive models (e.g., Mohr-Coulomb) and their effects on information\npropagation. We empirically validate this by showing that fine-tuning only the\nfirst few (1-5) of 10 MP layers of a pretrained model achieves comparable test\nperformance as compared to fine-tuning the entire network. Building on this\ninsight, we propose a parameter-efficient Feature-wise Linear Modulation (FiLM)\nconditioning mechanism designed to specifically target these early layers. This\napproach produces accurate long-term rollouts on unseen, interpolated, or\nmoderately extrapolated values (e.g., up to 2.5 degrees for friction angle and\n0.25 kPa for cohesion) when trained exclusively on as few as 12 short\nsimulation trajectories from new materials, representing a 5-fold data\nreduction compared to a baseline multi-task learning method. Finally, we\nvalidate the model's utility by applying it to an inverse problem, successfully\nidentifying unknown cohesion parameters from trajectory data. This approach\nenables the use of GNS in inverse design and closed-loop control tasks where\nmaterial properties are treated as design variables.",
+    "published": "2025-11-07T17:55:35+00:00",
+    "updated": "2025-11-07T17:55:35+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2511.05456v1",
+    "base_id": "2511.05456",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2511.05456v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.05357v1",
+    "title": "Diffusion-Based Electromagnetic Inverse Design of Scattering Structured Media",
+    "authors": [
+      "Mikhail Tsukerman",
+      "Konstantin Grotov",
+      "Pavel Ginzburg"
+    ],
+    "summary": "We present a conditional diffusion model for electromagnetic inverse design\nthat generates structured media geometries directly from target differential\nscattering cross-section profiles, bypassing expensive iterative optimization.\nOur 1D U-Net architecture with Feature-wise Linear Modulation learns to map\ndesired angular scattering patterns to 2x2 dielectric sphere structure,\nnaturally handling the non-uniqueness of inverse problems by sampling diverse\nvalid designs. Trained on 11,000 simulated metasurfaces, the model achieves\nmedian MPE below 19% on unseen targets (best: 1.39%), outperforming CMA-ES\nevolutionary optimization while reducing design time from hours to seconds.\nThese results demonstrate that employing diffusion models is promising for\nadvancing electromagnetic inverse design research, potentially enabling rapid\nexploration of complex metasurface architectures and accelerating the\ndevelopment of next-generation photonic and wireless communication systems. The\ncode is publicly available at\nhttps://github.com/mikzuker/inverse_design_metasurface_generation.",
+    "published": "2025-11-07T15:48:50+00:00",
+    "updated": "2025-11-07T15:48:50+00:00",
+    "categories": [
+      "cs.LG",
+      "physics.app-ph",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "Accepted to Machine Learning and the Physical Sciences Workshop,\n  NeurIPS 2025",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "http://arxiv.org/pdf/2511.05357v1",
+    "base_id": "2511.05357",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2511.05357v1"
+  }
+]

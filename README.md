@@ -34,104 +34,77 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (3)
+## New Papers (2)
 
-*Last updated: 2025-11-08 06:16:05 (SGT)*
+*Last updated: 2025-11-11 06:17:47 (SGT)*
 
-### 1. Machine learning-driven elasticity prediction in advanced inorganic materials via convolutional neural networks
+### 1. Parameter-Efficient Conditioning for Material Generalization in Graph-Based Simulators
 
-**Authors:** Yujie Liu, Zhenyu Wang, Hang Lei, Guoyu Zhang, Jiawei Xian, Zhibin Gao, Jun Sun, Haifeng Song, Xiangdong Ding
+**Authors:** Naveen Raj Manoharan, Hassan Iqbal, Krishna Kumar
 
-**Published:** 2025-11-06
+**Published:** 2025-11-07
 
-**Category:** cond-mat.mtrl-sci
+**Category:** cs.LG
 
-**ID:** 2511.04468v1
+**ID:** 2511.05456v1
 
-**Link:** [http://arxiv.org/abs/2511.04468v1](http://arxiv.org/abs/2511.04468v1)
+**Link:** [http://arxiv.org/abs/2511.05456v1](http://arxiv.org/abs/2511.05456v1)
 
-**Summary:** Inorganic crystal materials have broad application potential due to excellent
-physical and chemical properties, with elastic properties (shear modulus, bulk
-modulus) crucial for predicting materials' electrical conductivity, thermal
-conductivity and mechanical properties. Traditional experimental measurement
-suffers from high cost and low efficiency, while theoretical simulation and
-graph neural network-based machine learning methods--especially crystal graph
-convolutional neural networks (CGCNNs)--have become effective alternatives,
-achieving remarkable results in predicting material elastic properties. This
-study trained two CGCNN models using shear modulus and bulk modulus data of
-10987 materials from the Matbench v0.1 dataset, which exhibit high accuracy
-(mean absolute error <13, coefficient of determination R-squared close to 1)
-and good generalization ability. Materials were screened to retain those with
-band gaps between 0.1-3.0 eV and exclude radioactive element-containing
-compounds. The final predicted dataset comprises two parts: 54359 crystal
-structures from the Materials Project database and 26305 crystal structures
-discovered by Merchant et al. (2023 Nature 624 80). Ultimately, this study
-completed the prediction of shear modulus and bulk modulus for 80664 inorganic
-crystals. This work enriches existing material elastic data resources and
-provides robust support for material design, with all data openly available at
-https://doi.org/10.57760/sciencedb.j00213.00104....
-
----
-
-### 2. TXL Fusion: A Hybrid Machine Learning Framework Integrating Chemical Heuristics and Large Language Models for Topological Materials Discovery
-
-**Authors:** Arif Ullah, Rajibul Islam, Ghulam Hussain, Zahir Muhammad, Xiaoguang Li, Ming Yang
-
-**Published:** 2025-11-06
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2511.04068v1
-
-**Link:** [http://arxiv.org/abs/2511.04068v1](http://arxiv.org/abs/2511.04068v1)
-
-**Summary:** Topological materials--including insulators (TIs) and semimetals (TSMs)--hold
-immense promise for quantum technologies, yet their discovery remains
-constrained by the high computational cost of first-principles calculations and
-the slow, resource-intensive nature of experimental synthesis. Here, we
-introduce TXL Fusion, a hybrid machine learning framework that integrates
-chemical heuristics, engineered physical descriptors, and large language model
-(LLM) embeddings to accelerate the discovery of topological materials. By
-incorporating features such as space group symmetry, valence electron
-configurations, and composition-derived metrics, TXL Fusion classifies
-materials across trivial, TSM, and TI categories with improved accuracy and
-generalization compared to conventional approaches. The framework successfully
-identified new candidates, with representative cases further validated through
-density functional theory (DFT), confirming its predictive robustness. By
-uniting data-driven learning with chemical intuition, TXL Fusion enables rapid
-and interpretable exploration of complex materials spaces, establishing a
-scalable paradigm for the intelligent discovery of next-generation topological
-and quantum materials....
+**Summary:** Graph network-based simulators (GNS) have demonstrated strong potential for
+learning particle-based physics (such as fluids, deformable solids, and
+granular flows) while generalizing to unseen geometries due to their inherent
+inductive biases. However, existing models are typically trained for a single
+material type and fail to generalize across distinct constitutive behaviors,
+limiting their applicability in real-world engineering settings. Using granular
+flows as a running example, we propose a parameter-efficient conditioning
+mechanism that makes the GNS model adaptive to material parameters. We identify
+that sensitivity to material properties is concentrated in the early
+message-passing (MP) layers, a finding we link to the local nature of
+constitutive models (e.g., Mohr-Coulomb) and their effects on information
+propagation. We empirically validate this by showing that fine-tuning only the
+first few (1-5) of 10 MP layers of a pretrained model achieves comparable test
+performance as compared to fine-tuning the entire network. Building on this
+insight, we propose a parameter-efficient Feature-wise Linear Modulation (FiLM)
+conditioning mechanism designed to specifically target these early layers. This
+approach produces accurate long-term rollouts on unseen, interpolated, or
+moderately extrapolated values (e.g., up to 2.5 degrees for friction angle and
+0.25 kPa for cohesion) when trained exclusively on as few as 12 short
+simulation trajectories from new materials, representing a 5-fold data
+reduction compared to a baseline multi-task learning method. Finally, we
+validate the model's utility by applying it to an inverse problem, successfully
+identifying unknown cohesion parameters from trajectory data. This approach
+enables the use of GNS in inverse design and closed-loop control tasks where
+material properties are treated as design variables....
 
 ---
 
-### 3. Friction on Demand: A Generative Framework for the Inverse Design of Metainterfaces
+### 2. Diffusion-Based Electromagnetic Inverse Design of Scattering Structured Media
 
-**Authors:** Valentin Mouton, Adrien Mélot
+**Authors:** Mikhail Tsukerman, Konstantin Grotov, Pavel Ginzburg
 
-**Published:** 2025-10-27
+**Published:** 2025-11-07
 
-**Category:** stat.ML
+**Category:** cs.LG
 
-**ID:** 2511.03735v1
+**ID:** 2511.05357v1
 
-**Link:** [http://arxiv.org/abs/2511.03735v1](http://arxiv.org/abs/2511.03735v1)
+**Link:** [http://arxiv.org/abs/2511.05357v1](http://arxiv.org/abs/2511.05357v1)
 
-**Summary:** Designing frictional interfaces to exhibit prescribed macroscopic behavior is
-a challenging inverse problem, made difficult by the non-uniqueness of
-solutions and the computational cost of contact simulations. Traditional
-approaches rely on heuristic search over low-dimensional parameterizations,
-which limits their applicability to more complex or nonlinear friction laws. We
-introduce a generative modeling framework using Variational Autoencoders (VAEs)
-to infer surface topographies from target friction laws. Trained on a synthetic
-dataset composed of 200 million samples constructed from a parameterized
-contact mechanics model, the proposed method enables efficient, simulation-free
-generation of candidate topographies. We examine the potential and limitations
-of generative modeling for this inverse design task, focusing on balancing
-accuracy, throughput, and diversity in the generated solutions. Our results
-highlight trade-offs and outline practical considerations when balancing these
-objectives. This approach paves the way for near-real-time control of
-frictional behavior through tailored surface topographies....
+**Summary:** We present a conditional diffusion model for electromagnetic inverse design
+that generates structured media geometries directly from target differential
+scattering cross-section profiles, bypassing expensive iterative optimization.
+Our 1D U-Net architecture with Feature-wise Linear Modulation learns to map
+desired angular scattering patterns to 2x2 dielectric sphere structure,
+naturally handling the non-uniqueness of inverse problems by sampling diverse
+valid designs. Trained on 11,000 simulated metasurfaces, the model achieves
+median MPE below 19% on unseen targets (best: 1.39%), outperforming CMA-ES
+evolutionary optimization while reducing design time from hours to seconds.
+These results demonstrate that employing diffusion models is promising for
+advancing electromagnetic inverse design research, potentially enabling rapid
+exploration of complex metasurface architectures and accelerating the
+development of next-generation photonic and wireless communication systems. The
+code is publicly available at
+https://github.com/mikzuker/inverse_design_metasurface_generation....
 
 ---
 
