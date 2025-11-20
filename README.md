@@ -36,101 +36,102 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (6)
 
-*Last updated: 2025-11-20 06:17:20 (SGT)*
+*Last updated: 2025-11-21 06:16:57 (SGT)*
 
-### 1. Quantum Biology, Quantum Simulation and Quantum Coherent Devices
+### 1. Structural effects of boron doping in diamond crystals for gamma-ray light-source applications: Insights from molecular dynamics simulations
 
-**Authors:** Rong-Hang Chen, Jing Dong, Wen Yang, Qing Ai, Gui-Lu Long
+**Authors:** Matthew D. Dickers, Felipe Fantuzzi, Nigel J. Mason, Gennady B. Sushko, Andrei V. Korol, Andrey V. Solov'yov
 
-**Published:** 2025-11-18
+**Published:** 2025-09-16
 
-**Category:** quant-ph
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2511.14363v1
+**ID:** 2509.13045v3
 
-**Link:** [http://arxiv.org/abs/2511.14363v1](http://arxiv.org/abs/2511.14363v1)
+**Link:** [http://arxiv.org/abs/2509.13045v3](http://arxiv.org/abs/2509.13045v3)
 
-**Summary:** Many living organisms can exploit quantum mechanical effects to gain distinct biological advantages. In plants, photosynthesis uses quantum coherence to achieve near 100% efficiency in energy transfer. With advances in experimental techniques, two-dimensional electronic spectroscopy can reveal dynamic processes such as coherence and coupling within a system, and it plays an important role in studying energy transfer in photosynthesis. On the theory side, methods such as the generalized Bloch-Redfield theory and the hierarchical equations of motion are used to model photosynthetic systems. Quantum simulation, as a high-efficiency and low-complexity approach, has also made progress across various platforms in the study of photosynthesis. In recent years, a series of studies has introduced quantum coherence into artificial systems to enhance energy transfer efficiency, laying the groundwork for the design of coherent devices with efficient energy transport. Birds can use the weak geomagnetic field and spin-dependent chemical reactions to detect direction. Theoretical frameworks for animal navigation include magnetite-based mechanisms, magnetoreceptor genes, and the radical-pair mechanism. Quantum simulations of navigation have also advanced on multiple platforms. Inspired by animal navigation, diverse quantum effects have been applied to improve sensing and to support navigation tasks. This paper presents a comprehensive review of progress on quantum coherence in photosynthesis and avian navigation, along with related theoretical methods, quantum simulation approaches, and research on quantum coherent devices....
+**Summary:** Boron-doped diamond crystals (BDD, C$_{1-x}$B$_{x}$) exhibit exceptional mechanical strength, electronic tunability, and resistance to radiation damage. This makes them promising materials for use in gamma-ray crystal-based light sources. To better understand and quantify the structural distortions introduced by doping, which are critical for maintaining channelling efficiency, we perform atomistic-level molecular dynamics simulations on periodic C$_{1-x}$B$_{x}$ systems of various sizes. These simulations allow the influence of boron concentration on the lattice constant and the (110) and (100) inter-planar distances to be evaluated over the concentration range from pure diamond (0%) to 5% boron at room temperature (300 K). Linear relationships between both lattice constant and inter-planar distance with increasing dopant concentration are observed, with a deviation from Vegard's Law. This deviation is larger than that reported by other theoretical and computational studies; however, this may be attributed to an enhanced crystal quality over these studies, a vital aspect when considering gamma-ray crystal light source design. The methodology presented here incorporates several refinements to closely reflect the conditions of microwave plasma chemical vapour deposition (MPCVD) crystal growth. Validation of the methodology is provided through a comprehensive statistical analysis of the structure of our generated crystals. These results enable reliable atomistic modelling of doped diamond crystals and support their use in the design and fabrication of periodically bent structures for next-generation gamma-ray light source technologies....
 
 ---
 
-### 2. Regularized Schrödinger Bridge: Alleviating Distortion and Exposure Bias in Solving Inverse Problems
+### 2. Mechanistic study of mixed lithium halides solid state electrolytes
 
-**Authors:** Qing Yao, Lijian Gao, Qirong Mao, Dong Ming
+**Authors:** Davide Tisi, Sergey Pozdnyakov, Michele Ceriotti
+
+**Published:** 2025-11-19
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2511.15402v1
+
+**Link:** [http://arxiv.org/abs/2511.15402v1](http://arxiv.org/abs/2511.15402v1)
+
+**Summary:** Lithium halides with the general formula Li$_x$M$_y$X$_6$, where M indicates transition metal ions and X halide anions are very actively studied as solid-state electrolytes, because of relatively low cost, high stability and Li conductivity. The structure and properties of these halide-based solid electrolytes (HSE) can be tuned by alloying, e.g. using different halides and/or transition metals simultaneously. The large chemical space is difficult to sample by experiments, making simulations based on broadly applicable machine-learning interatomic potentials (MLIPs) a promising approach to elucidate structure-property relations, and facilitate the design of better-performing compositions. Here we focus on the Li$_3$YCl$_{6x}$Br$_{6(1-x)}$ system, for which reliable experimental data exists, and use the recently-developed PET-MAD universal MLIP to investigate the structure of the alloy, the interplay of crystalline lattice, volume and chemical composition, and its effect on Li conductivity. We find that the distribution of Cl and Br atoms is only weakly correlated, and that the primary effect of alloying is to modulate the lattice parameter -- although it can also trigger transition between different lattice symmetries. By comparing constant-volume and constant-pressure simulations, we disentangle the effect of lattice parameter and chemical composition on the conductivity, finding that the two effects compensate each other, reducing the overall dependency of conductivity on alloy composition. We also study the effect of Y-In metal substitution finding a small increase in the conductivity for the C2/m phase at 25\% In content, and an overall higher conductivity for the P$\bar{3}$m1 phase....
+
+---
+
+### 3. NuBench: An Open Benchmark for Deep Learning-Based Event Reconstruction in Neutrino Telescopes
+
+**Authors:** Rasmus F. Orsoe, Stephan Meighen-Berger, Jeffrey Lazar, Jorge Prado, Ivan Mozun-Mateo, Aske Rosted, Philip Weigel, Arturo Llorente Anaya
+
+**Published:** 2025-11-17
+
+**Category:** hep-ex
+
+**ID:** 2511.13111v2
+
+**Link:** [http://arxiv.org/abs/2511.13111v2](http://arxiv.org/abs/2511.13111v2)
+
+**Summary:** Neutrino telescopes are large-scale detectors designed to observe Cherenkov radiation produced from neutrino interactions in water or ice. They exist to identify extraterrestrial neutrino sources and to probe fundamental questions pertaining to the elusive neutrino itself. A central challenge common across neutrino telescopes is to solve a series of inverse problems known as event reconstruction, which seeks to resolve properties of the incident neutrino, based on the detected Cherenkov light. In recent times, significant efforts have been made in adapting advances from deep learning research to event reconstruction, as such techniques provide several benefits over traditional methods. While a large degree of similarity in reconstruction needs and low-level data exists, cross-experimental collaboration has been hindered by a lack of diverse open-source datasets for comparing methods.
+  We present NuBench, an open benchmark for deep learning-based event reconstruction in neutrino telescopes. NuBench comprises seven large-scale simulated datasets containing nearly 130 million charged- and neutral-current muon-neutrino interactions spanning 10 GeV to 100 TeV, generated across six detector geometries inspired by existing and proposed experiments. These datasets provide pulse- and event-level information suitable for developing and comparing machine-learning reconstruction methods in both water and ice environments. Using NuBench, we evaluate four reconstruction algorithms - ParticleNeT and DynEdge, both actively used within the KM3NeT and IceCube collaborations, respectively, along with GRIT and DeepIce - on up to five core tasks: energy and direction reconstruction, topology classification, interaction vertex prediction, and inelasticity estimation....
+
+---
+
+### 4. Regularized Schrödinger Bridge: Alleviating Distortion and Exposure Bias in Solving Inverse Problems
+
+**Authors:** Qing Yao, Lijian Gao, Qirong Mao, Ming Dong
 
 **Published:** 2025-11-12
 
 **Category:** cs.LG
 
-**ID:** 2511.11686v2
+**ID:** 2511.11686v3
 
-**Link:** [http://arxiv.org/abs/2511.11686v2](http://arxiv.org/abs/2511.11686v2)
+**Link:** [http://arxiv.org/abs/2511.11686v3](http://arxiv.org/abs/2511.11686v3)
 
 **Summary:** Diffusion models serve as a powerful generative framework for solving inverse problems. However, they still face two key challenges: 1) the distortion-perception tradeoff, where improving perceptual quality often degrades reconstruction fidelity, and 2) the exposure bias problem, where the training-inference input mismatch leads to prediction error accumulation and reduced reconstruction quality. In this work, we propose the Regularized Schrödinger Bridge (RSB), an adaptation of Schrödinger Bridge tailored for inverse problems that addresses the above limitations. RSB employs a novel regularized training strategy that perturbs both the input states and targets, effectively mitigating exposure bias by exposing the model to simulated prediction errors and also alleviating distortion by well-designed interpolation via the posterior mean. Extensive experiments on two typical inverse problems for speech enhancement demonstrate that RSB outperforms state-of-the-art methods, significantly improving distortion metrics and effectively reducing exposure bias....
 
 ---
 
-### 3. Statistically controllable microstructure reconstruction framework for heterogeneous materials using sliced-Wasserstein metric and neural networks
+### 5. A Novel Strategy to Strengthen Directionally Solidified Superalloy Through Grain Boundary Simplified Design
 
-**Authors:** Zhenchuan Ma, Qizhi Teng, Pengcheng Yan, Lindong Li, Kirill M. Gerke, Marina V. Karsanina, Xiaohai He
+**Authors:** Yunpeng Fan, Xinbao Zhao, Yu Zhou, Quanzhao Yue, Wanshun Xia, Yuefeng Gu, Ze Zhang
 
-**Published:** 2025-11-18
-
-**Category:** physics.comp-ph
-
-**ID:** 2511.14268v1
-
-**Link:** [http://arxiv.org/abs/2511.14268v1](http://arxiv.org/abs/2511.14268v1)
-
-**Summary:** Heterogeneous porous materials play a crucial role in various engineering systems. Microstructure characterization and reconstruction provide effective means for modeling these materials, which are critical for conducting physical property simulations, structure-property linkage studies, and enhancing their performance across different applications. To achieve superior controllability and applicability with small sample sizes, we propose a statistically controllable microstructure reconstruction framework that integrates neural networks with sliced-Wasserstein metric. Specifically, our approach leverages local pattern distribution for microstructure characterization and employs a controlled sampling strategy to generate target distributions that satisfy given conditional parameters. A neural network-based model establishes the mapping from the input distribution to the target local pattern distribution, enabling microstructure reconstruction. Combinations of sliced-Wasserstein metric and gradient optimization techniques minimize the distance between these distributions, leading to a stable and reliable model. Our method can perform stochastic and controllable reconstruction tasks even with small sample sizes. Additionally, it can generate large-size (e.g. 512 and 1024) 3D microstructures using a chunking strategy. By introducing spatial location masks, our method excels at generating spatially heterogeneous and complex microstructures. We conducted experiments on stochastic reconstruction, controllable reconstruction, heterogeneous reconstruction, and large-size microstructure reconstruction across various materials. Comparative analysis through visualization, statistical measures, and physical property simulations demonstrates the effectiveness, providing new insights and possibilities for research on structure-property linkage and material inverse design....
-
----
-
-### 4. Integrating electronic structure into generative modeling of inorganic materials
-
-**Authors:** Junkil Park, Junyoung Choi, Yousung Jung
-
-**Published:** 2025-11-18
+**Published:** 2025-11-19
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2511.14228v1
+**ID:** 2511.15035v1
 
-**Link:** [http://arxiv.org/abs/2511.14228v1](http://arxiv.org/abs/2511.14228v1)
+**Link:** [http://arxiv.org/abs/2511.15035v1](http://arxiv.org/abs/2511.15035v1)
 
-**Summary:** Recent advances in generative models have introduced a new paradigm for the inverse design of inorganic materials, enabling the discovery of new crystalline structures with desired properties. However, existing generative models focus solely on structural aspects of materials during generation, while overlooking the underlying electronic behavior that fundamentally governs materials' stability and functionality. In this work, we present ChargeDIFF, the first generative model for inorganic materials that explicitly incorporates electronic structure into the generation process. Specifically, ChargeDIFF leverages charge density, a direct spatial representation of a material's electronic structure, as an additional modality for generation. ChargeDIFF demonstrates exceptional performance in both unconditional and conditional generation tasks compared to baseline models, with ablation studies revealing that this improvement is directly due to its ability to capture the material's electronic structure during generation. Moreover, the ability to control charge density during generation allows ChargeDIFF to introduce a novel inverse design method based on three-dimensional charge density, illustrating the potential to generate lithium-ion battery cathode materials with desired ion migration pathways, as validated by physics-based simulations. By highlighting the importance of accounting for electronic characteristics during material generation, ChargeDIFF offers new possibilities in the generative design of stable and functional materials....
-
----
-
-### 5. MicroEvoEval: A Systematic Evaluation Framework for Image-Based Microstructure Evolution Prediction
-
-**Authors:** Qinyi Zhang, Duanyu Feng, Ronghui Han, Yangshuai Wang, Hao Wang
-
-**Published:** 2025-11-12
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2511.08955v2
-
-**Link:** [http://arxiv.org/abs/2511.08955v2](http://arxiv.org/abs/2511.08955v2)
-
-**Summary:** Simulating microstructure evolution (MicroEvo) is vital for materials design but demands high numerical accuracy, efficiency, and physical fidelity. Although recent studies on deep learning (DL) offer a promising alternative to traditional solvers, the field lacks standardized benchmarks. Existing studies are flawed due to a lack of comparing specialized MicroEvo DL models with state-of-the-art spatio-temporal architectures, an overemphasis on numerical accuracy over physical fidelity, and a failure to analyze error propagation over time. To address these gaps, we introduce MicroEvoEval, the first comprehensive benchmark for image-based microstructure evolution prediction. We evaluate 14 models, encompassing both domain-specific and general-purpose architectures, across four representative MicroEvo tasks with datasets specifically structured for both short- and long-term assessment. Our multi-faceted evaluation framework goes beyond numerical accuracy and computational cost, incorporating a curated set of structure-preserving metrics to assess physical fidelity. Our extensive evaluations yield several key insights. Notably, we find that modern architectures (e.g., VMamba), not only achieve superior long-term stability and physical fidelity but also operate with an order-of-magnitude greater computational efficiency. The results highlight the necessity of holistic evaluation and identify these modern architectures as a highly promising direction for developing efficient and reliable surrogate models in data-driven materials science....
+**Summary:** Conventional strategies for enhancing creep resistance often rely on grain boundary strengthening, yet this approach can inadvertently promote premature grain boundary fracture. This study presents a subtractive alloy design strategy for nickel-based directionally solidified superalloys (DS superalloy) through elimination of conventional grain boundary strengthening elements (C, B, Zr) and the strategy improves the creep performance by 60% rivaling 2nd generation single crystal superalloys. Through characterization of heat-treated and heat-exposed microstructures, we confirm the suppression of deleterious grain boundary phases. Creep tests and fracture analysis reveal a critical transition in failure mechanism: the removal of these elements shifts the fracture mode from transgranular to intergranular. Our discussion comprehensively links this microstructural engineering to the underlying creep deformation mechanisms, showing that the enhanced performance stems from stabilization of γ channel and phase interfaces within grains, as well as strengthening of grain boundaries through serration. This work establishes a novel materials design principle that decouples grain boundary strengthening from elemental additions, offering transformative potential for next-generation high-efficiency turbine blade applications....
 
 ---
 
-### 6. KANGURA: Kolmogorov-Arnold Network-Based Geometry-Aware Learning with Unified Representation Attention for 3D Modeling of Complex Structures
+### 6. Natural Selection via Foundation Models for Soft Robot Evolution
 
-**Authors:** Mohammad Reza Shafie, Morteza Hajiabadi, Hamed Khosravi, Mobina Noori, Imtiaz Ahmed
+**Authors:** Changhe Chen, Xiaohao Xu, Xiangdong Wang, Xiaonan Huang
 
-**Published:** 2025-11-17
+**Published:** 2025-03-04
 
-**Category:** cs.AI
+**Category:** cs.RO
 
-**ID:** 2511.13798v1
+**ID:** 2503.02249v2
 
-**Link:** [http://arxiv.org/abs/2511.13798v1](http://arxiv.org/abs/2511.13798v1)
+**Link:** [http://arxiv.org/abs/2503.02249v2](http://arxiv.org/abs/2503.02249v2)
 
-**Summary:** Microbial Fuel Cells (MFCs) offer a promising pathway for sustainable energy generation by converting organic matter into electricity through microbial processes. A key factor influencing MFC performance is the anode structure, where design and material properties play a crucial role. Existing predictive models struggle to capture the complex geometric dependencies necessary to optimize these structures. To solve this problem, we propose KANGURA: Kolmogorov-Arnold Network-Based Geometry-Aware Learning with Unified Representation Attention. KANGURA introduces a new approach to three-dimensional (3D) machine learning modeling. It formulates prediction as a function decomposition problem, where Kolmogorov-Arnold Network (KAN)- based representation learning reconstructs geometric relationships without a conventional multi- layer perceptron (MLP). To refine spatial understanding, geometry-disentangled representation learning separates structural variations into interpretable components, while unified attention mechanisms dynamically enhance critical geometric regions. Experimental results demonstrate that KANGURA outperforms over 15 state-of-the-art (SOTA) models on the ModelNet40 benchmark dataset, achieving 92.7% accuracy, and excels in a real-world MFC anode structure problem with 97% accuracy. This establishes KANGURA as a robust framework for 3D geometric modeling, unlocking new possibilities for optimizing complex structures in advanced manufacturing and quality-driven engineering applications....
+**Summary:** Designing soft robots is a complex and iterative process that demands cross-disciplinary expertise in materials science, mechanics, and control, often relying on intuition and extensive experimentation. While foundation models, especially Large Language Models (LLMs), have demonstrated impressive reasoning abilities, their capacity to conduct embodied design remains largely unexplored. This paper introduces RoboCrafter-QA, a novel benchmark to evaluate whether LLMs can learn representations of soft robot designs that effectively bridge the gap between high-level task descriptions and low-level morphological and material choices. RoboCrafter-QA leverages the EvoGym simulator to generate a diverse set of soft robot design challenges, spanning robotic locomotion, manipulation, and balancing tasks. Our experiments with SOTA multi-modal LLMs reveal that while these models exhibit promising capabilities in learning design representations, they struggle with fine-grained distinctions between designs with subtle performance differences. To overcome these limitations, we finetune an efficient, open-source LLM that achieves SOTA performance on our benchmark, demonstrating superior capabilities in both design selection and direct generation of high-performing robot morphologies. Furthermore, we construct a physical replica of the modular soft robot and demonstrate a strong sim-to-real correlation, validating that superior benchmark performance has the potential to translate to effective real-world design selection. Our full system will be open-sourced to foster this exciting direction....
 
 ---
 
