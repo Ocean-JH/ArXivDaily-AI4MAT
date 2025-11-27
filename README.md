@@ -34,27 +34,91 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (6)
+## New Papers (9)
 
-*Last updated: 2025-11-27 06:17:25 (SGT)*
+*Last updated: 2025-11-28 06:17:09 (SGT)*
 
-### 1. Image2Gcode: Image-to-G-code Generation for Additive Manufacturing Using Diffusion-Transformer Model
+### 1. GoodRegressor: A General-Purpose Symbolic Regression Framework for Physically Interpretable Materials Modeling
 
-**Authors:** Ziyue Wang, Yayati Jadhav, Peter Pak, Amir Barati Farimani
+**Authors:** Seong-Hoon Jang
 
-**Published:** 2025-11-25
+**Published:** 2025-10-21
 
-**Category:** cs.LG
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2511.20636v1
+**ID:** 2510.18325v3
 
-**Link:** [http://arxiv.org/abs/2511.20636v1](http://arxiv.org/abs/2511.20636v1)
+**Link:** [http://arxiv.org/abs/2510.18325v3](http://arxiv.org/abs/2510.18325v3)
 
-**Summary:** Mechanical design and manufacturing workflows conventionally begin with conceptual design, followed by the creation of a computer-aided design (CAD) model and fabrication through material-extrusion (MEX) printing. This process requires converting CAD geometry into machine-readable G-code through slicing and path planning. While each step is well established, dependence on CAD modeling remains a major bottleneck: constructing object-specific 3D geometry is slow and poorly suited to rapid prototyping. Even minor design variations typically necessitate manual updates in CAD software, making iteration time-consuming and difficult to scale. To address this limitation, we introduce Image2Gcode, an end-to-end data-driven framework that bypasses the CAD stage and generates printer-ready G-code directly from images and part drawings. Instead of relying on an explicit 3D model, a hand-drawn or captured 2D image serves as the sole input. The framework first extracts slice-wise structural cues from the image and then employs a denoising diffusion probabilistic model (DDPM) over G-code sequences. Through iterative denoising, the model transforms Gaussian noise into executable print-move trajectories with corresponding extrusion parameters, establishing a direct mapping from visual input to native toolpaths. By producing structured G-code directly from 2D imagery, Image2Gcode eliminates the need for CAD or STL intermediates, lowering the entry barrier for additive manufacturing and accelerating the design-to-fabrication cycle. This approach supports on-demand prototyping from simple sketches or visual references and integrates with upstream 2D-to-3D reconstruction modules to enable an automated pipeline from concept to physical artifact. The result is a flexible, computationally efficient framework that advances accessibility in design iteration, repair workflows, and distributed manufacturing....
+**Summary:** Symbolic regression offers a promising route toward interpretable machine learning, yet existing methods suffer from poor predictability and computational intractability when exploring large expression spaces. I introduce GoodRegressor, a general-purpose C++-based framework that resolves these limitations while preserving full physical interpretability. By combining hierarchical descriptor construction, interaction discovery, nonlinear transformations, statistically rigorous model selection, and stacking ensemble, GoodRegressor efficiently explores symbolic model spaces such as $1.44 \times 10^{457}$, $5.99 \times 10^{124}$, and $4.20 \times 10^{430}$ possible expressions for oxygen-ion conductors, NASICONs, and superconducting oxides, respectively. Across these systems, it produces compact equations that surpass state-of-the-art black-box models and symbolic regressors, improving $R^2$ by $4 \sim 40$ %. The resulting expressions reveal physical insights, for example, into oxygen-ion transport through coordination environment and lattice flexibility. Independent ensemble runs yield nearly identical regressed values and the identical top-ranked candidate, demonstrating high reproducibility. With scalability up to $10^{4392}$ choices without interaction terms, GoodRegressor provides a foundation for general-purpose interpretable machine intelligence....
 
 ---
 
-### 2. Universe of Thoughts: Enabling Creative Reasoning with Large Language Models
+### 2. DensiCrafter: Physically-Constrained Generation and Fabrication of Self-Supporting Hollow Structures
+
+**Authors:** Shengqi Dang, Fu Chai, Jiaxin Li, Chao Yuan, Wei Ye, Nan Cao
+
+**Published:** 2025-11-12
+
+**Category:** cs.CV
+
+**ID:** 2511.09298v2
+
+**Link:** [http://arxiv.org/abs/2511.09298v2](http://arxiv.org/abs/2511.09298v2)
+
+**Summary:** The rise of 3D generative models has enabled automatic 3D geometry and texture synthesis from multimodal inputs (e.g., text or images). However, these methods often ignore physical constraints and manufacturability considerations. In this work, we address the challenge of producing 3D designs that are both lightweight and self-supporting. We present DensiCrafter, a framework for generating lightweight, self-supporting 3D hollow structures by optimizing the density field. Starting from coarse voxel grids produced by Trellis, we interpret these as continuous density fields to optimize and introduce three differentiable, physically constrained, and simulation-free loss terms. Additionally, a mass regularization penalizes unnecessary material, while a restricted optimization domain preserves the outer surface. Our method seamlessly integrates with pretrained Trellis-based models (e.g., Trellis, DSO) without any architectural changes. In extensive evaluations, we achieve up to 43% reduction in material mass on the text-to-3D task. Compared to state-of-the-art baselines, our method could improve the stability and maintain high geometric fidelity. Real-world 3D-printing experiments confirm that our hollow designs can be reliably fabricated and could be self-supporting....
+
+---
+
+### 3. Discovery and recovery of crystalline materials with property-conditioned transformers
+
+**Authors:** Cyprien Bone, Matthew Walker, Kuangdai Leng, Luis M. Antunes, Ricardo Grau-Crespo, Amil Aligayev, Javier Dominguez, Keith T. Butler
+
+**Published:** 2025-11-26
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2511.21299v1
+
+**Link:** [http://arxiv.org/abs/2511.21299v1](http://arxiv.org/abs/2511.21299v1)
+
+**Summary:** Generative models have recently shown great promise for accelerating the design and discovery of new functional materials. Conditional generation enhances this capacity by allowing inverse design, where specific desired properties can be requested during the generation process. However, conditioning of transformer-based approaches, in particular, is constrained by discrete tokenisation schemes and the risk of catastrophic forgetting during fine-tuning. This work introduces CrystaLLM-π (property injection), a conditional autoregressive framework that integrates continuous property representations directly into the transformer's attention mechanism. Two architectures, Property-Key-Value (PKV) Prefix attention and PKV Residual attention, are presented. These methods bypass inefficient sequence-level tokenisation and preserve foundational knowledge from unsupervised pre-training on Crystallographic Information Files (CIFs) as textual input. We establish the efficacy of these mechanisms through systematic robustness studies and evaluate the framework's versatility across two distinct tasks. First, for structure recovery, the model processes high-dimensional, heterogeneous X-ray diffraction patterns, achieving structural accuracy competitive with specialised models and demonstrating applications to experimental structure recovery and polymorph differentiation. Second, for materials discovery, the model is fine-tuned on a specialised photovoltaic dataset to generate novel, stable candidates validated by Density Functional Theory (DFT). It implicitly learns to target optimal band gap regions for high photovoltaic efficiency, demonstrating a capability to map complex structure-property relationships. CrystaLLM-π provides a unified, flexible, and computationally efficient framework for inverse materials design....
+
+---
+
+### 4. Active Learning Driven Materials Discovery for Low Thermal Conductivity Rare-Earth Pyrochlore for Thermal Barrier Coatings
+
+**Authors:** Amiya Chowdhury, Acacio Rincon Romero, Grazziela Figueredo, Tanvir Hussain
+
+**Published:** 2025-11-26
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2511.21297v1
+
+**Link:** [http://arxiv.org/abs/2511.21297v1](http://arxiv.org/abs/2511.21297v1)
+
+**Summary:** High-Entropy/multicomponent rare-earth oxides (HECs and MCCs) show promise as alternative materials for thermal barrier coatings (TBC) with the ability to tailor properties based on the combination of rare-earth elements present. By enabling the substitution of scarce or supply-risk rare-earths with more readily available alternatives while maintaining comparable material performance, HECs and MCCs offer a valuable path towards alternative TBC material design. However, navigating this search space of compositionally complex materials is both time and resource intensive. In this study, an active learning (AL) framework was employed to identify HEC/MCC materials with a pyrochlore structure, with acceptable thermal conductivity (TC) for TBC applications. The AL framework was applied through a Bayesian optimisation (BO) strategy, coupled with a random forest surrogate model. TC was selected as the optimisation criterion as that is the most basic requirement of TBC materials. Over two iterations of the AL cycle, four compositions were generated and synthesized in the lab for experimental evaluation. The first iteration yielded two single-phase pyrochlores, $(La_{0.29}Nd_{0.36}Gd_{0.36})_2Zr_2O_7$ and $(La_{0.333}Nd_{0.26}Gd_{0.15}Ho_{0.15}Yb_{0.111})_2Zr_2O_7$, with measured thermal conductivities of 2.03 and 1.90 $W/mK$, respectively. The surrogate model predicted a TC of 2.009 $W/mK$ for both compositions, demonstrating it's accuracy for completely new compositions. The second iteration compositions showed dual-phase when synthesized, highlighting the need to take into account phase formation in the AL framework....
+
+---
+
+### 5. A Conditional Distribution Equality Testing Framework using Deep Generative Learning
+
+**Authors:** Siming Zheng, Tong Wang, Meifang Lan, Yuanyuan Lin
+
+**Published:** 2025-09-22
+
+**Category:** cs.LG
+
+**ID:** 2509.17729v3
+
+**Link:** [http://arxiv.org/abs/2509.17729v3](http://arxiv.org/abs/2509.17729v3)
+
+**Summary:** In this paper, we propose a general framework for testing the conditional distribution equality in a two-sample problem, which is most relevant to covariate shift and causal discovery. Our framework is built on neural network-based generative methods and sample splitting techniques by transforming the conditional testing problem into an unconditional one. We introduce the generative classification accuracy-based conditional distribution equality test (GCA-CDET) to illustrate the proposed framework. We establish the convergence rate for the learned generator by deriving new results related to the recently-developed offset Rademacher complexity and prove the testing consistency of GCA-CDET under mild conditions.Empirically, we conduct numerical studies including synthetic datasets and two real-world datasets, demonstrating the effectiveness of our approach. Additional discussions on the optimality of the proposed framework are provided in the online supplementary material....
+
+---
+
+### 6. Universe of Thoughts: Enabling Creative Reasoning with Large Language Models
 
 **Authors:** Yuto Suzuki, Farnoush Banaei-Kashani
 
@@ -62,75 +126,59 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 **Category:** cs.AI
 
-**ID:** 2511.20471v1
+**ID:** 2511.20471v2
 
-**Link:** [http://arxiv.org/abs/2511.20471v1](http://arxiv.org/abs/2511.20471v1)
+**Link:** [http://arxiv.org/abs/2511.20471v2](http://arxiv.org/abs/2511.20471v2)
 
 **Summary:** Reasoning based on Large Language Models (LLMs) has garnered increasing attention due to outstanding performance of these models in mathematical and complex logical tasks. Beginning with the Chain-of-Thought (CoT) prompting technique, numerous reasoning methods have emerged that decompose problems into smaller, sequential steps (or thoughts). However, existing reasoning models focus on conventional problem-solving and do not necessarily generate creative solutions by ``creative reasoning''. In domains where the solution space is expansive and conventional solutions are suboptimal, such as drug discovery or business strategization, creative reasoning to discover innovative solutions is crucial. To address this gap, first we introduce a computational framework for creative reasoning inspired by established cognitive science principles. With this framework, we propose three core creative reasoning paradigms, namely, \textit{combinational}, \textit{exploratory}, and \textit{transformative} reasoning, where each offers specific directions for systematic exploration of the universe of thoughts to generate creative solutions. Next, to materialize this framework using LLMs, we introduce the \textit{Universe of Thoughts} (or \textit{UoT}, for short), a novel set of methods to implement the aforementioned three creative processes. Finally, we introduce three novel tasks that necessitate creative problem-solving, along with an evaluation benchmark to assess creativity from three orthogonal perspectives: feasibility as constraint, and utility and novelty as metrics. With a comparative analysis against the state-of-the-art (SOTA) reasoning techniques as well as representative commercial models with reasoning capability, we show that UoT demonstrates superior performance in creative reasoning....
 
 ---
 
-### 3. Diffusion for Fusion: Designing Stellarators with Generative AI
+### 7. AI4X Roadmap: Artificial Intelligence for the advancement of scientific pursuit and its future directions
 
-**Authors:** Misha Padidar, Teresa Huang, Andrew Giuliani, Marina Spivak
+**Authors:** Stephen G. Dale, Nikita Kazeev, Alastair J. A. Price, Victor Posligua, Stephan Roche, O. Anatole von Lilienfeld, Konstantin S. Novoselov, Xavier Bresson, Gianmarco Mengaldo, Xudong Chen, Terence J. O'Kane, Emily R. Lines, Matthew J. Allen, Amandine E. Debus, Clayton Miller, Jiayu Zhou, Hiroko H. Dodge, David Rousseau, Andrey Ustyuzhanin, Ziyun Yan, Mario Lanza, Fabio Sciarrino, Ryo Yoshida, Zhidong Leong, Teck Leong Tan, Qianxiao Li, Adil Kabylda, Igor Poltavsky, Alexandre Tkatchenko, Sherif Abdulkader Tawfik, Prathami Divakar Kamath, Theo Jaffrelot Inizan, Kristin A. Persson, Bryant Y. Li, Vir Karan, Chenru Duan, Haojun Jia, Qiyuan Zhao, Hiroyuki Hayashi, Atsuto Seko, Isao Tanaka, Omar M. Yaghi, Tim Gould, Bun Chan, Stefan Vuckovic, Tianbo Li, Min Lin, Zehcen Tang, Yang Li, Yong Xu, Amrita Joshi, Xiaonan Wang, Leonard W. T. Ng, Sergei V. Kalinin, Mahshid Ahmadi, Jiyizhe Zhang, Shuyuan Zhang, Alexei Lapkin, Ming Xiao, Zhe Wu, Kedar Hippalgaonkar, Limsoon Wong, Lorenzo Bastonero, Nicola Marzari, Dorye Luis Esteras Cordoba, Andrei Tomut, Alba Quinones Andrade, Jose-Hugo Garcia
 
-**Published:** 2025-11-25
+**Published:** 2025-11-26
 
-**Category:** cs.LG
+**Category:** physics.soc-ph
 
-**ID:** 2511.20445v1
+**ID:** 2511.20976v1
 
-**Link:** [http://arxiv.org/abs/2511.20445v1](http://arxiv.org/abs/2511.20445v1)
+**Link:** [http://arxiv.org/abs/2511.20976v1](http://arxiv.org/abs/2511.20976v1)
 
-**Summary:** Stellarators are a prospective class of fusion-based power plants that confine a hot plasma with three-dimensional magnetic fields. Typically framed as a PDE-constrained optimization problem, stellarator design is a time-consuming process that can take hours to solve on a computing cluster. Developing fast methods for designing stellarators is crucial for advancing fusion research. Given the recent development of large datasets of optimized stellarators, machine learning approaches have emerged as a potential candidate. Motivated by this, we present an open inverse problem to the machine learning community: to rapidly generate high-quality stellarator designs which have a set of desirable characteristics. As a case study in the problem space, we train a conditional diffusion model on data from the QUASR database to generate quasisymmetric stellarator designs with desirable characteristics (aspect ratio and mean rotational transform). The diffusion model is applied to design stellarators with characteristics not seen during training. We provide evaluation protocols and show that many of the generated stellarators exhibit solid performance: less than 5% deviation from quasisymmetry and the target characteristics. The modest deviation from quasisymmetry highlights an opportunity to reach the sub 1% target. Beyond the case study, we share multiple promising avenues for generative modeling to advance stellarator design....
-
----
-
-### 4. KKL Observer Synthesis for Nonlinear Systems via Physics-Informed Learning
-
-**Authors:** M. Umar B. Niazi, John Cao, Matthieu Barreau, Karl Henrik Johansson
-
-**Published:** 2025-01-20
-
-**Category:** eess.SY
-
-**ID:** 2501.11655v2
-
-**Link:** [http://arxiv.org/abs/2501.11655v2](http://arxiv.org/abs/2501.11655v2)
-
-**Summary:** This paper proposes a novel learning approach for designing Kazantzis-Kravaris/Luenberger (KKL) observers for autonomous nonlinear systems. The design of a KKL observer involves finding an injective map that transforms the system state into a higher-dimensional observer state, whose dynamics is linear and stable. The observer's state is then mapped back to the original system coordinates via the inverse map to obtain the state estimate. However, finding this transformation and its inverse is quite challenging. We propose learning the forward mapping using a physics-informed neural network, and then learning its inverse mapping with a conventional feedforward neural network. Theoretical guarantees for the robustness of state estimation against approximation error and system uncertainties are provided, including non-asymptotic learning guarantees that link approximation quality to finite sample sizes. The effectiveness of the proposed approach is demonstrated through numerical simulations on benchmark examples, showing superior generalization capability outside the training domain compared to state-of-the-art methods....
+**Summary:** Artificial intelligence and machine learning are reshaping how we approach scientific discovery, not by replacing established methods but by extending what researchers can probe, predict, and design. In this roadmap we provide a forward-looking view of AI-enabled science across biology, chemistry, climate science, mathematics, materials science, physics, self-driving laboratories and unconventional computing. Several shared themes emerge: the need for diverse and trustworthy data, transferable electronic-structure and interatomic models, AI systems integrated into end-to-end scientific workflows that connect simulations to experiments and generative systems grounded in synthesisability rather than purely idealised phases. Across domains, we highlight how large foundation models, active learning and self-driving laboratories can close loops between prediction and validation while maintaining reproducibility and physical interpretability. Taken together, these perspectives outline where AI-enabled science stands today, identify bottlenecks in data, methods and infrastructure, and chart concrete directions for building AI systems that are not only more powerful but also more transparent and capable of accelerating discovery in complex real-world environments....
 
 ---
 
-### 5. iRadioDiff: Physics-Informed Diffusion Model for Indoor Radio Map Construction and Localization
+### 8. Hierarchical high-throughput screening of alkaline-stable lithium-ion conductors combining machine learning and first-principles calculations
 
-**Authors:** Xiucheng Wang, Tingwei Yuan, Yang Cao, Nan Cheng, Ruijin Sun, Weihua Zhuang
+**Authors:** Zhuohan Li, KyuJung Jun, Bowen Deng, Gerbrand Ceder
 
-**Published:** 2025-11-25
-
-**Category:** cs.LG
-
-**ID:** 2511.20015v1
-
-**Link:** [http://arxiv.org/abs/2511.20015v1](http://arxiv.org/abs/2511.20015v1)
-
-**Summary:** Radio maps (RMs) serve as environment-aware electromagnetic (EM) representations that connect scenario geometry and material properties to the spatial distribution of signal strength, enabling localization without costly in-situ measurements. However, constructing high-fidelity indoor RMs remains challenging due to the prohibitive latency of EM solvers and the limitations of learning-based methods, which often rely on sparse measurements or assumptions of homogeneous material, which are misaligned with the heterogeneous and multipath-rich nature of indoor environments. To overcome these challenges, we propose iRadioDiff, a sampling-free diffusion-based framework for indoor RM construction. iRadioDiff is conditioned on access point (AP) positions, and physics-informed prompt encoded by material reflection and transmission coefficients. It further incorporates multipath-critical priors, including diffraction points, strong transmission boundaries, and line-of-sight (LoS) contours, to guide the generative process via conditional channels and boundary-weighted objectives. This design enables accurate modeling of nonstationary field discontinuities and efficient construction of physically consistent RMs. Experiments demonstrate that iRadioDiff achieves state-of-the-art performance in indoor RM construction and received signal strength based indoor localization, which offers effective generalization across layouts and material configurations. Code is available at https://github.com/UNIC-Lab/iRadioDiff....
-
----
-
-### 6. CycleChemist: A Dual-Pronged Machine Learning Framework for Organic Photovoltaic Discovery
-
-**Authors:** Hou Hei Lam, Jiangjie Qiu, Xiuyuan Hu, Wentao Li, Fankun Zeng, Siwei Fu, Hao Zhang, Xiaonan Wang
-
-**Published:** 2025-11-23
+**Published:** 2025-11-26
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2511.19500v1
+**ID:** 2511.20964v1
 
-**Link:** [http://arxiv.org/abs/2511.19500v1](http://arxiv.org/abs/2511.19500v1)
+**Link:** [http://arxiv.org/abs/2511.20964v1](http://arxiv.org/abs/2511.20964v1)
 
-**Summary:** Organic photovoltaic (OPV) materials offer a promising path toward sustainable energy generation, but their development is limited by the difficulty of identifying high performance donor and acceptor pairs with strong power conversion efficiencies (PCEs). Existing design strategies typically focus on either the donor or the acceptor alone, rather than using a unified approach capable of modeling both components. In this work, we introduce a dual machine learning framework for OPV discovery that combines predictive modeling with generative molecular design. We present the Organic Photovoltaic Donor Acceptor Dataset (OPV2D), the largest curated dataset of its kind, containing 2000 experimentally characterized donor acceptor pairs. Using this dataset, we develop the Organic Photovoltaic Classifier (OPVC) to predict whether a material exhibits OPV behavior, and a hierarchical graph neural network that incorporates multi task learning and donor acceptor interaction modeling. This framework includes the Molecular Orbital Energy Estimator (MOE2) for predicting HOMO and LUMO energy levels, and the Photovoltaic Performance Predictor (P3) for estimating PCE. In addition, we introduce the Material Generative Pretrained Transformer (MatGPT) to produce synthetically accessible organic semiconductors, guided by a reinforcement learning strategy with three objective policy optimization. By linking molecular representation learning with performance prediction, our framework advances data driven discovery of high performance OPV materials....
+**Summary:** The advancement of solid-state batteries depends on the development of lithium-ion conductors that exhibit both high ionic conductivity and stability across a wide range of electrochemical and chemical conditions. In this paper, we investigate the chemical factors that control the stability of Li-NASICONs and garnets in highly alkaline aqueous environment. While this is of general importance, it is particularly important for the operation of Li-air cells with humidified air. Humid air promotes the formation of LiOH as the discharge product, creating a highly alkaline environment on the surface of cathode and solid-state electrolyte. In this work, we combine machine learning and first-principles calculations to conduct a high-throughput computational screening of alkaline-stable oxide-based Li-ion conductors in order to better characterize the tradeoff between the various relevant properties. We evaluate the material stability in terms of pH, voltage, and species present in the environment (LiOH and H2O) across a vast range of chemical compositions with NASICON and garnet crystal structures. We utilize the CHGNet universal machine learning interatomic potential for pre-screening, followed by DFT calculations. Such a hierarchical screening procedure enables the evaluation of over 320,000 chemical compositions, encompassing nearly the entire periodic table. From this set 209 alkaline-stable NASICON and garnet compounds are selected as final candidates. We identify the specific cation substitutions that improve alkaline stability in NASICON and garnet compounds, and reveal the underlying mechanism. We also discover the trade-offs for designing alkaline-stable Li-ion conductors, highlighting the need to carefully optimize compositions so that it can simultaneously enhance all the material properties required for practical battery applications....
+
+---
+
+### 9. Vacancy Engineering in Metals and Alloys
+
+**Authors:** Sreenivas Raguraman, Homero Reyes Pulido, Christopher Hutchinson, Arun Devaraj, Marc H. Weber, Timothy P. Weihs
+
+**Published:** 2025-11-24
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2511.20706v1
+
+**Link:** [http://arxiv.org/abs/2511.20706v1](http://arxiv.org/abs/2511.20706v1)
+
+**Summary:** Vacancy engineering, the intentional control of atomic-scale vacancies in metals and alloys, is emerging as a powerful yet underexplored strategy for tailoring microstructures and optimizing performance across diverse applications. By enabling excess vacancy populations through quenching, severe deformation, thermomechanical treatments, or additive manufacturing, new microstructures can be obtained that achieve unique combinations of strength, ductility, fatigue life, corrosion resistance, and conductivity. Vacancies are distinct among lattice defects: they are non-conserved entities essential for solute diffusion, yet variably coupled to solutes, dislocations, and phase boundaries. They can accelerate transformations such as nucleation and precipitation or retard kinetics when trapped in clusters, and their transient trapping and release can drive microstructural evolution across time and length scales. This Review synthesizes recent advances in generating, modeling, and characterizing vacancies, highlighting their role in diffusion, precipitation, and phase stability. Case studies in lightweight, high-temperature, fatigue-resistant, electrical, and biomedical materials demonstrate the broad potential of vacancy control. We conclude by emphasizing the opportunity for the metallurgical community to fully exploit excess vacancies as controllable, design-relevant defects that enable new pathways for microstructure and property optimization in next-generation alloys....
 
 ---
 
