@@ -34,151 +34,167 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (9)
+## New Papers (10)
 
-*Last updated: 2025-11-28 06:17:09 (SGT)*
+*Last updated: 2025-12-02 06:17:10 (SGT)*
 
-### 1. GoodRegressor: A General-Purpose Symbolic Regression Framework for Physically Interpretable Materials Modeling
+### 1. Path Entropy-driven Design of Solid-State Electrolytes
 
-**Authors:** Seong-Hoon Jang
+**Authors:** Qiye Guan, Kaiyang Wang, Jingjie Yeo, Yongqing Cai
 
-**Published:** 2025-10-21
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2510.18325v3
-
-**Link:** [http://arxiv.org/abs/2510.18325v3](http://arxiv.org/abs/2510.18325v3)
-
-**Summary:** Symbolic regression offers a promising route toward interpretable machine learning, yet existing methods suffer from poor predictability and computational intractability when exploring large expression spaces. I introduce GoodRegressor, a general-purpose C++-based framework that resolves these limitations while preserving full physical interpretability. By combining hierarchical descriptor construction, interaction discovery, nonlinear transformations, statistically rigorous model selection, and stacking ensemble, GoodRegressor efficiently explores symbolic model spaces such as $1.44 \times 10^{457}$, $5.99 \times 10^{124}$, and $4.20 \times 10^{430}$ possible expressions for oxygen-ion conductors, NASICONs, and superconducting oxides, respectively. Across these systems, it produces compact equations that surpass state-of-the-art black-box models and symbolic regressors, improving $R^2$ by $4 \sim 40$ %. The resulting expressions reveal physical insights, for example, into oxygen-ion transport through coordination environment and lattice flexibility. Independent ensemble runs yield nearly identical regressed values and the identical top-ranked candidate, demonstrating high reproducibility. With scalability up to $10^{4392}$ choices without interaction terms, GoodRegressor provides a foundation for general-purpose interpretable machine intelligence....
-
----
-
-### 2. DensiCrafter: Physically-Constrained Generation and Fabrication of Self-Supporting Hollow Structures
-
-**Authors:** Shengqi Dang, Fu Chai, Jiaxin Li, Chao Yuan, Wei Ye, Nan Cao
-
-**Published:** 2025-11-12
-
-**Category:** cs.CV
-
-**ID:** 2511.09298v2
-
-**Link:** [http://arxiv.org/abs/2511.09298v2](http://arxiv.org/abs/2511.09298v2)
-
-**Summary:** The rise of 3D generative models has enabled automatic 3D geometry and texture synthesis from multimodal inputs (e.g., text or images). However, these methods often ignore physical constraints and manufacturability considerations. In this work, we address the challenge of producing 3D designs that are both lightweight and self-supporting. We present DensiCrafter, a framework for generating lightweight, self-supporting 3D hollow structures by optimizing the density field. Starting from coarse voxel grids produced by Trellis, we interpret these as continuous density fields to optimize and introduce three differentiable, physically constrained, and simulation-free loss terms. Additionally, a mass regularization penalizes unnecessary material, while a restricted optimization domain preserves the outer surface. Our method seamlessly integrates with pretrained Trellis-based models (e.g., Trellis, DSO) without any architectural changes. In extensive evaluations, we achieve up to 43% reduction in material mass on the text-to-3D task. Compared to state-of-the-art baselines, our method could improve the stability and maintain high geometric fidelity. Real-world 3D-printing experiments confirm that our hollow designs can be reliably fabricated and could be self-supporting....
-
----
-
-### 3. Discovery and recovery of crystalline materials with property-conditioned transformers
-
-**Authors:** Cyprien Bone, Matthew Walker, Kuangdai Leng, Luis M. Antunes, Ricardo Grau-Crespo, Amil Aligayev, Javier Dominguez, Keith T. Butler
-
-**Published:** 2025-11-26
+**Published:** 2024-12-10
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2511.21299v1
+**ID:** 2412.07115v2
 
-**Link:** [http://arxiv.org/abs/2511.21299v1](http://arxiv.org/abs/2511.21299v1)
+**Link:** [http://arxiv.org/abs/2412.07115v2](http://arxiv.org/abs/2412.07115v2)
 
-**Summary:** Generative models have recently shown great promise for accelerating the design and discovery of new functional materials. Conditional generation enhances this capacity by allowing inverse design, where specific desired properties can be requested during the generation process. However, conditioning of transformer-based approaches, in particular, is constrained by discrete tokenisation schemes and the risk of catastrophic forgetting during fine-tuning. This work introduces CrystaLLM-π (property injection), a conditional autoregressive framework that integrates continuous property representations directly into the transformer's attention mechanism. Two architectures, Property-Key-Value (PKV) Prefix attention and PKV Residual attention, are presented. These methods bypass inefficient sequence-level tokenisation and preserve foundational knowledge from unsupervised pre-training on Crystallographic Information Files (CIFs) as textual input. We establish the efficacy of these mechanisms through systematic robustness studies and evaluate the framework's versatility across two distinct tasks. First, for structure recovery, the model processes high-dimensional, heterogeneous X-ray diffraction patterns, achieving structural accuracy competitive with specialised models and demonstrating applications to experimental structure recovery and polymorph differentiation. Second, for materials discovery, the model is fine-tuned on a specialised photovoltaic dataset to generate novel, stable candidates validated by Density Functional Theory (DFT). It implicitly learns to target optimal band gap regions for high photovoltaic efficiency, demonstrating a capability to map complex structure-property relationships. CrystaLLM-π provides a unified, flexible, and computationally efficient framework for inverse materials design....
-
----
-
-### 4. Active Learning Driven Materials Discovery for Low Thermal Conductivity Rare-Earth Pyrochlore for Thermal Barrier Coatings
-
-**Authors:** Amiya Chowdhury, Acacio Rincon Romero, Grazziela Figueredo, Tanvir Hussain
-
-**Published:** 2025-11-26
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2511.21297v1
-
-**Link:** [http://arxiv.org/abs/2511.21297v1](http://arxiv.org/abs/2511.21297v1)
-
-**Summary:** High-Entropy/multicomponent rare-earth oxides (HECs and MCCs) show promise as alternative materials for thermal barrier coatings (TBC) with the ability to tailor properties based on the combination of rare-earth elements present. By enabling the substitution of scarce or supply-risk rare-earths with more readily available alternatives while maintaining comparable material performance, HECs and MCCs offer a valuable path towards alternative TBC material design. However, navigating this search space of compositionally complex materials is both time and resource intensive. In this study, an active learning (AL) framework was employed to identify HEC/MCC materials with a pyrochlore structure, with acceptable thermal conductivity (TC) for TBC applications. The AL framework was applied through a Bayesian optimisation (BO) strategy, coupled with a random forest surrogate model. TC was selected as the optimisation criterion as that is the most basic requirement of TBC materials. Over two iterations of the AL cycle, four compositions were generated and synthesized in the lab for experimental evaluation. The first iteration yielded two single-phase pyrochlores, $(La_{0.29}Nd_{0.36}Gd_{0.36})_2Zr_2O_7$ and $(La_{0.333}Nd_{0.26}Gd_{0.15}Ho_{0.15}Yb_{0.111})_2Zr_2O_7$, with measured thermal conductivities of 2.03 and 1.90 $W/mK$, respectively. The surrogate model predicted a TC of 2.009 $W/mK$ for both compositions, demonstrating it's accuracy for completely new compositions. The second iteration compositions showed dual-phase when synthesized, highlighting the need to take into account phase formation in the AL framework....
+**Summary:** The development of high-performance solid-state electrolytes (SSEs) has entered a critical stage, where entropy-driven strategies offer transformative potential for enhancing electrochemical properties. By engineering local environments for conductive ions alongside introducing disorder, these approaches can significantly improve conductivity. However, embracing high-entropy designs does not always guarantee improved performance. Current entropy descriptions oversimplify disorder by accounting solely for host framework configurations, neglecting conductive ion-induced disorder, rendering such descriptions incomplete. Herein, we propose path entropy (Sp) as a descriptor that quantifies diffusion pathway diversity, directly capturing diffusional disorder. Combining Markov state model with transition path theory, we reveal the interplay between diffusion pathway diversity of lithium and microscopic local environments in inorganic thiophosphates. Generalizing this path-informative Sp for high-throughput screening, we demonstrate its broad applicability in identifying and designing high-performance SSEs. Our work establishes a critical link between entropy evolution underlying ion conduction and practical entropy-driven design principles....
 
 ---
 
-### 5. A Conditional Distribution Equality Testing Framework using Deep Generative Learning
+### 2. Toward Unified Interphase Engineering: The Solid-Electrolyte Interphase in Batteries and Supercapacitors
 
-**Authors:** Siming Zheng, Tong Wang, Meifang Lan, Yuanyuan Lin
+**Authors:** Mehedi Hasan, Ishtiaq Murshed, Khayrul Islam, A. K. M. Masud
 
-**Published:** 2025-09-22
+**Published:** 2025-11-28
+
+**Category:** physics.chem-ph
+
+**ID:** 2511.23005v1
+
+**Link:** [http://arxiv.org/abs/2511.23005v1](http://arxiv.org/abs/2511.23005v1)
+
+**Summary:** The development of next-generation electrochemical energy storage requires devices that combine the high energy density of batteries with the power capability and long cycle life of supercapacitors. However, the interfacial phenomena governing performance in these systems remain poorly unified. The solid-electrolyte interphase (SEI), a nanoscale film formed by electrolyte decomposition, is well studied in batteries but its counterpart in supercapacitors has received limited systematic investigation despite growing experimental evidence. This review argues that SEI formation is a universal electrochemical process that occurs whenever electrode potentials drive electron transfer into electrolyte orbitals beyond their stability limits, independent of whether charge storage is Faradaic or non-Faradaic. Differences between battery SEIs and supercapacitor interphases arise mainly from operating conditions, not fundamental chemistry. Engineered interphases created through electrolyte additives, protective coatings, or surface functionalization suppress leakage currents, improve capacitance retention, and enable stable high-voltage operation. By identifying shared mechanisms and establishing transferable design rules, this unified framework provides a foundation for predictive interphase engineering that supports long-lived, high-performance energy-storage technologies....
+
+---
+
+### 3. Rapid optimization in high dimensional space by deep kernel learning augmented genetic algorithms
+
+**Authors:** Mani Valleti, Aditya Raghavan, Sergei V. Kalinin
+
+**Published:** 2024-10-04
 
 **Category:** cs.LG
 
-**ID:** 2509.17729v3
+**ID:** 2410.03173v2
 
-**Link:** [http://arxiv.org/abs/2509.17729v3](http://arxiv.org/abs/2509.17729v3)
+**Link:** [http://arxiv.org/abs/2410.03173v2](http://arxiv.org/abs/2410.03173v2)
 
-**Summary:** In this paper, we propose a general framework for testing the conditional distribution equality in a two-sample problem, which is most relevant to covariate shift and causal discovery. Our framework is built on neural network-based generative methods and sample splitting techniques by transforming the conditional testing problem into an unconditional one. We introduce the generative classification accuracy-based conditional distribution equality test (GCA-CDET) to illustrate the proposed framework. We establish the convergence rate for the learned generator by deriving new results related to the recently-developed offset Rademacher complexity and prove the testing consistency of GCA-CDET under mild conditions.Empirically, we conduct numerical studies including synthetic datasets and two real-world datasets, demonstrating the effectiveness of our approach. Additional discussions on the optimality of the proposed framework are provided in the online supplementary material....
+**Summary:** Exploration of complex high-dimensional spaces presents significant challenges in fields such as molecular discovery, process optimization, and supply chain management. Genetic Algorithms (GAs), while offering significant power for creating new candidate spaces, often entail high computational demands due to the need for evaluation of each new proposed solution. On the other hand, Deep Kernel Learning (DKL) efficiently navigates the spaces of preselected candidate structures but lacks generative capabilities. This study introduces an approach that amalgamates the generative power of GAs to create new candidates with the efficiency of DKL-based surrogate models to rapidly ascertain the behavior of new candidate spaces. This DKL-GA framework can be further used to build Bayesian Optimization (BO) workflows. We demonstrate the effectiveness of this approach through the optimization of the FerroSIM model, showcasing its broad applicability to diverse challenges, including molecular discovery and battery charging optimization....
 
 ---
 
-### 6. Universe of Thoughts: Enabling Creative Reasoning with Large Language Models
+### 4. MolEdit: Knowledge Editing for Multimodal Molecule Language Models
 
-**Authors:** Yuto Suzuki, Farnoush Banaei-Kashani
+**Authors:** Zhenyu Lei, Patrick Soga, Yaochen Zhu, Yinhan He, Yushun Dong, Jundong Li
 
-**Published:** 2025-11-25
+**Published:** 2025-11-16
+
+**Category:** cs.LG
+
+**ID:** 2511.12770v2
+
+**Link:** [http://arxiv.org/abs/2511.12770v2](http://arxiv.org/abs/2511.12770v2)
+
+**Summary:** Understanding and continuously refining multimodal molecular knowledge is crucial for advancing biomedicine, chemistry, and materials science. Molecule language models (MoLMs) have become powerful tools in these domains, integrating structural representations (e.g., SMILES strings, molecular graphs) with rich contextual descriptions (e.g., physicochemical properties). However, MoLMs can encode and propagate inaccuracies due to outdated web-mined training corpora or malicious manipulation, jeopardizing downstream discovery pipelines. While knowledge editing has been explored for general-domain AI, its application to MoLMs remains uncharted, presenting unique challenges due to the multifaceted and interdependent nature of molecular knowledge. In this paper, we take the first step toward MoLM editing for two critical tasks: molecule-to-caption generation and caption-to-molecule generation. To address molecule-specific challenges, we propose MolEdit, a powerful framework that enables targeted modifications while preserving unrelated molecular knowledge. MolEdit combines a Multi-Expert Knowledge Adapter that routes edits to specialized experts for different molecular facets with an Expertise-Aware Editing Switcher that activates the adapters only when input closely matches the stored edits across all expertise, minimizing interference with unrelated knowledge. To systematically evaluate editing performance, we introduce MEBench, a comprehensive benchmark assessing multiple dimensions, including Reliability (accuracy of the editing), Locality (preservation of irrelevant knowledge), and Generality (robustness to reformed queries). Across extensive experiments on two popular MoLM backbones, MolEdit delivers up to 18.8% higher Reliability and 12.0% better Locality than baselines while maintaining efficiency. The code is available at: https://github.com/LzyFischer/MolEdit....
+
+---
+
+### 5. Generative models for crystalline materials
+
+**Authors:** Houssam Metni, Laura Ruple, Lauren N. Walters, Luca Torresi, Jonas Teufel, Henrik Schopmans, Jona Östreicher, Yumeng Zhang, Marlen Neubert, Yuri Koide, Kevin Steiner, Paul Link, Lukas Bär, Mariana Petrova, Gerbrand Ceder, Pascal Friederich
+
+**Published:** 2025-11-27
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2511.22652v1
+
+**Link:** [http://arxiv.org/abs/2511.22652v1](http://arxiv.org/abs/2511.22652v1)
+
+**Summary:** Understanding structure-property relationships in materials is fundamental in condensed matter physics and materials science. Over the past few years, machine learning (ML) has emerged as a powerful tool for advancing this understanding and accelerating materials discovery. Early ML approaches primarily focused on constructing and screening large material spaces to identify promising candidates for various applications. More recently, research efforts have increasingly shifted toward generating crystal structures using end-to-end generative models. This review analyzes the current state of generative modeling for crystal structure prediction and \textit{de novo} generation. It examines crystal representations, outlines the generative models used to design crystal structures, and evaluates their respective strengths and limitations. Furthermore, the review highlights experimental considerations for evaluating generated structures and provides recommendations for suitable existing software tools. Emerging topics, such as modeling disorder and defects, integration in advanced characterization, and incorporating synthetic feasibility constraints, are explored. Ultimately, this work aims to inform both experimental scientists looking to adapt suitable ML models to their specific circumstances and ML specialists seeking to understand the unique challenges related to inverse materials design and discovery....
+
+---
+
+### 6. Active flow-driven DNA remodeling generates millimeter-scale mechanical oscillations
+
+**Authors:** Maya Levanon, Noa S. Goldberg, Dvir Cohen, Eran Bouchbinder, Ram M. Adar, Alexandra M. Tayar
+
+**Published:** 2025-11-27
+
+**Category:** cond-mat.soft
+
+**ID:** 2511.22589v1
+
+**Link:** [http://arxiv.org/abs/2511.22589v1](http://arxiv.org/abs/2511.22589v1)
+
+**Summary:** In living systems, DNA undergoes continuous and rhythmic mechanical remodeling through condensation, looping, and disentangling to regulate gene expression, segregate chromosomes, and guide morphogenesis. Here, we demonstrate a purely mechanical route to rhythmic DNA reorganization in a minimal active composite of microtubules, kinesin motors, and DNA. We embed a DNA polymer in an active turbulent microtubule-kinesin fluid, creating a self-morphing material. The active flows stretch and entangle the DNA, forming a self-organized viscoelastic network that resists active stresses and affects flow over large length scales. This mechanical feedback loop progressively amplifies velocity correlations and drives a nonequilibrium phase transition tuned by DNA contour length: from disordered flow to synchronized, millimeter-scale oscillations with vortices. We rationalize the phase transition with an active-gel model that predicts a growing length scale and an oscillatory instability emerging from the interplay between activity, orientational order, and self-generated viscoelasticity, rather than chemical signaling. The dependence of the oscillation frequency on system size and activity quantitatively agrees with experiment. Thus, flow-driven DNA remodeling provides a minimal physical route to autonomous, system-spanning oscillations in three dimensions and suggests design principles for programmable soft matter that coordinates, actuates, and reshapes itself....
+
+---
+
+### 7. Integration of 2D Materials in Radial van der Waals Heterostructure Metasurfaces
+
+**Authors:** Connor Heimig, Jonas Biechteler, Cristina Cruciano, Armando Genco, Thomas Weber, Michael Hirler, Dmytro Gryb, Alexander A. Antonov, Leonardo de S. Menezes, Gianluca Valentini, Cristian Manzoni, Giulio Cerullo, Stefan A. Maier, Luca Sortino, Andreas Tittl
+
+**Published:** 2025-11-27
+
+**Category:** physics.optics
+
+**ID:** 2511.22410v1
+
+**Link:** [http://arxiv.org/abs/2511.22410v1](http://arxiv.org/abs/2511.22410v1)
+
+**Summary:** Two-dimensional semiconductors, such as monolayer transition metal dichalcogenides (TMDC), exhibit strong excitonic transitions at room temperature and offer a unique platform for exploring light-matter interactions in nanoscale photonic systems. In this work, we demonstrate a compact and polarization-invariant photonic metasurface, fabricated from hexagonal boron-nitride (hBN) and based on radial bound states in the continuum (BIC), which are formed by radially distributed pairs of structurally asymmetric resonators. The metasurface employs multiple symmetry-breaking perturbations to support high quality-(Q-)factor resonances within a footprint smaller than 8 x 8 $μm^2$ - one-sixth of the area of previous approaches. Compared to established hBN metasurface designs, the radial geometry furthermore achieves significantly higher Q-factors with a reduced footprint. By integrating the hBN photonic structure with a WS$_2$ monolayer, we observe enhanced photoluminescence when its resonance is spectrally aligned with the exciton resonance, accompanied by signatures of discrete momentum-space patterns that identify the orbital-angular-momentum-carrying ring eigenmodes. These features persist over a wide range of excitation powers and show minimal linewidth broadening, indicating robust and spatially modulated exciton-photon coupling. This work establishes a scalable approach for generating hybrid photonic-excitonic states with momentum-space structure, offering new opportunities for exciton localization, valley emission, spatially programmable light-matter interaction in two-dimensional material platforms and compact luminescent devices based on 2D material-integrated metasurfaces....
+
+---
+
+### 8. Swarms of Large Language Model Agents for Protein Sequence Design with Experimental Validation
+
+**Authors:** Fiona Y. Wang, Di Sheng Lee, David L. Kaplan, Markus J. Buehler
+
+**Published:** 2025-11-27
 
 **Category:** cs.AI
 
-**ID:** 2511.20471v2
+**ID:** 2511.22311v1
 
-**Link:** [http://arxiv.org/abs/2511.20471v2](http://arxiv.org/abs/2511.20471v2)
+**Link:** [http://arxiv.org/abs/2511.22311v1](http://arxiv.org/abs/2511.22311v1)
 
-**Summary:** Reasoning based on Large Language Models (LLMs) has garnered increasing attention due to outstanding performance of these models in mathematical and complex logical tasks. Beginning with the Chain-of-Thought (CoT) prompting technique, numerous reasoning methods have emerged that decompose problems into smaller, sequential steps (or thoughts). However, existing reasoning models focus on conventional problem-solving and do not necessarily generate creative solutions by ``creative reasoning''. In domains where the solution space is expansive and conventional solutions are suboptimal, such as drug discovery or business strategization, creative reasoning to discover innovative solutions is crucial. To address this gap, first we introduce a computational framework for creative reasoning inspired by established cognitive science principles. With this framework, we propose three core creative reasoning paradigms, namely, \textit{combinational}, \textit{exploratory}, and \textit{transformative} reasoning, where each offers specific directions for systematic exploration of the universe of thoughts to generate creative solutions. Next, to materialize this framework using LLMs, we introduce the \textit{Universe of Thoughts} (or \textit{UoT}, for short), a novel set of methods to implement the aforementioned three creative processes. Finally, we introduce three novel tasks that necessitate creative problem-solving, along with an evaluation benchmark to assess creativity from three orthogonal perspectives: feasibility as constraint, and utility and novelty as metrics. With a comparative analysis against the state-of-the-art (SOTA) reasoning techniques as well as representative commercial models with reasoning capability, we show that UoT demonstrates superior performance in creative reasoning....
-
----
-
-### 7. AI4X Roadmap: Artificial Intelligence for the advancement of scientific pursuit and its future directions
-
-**Authors:** Stephen G. Dale, Nikita Kazeev, Alastair J. A. Price, Victor Posligua, Stephan Roche, O. Anatole von Lilienfeld, Konstantin S. Novoselov, Xavier Bresson, Gianmarco Mengaldo, Xudong Chen, Terence J. O'Kane, Emily R. Lines, Matthew J. Allen, Amandine E. Debus, Clayton Miller, Jiayu Zhou, Hiroko H. Dodge, David Rousseau, Andrey Ustyuzhanin, Ziyun Yan, Mario Lanza, Fabio Sciarrino, Ryo Yoshida, Zhidong Leong, Teck Leong Tan, Qianxiao Li, Adil Kabylda, Igor Poltavsky, Alexandre Tkatchenko, Sherif Abdulkader Tawfik, Prathami Divakar Kamath, Theo Jaffrelot Inizan, Kristin A. Persson, Bryant Y. Li, Vir Karan, Chenru Duan, Haojun Jia, Qiyuan Zhao, Hiroyuki Hayashi, Atsuto Seko, Isao Tanaka, Omar M. Yaghi, Tim Gould, Bun Chan, Stefan Vuckovic, Tianbo Li, Min Lin, Zehcen Tang, Yang Li, Yong Xu, Amrita Joshi, Xiaonan Wang, Leonard W. T. Ng, Sergei V. Kalinin, Mahshid Ahmadi, Jiyizhe Zhang, Shuyuan Zhang, Alexei Lapkin, Ming Xiao, Zhe Wu, Kedar Hippalgaonkar, Limsoon Wong, Lorenzo Bastonero, Nicola Marzari, Dorye Luis Esteras Cordoba, Andrei Tomut, Alba Quinones Andrade, Jose-Hugo Garcia
-
-**Published:** 2025-11-26
-
-**Category:** physics.soc-ph
-
-**ID:** 2511.20976v1
-
-**Link:** [http://arxiv.org/abs/2511.20976v1](http://arxiv.org/abs/2511.20976v1)
-
-**Summary:** Artificial intelligence and machine learning are reshaping how we approach scientific discovery, not by replacing established methods but by extending what researchers can probe, predict, and design. In this roadmap we provide a forward-looking view of AI-enabled science across biology, chemistry, climate science, mathematics, materials science, physics, self-driving laboratories and unconventional computing. Several shared themes emerge: the need for diverse and trustworthy data, transferable electronic-structure and interatomic models, AI systems integrated into end-to-end scientific workflows that connect simulations to experiments and generative systems grounded in synthesisability rather than purely idealised phases. Across domains, we highlight how large foundation models, active learning and self-driving laboratories can close loops between prediction and validation while maintaining reproducibility and physical interpretability. Taken together, these perspectives outline where AI-enabled science stands today, identify bottlenecks in data, methods and infrastructure, and chart concrete directions for building AI systems that are not only more powerful but also more transparent and capable of accelerating discovery in complex real-world environments....
+**Summary:** Designing proteins de novo with tailored structural, physicochemical, and functional properties remains a grand challenge in biotechnology, medicine, and materials science, due to the vastness of sequence space and the complex coupling between sequence, structure, and function. Current state-of-the-art generative methods, such as protein language models (PLMs) and diffusion-based architectures, often require extensive fine-tuning, task-specific data, or model reconfiguration to support objective-directed design, thereby limiting their flexibility and scalability. To overcome these limitations, we present a decentralized, agent-based framework inspired by swarm intelligence for de novo protein design. In this approach, multiple large language model (LLM) agents operate in parallel, each assigned to a specific residue position. These agents iteratively propose context-aware mutations by integrating design objectives, local neighborhood interactions, and memory and feedback from previous iterations. This position-wise, decentralized coordination enables emergent design of diverse, well-defined sequences without reliance on motif scaffolds or multiple sequence alignments, validated with experiments on proteins with alpha helix and coil structures. Through analyses of residue conservation, structure-based metrics, and sequence convergence and embeddings, we demonstrate that the framework exhibits emergent behaviors and effective navigation of the protein fitness landscape. Our method achieves efficient, objective-directed designs within a few GPU-hours and operates entirely without fine-tuning or specialized training, offering a generalizable and adaptable solution for protein design. Beyond proteins, the approach lays the groundwork for collective LLM-driven design across biomolecular systems and other scientific discovery tasks....
 
 ---
 
-### 8. Hierarchical high-throughput screening of alkaline-stable lithium-ion conductors combining machine learning and first-principles calculations
+### 9. Enhanced Conditional Generation of Double Perovskite by Knowledge-Guided Language Model Feedback
 
-**Authors:** Zhuohan Li, KyuJung Jun, Bowen Deng, Gerbrand Ceder
+**Authors:** Inhyo Lee, Junhyeong Lee, Jongwon Park, KyungTae Lim, Seunghwa Ryu
 
-**Published:** 2025-11-26
+**Published:** 2025-11-27
 
-**Category:** cond-mat.mtrl-sci
+**Category:** cs.AI
 
-**ID:** 2511.20964v1
+**ID:** 2511.22307v1
 
-**Link:** [http://arxiv.org/abs/2511.20964v1](http://arxiv.org/abs/2511.20964v1)
+**Link:** [http://arxiv.org/abs/2511.22307v1](http://arxiv.org/abs/2511.22307v1)
 
-**Summary:** The advancement of solid-state batteries depends on the development of lithium-ion conductors that exhibit both high ionic conductivity and stability across a wide range of electrochemical and chemical conditions. In this paper, we investigate the chemical factors that control the stability of Li-NASICONs and garnets in highly alkaline aqueous environment. While this is of general importance, it is particularly important for the operation of Li-air cells with humidified air. Humid air promotes the formation of LiOH as the discharge product, creating a highly alkaline environment on the surface of cathode and solid-state electrolyte. In this work, we combine machine learning and first-principles calculations to conduct a high-throughput computational screening of alkaline-stable oxide-based Li-ion conductors in order to better characterize the tradeoff between the various relevant properties. We evaluate the material stability in terms of pH, voltage, and species present in the environment (LiOH and H2O) across a vast range of chemical compositions with NASICON and garnet crystal structures. We utilize the CHGNet universal machine learning interatomic potential for pre-screening, followed by DFT calculations. Such a hierarchical screening procedure enables the evaluation of over 320,000 chemical compositions, encompassing nearly the entire periodic table. From this set 209 alkaline-stable NASICON and garnet compounds are selected as final candidates. We identify the specific cation substitutions that improve alkaline stability in NASICON and garnet compounds, and reveal the underlying mechanism. We also discover the trade-offs for designing alkaline-stable Li-ion conductors, highlighting the need to carefully optimize compositions so that it can simultaneously enhance all the material properties required for practical battery applications....
+**Summary:** Double perovskites (DPs) are promising candidates for sustainable energy technologies due to their compositional tunability and compatibility with low-energy fabrication, yet their vast design space poses a major challenge for conditional materials discovery. This work introduces a multi-agent, text gradient-driven framework that performs DP composition generation under natural-language conditions by integrating three complementary feedback sources: LLM-based self-evaluation, DP-specific domain knowledge-informed feedback, and ML surrogate-based feedback. Analogous to how knowledge-informed machine learning improves the reliability of conventional data-driven models, our framework incorporates domain-informed text gradients to guide the generative process toward physically meaningful regions of the DP composition space. Systematic comparison of three incremental configurations, (i) pure LLM generation, (ii) LLM generation with LLM reasoning-based feedback, and (iii) LLM generation with domain knowledge-guided feedback, shows that iterative guidance from knowledge-informed gradients improves stability-condition satisfaction without additional training data, achieving over 98% compositional validity and up to 54% stable or metastable candidates, surpassing both the LLM-only baseline (43%) and prior GAN-based results (27%). Analyses of ML-based gradients further reveal that they enhance performance in in-distribution (ID) regions but become unreliable in out-of-distribution (OOD) regimes. Overall, this work provides the first systematic analysis of multi-agent, knowledge-guided text gradients for DP discovery and establishes a generalizable blueprint for MAS-driven generative materials design aimed at advancing sustainable technologies....
 
 ---
 
-### 9. Vacancy Engineering in Metals and Alloys
+### 10. QuantumChem-200K: A Large-Scale Open Organic Molecular Dataset for Quantum-Chemistry Property Screening and Language Model Benchmarking
 
-**Authors:** Sreenivas Raguraman, Homero Reyes Pulido, Christopher Hutchinson, Arun Devaraj, Marc H. Weber, Timothy P. Weihs
+**Authors:** Yinqi Zeng, Renjie Li
 
-**Published:** 2025-11-24
+**Published:** 2025-11-23
 
-**Category:** cond-mat.mtrl-sci
+**Category:** physics.chem-ph
 
-**ID:** 2511.20706v1
+**ID:** 2511.21747v1
 
-**Link:** [http://arxiv.org/abs/2511.20706v1](http://arxiv.org/abs/2511.20706v1)
+**Link:** [http://arxiv.org/abs/2511.21747v1](http://arxiv.org/abs/2511.21747v1)
 
-**Summary:** Vacancy engineering, the intentional control of atomic-scale vacancies in metals and alloys, is emerging as a powerful yet underexplored strategy for tailoring microstructures and optimizing performance across diverse applications. By enabling excess vacancy populations through quenching, severe deformation, thermomechanical treatments, or additive manufacturing, new microstructures can be obtained that achieve unique combinations of strength, ductility, fatigue life, corrosion resistance, and conductivity. Vacancies are distinct among lattice defects: they are non-conserved entities essential for solute diffusion, yet variably coupled to solutes, dislocations, and phase boundaries. They can accelerate transformations such as nucleation and precipitation or retard kinetics when trapped in clusters, and their transient trapping and release can drive microstructural evolution across time and length scales. This Review synthesizes recent advances in generating, modeling, and characterizing vacancies, highlighting their role in diffusion, precipitation, and phase stability. Case studies in lightweight, high-temperature, fatigue-resistant, electrical, and biomedical materials demonstrate the broad potential of vacancy control. We conclude by emphasizing the opportunity for the metallurgical community to fully exploit excess vacancies as controllable, design-relevant defects that enable new pathways for microstructure and property optimization in next-generation alloys....
+**Summary:** The discovery of next-generation photoinitiators for two-photon polymerization (TPP) is hindered by the absence of large, open datasets containing the quantum-chemical and photophysical properties required to model photodissociation and excited-state behavior. Existing molecular datasets typically provide only basic physicochemical descriptors and therefore cannot support data-driven screening or AI-assisted design of photoinitiators. To address this gap, we introduce QuantumChem-200K, a large-scale dataset of over 200,000 organic molecules annotated with eleven quantum-chemical properties, including two-photon absorption (TPA) cross sections, TPA spectral ranges, singlet-triplet intersystem crossing (ISC) energies, toxicity and synthetic accessibility scores, hydrophilicity, solubility, boiling point, molecular weight, and aromaticity. These values are computed using a hybrid workflow that integrates density function theory (DFT), semi-empirical excited-state methods, atomistic quantum solvers, and neural-network predictors. Using QuantumChem-200K, we fine tune the open-source Qwen2.5-32B large language model to create a chemistry AI assistant capable of forward property prediction from SMILES. Benchmarking on 3000 unseen molecules from VQM24 and ZINC20 demonstrates that domain-specific fine-tuning significantly improves accuracy over GPT-4o, Llama-3.1-70B, and the base Qwen2.5-32B model, particularly for TPA and ISC predictions central to photoinitiator design. QuantumChem-200K and the corresponding AI assistant together provide the first scalable platform for high-throughput, LLM-driven photoinitiator screening and accelerated discovery of photosensitive materials....
 
 ---
 
