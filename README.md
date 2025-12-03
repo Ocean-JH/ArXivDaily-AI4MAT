@@ -34,43 +34,59 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (19)
+## New Papers (8)
 
-*Last updated: 2025-12-03 06:16:25 (SGT)*
+*Last updated: 2025-12-04 06:18:57 (SGT)*
 
-### 1. Local chemical order suppresses grain boundary migration under irradiation in CrCoNi
+### 1. The Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models
 
-**Authors:** Ian Geiger, Penghui Cao, Timothy J. Rupert
+**Authors:** Saeid Jamshidi, Kawser Wazed Nafi, Arghavan Moradi Dakhel, Negar Shahabi, Foutse Khomh
 
-**Published:** 2025-12-01
+**Published:** 2025-12-02
 
-**Category:** cond-mat.mtrl-sci
+**Category:** cs.CL
 
-**ID:** 2512.01933v1
+**ID:** 2512.03026v1
 
-**Link:** [http://arxiv.org/abs/2512.01933v1](http://arxiv.org/abs/2512.01933v1)
+**Link:** [http://arxiv.org/abs/2512.03026v1](http://arxiv.org/abs/2512.03026v1)
 
-**Summary:** Complex concentrated alloys with intrinsic chemical heterogeneity are promising candidates for nuclear applications, where local chemical order can strongly influence defect evolution under irradiation. Grain boundaries also contribute to radiation damage mitigation by serving as defect sinks, yet this interaction can alter interfacial structure, typically leading to destabilization and grain growth. This study investigates how chemical ordering influences grain boundary migration and stability during successive radiation events in CrCoNi. Using atomistic simulations, bicrystals were equilibrated to induce segregation-enhanced chemical order, followed by prolonged irradiation at 1100 K. Our results show that grain boundaries in random CrCoNi begin to migrate after only a few collision cascades, whereas those in the ordered alloy remain immobile until the chemical order is sufficiently disrupted. Single-cascade simulations reveal key mechanistic differences, where cascades near chemically ordered interfaces produce smaller damage volumes and reduced atomic displacement due to enhanced Frenkel pair combination within the cascade core. This limits both the residual defect population and the energetic driving force for interfacial rearrangement. Subsequent simulations of irradiated interfaces show that interstitial absorption induces a structural transition that modifies the segregation morphology at and near the grain boundary, demonstrating a dynamic coupling between ordering stability and defect evolution. These findings offer new insights into the role of local chemical order on defect-interface interactions under extreme conditions and highlight pathways for designing radiation-tolerant materials for next-generation nuclear systems....
-
----
-
-### 2. First-principles band alignment engineering in polar and nonpolar orientations for wurtzite AlN, GaN, and B$_x$Al$_{1-x}$N alloys
-
-**Authors:** Cody L Milne, Arunima K Singh
-
-**Published:** 2025-12-01
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2512.01907v1
-
-**Link:** [http://arxiv.org/abs/2512.01907v1](http://arxiv.org/abs/2512.01907v1)
-
-**Summary:** Boron aluminum nitride (B$_x$Al$_{1-x}$N) is a promising material for next-generation electronic and optoelectronic devices due to its ultra-wide bandgap, high thermal stability, and compatibility with other III-nitride semiconductors. Despite its potential, the band alignments of B$_x$Al$_{1-x}$N remain largely unexplored, although this information is essential for device design. In this study, we compute the valence and conduction band alignments of nonpolar ($a$-plane) and polar ($c$-plane) B$_x$Al$_{1-x}$N, and compare them with those of AlN and GaN. Using density functional theory, many-body perturbation theory, $GW_0$ method, and a novel passivation scheme, we find that they have near-zero valence band alignments for low-$x$ B$_x$Al$_{1-x}$N/AlN, while higher compositions ($x > $0.333) exhibit type I or II band alignments. The band alignments also show a notable dependence on surface polarity and the tetrahedral distortion of the B$_x$Al$_{1-x}$N structures. Our computed offsets are in good agreement with available experimental data. Due to their low valence band alignments and higher conduction band alignments, the B$_x$Al$_{1-x}$N/AlN heterostructures could be well suited for high-electron-mobility transistors and ultraviolet light-emitting diodes. The band alignments of B$_x$Al$_{1-x}$N determined in this study provide essential design guidelines for integrating these ultra-wide bandgap alloys into advanced semiconductor technologies....
+**Summary:** The rapid advancement and adaptability of Large Language Models (LLMs) highlight the need for moral consistency, the capacity to maintain ethically coherent reasoning across varied contexts. Existing alignment frameworks, structured approaches designed to align model behavior with human ethical and social norms, often rely on static datasets and post-hoc evaluations, offering limited insight into how ethical reasoning may evolve across different contexts or temporal scales. This study presents the Moral Consistency Pipeline (MoCoP), a dataset-free, closed-loop framework for continuously evaluating and interpreting the moral stability of LLMs. MoCoP combines three supporting layers: (i) lexical integrity analysis, (ii) semantic risk estimation, and (iii) reasoning-based judgment modeling within a self-sustaining architecture that autonomously generates, evaluates, and refines ethical scenarios without external supervision. Our empirical results on GPT-4-Turbo and DeepSeek suggest that MoCoP effectively captures longitudinal ethical behavior, revealing a strong inverse relationship between ethical and toxicity dimensions (correlation rET = -0.81, p value less than 0.001) and a near-zero association with response latency (correlation rEL approximately equal to 0). These findings demonstrate that moral coherence and linguistic safety tend to emerge as stable and interpretable characteristics of model behavior rather than short-term fluctuations. Furthermore, by reframing ethical evaluation as a dynamic, model-agnostic form of moral introspection, MoCoP offers a reproducible foundation for scalable, continuous auditing and advances the study of computational morality in autonomous AI systems....
 
 ---
 
-### 3. MRI Super-Resolution with Deep Learning: A Comprehensive Survey
+### 2. Altermagnetoelectric Spin Field Effect Transistor
+
+**Authors:** Ziye Zhu, Xianzhang Chen, Xunkai Duan, Zhou Cui, Jiayong Zhang, Igor Zutic, Tong Zhou
+
+**Published:** 2025-12-02
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2512.02974v1
+
+**Link:** [http://arxiv.org/abs/2512.02974v1](http://arxiv.org/abs/2512.02974v1)
+
+**Summary:** Spin field-effect transistors (SFETs) are promising candidates for low-power spin-based electronics, yet existing realizations that rely on spin-orbit coupling are constrained by limited material choices and short spin-coherence lengths. Here we propose a different operating principle based on multiferroic altermagnets, in which spin splitting is tuned by an electric field through symmetry control rather than conventional spin-orbit physics. Using an effective model combined with quantum transport simulations, we show that the conductance is determined by the degree of matching between the electrically controlled spin texture of the channel and the fixed spin polarization of ferromagnetic contacts, enabling clear ON and OFF states. Remarkably, we also address a long-standing challenge in multiferroic device design: spintronic channels require metallic carriers, whereas ferroelectricity is usually suppressed in metals. We resolve this conflict by imprinting multiferroic altermagnetism into highly conductive materials via the proximity effect. First-principles calculations for graphene on multiferroic vanadium sulfide halides confirm that graphene acquires a ferroelectrically switchable spin splitting while retaining its metallic character. These results establish a practical route to SFET implementation and identify multiferroic altermagnets as a versatile platform for next-generation spintronic devices....
+
+---
+
+### 3. Adaptive hydrogels with spatiotemporal stiffening using pH-modulating enzymes
+
+**Authors:** Natascha Gray, Zoe Grämiger, André R. Studart, Rafael Libanori
+
+**Published:** 2025-12-02
+
+**Category:** cond-mat.soft
+
+**ID:** 2512.02698v1
+
+**Link:** [http://arxiv.org/abs/2512.02698v1](http://arxiv.org/abs/2512.02698v1)
+
+**Summary:** Adaptive material systems that autonomously respond to external stimuli are crucial for advancing next-generation smart devices. Biological systems achieve autonomous behavior by utilizing chemical energy from out-of-equilibrium reactions to power life-like functions without requiring external energy inputs. Although responsive hydrogels with embedded enzymatic reactions offer a promising platform for implementing adaptive behavior in synthetic systems, previous studies have focused on controlling the supramolecular self-assembly of responsive building blocks rather than modulating network crosslinking. Here, we demonstrate direct enzymatic modulation of crosslinking density in a double-network hydrogel to achieve autonomous self-stiffening in response to a chemical stimulus. Our adaptive system embeds glucose oxidase within a polyacrylamide-alginate double-network hydrogel containing Ca(EDTA)2- complexes that render the crosslinked alginate network pH-responsive through a competitive calcium binding mechanism. Chemical waves emerging from enzymatic reaction activation propagate at speeds ranging from 15 to 44 um/min, driving spatiotemporal mechanical transitions that increase material stiffness by up to 2.1-fold. By integrating signal sensing and chemomechanical transduction within this responsive hydrogel, we realized adaptive behavior that autonomously converts localized chemical inputs into system-wide mechanical outputs. This positions our adaptive hydrogels as promising model systems to guide the design of intelligent materials for soft robotics and biomedical devices....
+
+---
+
+### 4. MRI Super-Resolution with Deep Learning: A Comprehensive Survey
 
 **Authors:** Mohammad Khateri, Serge Vasylechko, Morteza Ghahremani, Liam Timms, Deniz Kocanaogullari, Simon K. Warfield, Camilo Jaimes, Davood Karimi, Alejandra Sierra, Jussi Tohka, Sila Kurugol, Onur Afacan
 
@@ -78,270 +94,76 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 **Category:** eess.IV
 
-**ID:** 2511.16854v2
+**ID:** 2511.16854v3
 
-**Link:** [http://arxiv.org/abs/2511.16854v2](http://arxiv.org/abs/2511.16854v2)
+**Link:** [http://arxiv.org/abs/2511.16854v3](http://arxiv.org/abs/2511.16854v3)
 
 **Summary:** High-resolution (HR) magnetic resonance imaging (MRI) is crucial for many clinical and research applications. However, achieving it remains costly and constrained by technical trade-offs and experimental limitations. Super-resolution (SR) presents a promising computational approach to overcome these challenges by generating HR images from more affordable low-resolution (LR) scans, potentially improving diagnostic accuracy and efficiency without requiring additional hardware. This survey reviews recent advances in MRI SR techniques, with a focus on deep learning (DL) approaches. It examines DL-based MRI SR methods from the perspectives of computer vision, computational imaging, inverse problems, and MR physics, covering theoretical foundations, architectural designs, learning strategies, benchmark datasets, and performance metrics. We propose a systematic taxonomy to categorize these methods and present an in-depth study of both established and emerging SR techniques applicable to MRI, considering unique challenges in clinical and research contexts. We also highlight open challenges and directions that the community needs to address. Additionally, we provide a collection of essential open-access resources, tools, and tutorials, available on our GitHub: https://github.com/mkhateri/Awesome-MRI-Super-Resolution.
   IEEE keywords: MRI, Super-Resolution, Deep Learning, Computational Imaging, Inverse Problem, Survey....
 
 ---
 
-### 4. Mofasa: A Step Change in Metal-Organic Framework Generation
+### 5. EZYer: A simulacrum of high school with generative agent
 
-**Authors:** Vaidotas Simkus, Anders Christensen, Steven Bennett, Ian Johnson, Mark Neumann, James Gin, Jonathan Godwin, Benjamin Rhodes
+**Authors:** Jinming Yang, Zimu Ji, Weiqi Luo, Gaoxi Wang, Bin Ma, Yueling Deng
 
-**Published:** 2025-12-01
-
-**Category:** cs.LG
-
-**ID:** 2512.01756v1
-
-**Link:** [http://arxiv.org/abs/2512.01756v1](http://arxiv.org/abs/2512.01756v1)
-
-**Summary:** Mofasa is an all-atom latent diffusion model with state-of-the-art performance for generating Metal-Organic Frameworks (MOFs). These are highly porous crystalline materials used to harvest water from desert air, capture carbon dioxide, store toxic gases and catalyse chemical reactions. In recognition of their value, the development of MOFs recently received a Nobel Prize in Chemistry.
-  In many ways, MOFs are well-suited for exploiting generative models in chemistry: they are rationally-designable materials with a large combinatorial design space and strong structure-property couplings. And yet, to date, a high performance generative model has been lacking. To fill this gap, we introduce Mofasa, a general-purpose latent diffusion model that jointly samples positions, atom-types and lattice vectors for systems as large as 500 atoms. Mofasa avoids handcrafted assembly algorithms common in the literature, unlocking the simultaneous discovery of metal nodes, linkers and topologies.
-  To help the scientific community build on our work, we release MofasaDB, an annotated library of hundreds of thousands of sampled MOF structures, along with a user-friendly web interface for search and discovery: https://mofux.ai/ ....
-
----
-
-### 5. Automating modeling in mechanics: LLMs as designers of physics-constrained neural networks for constitutive modeling of materials
-
-**Authors:** Marius Tacke, Matthias Busch, Kian Abdolazizi, Jonas Eichinger, Kevin Linka, Christian Cyron, Roland Aydin
-
-**Published:** 2025-12-01
-
-**Category:** cs.LG
-
-**ID:** 2512.01735v1
-
-**Link:** [http://arxiv.org/abs/2512.01735v1](http://arxiv.org/abs/2512.01735v1)
-
-**Summary:** Large language model (LLM)-based agentic frameworks increasingly adopt the paradigm of dynamically generating task-specific agents. We suggest that not only agents but also specialized software modules for scientific and engineering tasks can be generated on demand. We demonstrate this concept in the field of solid mechanics. There, so-called constitutive models are required to describe the relationship between mechanical stress and body deformation. Constitutive models are essential for both the scientific understanding and industrial application of materials. However, even recent data-driven methods of constitutive modeling, such as constitutive artificial neural networks (CANNs), still require substantial expert knowledge and human labor. We present a framework in which an LLM generates a CANN on demand, tailored to a given material class and dataset provided by the user. The framework covers LLM-based architecture selection, integration of physical constraints, and complete code generation. Evaluation on three benchmark problems demonstrates that LLM-generated CANNs achieve accuracy comparable to or greater than manually engineered counterparts, while also exhibiting reliable generalization to unseen loading scenarios and extrapolation to large deformations. These findings indicate that LLM-based generation of physics-constrained neural networks can substantially reduce the expertise required for constitutive modeling and represent a step toward practical end-to-end automation....
-
----
-
-### 6. In-context Inverse Optimality for Fair Digital Twins: A Preference-based approach
-
-**Authors:** Daniele Masti, Francesco Basciani, Arianna Fedeli, Girgio Gnecco, Francesco Smarra
-
-**Published:** 2025-12-01
-
-**Category:** cs.LG
-
-**ID:** 2512.01650v1
-
-**Link:** [http://arxiv.org/abs/2512.01650v1](http://arxiv.org/abs/2512.01650v1)
-
-**Summary:** Digital Twins (DTs) are increasingly used as autonomous decision-makers in complex socio-technical systems. Their mathematically optimal decisions often diverge from human expectations, exposing a persistent gap between algorithmic and bounded human rationality. This work addresses this gap by proposing a framework that operationalizes fairness as a learnable objective within optimization-based Digital Twins. We introduce a preference-driven learning pipeline that infers latent fairness objectives directly from human pairwise preferences over feasible decisions. A novel Siamese neural network is developed to generate convex quadratic cost functions conditioned on contextual information. The resulting surrogate objectives align optimization outcomes with human-perceived fairness while maintaining computational efficiency. The approach is demonstrated on a COVID-19 hospital resource allocation scenario. This study provides an actionable path toward embedding human-centered fairness in the design of autonomous decision-making systems....
-
----
-
-### 7. Modality-Augmented Fine-Tuning of Foundation Robot Policies for Cross-Embodiment Manipulation on GR1 and G1
-
-**Authors:** Junsung Park, Hogun Kee, Songhwai Oh
-
-**Published:** 2025-12-01
-
-**Category:** cs.RO
-
-**ID:** 2512.01358v1
-
-**Link:** [http://arxiv.org/abs/2512.01358v1](http://arxiv.org/abs/2512.01358v1)
-
-**Summary:** This paper presents a modality-augmented fine-tuning framework designed to adapt foundation robot policies to diverse humanoid embodiments. We validate our approach across two distinct settings: (i) the GR1 embodiment, utilizing public datasets where we introduce post-processed modalities, including binary contact signals and ZoeDepth-generated metric depth; and (ii) the Unitree G1 embodiment, for which we contribute a novel multi-modal dataset incorporating cuRobo motion planning, inverse kinematics, and ground-truth contact-force measurements. Our experiments demonstrate that modality augmentation consistently enhances policy performance across different embodiments. Specifically, for the GR1, integrating contact-state cues and RGB-D fusion improves online success rates from 51% to 63%. Furthermore, in the G1 "Pick Apple to Bowl" task, our contact-augmented model achieves a success rate of 94%, significantly outperforming the 48% achieved by standard fine-tuning and the 0% baseline of zero-shot transfer. These results highlight that lightweight post-processing effectively strengthens policies for GR1, while high-quality multi-modal data is crucial for reliable transfer to the Unitree G1. Consequently, this work establishes a unified, data-centric pathway for extending foundation robot policies through targeted modality design and multi-modal fine-tuning....
-
----
-
-### 8. CodeDistiller: Automatically Generating Code Libraries for Scientific Coding Agents
-
-**Authors:** Peter Jansen, Samiah Hassan, Pragnya Narasimha
-
-**Published:** 2025-11-30
-
-**Category:** cs.AI
-
-**ID:** 2512.01089v1
-
-**Link:** [http://arxiv.org/abs/2512.01089v1](http://arxiv.org/abs/2512.01089v1)
-
-**Summary:** Automated Scientific Discovery (ASD) systems can help automatically generate and run code-based experiments, but their capabilities are limited by the code they can reliably generate from parametric knowledge alone. As a result, current systems either mutate a small number of manually-crafted experiment examples, or operate solely from parametric knowledge, limiting quality and reach. We introduce CodeDistiller, a system that automatically distills large collections of scientific Github repositories into a vetted library of working domain-specific code examples, allowing ASD agents to expand their capabilities without manual effort. Using a combination of automatic and domain-expert evaluation on 250 materials science repositories, we find the best model is capable of producing functional examples for 74% of repositories, while our downstream evaluation shows an ASD agent augmented with a CodeDistiller generated library produces more accurate, complete, and scientifically sound experiments than an agent with only general materials-science code examples....
-
----
-
-### 9. Chain of Unit-Physics: A Primitive-Centric Approach to Scientific Code Synthesis
-
-**Authors:** Vansh Sharma, Venkat Raman
-
-**Published:** 2025-11-30
+**Published:** 2025-12-02
 
 **Category:** cs.MA
 
-**ID:** 2512.01010v1
+**ID:** 2512.02561v1
 
-**Link:** [http://arxiv.org/abs/2512.01010v1](http://arxiv.org/abs/2512.01010v1)
+**Link:** [http://arxiv.org/abs/2512.02561v1](http://arxiv.org/abs/2512.02561v1)
 
-**Summary:** Agentic large language models are proposed as autonomous code generators for scientific computing, yet their reliability in high-stakes problems remains unclear. Developing computational scientific software from natural-language queries remains challenging broadly due to (a) sparse representation of domain codes during training and (b) the limited feasibility of RLHF with a small expert community. To address these limitations, this work conceptualizes an inverse approach to code design, embodied in the Chain of Unit-Physics framework: a first-principles (or primitives)-centric, multi-agent system in which human expert knowledge is encoded as unit-physics tests that explicitly constrain code generation. The framework is evaluated on a nontrivial combustion task, used here as a representative benchmark for scientific problem with realistic physical constraints. Closed-weight systems and code-focused agentic variants fail to produce correct end-to-end solvers, despite tool and web access, exhibiting four recurrent error classes: interface (syntax/API) hallucinations, overconfident assumptions, numerical/physical incoherence, and configuration fragility. Open-weight models with chain-of-thought (CoT) decoding reduce interface errors but still yield incorrect solutions. On the benchmark task, the proposed framework converges within 5-6 iterations, matches the human-expert implementation (mean error of $3.1\times10^{-3}$ %), with a $\sim$33.4 % faster runtime and a $\sim$30 % efficient memory usage at a cost comparable to mid-sized commercial APIs, yielding a practical template for physics-grounded scientific code generation. As datasets and models evolve, zero-shot code accuracy will improve; however, the Chain of Unit-Physics framework goes further by embedding first-principles analysis that is foundational to scientific codes....
-
----
-
-### 10. Stochastic Hessian Fittings with Lie Groups
-
-**Authors:** Xi-Lin Li
-
-**Published:** 2024-02-19
-
-**Category:** stat.ML
-
-**ID:** 2402.11858v7
-
-**Link:** [http://arxiv.org/abs/2402.11858v7](http://arxiv.org/abs/2402.11858v7)
-
-**Summary:** This report investigates the fitting of the Hessian or its inverse for stochastic optimizations using a Hessian fitting criterion derived from the preconditioned stochastic gradient descent (PSGD) method. This criterion is closely related to many widely used second-order and adaptive gradient optimization methods, including BFGS, the Gauss-Newton algorithm, natural gradient descent, and AdaGrad. Our analyses reveal the efficiency and reliability differences of a broad range of preconditioner fitting methods, ranging from closed-form to iterative approaches, using Hessian-vector products or stochastic gradients only, with Hessian fittings across various geometric settings (the Euclidean space, the manifold of symmetric positive definite (SPD) matrices, and a variety of Lie groups). The most intriguing finding is that the Hessian fitting problem is strongly convex under mild conditions in certain general Lie groups. This result turns Hessian fitting into a well-behaved Lie group optimization problem and facilitates the design of highly efficient and elegant Lie group sparse preconditioner fitting methods for large-scale stochastic optimizations....
+**Summary:** With the rapid development of the online education and large language model, the existing educational tools still suffer from incomplete service, insufficient performance and weak interactivity in terms of courseware generation, interactive notes and quality assurance of content. In particular, the proposed generative agent EZYer : 1) Teacher Module: Integrating the Text Corpus retrieval and in-depth generation technologies, it automatically generates structured teaching materials and LaTeX Beamer courseware in line with the high school mathematics syllabus and supports user-defined image insertion. 2) Student Module: Throughout the collaborative interaction of the four roles of Teacher, Assistant, Top Student and Struggling Student, Note Taker summarizes and generates academic notes to enhance the depth and interest of learning. 3) Controller: set up keyword filtering system, content scoring system, role co-validation system, and dynamic content correction system. This ensure academic strictness and pedagogical propriety of EZYer inputs and outputs. In order to evaluate EZYer, this paper designs five-dimensional evaluation indexes of content accuracy, knowledge coverage, usability, formatting correctness and visual design and appeal, and scores 100 Beamer and Notes generated by EZYer by five large language models, separately, and the results show that the quality of EZYer-generated content is excellent and has a good application prospect....
 
 ---
 
-### 11. Crystalyse: a multi-tool agent for materials design
+### 6. Emergent Chiral Spin Crystal Phase in (111) SrRuO3 Thin Films
 
-**Authors:** Ryan Nduma, Hyunsoo Park, Aron Walsh
+**Authors:** Zhaoqing Ding, Yongjie Xie, Xuejiao Chen, Sheng Wang, Zhen Wang, Zeguo Lin, Enling Wang, Xiaofeng Wu, Mingyu Yang, Yuelong Xiong, Meng Meng, Fang Yang, Jiandi Zhang, Xianggang Qiu, XIaoran Liu, Jiandong Guo
 
-**Published:** 2025-11-30
+**Published:** 2025-12-02
 
-**Category:** cond-mat.mtrl-sci
+**Category:** cond-mat.str-el
 
-**ID:** 2512.00977v1
+**ID:** 2512.02504v1
 
-**Link:** [http://arxiv.org/abs/2512.00977v1](http://arxiv.org/abs/2512.00977v1)
+**Link:** [http://arxiv.org/abs/2512.02504v1](http://arxiv.org/abs/2512.02504v1)
 
-**Summary:** We present Crystalyse, an open, provenance-enforced scientific agent for computational materials design of inorganic crystals that orchestrates tools for compositional screening, crystal structure generation, and machine-learning force-field evaluation. Crystalyse offers three operating modes to trade exploration speed against validation depth: creative (rapid query), adaptive (context-aware routing) and rigorous (comprehensive checks). We release the underlying source code and evaluation scripts to enable plug-and-play use and development. In demonstrations on quaternary oxide exploration, sodium-ion cathode design, and lead-free indoor photovoltaic candidate generation, the agent integrates chemical compound generation with fast stability and property filters. Under adversarial testing, provenance enforcement eliminated material-property hallucinations (a broad adversarial suite pass rate reached 86% from a 57% baseline). Crystalyse provides an agentic artificial intelligence system that can complement existing materials design pipelines, assisting in hypothesis generation while preserving transparency and reproducibility....
-
----
-
-### 12. Preconditioned Langevin Dynamics with Score-Based Generative Models for Infinite-Dimensional Linear Bayesian Inverse Problems
-
-**Authors:** Lorenzo Baldassari, Josselin Garnier, Knut Solna, Maarten V. de Hoop
-
-**Published:** 2025-05-23
-
-**Category:** stat.ML
-
-**ID:** 2505.18276v2
-
-**Link:** [http://arxiv.org/abs/2505.18276v2](http://arxiv.org/abs/2505.18276v2)
-
-**Summary:** Designing algorithms for solving high-dimensional Bayesian inverse problems directly in infinite-dimensional function spaces - where such problems are naturally formulated - is crucial to ensure stability and convergence as the discretization of the underlying problem is refined. In this paper, we contribute to this line of work by analyzing a widely used sampler for linear inverse problems: Langevin dynamics driven by score-based generative models (SGMs) acting as priors, formulated directly in function space. Building on the theoretical framework for SGMs in Hilbert spaces, we give a rigorous definition of this sampler in the infinite-dimensional setting and derive, for the first time, error estimates that explicitly depend on the approximation error of the score. As a consequence, we obtain sufficient conditions for global convergence in Kullback-Leibler divergence on the underlying function space. Preventing numerical instabilities requires preconditioning of the Langevin algorithm and we prove the existence and the form of an optimal preconditioner. The preconditioner depends on both the score error and the forward operator and guarantees a uniform convergence rate across all posterior modes. Our analysis applies to both Gaussian and a general class of non-Gaussian priors. Finally, we present examples that illustrate and validate our theoretical findings....
+**Summary:** Perovskite ruthenates are fascinating playgrounds for exploring topological spin textures, but generally rely on extrinsic mechanisms to trigger the noncoplanar states. Here we report the discovery of an emergent chiral spin crystal phase in (111) SrRuO3 epitaxial films, characterized by a significant topological Hall effect and noncoplanar spin arrangements with different propagation vectors along two orthogonal directions. Instead of driven by the enhanced Dzyaloshinskii-Moriya interaction due to broken inversion symmetry at heterointerfaces, this emergent state arises intrinsically from the interplay of dipolar interactions and magnetic frustration, leading to the stabilization of topological phases in much thicker films. These findings open a new pathway for creating and controlling the topological spin states in perovskites, with broad implications for spintronic device design....
 
 ---
 
-### 13. Multi-Agent Conditional Diffusion Model with Mean Field Communication as Wireless Resource Allocation Planner
+### 7. Enhanced Conditional Generation of Double Perovskite by Knowledge-Guided Language Model Feedback
 
-**Authors:** Kechen Meng, Sinuo Zhang, Rongpeng Li, Xiangming Meng, Yansha Deng, Chan Wang, Ming Lei, Zhifeng Zhao
+**Authors:** Inhyo Lee, Junhyeong Lee, Jongwon Park, KyungTae Lim, Seunghwa Ryu
 
-**Published:** 2025-10-27
+**Published:** 2025-11-27
 
 **Category:** cs.AI
 
-**ID:** 2510.22969v2
+**ID:** 2511.22307v2
 
-**Link:** [http://arxiv.org/abs/2510.22969v2](http://arxiv.org/abs/2510.22969v2)
+**Link:** [http://arxiv.org/abs/2511.22307v2](http://arxiv.org/abs/2511.22307v2)
 
-**Summary:** In wireless communication systems, efficient and adaptive resource allocation plays a crucial role in enhancing overall Quality of Service (QoS). Compared to the conventional Model-Free Reinforcement Learning (MFRL) scheme, Model-Based RL (MBRL) first learns a generative world model for subsequent planning. The reuse of historical experience in MBRL promises more stable training behavior, yet its deployment in large-scale wireless networks remains challenging due to high-dimensional stochastic dynamics, strong inter-agent cooperation, and communication constraints. To overcome these challenges, we propose the Multi-Agent Conditional Diffusion Model Planner (MA-CDMP) for decentralized communication resource management. Built upon the Distributed Training with Decentralized Execution (DTDE) paradigm, MA-CDMP models each communication node as an autonomous agent and employs Diffusion Models (DMs) to capture and predict environment dynamics. Meanwhile, an inverse dynamics model guides action generation, thereby enhancing sample efficiency and policy scalability. Moreover, to approximate large-scale agent interactions, a Mean-Field (MF) mechanism is introduced as an assistance to the classifier in DMs. This design mitigates inter-agent non-stationarity and enhances cooperation with minimal communication overhead in distributed settings. We further theoretically establish an upper bound on the distributional approximation error introduced by the MF-based diffusion generation, guaranteeing convergence stability and reliable modeling of multi-agent stochastic dynamics. Extensive experiments demonstrate that MA-CDMP consistently outperforms existing MARL baselines in terms of average reward and QoS metrics, showcasing its scalability and practicality for real-world wireless network optimization....
-
----
-
-### 14. Electric Polarization from Nonpolar Phonons
-
-**Authors:** Seongjoo Jung, Turan Birol
-
-**Published:** 2025-11-29
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2512.00628v1
-
-**Link:** [http://arxiv.org/abs/2512.00628v1](http://arxiv.org/abs/2512.00628v1)
-
-**Summary:** Born effective charge (BEC), a fundamental quantity in lattice dynamics and ferroelectric theory, provides a quantitative measure of linear polarization response to ionic displacements. However, it does not account for higher-order effects, which can play a significant role in certain materials, such as fluorite HfO$_2$. In this letter, we extend the BEC framework by introducing the concept of second-order dynamical charge and mode effective charge. Using first-principles calculations, we demonstrate that specific combinations of nonpolar phonon modes in many oxides can induce substantial second-order polarizations, reaching magnitudes comparable to those of intrinsically polar modes. Through a symmetry-based analysis of the charge density, we elucidate the microscopic origin of these effects, tracing them to variations in bond covalency and local electronic rearrangements. We also demonstrate large second-order mode effective charge in well-studied perovskites such as SrTiO$_3$, highlighting the generality of these phenomena. Our results reveal a previously unrecognized mechanism that drives polarization in crystalline solids, offering new insights into the design principles of next-generation ferroelectric, piezoelectric and multifunctional materials....
+**Summary:** Double perovskites (DPs) are promising candidates for sustainable energy technologies due to their compositional tunability and compatibility with low-energy fabrication, yet their vast design space poses a major challenge for conditional materials discovery. This work introduces a multi-agent, text gradient-driven framework that performs DP composition generation under natural-language conditions by integrating three complementary feedback sources: LLM-based self-evaluation, DP-specific domain knowledge-informed feedback, and ML surrogate-based feedback. Analogous to how knowledge-informed machine learning improves the reliability of conventional data-driven models, our framework incorporates domain-informed text gradients to guide the generative process toward physically meaningful regions of the DP composition space. Systematic comparison of three incremental configurations, (i) pure LLM generation, (ii) LLM generation with LLM reasoning-based feedback, and (iii) LLM generation with domain knowledge-guided feedback, shows that iterative guidance from knowledge-informed gradients improves stability-condition satisfaction without additional training data, achieving over 98% compositional validity and up to 54% stable or metastable candidates, surpassing both the LLM-only baseline (43%) and prior GAN-based results (27%). Analyses of ML-based gradients further reveal that they enhance performance in in-distribution (ID) regions but become unreliable in out-of-distribution (OOD) regimes. Overall, this work provides the first systematic analysis of multi-agent, knowledge-guided text gradients for DP discovery and establishes a generalizable blueprint for MAS-driven generative materials design aimed at advancing sustainable technologies....
 
 ---
 
-### 15. A Rapid Thermal Chemical Vapor Deposition System for Fast Synthesis of Epitaxial Graphene Under Ambient Pressure
+### 8. Opening the Black Box: An Explainable, Few-shot AI4E Framework Informed by Physics and Expert Knowledge for Materials Engineering
 
-**Authors:** Shikhar Kumar Gupta, Meet Ghelani, Pragna Datta, Subhalakshmi Guha, Shivesh Yadav, Nilesh Kulkarni, Maheshwar Gokhale, Bhagyashree Chalke, Devendra Buddhikot, Naveen Paneri, Lavudya Devendar, Arnab Bhattacharya, Shouvik Chatterjee
-
-**Published:** 2025-11-29
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2512.00447v1
-
-**Link:** [http://arxiv.org/abs/2512.00447v1](http://arxiv.org/abs/2512.00447v1)
-
-**Summary:** Graphene has emerged as a promising material for next-generation electronic and thermal devices owing to its exceptional charge transport and thermal conductivity. However, high-quality samples are predominantly obtained via mechanical exfoliation from graphite crystals, a process that inherently lacks scalability. Despite extensive efforts toward large-area synthesis, cost-effective approaches for producing high-quality, large-area, single-crystalline graphene with fast turnaround time remain limited. Here, we report the design, fabrication, and performance benchmarking of a rapid thermal chemical vapor deposition (RTCVD) system capable of synthesizing epitaxial monolayer graphene under atmospheric pressure. The entire growth process, from sample loading to unloading, is achieved within $25$ minutes with a temperature ramp rate exceeding $23^\circ\mathrm{C}/s$. Growth at atmospheric pressure eliminates the need for vacuum components, thereby reducing both system complexity and operational costs. The structural and electronic quality of epitaxial graphene is comprehensively characterized using Raman spectroscopy, selected area electron diffraction (SAED), and magnetotransport measurements, which reveal signatures of quantum Hall effect in synthesized graphene samples. Furthermore, we demonstrate van der Waals epitaxial growth of palladium (Pd) thin films on graphene transferred to Si/SiO$_{2}$ substrates, establishing its single-crystalline nature over a large area and its potential as a versatile platform for subsequent heteroepitaxial growth....
-
----
-
-### 16. Vacancy Engineering in Metals and Alloys
-
-**Authors:** Sreenivas Raguraman, Homero Reyes Pulido, Christopher Hutchinson, Arun Devaraj, Marc H. Weber, Michael L. Falk, Timothy P. Weihs
-
-**Published:** 2025-11-24
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2511.20706v2
-
-**Link:** [http://arxiv.org/abs/2511.20706v2](http://arxiv.org/abs/2511.20706v2)
-
-**Summary:** Vacancy engineering, the intentional control of atomic-scale vacancies in metals and alloys, is emerging as a powerful yet underexplored strategy for tailoring microstructures and optimizing performance across diverse applications. By enabling excess vacancy populations through quenching, severe deformation, thermomechanical treatments, or additive manufacturing, new microstructures can be obtained that achieve unique combinations of strength, ductility, fatigue life, corrosion resistance, and conductivity. Vacancies are distinct among lattice defects: they are non-conserved entities essential for solute diffusion, yet variably coupled to solutes, dislocations, and phase boundaries. They can accelerate transformations such as nucleation and precipitation or retard kinetics when trapped in clusters, and their transient trapping and release can drive microstructural evolution across time and length scales. This Review synthesizes recent advances in generating, modeling, and characterizing vacancies, highlighting their role in diffusion, precipitation, and phase stability. Case studies in lightweight, high-temperature, fatigue-resistant, electrical, and biomedical materials demonstrate the broad potential of vacancy control. We conclude by emphasizing the opportunity for the metallurgical community to fully exploit excess vacancies as controllable, design-relevant defects that enable new pathways for microstructure and property optimization in next-generation alloys....
-
----
-
-### 17. CogEvo-Edu: Cognitive Evolution Educational Multi-Agent Collaborative System
-
-**Authors:** Yefeng Wu, Yuchen Song, Yecheng Zhao, Ling Wu, Shan Wan
-
-**Published:** 2025-11-29
-
-**Category:** cs.AI
-
-**ID:** 2512.00331v1
-
-**Link:** [http://arxiv.org/abs/2512.00331v1](http://arxiv.org/abs/2512.00331v1)
-
-**Summary:** Large language models (LLMs) are increasingly deployed as conversational tutors in STEM education, yet most systems still rely on a single LLM with a static retrieval-augmented generation (RAG) pipeline over course materials. This design struggles in complex domains such as digital signal processing (DSP), where tutors must maintain coherent long-term student models, manage heterogeneous knowledge bases, and adapt teaching strategies over extended interactions. We argue that retrieval, memory, and control should be treated as a coupled cognitive evolution process. We instantiate this view in CogEvo-Edu, a hierarchical educational multi-agent system comprising a Cognitive Perception Layer (CPL), a Knowledge Evolution Layer (KEL), and a Meta-Control Layer (MCL). CPL maintains dual memories and performs confidence-weighted consolidation to build structured, self-correcting student profiles under limited context. KEL assigns each knowledge chunk a spatiotemporal value that drives activation, semantic compression, and forgetting. MCL formulates tutoring as hierarchical sequential decision making, orchestrating specialized agents and jointly adapting CPL/KEL hyperparameters via a dual inner--outer loop. To evaluate CogEvo-Edu, we construct DSP-EduBench, a vertical benchmark for DSP tutoring with heterogeneous resources, simulated student profiles, and long-horizon interaction scripts. Using a three-model LLM-as-a-Judge ensemble, CogEvo-Edu raises the overall score from 5.32 to 9.23 and improves all six indicators over static RAG, simple memory, and a single-agent variant, demonstrating the value of jointly evolving student profiles, knowledge bases, and teaching policies....
-
----
-
-### 18. Generic rigidity and accidental modes in metal-organic frameworks
-
-**Authors:** Christopher M. Owen, Michael J. Lawler
+**Authors:** Haoxiang Zhang, Ruihao Yuan, Lihui Zhang, Yushi Luo, Qiang Zhang, Pan Ding, Xiaodong Ren, Weijie Xing, Niu Gao, Jishan Chen, Chubo Zhang
 
 **Published:** 2025-11-28
 
-**Category:** cond-mat.mtrl-sci
+**Category:** cs.LG
 
-**ID:** 2512.00159v1
+**ID:** 2512.02057v1
 
-**Link:** [http://arxiv.org/abs/2512.00159v1](http://arxiv.org/abs/2512.00159v1)
+**Link:** [http://arxiv.org/abs/2512.02057v1](http://arxiv.org/abs/2512.02057v1)
 
-**Summary:** Metal-organic frameworks (MOFs) combine high porosity with structural fragility, raising important questions about their mechanical stability. We develop a rigidity-based framework in which spring networks parameterized by UFF4MOF are used to construct rigidity and dynamical matrices. Large-scale analysis of 5,682 MOFs from the CoRE 2019 database shows that most frameworks are formally over-constrained yet cluster sharply near the isostatic threshold, revealing accidental geometric modes and placing many MOFs near mechanical instability. In the representative case of UiO-66, we show that auxiliary long-range constraints introduced by tuning the neighbor cutoff lift these modes into soft, flat, finite-frequency bands. The results show that rigidity-matrix analysis can rapidly identify MOFs likely to remain mechanically stable. This near-criticality mirrors behavior known from topological mechanics and points to a deeper design principle in porous crystals....
-
----
-
-### 19. RadDiff: Retrieval-Augmented Denoising Diffusion for Protein Inverse Folding
-
-**Authors:** Jin Han, Tianfan Fu, Wu-Jun Li
-
-**Published:** 2025-11-28
-
-**Category:** q-bio.QM
-
-**ID:** 2512.00126v1
-
-**Link:** [http://arxiv.org/abs/2512.00126v1](http://arxiv.org/abs/2512.00126v1)
-
-**Summary:** Protein inverse folding, the design of an amino acid sequence based on a target 3D structure, is a fundamental problem of computational protein engineering. Existing methods either generate sequences without leveraging external knowledge or relying on protein language models (PLMs). The former omits the evolutionary information stored in protein databases, while the latter is parameter-inefficient and inflexible to adapt to ever-growing protein data. To overcome the above drawbacks, in this paper we propose a novel method, called retrieval-augmented denoising diffusion (RadDiff), for protein inverse folding. Given the target protein backbone, RadDiff uses a hierarchical search strategy to efficiently retrieve structurally similar proteins from large protein databases. The retrieved structures are then aligned residue-by-residue to the target to construct a position-specific amino acid profile, which serves as an evolutionary-informed prior that conditions the denoising process. A lightweight integration module is further designed to incorporate this prior effectively. Experimental results on the CATH, PDB, and TS50 datasets show that RadDiff consistently outperforms existing methods, improving sequence recovery rate by up to 19%. Experimental results also demonstrate that RadDiff generates highly foldable sequences and scales effectively with database size....
+**Summary:** The industrial adoption of Artificial Intelligence for Engineering (AI4E) faces two fundamental bottlenecks: scarce high-quality data and the lack of interpretability in black-box models-particularly critical in safety-sensitive sectors like aerospace. We present an explainable, few-shot AI4E framework that is systematically informed by physics and expert knowledge throughout its architecture. Starting from only 32 experimental samples in an aerial K439B superalloy castings repair welding case, we first augment physically plausible synthetic data through a three-stage protocol: differentiated noise injection calibrated to process variabilities, enforcement of hard physical constraints, and preservation of inter-parameter relationships. We then employ a nested optimization strategy for constitutive model discovery, where symbolic regression explores equation structures while differential evolution optimizes parameters, followed by intensive parameter refinement using hybrid global-local optimization. The resulting interpretable constitutive equation achieves 88% accuracy in predicting hot-cracking tendency. This equation not only provides quantitative predictions but also delivers explicit physical insight, revealing how thermal, geometric, and metallurgical mechanisms couple to drive cracking-thereby advancing engineers' cognitive understanding of the process. Furthermore, the constitutive equation serves as a multi-functional tool for process optimization and high-fidelity virtual data generation, enabling accuracy improvements in other data-driven models. Our approach provides a general blueprint for developing trustworthy AI systems that embed engineering domain knowledge directly into their architecture, enabling reliable adoption in high-stakes industrial applications where data is limited but physical understanding is available....
 
 ---
 
