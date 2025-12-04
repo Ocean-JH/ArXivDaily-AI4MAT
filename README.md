@@ -34,136 +34,152 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (8)
+## New Papers (9)
 
-*Last updated: 2025-12-04 06:18:57 (SGT)*
+*Last updated: 2025-12-05 06:16:27 (SGT)*
 
-### 1. The Moral Consistency Pipeline: Continuous Ethical Evaluation for Large Language Models
+### 1. Machine Learning Pipeline for Denoising Low Signal-To-Noise Ratio and Out-of-Distribution Transmission Electron Microscopy Datasets
 
-**Authors:** Saeid Jamshidi, Kawser Wazed Nafi, Arghavan Moradi Dakhel, Negar Shahabi, Foutse Khomh
+**Authors:** Brian Lee, Meng Li, Judith C Yang, Dmitri N Zakharov, Xiaohui Qu
 
-**Published:** 2025-12-02
-
-**Category:** cs.CL
-
-**ID:** 2512.03026v1
-
-**Link:** [http://arxiv.org/abs/2512.03026v1](http://arxiv.org/abs/2512.03026v1)
-
-**Summary:** The rapid advancement and adaptability of Large Language Models (LLMs) highlight the need for moral consistency, the capacity to maintain ethically coherent reasoning across varied contexts. Existing alignment frameworks, structured approaches designed to align model behavior with human ethical and social norms, often rely on static datasets and post-hoc evaluations, offering limited insight into how ethical reasoning may evolve across different contexts or temporal scales. This study presents the Moral Consistency Pipeline (MoCoP), a dataset-free, closed-loop framework for continuously evaluating and interpreting the moral stability of LLMs. MoCoP combines three supporting layers: (i) lexical integrity analysis, (ii) semantic risk estimation, and (iii) reasoning-based judgment modeling within a self-sustaining architecture that autonomously generates, evaluates, and refines ethical scenarios without external supervision. Our empirical results on GPT-4-Turbo and DeepSeek suggest that MoCoP effectively captures longitudinal ethical behavior, revealing a strong inverse relationship between ethical and toxicity dimensions (correlation rET = -0.81, p value less than 0.001) and a near-zero association with response latency (correlation rEL approximately equal to 0). These findings demonstrate that moral coherence and linguistic safety tend to emerge as stable and interpretable characteristics of model behavior rather than short-term fluctuations. Furthermore, by reframing ethical evaluation as a dynamic, model-agnostic form of moral introspection, MoCoP offers a reproducible foundation for scalable, continuous auditing and advances the study of computational morality in autonomous AI systems....
-
----
-
-### 2. Altermagnetoelectric Spin Field Effect Transistor
-
-**Authors:** Ziye Zhu, Xianzhang Chen, Xunkai Duan, Zhou Cui, Jiayong Zhang, Igor Zutic, Tong Zhou
-
-**Published:** 2025-12-02
+**Published:** 2025-12-03
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2512.02974v1
+**ID:** 2512.04045v1
 
-**Link:** [http://arxiv.org/abs/2512.02974v1](http://arxiv.org/abs/2512.02974v1)
+**Link:** [http://arxiv.org/abs/2512.04045v1](http://arxiv.org/abs/2512.04045v1)
 
-**Summary:** Spin field-effect transistors (SFETs) are promising candidates for low-power spin-based electronics, yet existing realizations that rely on spin-orbit coupling are constrained by limited material choices and short spin-coherence lengths. Here we propose a different operating principle based on multiferroic altermagnets, in which spin splitting is tuned by an electric field through symmetry control rather than conventional spin-orbit physics. Using an effective model combined with quantum transport simulations, we show that the conductance is determined by the degree of matching between the electrically controlled spin texture of the channel and the fixed spin polarization of ferromagnetic contacts, enabling clear ON and OFF states. Remarkably, we also address a long-standing challenge in multiferroic device design: spintronic channels require metallic carriers, whereas ferroelectricity is usually suppressed in metals. We resolve this conflict by imprinting multiferroic altermagnetism into highly conductive materials via the proximity effect. First-principles calculations for graphene on multiferroic vanadium sulfide halides confirm that graphene acquires a ferroelectrically switchable spin splitting while retaining its metallic character. These results establish a practical route to SFET implementation and identify multiferroic altermagnets as a versatile platform for next-generation spintronic devices....
-
----
-
-### 3. Adaptive hydrogels with spatiotemporal stiffening using pH-modulating enzymes
-
-**Authors:** Natascha Gray, Zoe Grämiger, André R. Studart, Rafael Libanori
-
-**Published:** 2025-12-02
-
-**Category:** cond-mat.soft
-
-**ID:** 2512.02698v1
-
-**Link:** [http://arxiv.org/abs/2512.02698v1](http://arxiv.org/abs/2512.02698v1)
-
-**Summary:** Adaptive material systems that autonomously respond to external stimuli are crucial for advancing next-generation smart devices. Biological systems achieve autonomous behavior by utilizing chemical energy from out-of-equilibrium reactions to power life-like functions without requiring external energy inputs. Although responsive hydrogels with embedded enzymatic reactions offer a promising platform for implementing adaptive behavior in synthetic systems, previous studies have focused on controlling the supramolecular self-assembly of responsive building blocks rather than modulating network crosslinking. Here, we demonstrate direct enzymatic modulation of crosslinking density in a double-network hydrogel to achieve autonomous self-stiffening in response to a chemical stimulus. Our adaptive system embeds glucose oxidase within a polyacrylamide-alginate double-network hydrogel containing Ca(EDTA)2- complexes that render the crosslinked alginate network pH-responsive through a competitive calcium binding mechanism. Chemical waves emerging from enzymatic reaction activation propagate at speeds ranging from 15 to 44 um/min, driving spatiotemporal mechanical transitions that increase material stiffness by up to 2.1-fold. By integrating signal sensing and chemomechanical transduction within this responsive hydrogel, we realized adaptive behavior that autonomously converts localized chemical inputs into system-wide mechanical outputs. This positions our adaptive hydrogels as promising model systems to guide the design of intelligent materials for soft robotics and biomedical devices....
+**Summary:** High-resolution transmission electron microscopy (HRTEM) is crucial for observing material's structural and morphological evolution at Angstrom scales, but the electron beam can alter these processes. Devices such as CMOS-based direct-electron detectors operating in electron-counting mode can be utilized to substantially reduce the electron dosage. However, the resulting images often lead to low signal-to-noise ratio, which requires frame integration that sacrifices temporal resolution. Several machine learning (ML) models have been recently developed to successfully denoise HRTEM images. Yet, these models are often computationally expensive and their inference speeds on GPUs are outpaced by the imaging speed of advanced detectors, precluding in situ analysis. Furthermore, the performance of these denoising models on datasets with imaging conditions that deviate from the training datasets have not been evaluated. To mitigate these gaps, we propose a new self-supervised ML denoising pipeline specifically designed for time-series HRTEM images. This pipeline integrates a blind-spot convolution neural network with pre-processing and post-processing steps including drift correction and low-pass filtering. Results demonstrate that our model outperforms various other ML and non-ML denoising methods in noise reduction and contrast enhancement, leading to improved visual clarity of atomic features. Additionally, the model is drastically faster than U-Net-based ML models and demonstrates excellent out-of-distribution generalization. The model's computational inference speed is in the order of milliseconds per image, rendering it suitable for application in in-situ HRTEM experiments....
 
 ---
 
-### 4. MRI Super-Resolution with Deep Learning: A Comprehensive Survey
+### 2. Fast & Efficient Normalizing Flows and Applications of Image Generative Models
 
-**Authors:** Mohammad Khateri, Serge Vasylechko, Morteza Ghahremani, Liam Timms, Deniz Kocanaogullari, Simon K. Warfield, Camilo Jaimes, Davood Karimi, Alejandra Sierra, Jussi Tohka, Sila Kurugol, Onur Afacan
+**Authors:** Sandeep Nagar
 
-**Published:** 2025-11-20
+**Published:** 2025-12-03
 
-**Category:** eess.IV
+**Category:** cs.CV
 
-**ID:** 2511.16854v3
+**ID:** 2512.04039v1
 
-**Link:** [http://arxiv.org/abs/2511.16854v3](http://arxiv.org/abs/2511.16854v3)
+**Link:** [http://arxiv.org/abs/2512.04039v1](http://arxiv.org/abs/2512.04039v1)
 
-**Summary:** High-resolution (HR) magnetic resonance imaging (MRI) is crucial for many clinical and research applications. However, achieving it remains costly and constrained by technical trade-offs and experimental limitations. Super-resolution (SR) presents a promising computational approach to overcome these challenges by generating HR images from more affordable low-resolution (LR) scans, potentially improving diagnostic accuracy and efficiency without requiring additional hardware. This survey reviews recent advances in MRI SR techniques, with a focus on deep learning (DL) approaches. It examines DL-based MRI SR methods from the perspectives of computer vision, computational imaging, inverse problems, and MR physics, covering theoretical foundations, architectural designs, learning strategies, benchmark datasets, and performance metrics. We propose a systematic taxonomy to categorize these methods and present an in-depth study of both established and emerging SR techniques applicable to MRI, considering unique challenges in clinical and research contexts. We also highlight open challenges and directions that the community needs to address. Additionally, we provide a collection of essential open-access resources, tools, and tutorials, available on our GitHub: https://github.com/mkhateri/Awesome-MRI-Super-Resolution.
-  IEEE keywords: MRI, Super-Resolution, Deep Learning, Computational Imaging, Inverse Problem, Survey....
-
----
-
-### 5. EZYer: A simulacrum of high school with generative agent
-
-**Authors:** Jinming Yang, Zimu Ji, Weiqi Luo, Gaoxi Wang, Bin Ma, Yueling Deng
-
-**Published:** 2025-12-02
-
-**Category:** cs.MA
-
-**ID:** 2512.02561v1
-
-**Link:** [http://arxiv.org/abs/2512.02561v1](http://arxiv.org/abs/2512.02561v1)
-
-**Summary:** With the rapid development of the online education and large language model, the existing educational tools still suffer from incomplete service, insufficient performance and weak interactivity in terms of courseware generation, interactive notes and quality assurance of content. In particular, the proposed generative agent EZYer : 1) Teacher Module: Integrating the Text Corpus retrieval and in-depth generation technologies, it automatically generates structured teaching materials and LaTeX Beamer courseware in line with the high school mathematics syllabus and supports user-defined image insertion. 2) Student Module: Throughout the collaborative interaction of the four roles of Teacher, Assistant, Top Student and Struggling Student, Note Taker summarizes and generates academic notes to enhance the depth and interest of learning. 3) Controller: set up keyword filtering system, content scoring system, role co-validation system, and dynamic content correction system. This ensure academic strictness and pedagogical propriety of EZYer inputs and outputs. In order to evaluate EZYer, this paper designs five-dimensional evaluation indexes of content accuracy, knowledge coverage, usability, formatting correctness and visual design and appeal, and scores 100 Beamer and Notes generated by EZYer by five large language models, separately, and the results show that the quality of EZYer-generated content is excellent and has a good application prospect....
+**Summary:** This thesis presents novel contributions in two primary areas: advancing the efficiency of generative models, particularly normalizing flows, and applying generative models to solve real-world computer vision challenges. The first part introduce significant improvements to normalizing flow architectures through six key innovations: 1) Development of invertible 3x3 Convolution layers with mathematically proven necessary and sufficient conditions for invertibility, (2) introduction of a more efficient Quad-coupling layer, 3) Design of a fast and efficient parallel inversion algorithm for kxk convolutional layers, 4) Fast & efficient backpropagation algorithm for inverse of convolution, 5) Using inverse of convolution, in Inverse-Flow, for the forward pass and training it using proposed backpropagation algorithm, and 6) Affine-StableSR, a compact and efficient super-resolution model that leverages pre-trained weights and Normalizing Flow layers to reduce parameter count while maintaining performance.
+  The second part: 1) An automated quality assessment system for agricultural produce using Conditional GANs to address class imbalance, data scarcity and annotation challenges, achieving good accuracy in seed purity testing; 2) An unsupervised geological mapping framework utilizing stacked autoencoders for dimensionality reduction, showing improved feature extraction compared to conventional methods; 3) We proposed a privacy preserving method for autonomous driving datasets using on face detection and image inpainting; 4) Utilizing Stable Diffusion based image inpainting for replacing the detected face and license plate to advancing privacy-preserving techniques and ethical considerations in the field.; and 5) An adapted diffusion model for art restoration that effectively handles multiple types of degradation through unified fine-tuning....
 
 ---
 
-### 6. Emergent Chiral Spin Crystal Phase in (111) SrRuO3 Thin Films
+### 3. Influence of a generative parameter on the mechanical performance of topological interlocking assemblies of a hexagonal block
 
-**Authors:** Zhaoqing Ding, Yongjie Xie, Xuejiao Chen, Sheng Wang, Zhen Wang, Zeguo Lin, Enling Wang, Xiaofeng Wu, Mingyu Yang, Yuelong Xiong, Meng Meng, Fang Yang, Jiandi Zhang, Xianggang Qiu, XIaoran Liu, Jiandong Guo
+**Authors:** Lukas Schnelle, Meike Weiß, Reymond Akpanya, Kai-Uwe Schröder, Alice C. Niemeyer
 
-**Published:** 2025-12-02
+**Published:** 2025-12-03
 
-**Category:** cond-mat.str-el
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2512.02504v1
+**ID:** 2512.03941v1
 
-**Link:** [http://arxiv.org/abs/2512.02504v1](http://arxiv.org/abs/2512.02504v1)
+**Link:** [http://arxiv.org/abs/2512.03941v1](http://arxiv.org/abs/2512.03941v1)
 
-**Summary:** Perovskite ruthenates are fascinating playgrounds for exploring topological spin textures, but generally rely on extrinsic mechanisms to trigger the noncoplanar states. Here we report the discovery of an emergent chiral spin crystal phase in (111) SrRuO3 epitaxial films, characterized by a significant topological Hall effect and noncoplanar spin arrangements with different propagation vectors along two orthogonal directions. Instead of driven by the enhanced Dzyaloshinskii-Moriya interaction due to broken inversion symmetry at heterointerfaces, this emergent state arises intrinsically from the interplay of dipolar interactions and magnetic frustration, leading to the stabilization of topological phases in much thicker films. These findings open a new pathway for creating and controlling the topological spin states in perovskites, with broad implications for spintronic device design....
-
----
-
-### 7. Enhanced Conditional Generation of Double Perovskite by Knowledge-Guided Language Model Feedback
-
-**Authors:** Inhyo Lee, Junhyeong Lee, Jongwon Park, KyungTae Lim, Seunghwa Ryu
-
-**Published:** 2025-11-27
-
-**Category:** cs.AI
-
-**ID:** 2511.22307v2
-
-**Link:** [http://arxiv.org/abs/2511.22307v2](http://arxiv.org/abs/2511.22307v2)
-
-**Summary:** Double perovskites (DPs) are promising candidates for sustainable energy technologies due to their compositional tunability and compatibility with low-energy fabrication, yet their vast design space poses a major challenge for conditional materials discovery. This work introduces a multi-agent, text gradient-driven framework that performs DP composition generation under natural-language conditions by integrating three complementary feedback sources: LLM-based self-evaluation, DP-specific domain knowledge-informed feedback, and ML surrogate-based feedback. Analogous to how knowledge-informed machine learning improves the reliability of conventional data-driven models, our framework incorporates domain-informed text gradients to guide the generative process toward physically meaningful regions of the DP composition space. Systematic comparison of three incremental configurations, (i) pure LLM generation, (ii) LLM generation with LLM reasoning-based feedback, and (iii) LLM generation with domain knowledge-guided feedback, shows that iterative guidance from knowledge-informed gradients improves stability-condition satisfaction without additional training data, achieving over 98% compositional validity and up to 54% stable or metastable candidates, surpassing both the LLM-only baseline (43%) and prior GAN-based results (27%). Analyses of ML-based gradients further reveal that they enhance performance in in-distribution (ID) regions but become unreliable in out-of-distribution (OOD) regimes. Overall, this work provides the first systematic analysis of multi-agent, knowledge-guided text gradients for DP discovery and establishes a generalizable blueprint for MAS-driven generative materials design aimed at advancing sustainable technologies....
+**Summary:** A topological interlocking assembly is an arrangement of blocks, where all blocks are kinematically constrained by their neighboring blocks and a fixed frame. This concept has been known for a long time, attracting recent interest due to its advantageous mechanical properties, such as reusability, redundancy and limited crack propagation. New mathematical methods enable the generation of vast numbers of new topologically interlocking blocks. A natural next question is the quantification of the mechanical performance of these new blocks. We conduct a numerical study of topological interlocking assemblies whose blocks are constructed based on the hexagonal grid. By varying a design parameter used in the generation of these blocks, we study its influence on the structural performance of the entire assembly. The results improve our understanding of the link between the block parameters and the mechanical performance. This enhances the ability to custom design blocks for certain mechanical requirements of the topological interlocking assemblies....
 
 ---
 
-### 8. Opening the Black Box: An Explainable, Few-shot AI4E Framework Informed by Physics and Expert Knowledge for Materials Engineering
+### 4. Evaluation of Foundational Machine Learned Interatomic Potentials for Migration Barrier Predictions
 
-**Authors:** Haoxiang Zhang, Ruihao Yuan, Lihui Zhang, Yushi Luo, Qiang Zhang, Pan Ding, Xiaodong Ren, Weijie Xing, Niu Gao, Jishan Chen, Chubo Zhang
+**Authors:** Achinthya Krishna Bheemaguli, Penghao Xiao, Gopalakrishnan Sai Gautam
 
-**Published:** 2025-11-28
+**Published:** 2025-12-03
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2512.03642v1
+
+**Link:** [http://arxiv.org/abs/2512.03642v1](http://arxiv.org/abs/2512.03642v1)
+
+**Summary:** Fast, and accurate prediction of ionic migration barriers ($E_m$) is crucial for designing next-generation battery materials that combine high energy density with facile ion transport. Given the computational costs associated with estimating $E_m$ using conventional density functional theory (DFT) based nudged elastic band (NEB) calculations, we benchmark the accuracy in $E_m$ and geometry predictions of five foundational machine learned interatomic potentials (MLIPs), which can potentially accelerate predictions of ionic transport. Specifically, we assess the accuracy of MACE-MP-0, Orb-v3, SevenNet, CHGNet, and M3GNet models, coupled with the NEB framework, against DFT-NEB-calculated $E_m$ across a diverse set of battery-relevant chemistries and structures. Notably, MACE-MP-0 and Orb-v3 exhibit the lowest mean absolute errors in $E_m$ predictions across the entire dataset and over data points that are not outliers, respectively. Importantly, Orb-v3 and SevenNet classify `good' versus `bad' ionic conductors with an accuracy of $>$82\%, based on a threshold $E_m$ of 500~meV, indicating their utility in high-throughput screening approaches. Notably, intermediate images generated by MACE-MP-0 and SevenNet provide better initial guesses relative to conventional interpolation techniques in $>$71\% of structures, offering a practical route to accelerate subsequent DFT-NEB relaxations. Finally, we observe that accurate $E_m$ predictions by MLIPs are not correlated with accurate (local) geometry predictions. Our work establishes the use-cases, accuracies, and limitations of foundational MLIPs in estimating $E_m$ and should serve as a base for accelerating the discovery of novel ionic conductors for batteries and beyond....
+
+---
+
+### 5. Orbital Current-Driven Magnetization Switching in a Magnetic Tunnel Junction
+
+**Authors:** Jingkai Xu, Dongxing Zheng, Meng Tang, Chen Liu, Bin He, Man Yang, Hao Li, Yan Li, Aitian Chen, Senfu Zhang, Ziqiang Qiu, Xixiang Zhang
+
+**Published:** 2025-04-08
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2504.05780v2
+
+**Link:** [http://arxiv.org/abs/2504.05780v2](http://arxiv.org/abs/2504.05780v2)
+
+**Summary:** Spin-orbitronics, based on both spin and orbital angular momentum, presents a promising pathway for energy-efficient memory and logic devices. Recent studies have demonstrated the emergence of orbital currents in light transition metals such as Ti, Cr, and Zr, broadening the scope of spin-orbit torque (SOT). In particular, the orbital Hall effect, which arises independently of spin-obit coupling, has shown potential for enhancing torque efficiency in spintronic devices. However, the direct integration of orbital current into magnetic random-access memory (MRAM) remains unexplored. In this work, we design a light metal/heavy metal/ferromagnet multilayer structure and experimentally demonstrate magnetization switching by orbital current. Furthermore, we have realized a robust SOT-MRAM cell by incorporating a reference layer that is pinned by a synthetic antiferromagnetic structure. We observed a tunnel magnetoresistance of 66%, evident in both magnetic field and current-driven switching processes. Our findings underscore the potential for employing orbital current in designing next-generation spintronic devices....
+
+---
+
+### 6. Physics-Driven Learning Framework for Tomographic Tactile Sensing
+
+**Authors:** Xuanxuan Yang, Xiuyang Zhang, Haofeng Chen, Gang Ma, Xiaojie Wang
+
+**Published:** 2025-12-03
 
 **Category:** cs.LG
 
-**ID:** 2512.02057v1
+**ID:** 2512.03512v1
 
-**Link:** [http://arxiv.org/abs/2512.02057v1](http://arxiv.org/abs/2512.02057v1)
+**Link:** [http://arxiv.org/abs/2512.03512v1](http://arxiv.org/abs/2512.03512v1)
 
-**Summary:** The industrial adoption of Artificial Intelligence for Engineering (AI4E) faces two fundamental bottlenecks: scarce high-quality data and the lack of interpretability in black-box models-particularly critical in safety-sensitive sectors like aerospace. We present an explainable, few-shot AI4E framework that is systematically informed by physics and expert knowledge throughout its architecture. Starting from only 32 experimental samples in an aerial K439B superalloy castings repair welding case, we first augment physically plausible synthetic data through a three-stage protocol: differentiated noise injection calibrated to process variabilities, enforcement of hard physical constraints, and preservation of inter-parameter relationships. We then employ a nested optimization strategy for constitutive model discovery, where symbolic regression explores equation structures while differential evolution optimizes parameters, followed by intensive parameter refinement using hybrid global-local optimization. The resulting interpretable constitutive equation achieves 88% accuracy in predicting hot-cracking tendency. This equation not only provides quantitative predictions but also delivers explicit physical insight, revealing how thermal, geometric, and metallurgical mechanisms couple to drive cracking-thereby advancing engineers' cognitive understanding of the process. Furthermore, the constitutive equation serves as a multi-functional tool for process optimization and high-fidelity virtual data generation, enabling accuracy improvements in other data-driven models. Our approach provides a general blueprint for developing trustworthy AI systems that embed engineering domain knowledge directly into their architecture, enabling reliable adoption in high-stakes industrial applications where data is limited but physical understanding is available....
+**Summary:** Electrical impedance tomography (EIT) provides an attractive solution for large-area tactile sensing due to its minimal wiring and shape flexibility, but its nonlinear inverse problem often leads to severe artifacts and inaccurate contact reconstruction. This work presents PhyDNN, a physics-driven deep reconstruction framework that embeds the EIT forward model directly into the learning objective. By jointly minimizing the discrepancy between predicted and ground-truth conductivity maps and enforcing consistency with the forward PDE, PhyDNN reduces the black-box nature of deep networks and improves both physical plausibility and generalization. To enable efficient backpropagation, we design a differentiable forward-operator network that accurately approximates the nonlinear EIT response, allowing fast physics-guided training. Extensive simulations and real tactile experiments on a 16-electrode soft sensor show that PhyDNN consistently outperforms NOSER, TV, and standard DNNs in reconstructing contact shape, location, and pressure distribution. PhyDNN yields fewer artifacts, sharper boundaries, and higher metric scores, demonstrating its effectiveness for high-quality tomographic tactile sensing....
+
+---
+
+### 7. MACS: Measurement-Aware Consistency Sampling for Inverse Problems
+
+**Authors:** Amirreza Tanevardi, Pooria Abbas Rad Moghadam, Seyed Mohammad Eshtehardian, Sajjad Amini, Babak Khalaj
+
+**Published:** 2025-10-02
+
+**Category:** eess.IV
+
+**ID:** 2510.02208v2
+
+**Link:** [http://arxiv.org/abs/2510.02208v2](http://arxiv.org/abs/2510.02208v2)
+
+**Summary:** Diffusion models have emerged as powerful generative priors for solving inverse imaging problems. However, their practical deployment is hindered by the substantial computational cost of slow, multi-step sampling. Although Consistency Models (CMs) address this limitation by enabling high-quality generation in only one or a few steps, their direct application to inverse problems has remained largely unexplored. This paper introduces a modified consistency sampling framework specifically designed for inverse problems. The proposed approach regulates the sampler's stochasticity through a measurement-consistency mechanism that leverages the degradation operator, thereby enforcing fidelity to the observed data while preserving the computational efficiency of consistency-based generation. Comprehensive experiments on the Fashion-MNIST and LSUN Bedroom datasets demonstrate consistent improvements across both perceptual and pixel-level metrics, including the Fréchet Inception Distance (FID), Kernel Inception Distance (KID), peak signal-to-noise ratio (PSNR), and structural similarity index measure (SSIM), compared with baseline consistency and diffusion-based sampling methods. The proposed method achieves competitive or superior reconstruction quality with only a small number of sampling steps....
+
+---
+
+### 8. Hierarchical Deep Research with Local-Web RAG: Toward Automated System-Level Materials Discovery
+
+**Authors:** Rui Ding, Rodrigo Pires Ferreira, Yuxin Chen, Junhong Chen
+
+**Published:** 2025-11-23
+
+**Category:** cs.LG
+
+**ID:** 2511.18303v2
+
+**Link:** [http://arxiv.org/abs/2511.18303v2](http://arxiv.org/abs/2511.18303v2)
+
+**Summary:** We present a long-horizon, hierarchical deep research (DR) agent designed for complex materials and device discovery problems that exceed the scope of existing Machine Learning (ML) surrogates and closed-source commercial agents. Our framework instantiates a locally deployable DR instance that integrates local retrieval-augmented generation with large language model reasoners, enhanced by a Deep Tree of Research (DToR) mechanism that adaptively expands and prunes research branches to maximize coverage, depth, and coherence. We systematically evaluate across 27 nanomaterials/device topics using a large language model (LLM)-as-judge rubric with five web-enabled state-of-the-art models as jurors. In addition, we conduct dry-lab validations on five representative tasks, where human experts use domain simulations (e.g., density functional theory, DFT) to verify whether DR-agent proposals are actionable. Results show that our DR agent produces reports with quality comparable to--and often exceeding--those of commercial systems (ChatGPT-5-thinking/o3/o4-mini-high Deep Research) at a substantially lower cost, while enabling on-prem integration with local data and tools....
+
+---
+
+### 9. Physics-Informed Machine Learning for Steel Development: A Computational Framework and CCT Diagram Modelling
+
+**Authors:** Peter Hedström, Victor Lamelas Cubero, Jón Sigurdsson, Viktor Österberg, Satish Kolli, Joakim Odqvist, Ziyong Hou, Wangzhong Mu, Viswanadh Gowtham Arigela
+
+**Published:** 2025-11-21
+
+**Category:** cs.LG
+
+**ID:** 2512.03050v1
+
+**Link:** [http://arxiv.org/abs/2512.03050v1](http://arxiv.org/abs/2512.03050v1)
+
+**Summary:** Machine learning (ML) has emerged as a powerful tool for accelerating the computational design and production of materials. In materials science, ML has primarily supported large-scale discovery of novel compounds using first-principles data and digital twin applications for optimizing manufacturing processes. However, applying general-purpose ML frameworks to complex industrial materials such as steel remains a challenge. A key obstacle is accurately capturing the intricate relationship between chemical composition, processing parameters, and the resulting microstructure and properties. To address this, we introduce a computational framework that combines physical insights with ML to develop a physics-informed continuous cooling transformation (CCT) model for steels. Our model, trained on a dataset of 4,100 diagrams, is validated against literature and experimental data. It demonstrates high computational efficiency, generating complete CCT diagrams with 100 cooling curves in under 5 seconds. It also shows strong generalizability across alloy steels, achieving phase classification F1 scores above 88% for all phases. For phase transition temperature regression, it attains mean absolute errors (MAE) below 20 °C across all phases except bainite, which shows a slightly higher MAE of 27 °C. This framework can be extended with additional generic and customized ML models to establish a universal digital twin platform for heat treatment. Integration with complementary simulation tools and targeted experiments will further support accelerated materials design workflows....
 
 ---
 
