@@ -34,87 +34,39 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (5)
+## New Papers (2)
 
-*Last updated: 2025-12-10 06:18:46 (SGT)*
+*Last updated: 2025-12-11 06:18:58 (SGT)*
 
-### 1. Partial Inverse Design of High-Performance Concrete Using Cooperative Neural Networks for Constraint-Aware Mix Generation
+### 1. Open Polymer Challenge: Post-Competition Report
 
-**Authors:** Agung Nugraha, Heungjun Im, Jihwan Lee
+**Authors:** Gang Liu, Sobin Alosious, Subhamoy Mahajan, Eric Inae, Yihan Zhu, Yuhan Liu, Renzheng Zhang, Jiaxin Xu, Addison Howard, Ying Li, Tengfei Luo, Meng Jiang
 
-**Published:** 2025-12-07
-
-**Category:** cs.LG
-
-**ID:** 2512.06813v1
-
-**Link:** [http://arxiv.org/abs/2512.06813v1](http://arxiv.org/abs/2512.06813v1)
-
-**Summary:** High-performance concrete offers exceptional strength and durability but requires complex mix designs involving many interdependent variables and practical constraints. While data-driven methods have advanced predictive modeling for forward design, inverse design, which focuses on determining mix compositions that achieve target performance, remains limited, particularly in design situations where some mix variables are fixed by constraints and only the remaining variables must be determined. This study proposes a cooperative neural network framework for the partial inverse design of high-performance concrete. The framework combines two coupled neural network models, an imputation model that infers the undetermined variables and a surrogate model that predicts compressive strength. Through cooperative learning, the model generates valid and performance-consistent mix designs in a single forward pass while accommodating different constraint combinations without retraining. Its performance is compared with both probabilistic and generative approaches, including Bayesian inference based on a Gaussian process surrogate and autoencoder-based models. Evaluated on a benchmark dataset, the proposed model achieves stable and higher R-squared values of 0.87-0.92 and reduces mean squared error by an average of 50 percent compared with autoencoder baselines and by an average of 70 percent compared with Bayesian inference. The results demonstrate that the cooperative neural network provides an accurate, robust, and computationally efficient foundation for constraint-aware, data-driven mix proportioning in concrete engineering....
-
----
-
-### 2. GENIUS: An Agentic AI Framework for Autonomous Design and Execution of Simulation Protocols
-
-**Authors:** Mohammad Soleymanibrojeni, Roland Aydin, Diego Guedes-Sobrinho, Alexandre C. Dias, Maurício J. Piotrowski, Wolfgang Wenzel, Celso Ricardo Caldeira Rêgo
-
-**Published:** 2025-12-06
-
-**Category:** cs.AI
-
-**ID:** 2512.06404v1
-
-**Link:** [http://arxiv.org/abs/2512.06404v1](http://arxiv.org/abs/2512.06404v1)
-
-**Summary:** Predictive atomistic simulations have propelled materials discovery, yet routine setup and debugging still demand computer specialists. This know-how gap limits Integrated Computational Materials Engineering (ICME), where state-of-the-art codes exist but remain cumbersome for non-experts. We address this bottleneck with GENIUS, an AI-agentic workflow that fuses a smart Quantum ESPRESSO knowledge graph with a tiered hierarchy of large language models supervised by a finite-state error-recovery machine. Here we show that GENIUS translates free-form human-generated prompts into validated input files that run to completion on $\approx$80% of 295 diverse benchmarks, where 76% are autonomously repaired, with success decaying exponentially to a 7% baseline. Compared with LLM-only baselines, GENIUS halves inference costs and virtually eliminates hallucinations. The framework democratizes electronic-structure DFT simulations by intelligently automating protocol generation, validation, and repair, opening large-scale screening and accelerating ICME design loops across academia and industry worldwide....
-
----
-
-### 3. Chemistry Integrated Language Model using Hierarchical Molecular Representation for Polymer Informatics
-
-**Authors:** Jihun Ahn, Gabriella Pasya Irianti, Vikram Thapar, Su-Mi Hur
-
-**Published:** 2025-12-06
+**Published:** 2025-12-09
 
 **Category:** cs.LG
 
-**ID:** 2512.06301v1
+**ID:** 2512.08896v1
 
-**Link:** [http://arxiv.org/abs/2512.06301v1](http://arxiv.org/abs/2512.06301v1)
+**Link:** [http://arxiv.org/abs/2512.08896v1](http://arxiv.org/abs/2512.08896v1)
 
-**Summary:** Machine learning has transformed material discovery for inorganic compounds and small molecules, yet polymers remain largely inaccessible to these methods. While data scarcity is often cited as the primary bottleneck, we demonstrate that strategic molecular representations can overcome this limitation. We introduce CI-LLM (Chemically Informed Language Model), a framework combining HAPPY (Hierarchically Abstracted rePeat unit of PolYmer), which encodes chemical substructures as tokens, with numerical descriptors within transformer architectures. For property prediction, De$^3$BERTa, our descriptor-enriched encoder, achieves 3.5x faster inference than SMILES-based models with improved accuracy ($R^2$ score gains of 0.9-4.1 percent across four properties), while providing interpretable structure-property insights at the subgroup level. For inverse design, our GPT-based generator produces polymers with targeted properties, achieving 100 percent scaffold retention and successful multi-property optimization for negatively correlated objectives. This comprehensive framework demonstrates both forward prediction and inverse design capabilities, showcasing how strategic molecular representation advances machine learning applications in polymer science....
-
----
-
-### 4. Accelerating Materials Discovery: Learning a Universal Representation of Chemical Processes for Cross-Domain Property Prediction
-
-**Authors:** Mikhail Tsitsvero, Atsuyuki Nakao, Hisaki Ikebata
-
-**Published:** 2025-11-26
-
-**Category:** physics.chem-ph
-
-**ID:** 2512.05979v1
-
-**Link:** [http://arxiv.org/abs/2512.05979v1](http://arxiv.org/abs/2512.05979v1)
-
-**Summary:** Experimental validation of chemical processes is slow and costly, limiting exploration in materials discovery. Machine learning can prioritize promising candidates, but existing data in patents and literature is heterogeneous and difficult to use. We introduce a universal directed-tree process-graph representation that unifies unstructured text, molecular structures, and numeric measurements into a single machine-readable format. To learn from this structured data, we developed a multi-modal graph neural network with a property-conditioned attention mechanism. Trained on approximately 700,000 process graphs from nearly 9,000 diverse documents, our model learns semantically rich embeddings that generalize across domains. When fine-tuned on compact, domain-specific datasets, the pretrained model achieves strong performance, demonstrating that universal process representations learned at scale transfer effectively to specialized prediction tasks with minimal additional data....
+**Summary:** Machine learning (ML) offers a powerful path toward discovering sustainable polymer materials, but progress has been limited by the lack of large, high-quality, and openly accessible polymer datasets. The Open Polymer Challenge (OPC) addresses this gap by releasing the first community-developed benchmark for polymer informatics, featuring a dataset with 10K polymers and 5 properties: thermal conductivity, radius of gyration, density, fractional free volume, and glass transition temperature. The challenge centers on multi-task polymer property prediction, a core step in virtual screening pipelines for materials discovery. Participants developed models under realistic constraints that include small data, label imbalance, and heterogeneous simulation sources, using techniques such as feature-based augmentation, transfer learning, self-supervised pretraining, and targeted ensemble strategies. The competition also revealed important lessons about data preparation, distribution shifts, and cross-group simulation consistency, informing best practices for future large-scale polymer datasets. The resulting models, analysis, and released data create a new foundation for molecular AI in polymer science and are expected to accelerate the development of sustainable and energy-efficient materials. Along with the competition, we release the test dataset at https://www.kaggle.com/datasets/alexliu99/neurips-open-polymer-prediction-2025-test-data. We also release the data generation pipeline at https://github.com/sobinalosious/ADEPT, which simulates more than 25 properties, including thermal conductivity, radius of gyration, and density....
 
 ---
 
-### 5. Physics Enhanced Deep Surrogates for the Phonon Boltzmann Transport Equation
+### 2. Unveiling Latent Knowledge in Chemistry Language Models through Sparse Autoencoders
 
-**Authors:** Antonio Varagnolo, Giuseppe Romano, Raphaël Pestourie
+**Authors:** Jaron Cohen, Alexander G. Hasson, Sara Tanovic
 
-**Published:** 2025-11-25
+**Published:** 2025-12-08
 
-**Category:** physics.comp-ph
+**Category:** cs.LG
 
-**ID:** 2512.05976v1
+**ID:** 2512.08077v1
 
-**Link:** [http://arxiv.org/abs/2512.05976v1](http://arxiv.org/abs/2512.05976v1)
+**Link:** [http://arxiv.org/abs/2512.08077v1](http://arxiv.org/abs/2512.08077v1)
 
-**Summary:** Designing materials with controlled heat flow at the nano-scale is central to advances in microelectronics, thermoelectrics, and energy-conversion technologies. At these scales, phonon transport follows the Boltzmann Transport Equation (BTE), which captures non-diffusive (ballistic) effects but is too costly to solve repeatedly in inverse-design loops. Existing surrogate approaches trade speed for accuracy: fast macroscopic solvers can overestimate conductivities by hundreds of percent, while recent data-driven operator learners often require thousands of high-fidelity simulations. This creates a need for a fast, data-efficient surrogate that remains reliable across ballistic and diffusive regimes. We introduce a Physics-Enhanced Deep Surrogate (PEDS) that combines a differentiable Fourier solver with a neural generator and couples it with uncertainty-driven active learning. The Fourier solver acts as a physical inductive bias, while the network learns geometry-dependent corrections and a mixing coefficient that interpolates between macroscopic and nano-scale behavior. PEDS reduces training-data requirements by up to 70% compared with purely data-driven baselines, achieves roughly 5% fractional error with only 300 high-fidelity BTE simulations, and enables efficient design of porous geometries spanning 12-85 W m$^{-1}$ K$^{-1}$ with average design errors of 4%. The learned mixing parameter recovers the ballistic-diffusive transition and improves out of distribution robustness. These results show that embedding simple, differentiable low-fidelity physics can dramatically increase surrogate data-efficiency and interpretability, making repeated PDE-constrained optimization practical for nano-scale thermal-materials design....
+**Summary:** Since the advent of machine learning, interpretability has remained a persistent challenge, becoming increasingly urgent as generative models support high-stakes applications in drug and material discovery. Recent advances in large language model (LLM) architectures have yielded chemistry language models (CLMs) with impressive capabilities in molecular property prediction and molecular generation. However, how these models internally represent chemical knowledge remains poorly understood. In this work, we extend sparse autoencoder techniques to uncover and examine interpretable features within CLMs. Applying our methodology to the Foundation Models for Materials (FM4M) SMI-TED chemistry foundation model, we extract semantically meaningful latent features and analyse their activation patterns across diverse molecular datasets. Our findings reveal that these models encode a rich landscape of chemical concepts. We identify correlations between specific latent features and distinct domains of chemical knowledge, including structural motifs, physicochemical properties, and pharmacological drug classes. Our approach provides a generalisable framework for uncovering latent knowledge in chemistry-focused AI systems. This work has implications for both foundational understanding and practical deployment; with the potential to accelerate computational chemistry research....
 
 ---
 

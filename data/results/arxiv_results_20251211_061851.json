@@ -1,0 +1,58 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.08896v1",
+    "title": "Open Polymer Challenge: Post-Competition Report",
+    "authors": [
+      "Gang Liu",
+      "Sobin Alosious",
+      "Subhamoy Mahajan",
+      "Eric Inae",
+      "Yihan Zhu",
+      "Yuhan Liu",
+      "Renzheng Zhang",
+      "Jiaxin Xu",
+      "Addison Howard",
+      "Ying Li",
+      "Tengfei Luo",
+      "Meng Jiang"
+    ],
+    "summary": "Machine learning (ML) offers a powerful path toward discovering sustainable polymer materials, but progress has been limited by the lack of large, high-quality, and openly accessible polymer datasets. The Open Polymer Challenge (OPC) addresses this gap by releasing the first community-developed benchmark for polymer informatics, featuring a dataset with 10K polymers and 5 properties: thermal conductivity, radius of gyration, density, fractional free volume, and glass transition temperature. The challenge centers on multi-task polymer property prediction, a core step in virtual screening pipelines for materials discovery. Participants developed models under realistic constraints that include small data, label imbalance, and heterogeneous simulation sources, using techniques such as feature-based augmentation, transfer learning, self-supervised pretraining, and targeted ensemble strategies. The competition also revealed important lessons about data preparation, distribution shifts, and cross-group simulation consistency, informing best practices for future large-scale polymer datasets. The resulting models, analysis, and released data create a new foundation for molecular AI in polymer science and are expected to accelerate the development of sustainable and energy-efficient materials. Along with the competition, we release the test dataset at https://www.kaggle.com/datasets/alexliu99/neurips-open-polymer-prediction-2025-test-data. We also release the data generation pipeline at https://github.com/sobinalosious/ADEPT, which simulates more than 25 properties, including thermal conductivity, radius of gyration, and density.",
+    "published": "2025-12-09T18:38:15+00:00",
+    "updated": "2025-12-09T18:38:15+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "The report for the competition: \"NeurIPS - Open Polymer Prediction 2025\". Kaggle Page: https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025. Website: https://open-polymer-challenge.github.io",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2512.08896v1",
+    "base_id": "2512.08896",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2512.08896v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.08077v1",
+    "title": "Unveiling Latent Knowledge in Chemistry Language Models through Sparse Autoencoders",
+    "authors": [
+      "Jaron Cohen",
+      "Alexander G. Hasson",
+      "Sara Tanovic"
+    ],
+    "summary": "Since the advent of machine learning, interpretability has remained a persistent challenge, becoming increasingly urgent as generative models support high-stakes applications in drug and material discovery. Recent advances in large language model (LLM) architectures have yielded chemistry language models (CLMs) with impressive capabilities in molecular property prediction and molecular generation. However, how these models internally represent chemical knowledge remains poorly understood. In this work, we extend sparse autoencoder techniques to uncover and examine interpretable features within CLMs. Applying our methodology to the Foundation Models for Materials (FM4M) SMI-TED chemistry foundation model, we extract semantically meaningful latent features and analyse their activation patterns across diverse molecular datasets. Our findings reveal that these models encode a rich landscape of chemical concepts. We identify correlations between specific latent features and distinct domains of chemical knowledge, including structural motifs, physicochemical properties, and pharmacological drug classes. Our approach provides a generalisable framework for uncovering latent knowledge in chemistry-focused AI systems. This work has implications for both foundational understanding and practical deployment; with the potential to accelerate computational chemistry research.",
+    "published": "2025-12-08T22:20:01+00:00",
+    "updated": "2025-12-08T22:20:01+00:00",
+    "categories": [
+      "cs.LG",
+      "physics.chem-ph"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2512.08077v1",
+    "base_id": "2512.08077",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2512.08077v1"
+  }
+]
