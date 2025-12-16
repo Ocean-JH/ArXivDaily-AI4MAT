@@ -34,39 +34,55 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (2)
+## New Papers (3)
 
-*Last updated: 2025-12-13 06:18:03 (SGT)*
+*Last updated: 2025-12-17 06:18:30 (SGT)*
 
-### 1. Large Language Models for Superconductor Discovery
+### 1. Meta-GPT: Decoding the Metasurface Genome with Generative Artificial Intelligence
 
-**Authors:** Suman Itani, Yibo Zhang, Ranjit Itani, Jiadong Zang
+**Authors:** David Dang, Stuart Love, Meena Salib, Quynh Dang, Samuel Rothfarb, Mysk Alnatour, Andrew Salij, Hou-Tong Chen, Ho Wai, Lee, Wilton J. M. Kort-Kamp
 
-**Published:** 2025-12-11
+**Published:** 2025-12-15
 
-**Category:** cond-mat.mtrl-sci
+**Category:** physics.optics
 
-**ID:** 2512.10847v1
+**ID:** 2512.12888v1
 
-**Link:** [http://arxiv.org/abs/2512.10847v1](http://arxiv.org/abs/2512.10847v1)
+**Link:** [http://arxiv.org/abs/2512.12888v1](http://arxiv.org/abs/2512.12888v1)
 
-**Summary:** Large language models (LLMs) offer new opportunities for automated data extraction and property prediction across materials science, yet their use in superconductivity research remains limited. Here we construct a large experimental database of 78,203 records, covering 19,058 unique compositions, extracted from scientific literature using an LLM-driven workflow. Each entry includes chemical composition, critical temperature, measurement pressure, structural descriptors, and critical fields. We fine-tune several open-source LLMs for three tasks: (i) classifying superconductors vs. non-superconductors, (ii) predicting the superconducting transition temperature directly from composition or structure-informed inputs, and (iii) inverse design of candidate compositions conditioned on target Tc. The fine-tuned LLMs achieve performance comparable to traditional feature-based models and in some cases exceed them, while substantially outperforming their base versions and capturing meaningful chemical and structural trends. The inverse-design model generates chemically plausible compositions, including 28% novel candidates not seen in training. Finally, applying the trained predictors to the GNoME database identifies unreported materials with predicted Tc > 10 K. Although unverified, these candidates illustrate how integrating an LLM-driven workflow can enable scalable hypothesis generation for superconductivity discovery....
+**Summary:** Advancing artificial intelligence for physical sciences requires representations that are both interpretable and compatible with the underlying laws of nature. We introduce METASTRINGS, a symbolic language for photonics that expresses nanostructures as textual sequences encoding materials, geometries, and lattice configurations. Analogous to molecular textual representations in chemistry, METASTRINGS provides a framework connecting human interpretability with computational design by capturing the structural hierarchy of photonic metasurfaces. Building on this representation, we develop Meta-GPT, a foundation transformer model trained on METASTRINGS and finetuned with physics-informed supervised, reinforcement, and chain-of-thought learning. Across various design tasks, the model achieves <3% mean-squared spectral error and maintains >98% syntactic validity, generating diverse metasurface prototypes whose experimentally measured optical responses match their target spectra. These results demonstrate that Meta-GPT can learn the compositional rules of light-matter interactions through METASTRINGS, laying a rigorous foundation for AI-driven photonics and representing an important step toward a metasurface genome project....
 
 ---
 
-### 2. A Generation Framework with Strict Constraints for Crystal Materials Design
+### 2. Quantum-Aware Generative AI for Materials Discovery: A Framework for Robust Exploration Beyond DFT Biases
 
-**Authors:** Chao Huang, Jiahui Chen, Chen Chen, Chen Chen, Chunyan Chen, Renjie Su, Shiyu Du
+**Authors:** Mahule Roy, Guillaume Lambard
 
-**Published:** 2024-11-13
+**Published:** 2025-12-13
 
 **Category:** cs.AI
 
-**ID:** 2411.08464v3
+**ID:** 2512.12288v1
 
-**Link:** [http://arxiv.org/abs/2411.08464v3](http://arxiv.org/abs/2411.08464v3)
+**Link:** [http://arxiv.org/abs/2512.12288v1](http://arxiv.org/abs/2512.12288v1)
 
-**Summary:** The design of crystal materials plays a critical role in areas such as new energy development, biomedical engineering, and semiconductors. Recent advances in data-driven methods have enabled the generation of diverse crystal structures. However, most existing approaches still rely on random sampling without strict constraints, requiring multiple post-processing steps to identify stable candidates with the desired physical and chemical properties. In this work, we present a new constrained generation framework that takes multiple constraints as input and enables the generation of crystal structures with specific chemical and properties. In this framework, intermediate constraints, such as symmetry information and composition ratio, are generated by a constraint generator based on large language models (LLMs), which considers the target properties. These constraints are then used by a subsequent crystal structure generator to ensure that the structure generation process is under control. Our method generates crystal structures with a probability of meeting the target properties that is more than twice that of existing approaches. Furthermore, nearly 100% of the generated crystals strictly adhere to predefined chemical composition, eliminating the risks of supply chain during production....
+**Summary:** Conventional generative models for materials discovery are predominantly trained and validated using data from Density Functional Theory (DFT) with approximate exchange-correlation functionals. This creates a fundamental bottleneck: these models inherit DFT's systematic failures for strongly correlated systems, leading to exploration biases and an inability to discover materials where DFT predictions are qualitatively incorrect. We introduce a quantum-aware generative AI framework that systematically addresses this limitation through tight integration of multi-fidelity learning and active validation. Our approach employs a diffusion-based generator conditioned on quantum-mechanical descriptors and a validator using an equivariant neural network potential trained on a hierarchical dataset spanning multiple levels of theory (PBE, SCAN, HSE06, CCSD(T)). Crucially, we implement a robust active learning loop that quantifies and targets the divergence between low- and high-fidelity predictions. We conduct comprehensive ablation studies to deconstruct the contribution of each component, perform detailed failure mode analysis, and benchmark our framework against state-of-the-art generative models (CDVAE, GNoME, DiffCSP) across several challenging material classes. Our results demonstrate significant practical gains: a 3-5x improvement in successfully identifying potentially stable candidates in high-divergence regions (e.g., correlated oxides) compared to DFT-only baselines, while maintaining computational feasibility. This work provides a rigorous, transparent framework for extending the effective search space of computational materials discovery beyond the limitations of single-fidelity models....
+
+---
+
+### 3. Random Combinatorial Libraries and Automated Nanoindentation for High-Throughput Structural Materials Discovery
+
+**Authors:** Vivek Chawla, Dayakar Penumadu, Sergei Kalinin
+
+**Published:** 2025-12-13
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2512.12164v1
+
+**Link:** [http://arxiv.org/abs/2512.12164v1](http://arxiv.org/abs/2512.12164v1)
+
+**Summary:** Accelerating the discovery of structural materials is essential for applications in hard and refractory alloys, hypersonic platforms, nuclear systems, and other extreme environment technologies. Progress is often constrained by slow synthesis and characterization cycles and the need for extensive mechanical testing across large compositional spaces. Here, we propose a rapid screening strategy based on random material libraries, in which thousands of distinct compositions are embedded within a single specimen, mapped by EDS, and subsequently characterized. Using nanoindentation as a representative case, we show that such libraries enable dense composition property mapping while reducing the number of samples required to explore high dimensional composition spaces compared to traditional synthesis and test workflows. An experimentally calibrated Monte Carlo framework is developed to quantify practical limits, including particle size, EDS noise and resolution, positional accuracy, and nanoindenter motion costs. The simulations identify regimes where random libraries provide orders of magnitude acceleration over classical workflows. Finally, we demonstrate experimental navigation of these libraries using automated indentation. Together, these results establish random libraries as a general route to high throughput characterization in structurally critical material systems....
 
 ---
 
