@@ -1,0 +1,26 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.15312v1",
+    "title": "Evaluating LLMs for Zeolite Synthesis Event Extraction (ZSEE): A Systematic Analysis of Prompting Strategies",
+    "authors": [
+      "Charan Prakash Rathore",
+      "Saumi Ray",
+      "Dhruv Kumar"
+    ],
+    "summary": "Extracting structured information from zeolite synthesis experimental procedures is critical for materials discovery, yet existing methods have not systematically evaluated Large Language Models (LLMs) for this domain-specific task. This work addresses a fundamental question: what is the efficacy of different prompting strategies when applying LLMs to scientific information extraction? We focus on four key subtasks: event type classification (identifying synthesis steps), trigger text identification (locating event mentions), argument role extraction (recognizing parameter types), and argument text extraction (extracting parameter values). We evaluate four prompting strategies - zero-shot, few-shot, event-specific, and reflection-based - across six state-of-the-art LLMs (Gemma-3-12b-it, GPT-5-mini, O4-mini, Claude-Haiku-3.5, DeepSeek reasoning and non-reasoning) using the ZSEE dataset of 1,530 annotated sentences. Results demonstrate strong performance on event type classification (80-90\\% F1) but modest performance on fine-grained extraction tasks, particularly argument role and argument text extraction (50-65\\% F1). GPT-5-mini exhibits extreme prompt sensitivity with 11-79\\% F1 variation. Notably, advanced prompting strategies provide minimal improvements over zero-shot approaches, revealing fundamental architectural limitations. Error analysis identifies systematic hallucination, over-generalization, and inability to capture synthesis-specific nuances. Our findings demonstrate that while LLMs achieve high-level understanding, precise extraction of experimental parameters requires domain-adapted models, providing quantitative benchmarks for scientific information extraction.",
+    "published": "2025-12-17T11:02:31+00:00",
+    "updated": "2025-12-17T11:02:31+00:00",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CL",
+    "comment": "Under Review",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2512.15312v1",
+    "base_id": "2512.15312",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2512.15312v1"
+  }
+]
