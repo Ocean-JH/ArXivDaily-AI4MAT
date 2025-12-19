@@ -1,0 +1,25 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.15746v1",
+    "title": "A Unified Generative-Predictive Framework for Deterministic Inverse Design",
+    "authors": [
+      "Reza T. Batley",
+      "Sourav Saha"
+    ],
+    "summary": "Inverse design of heterogeneous material microstructures is a fundamentally ill-posed and famously computationally expensive problem. This is exacerbated by the high-dimensional design spaces associated with finely resolved images, multimodal input property streams, and a highly nonlinear forward physics. Whilst modern generative models excel at accurately modeling such complex forward behavior, most of them are not intrinsically structured to support fast, stable \\emph{deterministic} inversion with a physics-informed bias. This work introduces Janus, a unified generative-predictive framework to address this problem. Janus couples a deep encoder-decoder architecture with a predictive KHRONOS head, a separable neural architecture. Topologically speaking, Janus learns a latent manifold simultaneously isometric for generative inversion and pruned for physical prediction; the joint objective inducing \\emph{disentanglement} of the latent space. Janus is first validated on the MNIST dataset, demonstrating high-fidelity reconstruction, accurate classification and diverse generative inversion of all ten target classes. It is then applied to the inverse design of heterogeneous microstructures labeled with thermal conductivity. It achieves a forward prediction accuracy $R^2=0.98$ (2\\% relative error) and sub-5\\% pixelwise reconstruction error. Inverse solutions satisfy target properties to within $1\\%$ relative error. Inverting a sweep through properties reveal smooth traversal of the latent manifold, and UMAP visualization confirms the emergence of a low-dimensional, disentangled manifold. By unifying prediction and generation within a single latent space, Janus enables real-time, physics-informed inverse microstructure generation at a lower computational cost typically associated with classical optimization-based approaches.",
+    "published": "2025-12-10T18:58:11+00:00",
+    "updated": "2025-12-10T18:58:11+00:00",
+    "categories": [
+      "cs.LG",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2512.15746v1",
+    "base_id": "2512.15746",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2512.15746v1"
+  }
+]

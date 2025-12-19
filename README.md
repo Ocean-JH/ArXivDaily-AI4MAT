@@ -36,21 +36,21 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-12-19 06:18:53 (SGT)*
+*Last updated: 2025-12-20 06:19:02 (SGT)*
 
-### 1. Evaluating LLMs for Zeolite Synthesis Event Extraction (ZSEE): A Systematic Analysis of Prompting Strategies
+### 1. A Unified Generative-Predictive Framework for Deterministic Inverse Design
 
-**Authors:** Charan Prakash Rathore, Saumi Ray, Dhruv Kumar
+**Authors:** Reza T. Batley, Sourav Saha
 
-**Published:** 2025-12-17
+**Published:** 2025-12-10
 
-**Category:** cs.CL
+**Category:** cs.LG
 
-**ID:** 2512.15312v1
+**ID:** 2512.15746v1
 
-**Link:** [http://arxiv.org/abs/2512.15312v1](http://arxiv.org/abs/2512.15312v1)
+**Link:** [http://arxiv.org/abs/2512.15746v1](http://arxiv.org/abs/2512.15746v1)
 
-**Summary:** Extracting structured information from zeolite synthesis experimental procedures is critical for materials discovery, yet existing methods have not systematically evaluated Large Language Models (LLMs) for this domain-specific task. This work addresses a fundamental question: what is the efficacy of different prompting strategies when applying LLMs to scientific information extraction? We focus on four key subtasks: event type classification (identifying synthesis steps), trigger text identification (locating event mentions), argument role extraction (recognizing parameter types), and argument text extraction (extracting parameter values). We evaluate four prompting strategies - zero-shot, few-shot, event-specific, and reflection-based - across six state-of-the-art LLMs (Gemma-3-12b-it, GPT-5-mini, O4-mini, Claude-Haiku-3.5, DeepSeek reasoning and non-reasoning) using the ZSEE dataset of 1,530 annotated sentences. Results demonstrate strong performance on event type classification (80-90\% F1) but modest performance on fine-grained extraction tasks, particularly argument role and argument text extraction (50-65\% F1). GPT-5-mini exhibits extreme prompt sensitivity with 11-79\% F1 variation. Notably, advanced prompting strategies provide minimal improvements over zero-shot approaches, revealing fundamental architectural limitations. Error analysis identifies systematic hallucination, over-generalization, and inability to capture synthesis-specific nuances. Our findings demonstrate that while LLMs achieve high-level understanding, precise extraction of experimental parameters requires domain-adapted models, providing quantitative benchmarks for scientific information extraction....
+**Summary:** Inverse design of heterogeneous material microstructures is a fundamentally ill-posed and famously computationally expensive problem. This is exacerbated by the high-dimensional design spaces associated with finely resolved images, multimodal input property streams, and a highly nonlinear forward physics. Whilst modern generative models excel at accurately modeling such complex forward behavior, most of them are not intrinsically structured to support fast, stable \emph{deterministic} inversion with a physics-informed bias. This work introduces Janus, a unified generative-predictive framework to address this problem. Janus couples a deep encoder-decoder architecture with a predictive KHRONOS head, a separable neural architecture. Topologically speaking, Janus learns a latent manifold simultaneously isometric for generative inversion and pruned for physical prediction; the joint objective inducing \emph{disentanglement} of the latent space. Janus is first validated on the MNIST dataset, demonstrating high-fidelity reconstruction, accurate classification and diverse generative inversion of all ten target classes. It is then applied to the inverse design of heterogeneous microstructures labeled with thermal conductivity. It achieves a forward prediction accuracy $R^2=0.98$ (2\% relative error) and sub-5\% pixelwise reconstruction error. Inverse solutions satisfy target properties to within $1\%$ relative error. Inverting a sweep through properties reveal smooth traversal of the latent manifold, and UMAP visualization confirms the emergence of a low-dimensional, disentangled manifold. By unifying prediction and generation within a single latent space, Janus enables real-time, physics-informed inverse microstructure generation at a lower computational cost typically associated with classical optimization-based approaches....
 
 ---
 
