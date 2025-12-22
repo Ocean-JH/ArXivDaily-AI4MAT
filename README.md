@@ -36,21 +36,21 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-12-20 06:19:02 (SGT)*
+*Last updated: 2025-12-23 06:18:54 (SGT)*
 
-### 1. A Unified Generative-Predictive Framework for Deterministic Inverse Design
+### 1. MolMark: Safeguarding Molecular Structures through Learnable Atom-Level Watermarking
 
-**Authors:** Reza T. Batley, Sourav Saha
+**Authors:** Runwen Hu, Peilin Chen, Keyan Ding, Shiqi Wang
 
-**Published:** 2025-12-10
+**Published:** 2025-08-25
 
 **Category:** cs.LG
 
-**ID:** 2512.15746v1
+**ID:** 2508.17702v2
 
-**Link:** [http://arxiv.org/abs/2512.15746v1](http://arxiv.org/abs/2512.15746v1)
+**Link:** [http://arxiv.org/abs/2508.17702v2](http://arxiv.org/abs/2508.17702v2)
 
-**Summary:** Inverse design of heterogeneous material microstructures is a fundamentally ill-posed and famously computationally expensive problem. This is exacerbated by the high-dimensional design spaces associated with finely resolved images, multimodal input property streams, and a highly nonlinear forward physics. Whilst modern generative models excel at accurately modeling such complex forward behavior, most of them are not intrinsically structured to support fast, stable \emph{deterministic} inversion with a physics-informed bias. This work introduces Janus, a unified generative-predictive framework to address this problem. Janus couples a deep encoder-decoder architecture with a predictive KHRONOS head, a separable neural architecture. Topologically speaking, Janus learns a latent manifold simultaneously isometric for generative inversion and pruned for physical prediction; the joint objective inducing \emph{disentanglement} of the latent space. Janus is first validated on the MNIST dataset, demonstrating high-fidelity reconstruction, accurate classification and diverse generative inversion of all ten target classes. It is then applied to the inverse design of heterogeneous microstructures labeled with thermal conductivity. It achieves a forward prediction accuracy $R^2=0.98$ (2\% relative error) and sub-5\% pixelwise reconstruction error. Inverse solutions satisfy target properties to within $1\%$ relative error. Inverting a sweep through properties reveal smooth traversal of the latent manifold, and UMAP visualization confirms the emergence of a low-dimensional, disentangled manifold. By unifying prediction and generation within a single latent space, Janus enables real-time, physics-informed inverse microstructure generation at a lower computational cost typically associated with classical optimization-based approaches....
+**Summary:** AI-driven molecular generation is reshaping drug discovery and materials design, yet the lack of protection mechanisms leaves AI-generated molecules vulnerable to unauthorized reuse and provenance ambiguity. Such limitation undermines both scientific reproducibility and intellectual property security. To address this challenge, we propose the first deep learning based watermarking framework for molecules (MolMark), which is exquisitely designed to embed high-fidelity digital signatures into molecules without compromising molecular functionalities. MolMark learns to modulate the chemically meaningful atom-level representations and enforce geometric robustness through SE(3)-invariant features, maintaining robustness under rotation, translation, and reflection. Additionally, MolMark integrates seamlessly with AI-based molecular generative models, enabling watermarking to be treated as a learned transformation with minimal interference to molecular structures. Experiments on benchmark datasets (QM9, GEOM-DRUG) and state-of-the-art molecular generative models (GeoBFN, GeoLDM) demonstrate that MolMark can embed 16-bit watermarks while retaining more than 90% of essential molecular properties, preserving downstream performance, and enabling >95% extraction accuracy under SE(3) transformations. MolMark establishes a principled pathway for unifying molecular generation with verifiable authorship, supporting trustworthy and accountable AI-driven molecular discovery....
 
 ---
 

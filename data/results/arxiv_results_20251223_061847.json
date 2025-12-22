@@ -1,0 +1,26 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2508.17702v2",
+    "title": "MolMark: Safeguarding Molecular Structures through Learnable Atom-Level Watermarking",
+    "authors": [
+      "Runwen Hu",
+      "Peilin Chen",
+      "Keyan Ding",
+      "Shiqi Wang"
+    ],
+    "summary": "AI-driven molecular generation is reshaping drug discovery and materials design, yet the lack of protection mechanisms leaves AI-generated molecules vulnerable to unauthorized reuse and provenance ambiguity. Such limitation undermines both scientific reproducibility and intellectual property security. To address this challenge, we propose the first deep learning based watermarking framework for molecules (MolMark), which is exquisitely designed to embed high-fidelity digital signatures into molecules without compromising molecular functionalities. MolMark learns to modulate the chemically meaningful atom-level representations and enforce geometric robustness through SE(3)-invariant features, maintaining robustness under rotation, translation, and reflection. Additionally, MolMark integrates seamlessly with AI-based molecular generative models, enabling watermarking to be treated as a learned transformation with minimal interference to molecular structures. Experiments on benchmark datasets (QM9, GEOM-DRUG) and state-of-the-art molecular generative models (GeoBFN, GeoLDM) demonstrate that MolMark can embed 16-bit watermarks while retaining more than 90% of essential molecular properties, preserving downstream performance, and enabling >95% extraction accuracy under SE(3) transformations. MolMark establishes a principled pathway for unifying molecular generation with verifiable authorship, supporting trustworthy and accountable AI-driven molecular discovery.",
+    "published": "2025-08-25T06:21:11+00:00",
+    "updated": "2025-12-19T15:15:01+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2508.17702v2",
+    "base_id": "2508.17702",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2508.17702v2"
+  }
+]
