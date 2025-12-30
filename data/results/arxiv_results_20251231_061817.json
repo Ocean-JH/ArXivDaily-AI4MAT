@@ -1,0 +1,32 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2412.19284v2",
+    "title": "PearSAN: A Machine Learning Method for Inverse Design using Pearson Correlated Surrogate Annealing",
+    "authors": [
+      "Michael Bezick",
+      "Blake A. Wilson",
+      "Vaishnavi Iyer",
+      "Yuheng Chen",
+      "Vladimir M. Shalaev",
+      "Sabre Kais",
+      "Alexander V. Kildishev",
+      "Alexandra Boltasseva",
+      "Brad Lackey"
+    ],
+    "summary": "PearSAN is a machine learning-assisted optimization algorithm applicable to inverse design problems with large design spaces, where traditional optimizers struggle. The algorithm leverages the latent space of a generative model for rapid sampling and employs a Pearson correlated surrogate model to predict the figure of merit of the true design metric. As a showcase example, PearSAN is applied to thermophotovoltaic (TPV) metasurface design by matching the working bands between a thermal radiator and a photovoltaic cell. PearSAN can work with any pretrained generative model with a discretized latent space, making it easy to integrate with VQ-VAEs and binary autoencoders. Its novel Pearson correlational loss can be used as both a latent regularization method, similar to batch and layer normalization, and as a surrogate training loss. We compare both to previous energy matching losses, which are shown to enforce poor regularization and performance, even with upgraded affine parameters. PearSAN achieves a state-of-the-art maximum design efficiency of 97%, and is at least an order of magnitude faster than previous methods, with an improved maximum figure-of-merit gain.",
+    "published": "2024-12-26T17:02:19+00:00",
+    "updated": "2025-12-29T14:22:04+00:00",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2412.19284v2",
+    "base_id": "2412.19284",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2412.19284v2"
+  }
+]
