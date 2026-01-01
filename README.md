@@ -36,21 +36,21 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2025-12-31 06:18:24 (SGT)*
+*Last updated: 2026-01-02 06:18:42 (SGT)*
 
-### 1. PearSAN: A Machine Learning Method for Inverse Design using Pearson Correlated Surrogate Annealing
+### 1. CrystalDiT: A Diffusion Transformer for Crystal Generation
 
-**Authors:** Michael Bezick, Blake A. Wilson, Vaishnavi Iyer, Yuheng Chen, Vladimir M. Shalaev, Sabre Kais, Alexander V. Kildishev, Alexandra Boltasseva, Brad Lackey
+**Authors:** Xiaohan Yi, Guikun Xu, Xi Xiao, Zhong Zhang, Liu Liu, Yatao Bian, Peilin Zhao
 
-**Published:** 2024-12-26
+**Published:** 2025-08-13
 
 **Category:** cs.LG
 
-**ID:** 2412.19284v2
+**ID:** 2508.16614v3
 
-**Link:** [http://arxiv.org/abs/2412.19284v2](http://arxiv.org/abs/2412.19284v2)
+**Link:** [http://arxiv.org/abs/2508.16614v3](http://arxiv.org/abs/2508.16614v3)
 
-**Summary:** PearSAN is a machine learning-assisted optimization algorithm applicable to inverse design problems with large design spaces, where traditional optimizers struggle. The algorithm leverages the latent space of a generative model for rapid sampling and employs a Pearson correlated surrogate model to predict the figure of merit of the true design metric. As a showcase example, PearSAN is applied to thermophotovoltaic (TPV) metasurface design by matching the working bands between a thermal radiator and a photovoltaic cell. PearSAN can work with any pretrained generative model with a discretized latent space, making it easy to integrate with VQ-VAEs and binary autoencoders. Its novel Pearson correlational loss can be used as both a latent regularization method, similar to batch and layer normalization, and as a surrogate training loss. We compare both to previous energy matching losses, which are shown to enforce poor regularization and performance, even with upgraded affine parameters. PearSAN achieves a state-of-the-art maximum design efficiency of 97%, and is at least an order of magnitude faster than previous methods, with an improved maximum figure-of-merit gain....
+**Summary:** We present CrystalDiT, a diffusion transformer for crystal structure generation that achieves state-of-the-art performance by challenging the trend of architectural complexity. Instead of intricate, multi-stream designs, CrystalDiT employs a unified transformer that imposes a powerful inductive bias: treating lattice and atomic properties as a single, interdependent system. Combined with a periodic table-based atomic representation and a balanced training strategy, our approach achieves 8.78% SUN (Stable, Unique, Novel) rate on MP-20, substantially outperforming recent methods including FlowMM (4.21%) and MatterGen (3.66%). Notably, CrystalDiT generates 63.28% unique and novel structures while maintaining comparable stability rates, demonstrating that architectural simplicity can be more effective than complexity for materials discovery. Our results suggest that in data-limited scientific domains, carefully designed simple architectures outperform sophisticated alternatives that are prone to overfitting....
 
 ---
 
