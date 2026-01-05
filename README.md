@@ -36,21 +36,21 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2026-01-02 06:18:42 (SGT)*
+*Last updated: 2026-01-06 06:19:15 (SGT)*
 
-### 1. CrystalDiT: A Diffusion Transformer for Crystal Generation
+### 1. Democratizing Electronic-Photonic AI Systems: An Open-Source AI-Infused Cross-Layer Co-Design and Design Automation Toolflow
 
-**Authors:** Xiaohan Yi, Guikun Xu, Xi Xiao, Zhong Zhang, Liu Liu, Yatao Bian, Peilin Zhao
+**Authors:** Hongjian Zhou, Ziang Yin, Jiaqi Gu
 
-**Published:** 2025-08-13
+**Published:** 2025-12-31
 
-**Category:** cs.LG
+**Category:** physics.optics
 
-**ID:** 2508.16614v3
+**ID:** 2601.00130v1
 
-**Link:** [http://arxiv.org/abs/2508.16614v3](http://arxiv.org/abs/2508.16614v3)
+**Link:** [http://arxiv.org/abs/2601.00130v1](http://arxiv.org/abs/2601.00130v1)
 
-**Summary:** We present CrystalDiT, a diffusion transformer for crystal structure generation that achieves state-of-the-art performance by challenging the trend of architectural complexity. Instead of intricate, multi-stream designs, CrystalDiT employs a unified transformer that imposes a powerful inductive bias: treating lattice and atomic properties as a single, interdependent system. Combined with a periodic table-based atomic representation and a balanced training strategy, our approach achieves 8.78% SUN (Stable, Unique, Novel) rate on MP-20, substantially outperforming recent methods including FlowMM (4.21%) and MatterGen (3.66%). Notably, CrystalDiT generates 63.28% unique and novel structures while maintaining comparable stability rates, demonstrating that architectural simplicity can be more effective than complexity for materials discovery. Our results suggest that in data-limited scientific domains, carefully designed simple architectures outperform sophisticated alternatives that are prone to overfitting....
+**Summary:** Photonics is becoming a cornerstone technology for high-performance AI systems and scientific computing, offering unparalleled speed, parallelism, and energy efficiency. Despite this promise, the design and deployment of electronic-photonic AI systems remain highly challenging due to a steep learning curve across multiple layers, spanning device physics, circuit design, system architecture, and AI algorithms. The absence of a mature electronic-photonic design automation (EPDA) toolchain leads to long, inefficient design cycles and limits cross-disciplinary innovation and co-evolution. In this work, we present a cross-layer co-design and automation framework aimed at democratizing photonic AI system development. We begin by introducing our architecture designs for scalable photonic edge AI and Transformer inference, followed by SimPhony, an open-source modeling tool for rapid EPIC AI system evaluation and design-space exploration. We then highlight advances in AI-enabled photonic design automation, including physical AI-based Maxwell solvers, a fabrication-aware inverse design framework, and a scalable inverse training algorithm for meta-optical neural networks, enabling a scalable EPDA stack for next-generation electronic-photonic AI systems....
 
 ---
 

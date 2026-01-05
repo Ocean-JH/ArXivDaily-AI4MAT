@@ -1,0 +1,28 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2601.00130v1",
+    "title": "Democratizing Electronic-Photonic AI Systems: An Open-Source AI-Infused Cross-Layer Co-Design and Design Automation Toolflow",
+    "authors": [
+      "Hongjian Zhou",
+      "Ziang Yin",
+      "Jiaqi Gu"
+    ],
+    "summary": "Photonics is becoming a cornerstone technology for high-performance AI systems and scientific computing, offering unparalleled speed, parallelism, and energy efficiency. Despite this promise, the design and deployment of electronic-photonic AI systems remain highly challenging due to a steep learning curve across multiple layers, spanning device physics, circuit design, system architecture, and AI algorithms. The absence of a mature electronic-photonic design automation (EPDA) toolchain leads to long, inefficient design cycles and limits cross-disciplinary innovation and co-evolution. In this work, we present a cross-layer co-design and automation framework aimed at democratizing photonic AI system development. We begin by introducing our architecture designs for scalable photonic edge AI and Transformer inference, followed by SimPhony, an open-source modeling tool for rapid EPIC AI system evaluation and design-space exploration. We then highlight advances in AI-enabled photonic design automation, including physical AI-based Maxwell solvers, a fabrication-aware inverse design framework, and a scalable inverse training algorithm for meta-optical neural networks, enabling a scalable EPDA stack for next-generation electronic-photonic AI systems.",
+    "published": "2025-12-31T22:22:29+00:00",
+    "updated": "2025-12-31T22:22:29+00:00",
+    "categories": [
+      "physics.optics",
+      "cs.AI",
+      "cs.AR",
+      "cs.ET"
+    ],
+    "primary_category": "physics.optics",
+    "comment": "9 ages. Accepted to SPIE Photonics West, AI and Optical Data Sciences VII, 2026",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2601.00130v1",
+    "base_id": "2601.00130",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2601.00130v1"
+  }
+]
