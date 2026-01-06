@@ -1,0 +1,26 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2601.00886v1",
+    "title": "A Chemically Grounded Evaluation Framework for Generative Models in Materials Discovery",
+    "authors": [
+      "Elohan Veillon",
+      "Astrid Klipfel",
+      "Adlane Sayede",
+      "Zied Bouraoui"
+    ],
+    "summary": "Generative models hold great promise for accelerating materials discovery, but their evaluation often overlooks the chemical validity and stability requirements crucial to real-world applications. Density Functional Theory (DFT) simulations are the gold standard for evaluating such properties but are computationally intensive and inaccessible to non-experts. We propose a chemically grounded, user-friendly evaluation framework that integrates DFT-based stability analysis with commonly used machine learning (ML) metrics. Through systematic experiments using both perturbative and generative methods, we demonstrate that conventional ML metrics can misrepresent chemical feasibility. To address this, we propose new insights on robust metrics and highlight the importance of simulation-informed evaluation for developing reliable generative models in materials science.",
+    "published": "2025-12-31T09:23:50+00:00",
+    "updated": "2025-12-31T09:23:50+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2601.00886v1",
+    "base_id": "2601.00886",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2601.00886v1"
+  }
+]
