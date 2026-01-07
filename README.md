@@ -34,23 +34,55 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (1)
+## New Papers (3)
 
-*Last updated: 2026-01-07 06:19:34 (SGT)*
+*Last updated: 2026-01-08 06:19:14 (SGT)*
 
-### 1. A Chemically Grounded Evaluation Framework for Generative Models in Materials Discovery
+### 1. DeepH-pack: A general-purpose neural network package for deep-learning electronic structure calculations
 
-**Authors:** Elohan Veillon, Astrid Klipfel, Adlane Sayede, Zied Bouraoui
+**Authors:** Yang Li, Yanzhen Wang, Boheng Zhao, Xiaoxun Gong, Yuxiang Wang, Zechen Tang, Zixu Wang, Zilong Yuan, Jialin Li, Minghui Sun, Zezhou Chen, Honggeng Tao, Baochun Wu, Yuhang Yu, He Li, Felipe H. da Jornada, Wenhui Duan, Yong Xu
 
-**Published:** 2025-12-31
+**Published:** 2026-01-06
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2601.00886v1
+**ID:** 2601.02938v1
 
-**Link:** [http://arxiv.org/abs/2601.00886v1](http://arxiv.org/abs/2601.00886v1)
+**Link:** [http://arxiv.org/abs/2601.02938v1](http://arxiv.org/abs/2601.02938v1)
 
-**Summary:** Generative models hold great promise for accelerating materials discovery, but their evaluation often overlooks the chemical validity and stability requirements crucial to real-world applications. Density Functional Theory (DFT) simulations are the gold standard for evaluating such properties but are computationally intensive and inaccessible to non-experts. We propose a chemically grounded, user-friendly evaluation framework that integrates DFT-based stability analysis with commonly used machine learning (ML) metrics. Through systematic experiments using both perturbative and generative methods, we demonstrate that conventional ML metrics can misrepresent chemical feasibility. To address this, we propose new insights on robust metrics and highlight the importance of simulation-informed evaluation for developing reliable generative models in materials science....
+**Summary:** In computational physics and materials science, first-principles methods, particularly density functional theory, have become central tools for electronic structure prediction and materials design. Recently, rapid advances in artificial intelligence (AI) have begun to reshape the research landscape, giving rise to the emerging field of deep-learning electronic structure calculations. Despite numerous pioneering studies, the field remains in its early stages; existing software implementations are often fragmented, lacking unified frameworks and standardized interfaces required for broad community adoption. Here we present DeepH-pack, a comprehensive and unified software package that integrates first-principles calculations with deep learning. By incorporating fundamental physical principles into neural-network design, such as the nearsightedness principle and the equivariance principle, DeepH-pack achieves robust cross-scale and cross-material generalizability. This allows models trained on small-scale structures to generalize to large-scale and previously unseen materials. The toolkit preserves first-principles accuracy while accelerating electronic structure calculations by several orders of magnitude, establishing an efficient and intelligent computational paradigm for large-scale materials simulation, high-throughput materials database construction, and AI-driven materials discovery....
+
+---
+
+### 2. Offline Model-Based Optimization: Comprehensive Review
+
+**Authors:** Minsu Kim, Jiayao Gu, Ye Yuan, Taeyoung Yun, Zixuan Liu, Yoshua Bengio, Can Chen
+
+**Published:** 2025-03-21
+
+**Category:** cs.LG
+
+**ID:** 2503.17286v2
+
+**Link:** [http://arxiv.org/abs/2503.17286v2](http://arxiv.org/abs/2503.17286v2)
+
+**Summary:** Offline optimization is a fundamental challenge in science and engineering, where the goal is to optimize black-box functions using only offline datasets. This setting is particularly relevant when querying the objective function is prohibitively expensive or infeasible, with applications spanning protein engineering, material discovery, neural architecture search, and beyond. The main difficulty lies in accurately estimating the objective landscape beyond the available data, where extrapolations are fraught with significant epistemic uncertainty. This uncertainty can lead to objective hacking(reward hacking), exploiting model inaccuracies in unseen regions, or other spurious optimizations that yield misleadingly high performance estimates outside the training distribution. Recent advances in model-based optimization(MBO) have harnessed the generalization capabilities of deep neural networks to develop offline-specific surrogate and generative models. Trained with carefully designed strategies, these models are more robust against out-of-distribution issues, facilitating the discovery of improved designs. Despite its growing impact in accelerating scientific discovery, the field lacks a comprehensive review. To bridge this gap, we present the first thorough review of offline MBO. We begin by formalizing the problem for both single-objective and multi-objective settings and by reviewing recent benchmarks and evaluation metrics. We then categorize existing approaches into two key areas: surrogate modeling, which emphasizes accurate function approximation in out-of-distribution regions, and generative modeling, which explores high-dimensional design spaces to identify high-performing designs. Finally, we examine the key challenges and propose promising directions for advancement in this rapidly evolving field including safe control of superintelligent systems....
+
+---
+
+### 3. A large-scale nanocrystal database with aligned synthesis and properties enabling generative inverse design
+
+**Authors:** Kai Gu, Yingping Liang, Senliang Peng, Aotian Guo, Haizheng Zhong, Ying Fu
+
+**Published:** 2026-01-04
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2601.02424v1
+
+**Link:** [http://arxiv.org/abs/2601.02424v1](http://arxiv.org/abs/2601.02424v1)
+
+**Summary:** The synthesis of nanocrystals has been highly dependent on trial-and-error, due to the complex correlation between synthesis parameters and physicochemical properties. Although deep learning offers a potential methodology to achieve generative inverse design, it is still hindered by the scarcity of high-quality datasets that align nanocrystal synthesis routes with their properties. Here, we present the construction of a large-scale, aligned Nanocrystal Synthesis-Property (NSP) database and demonstrate its capability for generative inverse design. To extract structured synthesis routes and their corresponding product properties from literature, we develop NanoExtractor, a large language model (LLM) enhanced by well-designed augmentation strategies. NanoExtractor is validated against human experts, achieving a weighted average score of 88% on the test set, significantly outperforming chemistry-specialized (3%) and general-purpose LLMs (38%). The resulting NSP database contains nearly 160,000 aligned entries and serves as training data for our NanoDesigner, an LLM for inverse synthesis design. The generative capability of NanoDesigner is validated through the successful design of viable synthesis routes for both well-established PbSe nanocrystals and rarely reported MgF2 nanocrystals. Notably, the model recommends a counter-intuitive, non-stoichiometric precursor ratio (1:1) for MgF2 nanocrystals, which is experimentally confirmed as critical for suppressing byproducts. Our work bridges the gap between unstructured literature and data-driven synthesis, and also establishes a powerful human-AI collaborative paradigm for accelerating nanocrystal discovery....
 
 ---
 
