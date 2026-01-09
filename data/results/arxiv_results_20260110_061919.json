@@ -1,0 +1,24 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2601.04054v1",
+    "title": "LinkD: AutoRegressive Diffusion Model for Mechanical Linkage Synthesis",
+    "authors": [
+      "Yayati Jadhav",
+      "Amir Barati Farimani"
+    ],
+    "summary": "Designing mechanical linkages to achieve target end-effector trajectories presents a fundamental challenge due to the intricate coupling between continuous node placements, discrete topological configurations, and nonlinear kinematic constraints. The highly nonlinear motion-to-configuration relationship means small perturbations in joint positions drastically alter trajectories, while the combinatorially expanding design space renders conventional optimization and heuristic methods computationally intractable. We introduce an autoregressive diffusion framework that exploits the dyadic nature of linkage assembly by representing mechanisms as sequentially constructed graphs, where nodes correspond to joints and edges to rigid links. Our approach combines a causal transformer with a Denoising Diffusion Probabilistic Model (DDPM), both conditioned on target trajectories encoded via a transformer encoder. The causal transformer autoregressively predicts discrete topology node-by-node, while the DDPM refines each node's spatial coordinates and edge connectivity to previously generated nodes. This sequential generation enables adaptive trial-and-error synthesis where problematic nodes exhibiting kinematic locking or collisions can be selectively regenerated, allowing autonomous correction of degenerate configurations during design. Our graph-based, data-driven methodology surpasses traditional optimization approaches, enabling scalable inverse design that generalizes to mechanisms with arbitrary node counts. We demonstrate successful synthesis of linkage systems containing up to 20 nodes with extensibility to N-node architectures. This work advances autoregressive graph generation methodologies and computational kinematic synthesis, establishing new paradigms for scalable inverse design of complex mechanical systems.",
+    "published": "2026-01-07T16:19:11+00:00",
+    "updated": "2026-01-07T16:19:11+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2601.04054v1",
+    "base_id": "2601.04054",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2601.04054v1"
+  }
+]

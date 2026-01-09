@@ -34,55 +34,23 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (3)
+## New Papers (1)
 
-*Last updated: 2026-01-08 06:19:14 (SGT)*
+*Last updated: 2026-01-10 06:19:30 (SGT)*
 
-### 1. DeepH-pack: A general-purpose neural network package for deep-learning electronic structure calculations
+### 1. LinkD: AutoRegressive Diffusion Model for Mechanical Linkage Synthesis
 
-**Authors:** Yang Li, Yanzhen Wang, Boheng Zhao, Xiaoxun Gong, Yuxiang Wang, Zechen Tang, Zixu Wang, Zilong Yuan, Jialin Li, Minghui Sun, Zezhou Chen, Honggeng Tao, Baochun Wu, Yuhang Yu, He Li, Felipe H. da Jornada, Wenhui Duan, Yong Xu
+**Authors:** Yayati Jadhav, Amir Barati Farimani
 
-**Published:** 2026-01-06
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2601.02938v1
-
-**Link:** [http://arxiv.org/abs/2601.02938v1](http://arxiv.org/abs/2601.02938v1)
-
-**Summary:** In computational physics and materials science, first-principles methods, particularly density functional theory, have become central tools for electronic structure prediction and materials design. Recently, rapid advances in artificial intelligence (AI) have begun to reshape the research landscape, giving rise to the emerging field of deep-learning electronic structure calculations. Despite numerous pioneering studies, the field remains in its early stages; existing software implementations are often fragmented, lacking unified frameworks and standardized interfaces required for broad community adoption. Here we present DeepH-pack, a comprehensive and unified software package that integrates first-principles calculations with deep learning. By incorporating fundamental physical principles into neural-network design, such as the nearsightedness principle and the equivariance principle, DeepH-pack achieves robust cross-scale and cross-material generalizability. This allows models trained on small-scale structures to generalize to large-scale and previously unseen materials. The toolkit preserves first-principles accuracy while accelerating electronic structure calculations by several orders of magnitude, establishing an efficient and intelligent computational paradigm for large-scale materials simulation, high-throughput materials database construction, and AI-driven materials discovery....
-
----
-
-### 2. Offline Model-Based Optimization: Comprehensive Review
-
-**Authors:** Minsu Kim, Jiayao Gu, Ye Yuan, Taeyoung Yun, Zixuan Liu, Yoshua Bengio, Can Chen
-
-**Published:** 2025-03-21
+**Published:** 2026-01-07
 
 **Category:** cs.LG
 
-**ID:** 2503.17286v2
+**ID:** 2601.04054v1
 
-**Link:** [http://arxiv.org/abs/2503.17286v2](http://arxiv.org/abs/2503.17286v2)
+**Link:** [http://arxiv.org/abs/2601.04054v1](http://arxiv.org/abs/2601.04054v1)
 
-**Summary:** Offline optimization is a fundamental challenge in science and engineering, where the goal is to optimize black-box functions using only offline datasets. This setting is particularly relevant when querying the objective function is prohibitively expensive or infeasible, with applications spanning protein engineering, material discovery, neural architecture search, and beyond. The main difficulty lies in accurately estimating the objective landscape beyond the available data, where extrapolations are fraught with significant epistemic uncertainty. This uncertainty can lead to objective hacking(reward hacking), exploiting model inaccuracies in unseen regions, or other spurious optimizations that yield misleadingly high performance estimates outside the training distribution. Recent advances in model-based optimization(MBO) have harnessed the generalization capabilities of deep neural networks to develop offline-specific surrogate and generative models. Trained with carefully designed strategies, these models are more robust against out-of-distribution issues, facilitating the discovery of improved designs. Despite its growing impact in accelerating scientific discovery, the field lacks a comprehensive review. To bridge this gap, we present the first thorough review of offline MBO. We begin by formalizing the problem for both single-objective and multi-objective settings and by reviewing recent benchmarks and evaluation metrics. We then categorize existing approaches into two key areas: surrogate modeling, which emphasizes accurate function approximation in out-of-distribution regions, and generative modeling, which explores high-dimensional design spaces to identify high-performing designs. Finally, we examine the key challenges and propose promising directions for advancement in this rapidly evolving field including safe control of superintelligent systems....
-
----
-
-### 3. A large-scale nanocrystal database with aligned synthesis and properties enabling generative inverse design
-
-**Authors:** Kai Gu, Yingping Liang, Senliang Peng, Aotian Guo, Haizheng Zhong, Ying Fu
-
-**Published:** 2026-01-04
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2601.02424v1
-
-**Link:** [http://arxiv.org/abs/2601.02424v1](http://arxiv.org/abs/2601.02424v1)
-
-**Summary:** The synthesis of nanocrystals has been highly dependent on trial-and-error, due to the complex correlation between synthesis parameters and physicochemical properties. Although deep learning offers a potential methodology to achieve generative inverse design, it is still hindered by the scarcity of high-quality datasets that align nanocrystal synthesis routes with their properties. Here, we present the construction of a large-scale, aligned Nanocrystal Synthesis-Property (NSP) database and demonstrate its capability for generative inverse design. To extract structured synthesis routes and their corresponding product properties from literature, we develop NanoExtractor, a large language model (LLM) enhanced by well-designed augmentation strategies. NanoExtractor is validated against human experts, achieving a weighted average score of 88% on the test set, significantly outperforming chemistry-specialized (3%) and general-purpose LLMs (38%). The resulting NSP database contains nearly 160,000 aligned entries and serves as training data for our NanoDesigner, an LLM for inverse synthesis design. The generative capability of NanoDesigner is validated through the successful design of viable synthesis routes for both well-established PbSe nanocrystals and rarely reported MgF2 nanocrystals. Notably, the model recommends a counter-intuitive, non-stoichiometric precursor ratio (1:1) for MgF2 nanocrystals, which is experimentally confirmed as critical for suppressing byproducts. Our work bridges the gap between unstructured literature and data-driven synthesis, and also establishes a powerful human-AI collaborative paradigm for accelerating nanocrystal discovery....
+**Summary:** Designing mechanical linkages to achieve target end-effector trajectories presents a fundamental challenge due to the intricate coupling between continuous node placements, discrete topological configurations, and nonlinear kinematic constraints. The highly nonlinear motion-to-configuration relationship means small perturbations in joint positions drastically alter trajectories, while the combinatorially expanding design space renders conventional optimization and heuristic methods computationally intractable. We introduce an autoregressive diffusion framework that exploits the dyadic nature of linkage assembly by representing mechanisms as sequentially constructed graphs, where nodes correspond to joints and edges to rigid links. Our approach combines a causal transformer with a Denoising Diffusion Probabilistic Model (DDPM), both conditioned on target trajectories encoded via a transformer encoder. The causal transformer autoregressively predicts discrete topology node-by-node, while the DDPM refines each node's spatial coordinates and edge connectivity to previously generated nodes. This sequential generation enables adaptive trial-and-error synthesis where problematic nodes exhibiting kinematic locking or collisions can be selectively regenerated, allowing autonomous correction of degenerate configurations during design. Our graph-based, data-driven methodology surpasses traditional optimization approaches, enabling scalable inverse design that generalizes to mechanisms with arbitrary node counts. We demonstrate successful synthesis of linkage systems containing up to 20 nodes with extensibility to N-node architectures. This work advances autoregressive graph generation methodologies and computational kinematic synthesis, establishing new paradigms for scalable inverse design of complex mechanical systems....
 
 ---
 
