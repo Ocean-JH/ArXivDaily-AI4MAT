@@ -1,0 +1,30 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2601.05528v1",
+    "title": "Autonomous Probe Microscopy with Robust Bag-of-Features Multi-Objective Bayesian Optimization: Pareto-Front Mapping of Nanoscale Structure-Property Trade-Offs",
+    "authors": [
+      "Kamyar Barakati",
+      "Haochen Zhu",
+      "C Charlotte Buchanan",
+      "Dustin A Gilbert",
+      "Philip Rack",
+      "Sergei V. Kalinin"
+    ],
+    "summary": "Combinatorial materials libraries are an efficient route to generate large families of candidate compositions, but their impact is often limited by the speed and depth of characterization and by the difficulty of extracting actionable structure-property relations from complex characterization data. Here we develop an autonomous scanning probe microscopy (SPM) framework that integrates automated atomic force and magnetic force microscopy (AFM/MFM) to rapidly explore magnetic and structural properties across combinatorial spread libraries. To enable automated exploration of systems without a clear optimization target, we introduce a combination of a static physics-informed bag-of-features (BoF) representation of measured surface morphology and magnetic structure with multi-objective Bayesian optimization (MOBO) to discover the relative significance and robustness of features. The resulting closed-loop workflow selectively samples the compositional gradient and reconstructs feature landscapes consistent with dense grid \"ground truth\" measurements. The resulting Pareto structure reveals where multiple nanoscale objectives are simultaneously optimized, where trade-offs between roughness, coherence, and magnetic contrast are unavoidable, and how families of compositions cluster into distinct functional regimes, thereby turning multi-feature imaging data into interpretable maps of competing structure-property trends. While demonstrated for Au-Co-Ni and AFM/MFM, the approach is general and can be extended to other combinatorial systems, imaging modalities, and feature sets, illustrating how feature-based MOBO and autonomous SPM can transform microscopy images from static data products into active feedback for real-time, multi-objective materials discovery.",
+    "published": "2026-01-09T04:55:36+00:00",
+    "updated": "2026-01-09T04:55:36+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.LG",
+      "physics.data-an"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "25 pages, 5 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2601.05528v1",
+    "base_id": "2601.05528",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2601.05528v1"
+  }
+]

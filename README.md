@@ -36,21 +36,21 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2026-01-10 06:19:30 (SGT)*
+*Last updated: 2026-01-13 06:17:35 (SGT)*
 
-### 1. LinkD: AutoRegressive Diffusion Model for Mechanical Linkage Synthesis
+### 1. Autonomous Probe Microscopy with Robust Bag-of-Features Multi-Objective Bayesian Optimization: Pareto-Front Mapping of Nanoscale Structure-Property Trade-Offs
 
-**Authors:** Yayati Jadhav, Amir Barati Farimani
+**Authors:** Kamyar Barakati, Haochen Zhu, C Charlotte Buchanan, Dustin A Gilbert, Philip Rack, Sergei V. Kalinin
 
-**Published:** 2026-01-07
+**Published:** 2026-01-09
 
-**Category:** cs.LG
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2601.04054v1
+**ID:** 2601.05528v1
 
-**Link:** [http://arxiv.org/abs/2601.04054v1](http://arxiv.org/abs/2601.04054v1)
+**Link:** [http://arxiv.org/abs/2601.05528v1](http://arxiv.org/abs/2601.05528v1)
 
-**Summary:** Designing mechanical linkages to achieve target end-effector trajectories presents a fundamental challenge due to the intricate coupling between continuous node placements, discrete topological configurations, and nonlinear kinematic constraints. The highly nonlinear motion-to-configuration relationship means small perturbations in joint positions drastically alter trajectories, while the combinatorially expanding design space renders conventional optimization and heuristic methods computationally intractable. We introduce an autoregressive diffusion framework that exploits the dyadic nature of linkage assembly by representing mechanisms as sequentially constructed graphs, where nodes correspond to joints and edges to rigid links. Our approach combines a causal transformer with a Denoising Diffusion Probabilistic Model (DDPM), both conditioned on target trajectories encoded via a transformer encoder. The causal transformer autoregressively predicts discrete topology node-by-node, while the DDPM refines each node's spatial coordinates and edge connectivity to previously generated nodes. This sequential generation enables adaptive trial-and-error synthesis where problematic nodes exhibiting kinematic locking or collisions can be selectively regenerated, allowing autonomous correction of degenerate configurations during design. Our graph-based, data-driven methodology surpasses traditional optimization approaches, enabling scalable inverse design that generalizes to mechanisms with arbitrary node counts. We demonstrate successful synthesis of linkage systems containing up to 20 nodes with extensibility to N-node architectures. This work advances autoregressive graph generation methodologies and computational kinematic synthesis, establishing new paradigms for scalable inverse design of complex mechanical systems....
+**Summary:** Combinatorial materials libraries are an efficient route to generate large families of candidate compositions, but their impact is often limited by the speed and depth of characterization and by the difficulty of extracting actionable structure-property relations from complex characterization data. Here we develop an autonomous scanning probe microscopy (SPM) framework that integrates automated atomic force and magnetic force microscopy (AFM/MFM) to rapidly explore magnetic and structural properties across combinatorial spread libraries. To enable automated exploration of systems without a clear optimization target, we introduce a combination of a static physics-informed bag-of-features (BoF) representation of measured surface morphology and magnetic structure with multi-objective Bayesian optimization (MOBO) to discover the relative significance and robustness of features. The resulting closed-loop workflow selectively samples the compositional gradient and reconstructs feature landscapes consistent with dense grid "ground truth" measurements. The resulting Pareto structure reveals where multiple nanoscale objectives are simultaneously optimized, where trade-offs between roughness, coherence, and magnetic contrast are unavoidable, and how families of compositions cluster into distinct functional regimes, thereby turning multi-feature imaging data into interpretable maps of competing structure-property trends. While demonstrated for Au-Co-Ni and AFM/MFM, the approach is general and can be extended to other combinatorial systems, imaging modalities, and feature sets, illustrating how feature-based MOBO and autonomous SPM can transform microscopy images from static data products into active feedback for real-time, multi-objective materials discovery....
 
 ---
 
