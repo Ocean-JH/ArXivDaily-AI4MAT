@@ -36,37 +36,37 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (2)
 
-*Last updated: 2026-01-14 06:20:26 (SGT)*
+*Last updated: 2026-01-15 06:20:38 (SGT)*
 
-### 1. Learning Design-Score Manifold to Guide Diffusion Models for Offline Optimization
+### 1. Symmetry-aware Conditional Generation of Crystal Structures Using Diffusion Models
 
-**Authors:** Tailin Zhou, Zhilin Chen, Wenlong Lyu, Zhitang Chen, Danny H. K. Tsang, Jun Zhang
+**Authors:** Takanori Ishii, Kaoru Hisama, Kohei Shinohara
 
-**Published:** 2025-06-06
+**Published:** 2026-01-13
 
-**Category:** cs.LG
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2506.05680v2
+**ID:** 2601.08115v1
 
-**Link:** [http://arxiv.org/abs/2506.05680v2](http://arxiv.org/abs/2506.05680v2)
+**Link:** [http://arxiv.org/abs/2601.08115v1](http://arxiv.org/abs/2601.08115v1)
 
-**Summary:** Optimizing complex systems, from discovering therapeutic drugs to designing high-performance materials, remains a fundamental challenge across science and engineering, as the underlying rules are often unknown and costly to evaluate. Offline optimization aims to optimize designs for target scores using pre-collected datasets without system interaction. However, conventional approaches may fail beyond training data, predicting inaccurate scores and generating inferior designs. This paper introduces ManGO, a diffusion-based framework that learns the design-score manifold, capturing the design-score interdependencies holistically. Unlike existing methods that treat design and score spaces in isolation, ManGO unifies forward prediction and backward generation, attaining generalization beyond training data. Key to this is its derivative-free guidance for conditional generation, coupled with adaptive inference-time scaling that dynamically optimizes denoising paths. Extensive evaluations demonstrate that ManGO outperforms 24 single- and 10 multi-objective optimization methods across diverse domains, including synthetic tasks, robot control, material design, DNA sequence, and real-world engineering optimization....
+**Summary:** The application of generative models in crystal structure prediction (CSP) has gained significant attention. Conditional generation--particularly the generation of crystal structures with specified stability or other physical properties has been actively researched for material discovery purposes. Meanwhile, the generative models capable of symmetry-aware generation are also under active development, because space group symmetry has a strong relationship with the physical properties of materials. In this study, we demonstrate that the symmetry control in the previous conditional crystal generation model may not be sufficiently effective when space group constraints are applied as a condition. To address this problem, we propose the WyckoffDiff-Adaptor, which embeds conditional generation within a WyckoffDiff architecture that effectively diffuses Wyckoff positions to achieve precise symmetry control. We successfully generated formation energy phase diagrams while specifying stable structures of particular combination of elements, such as Li--O and Ti--O systems, while simultaneously preserving the symmetry of the input conditions. The proposed method with symmetry-aware conditional generation demonstrates promising results as an effective approach to achieving the discovery of novel materials with targeted physical properties....
 
 ---
 
-### 2. Implicit bias as a Gauge correction: Theory and Inverse Design
+### 2. DataScribe: An AI-Native, Policy-Aligned Web Platform for Multi-Objective Materials Design and Discovery
 
-**Authors:** Nicola Aladrah, Emanuele Ballarin, Matteo Biagetti, Alessio Ansuini, Alberto d'Onofrio, Fabio Anselmi
+**Authors:** Divyanshu Singh, Doguhan Sarıtürk, Cameron Lea, Md Shafiqul Islam, Raymundo Arroyave, Vahid Attari
 
-**Published:** 2026-01-10
+**Published:** 2026-01-12
 
 **Category:** cs.LG
 
-**ID:** 2601.06597v1
+**ID:** 2601.07966v1
 
-**Link:** [http://arxiv.org/abs/2601.06597v1](http://arxiv.org/abs/2601.06597v1)
+**Link:** [http://arxiv.org/abs/2601.07966v1](http://arxiv.org/abs/2601.07966v1)
 
-**Summary:** A central problem in machine learning theory is to characterize how learning dynamics select particular solutions among the many compatible with the training objective, a phenomenon, called implicit bias, which remains only partially characterized. In the present work, we identify a general mechanism, in terms of an explicit geometric correction of the learning dynamics, for the emergence of implicit biases, arising from the interaction between continuous symmetries in the model's parametrization and stochasticity in the optimization process. Our viewpoint is constructive in two complementary directions: given model symmetries, one can derive the implicit bias they induce; conversely, one can inverse-design a wide class of different implicit biases by computing specific redundant parameterizations. More precisely, we show that, when the dynamics is expressed in the quotient space obtained by factoring out the symmetry group of the parameterization, the resulting stochastic differential equation gains a closed form geometric correction in the stationary distribution of the optimizer dynamics favoring orbits with small local volume. We compute the resulting symmetry induced bias for a range of architectures, showing how several well known results fit into a single unified framework. The approach also provides a practical methodology for deriving implicit biases in new settings, and it yields concrete, testable predictions that we confirm by numerical simulations on toy models trained on synthetic data, leaving more complex scenarios for future work. Finally, we test the implicit bias inverse-design procedure in notable cases, including biases toward sparsity in linear features or in spectral properties of the model parameters....
+**Summary:** The acceleration of materials discovery requires digital platforms that go beyond data repositories to embed learning, optimization, and decision-making directly into research workflows. We introduce DataScribe, an AI-native, cloud-based materials discovery platform that unifies heterogeneous experimental and computational data through ontology-backed ingestion and machine-actionable knowledge graphs. The platform integrates FAIR-compliant metadata capture, schema and unit harmonization, uncertainty-aware surrogate modeling, and native multi-objective multi-fidelity Bayesian optimization, enabling closed-loop propose-measure-learn workflows across experimental and computational pipelines. DataScribe functions as an application-layer intelligence stack, coupling data governance, optimization, and explainability rather than treating them as downstream add-ons. We validate the platform through case studies in electrochemical materials and high-entropy alloys, demonstrating end-to-end data fusion, real-time optimization, and reproducible exploration of multi-objective trade spaces. By embedding optimization engines, machine learning, and unified access to public and private scientific data directly within the data infrastructure, and by supporting open, free use for academic and non-profit researchers, DataScribe functions as a general-purpose application-layer backbone for laboratories of any scale, including self-driving laboratories and geographically distributed materials acceleration platforms, with built-in support for performance, sustainability, and supply-chain-aware objectives....
 
 ---
 
