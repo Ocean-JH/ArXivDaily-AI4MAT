@@ -36,37 +36,37 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (2)
 
-*Last updated: 2026-01-15 06:20:38 (SGT)*
+*Last updated: 2026-01-16 06:20:07 (SGT)*
 
-### 1. Symmetry-aware Conditional Generation of Crystal Structures Using Diffusion Models
+### 1. LeMat-GenBench: A Unified Evaluation Framework for Crystal Generative Models
 
-**Authors:** Takanori Ishii, Kaoru Hisama, Kohei Shinohara
+**Authors:** Siddharth Betala, Samuel P. Gleason, Ali Ramlaoui, Andy Xu, Georgia Channing, Daniel Levy, Clémentine Fourrier, Nikita Kazeev, Chaitanya K. Joshi, Sékou-Oumar Kaba, Félix Therrien, Alex Hernandez-Garcia, Rocío Mercado, N. M. Anoop Krishnan, Alexandre Duval
+
+**Published:** 2025-12-04
+
+**Category:** cs.LG
+
+**ID:** 2512.04562v2
+
+**Link:** [http://arxiv.org/abs/2512.04562v2](http://arxiv.org/abs/2512.04562v2)
+
+**Summary:** Generative machine learning (ML) models hold great promise for accelerating materials discovery through the inverse design of inorganic crystals, enabling an unprecedented exploration of chemical space. Yet, the lack of standardized evaluation frameworks makes it challenging to evaluate, compare, and further develop these ML models meaningfully. In this work, we introduce LeMat-GenBench, a unified benchmark for generative models of crystalline materials, supported by a set of evaluation metrics designed to better inform model development and downstream applications. We release both an open-source evaluation suite and a public leaderboard on Hugging Face, and benchmark 12 recent generative models. Results reveal that an increase in stability leads to a decrease in novelty and diversity on average, with no model excelling across all dimensions. Altogether, LeMat-GenBench establishes a reproducible and extensible foundation for fair model comparison and aims to guide the development of more reliable, discovery-oriented generative models for crystalline materials....
+
+---
+
+### 2. Machine Learning-Driven Creep Law Discovery Across Alloy Compositional Space
+
+**Authors:** Hongshun Chen, Ryan Zhou, Rujing Zha, Zihan Chen, Wenpan Li, Rowan Rolark, John Patrick Reidy, Jian Cao, Ping Guo, David C. Dunand, Horacio D. Espinosa
 
 **Published:** 2026-01-13
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2601.08115v1
+**ID:** 2601.08970v1
 
-**Link:** [http://arxiv.org/abs/2601.08115v1](http://arxiv.org/abs/2601.08115v1)
+**Link:** [http://arxiv.org/abs/2601.08970v1](http://arxiv.org/abs/2601.08970v1)
 
-**Summary:** The application of generative models in crystal structure prediction (CSP) has gained significant attention. Conditional generation--particularly the generation of crystal structures with specified stability or other physical properties has been actively researched for material discovery purposes. Meanwhile, the generative models capable of symmetry-aware generation are also under active development, because space group symmetry has a strong relationship with the physical properties of materials. In this study, we demonstrate that the symmetry control in the previous conditional crystal generation model may not be sufficiently effective when space group constraints are applied as a condition. To address this problem, we propose the WyckoffDiff-Adaptor, which embeds conditional generation within a WyckoffDiff architecture that effectively diffuses Wyckoff positions to achieve precise symmetry control. We successfully generated formation energy phase diagrams while specifying stable structures of particular combination of elements, such as Li--O and Ti--O systems, while simultaneously preserving the symmetry of the input conditions. The proposed method with symmetry-aware conditional generation demonstrates promising results as an effective approach to achieving the discovery of novel materials with targeted physical properties....
-
----
-
-### 2. DataScribe: An AI-Native, Policy-Aligned Web Platform for Multi-Objective Materials Design and Discovery
-
-**Authors:** Divyanshu Singh, Doguhan Sarıtürk, Cameron Lea, Md Shafiqul Islam, Raymundo Arroyave, Vahid Attari
-
-**Published:** 2026-01-12
-
-**Category:** cs.LG
-
-**ID:** 2601.07966v1
-
-**Link:** [http://arxiv.org/abs/2601.07966v1](http://arxiv.org/abs/2601.07966v1)
-
-**Summary:** The acceleration of materials discovery requires digital platforms that go beyond data repositories to embed learning, optimization, and decision-making directly into research workflows. We introduce DataScribe, an AI-native, cloud-based materials discovery platform that unifies heterogeneous experimental and computational data through ontology-backed ingestion and machine-actionable knowledge graphs. The platform integrates FAIR-compliant metadata capture, schema and unit harmonization, uncertainty-aware surrogate modeling, and native multi-objective multi-fidelity Bayesian optimization, enabling closed-loop propose-measure-learn workflows across experimental and computational pipelines. DataScribe functions as an application-layer intelligence stack, coupling data governance, optimization, and explainability rather than treating them as downstream add-ons. We validate the platform through case studies in electrochemical materials and high-entropy alloys, demonstrating end-to-end data fusion, real-time optimization, and reproducible exploration of multi-objective trade spaces. By embedding optimization engines, machine learning, and unified access to public and private scientific data directly within the data infrastructure, and by supporting open, free use for academic and non-profit researchers, DataScribe functions as a general-purpose application-layer backbone for laboratories of any scale, including self-driving laboratories and geographically distributed materials acceleration platforms, with built-in support for performance, sustainability, and supply-chain-aware objectives....
+**Summary:** Hihg-temperature creep characterization of structural alloys traditionally relies on serial uniaxial tests, which are highly inefficient for exploring the large search space of alloy compositions and for material discovery. Here, we introduce a machine-learning-assisted, high-throughput framework for creep law identification based on a dimple array bulge instrument (DABI) configuration, which enables parallel creep testing of 25 dimples, each fabricated from a different alloy, in a single experiment. Full-field surface displacements of dimples undergoing time-dependent creep-induced bulging under inert gas pressure are measured by 3D digital image correlation. We train a recurrent neural network (RNN) as a surrogate model, mapping creep parameters and loading conditions to the time-dependent deformation response of DABI. Coupling this surrogate with a particle swarm optimization scheme enables rapid and global inverse identification with sparsity regularization of creep parameters from experiment displacement-time histories. In addition, we propose a phenomenological creep law with a time-dependent stress exponent that captures the sigmoidal primary creep observed in wrought INCONEL 625 and extracts its temperature dependence from DABI test at multiple temperatures. Furthermore, we employ a general creep law combining several conventional forms together with regularized inversion to identify the creep laws for 47 additional Fe-, Ni-, and Co-rich alloys and to automatically select the dominant functional form for each alloy. This workflow combined with DABI experiment provides a quantitative, high-throughput creep characterization platform that is compatible with data mining, composition-property modeling, and nonlinear structural optimization with creep behavior across a large alloy design space....
 
 ---
 
