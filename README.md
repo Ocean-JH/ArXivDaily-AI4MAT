@@ -34,39 +34,71 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (2)
+## New Papers (4)
 
-*Last updated: 2026-01-20 06:20:06 (SGT)*
+*Last updated: 2026-01-22 06:23:16 (SGT)*
 
-### 1. Reinforcement Fine-Tuning for Materials Design
+### 1. Generative Adversarial Networks for Resource State Generation
 
-**Authors:** Zhendong Cao, Lei Wang
+**Authors:** Shahbaz Shaik, Sourav Chatterjee, Sayantan Pramanik, Indranil Chakrabarty
 
-**Published:** 2025-04-03
+**Published:** 2026-01-20
 
-**Category:** cond-mat.mtrl-sci
+**Category:** quant-ph
 
-**ID:** 2504.02367v3
+**ID:** 2601.13708v1
 
-**Link:** [http://arxiv.org/abs/2504.02367v3](http://arxiv.org/abs/2504.02367v3)
+**Link:** [http://arxiv.org/abs/2601.13708v1](http://arxiv.org/abs/2601.13708v1)
 
-**Summary:** Reinforcement fine-tuning played an instrumental role in enhancing the instruction-following and reasoning abilities of large language models. In this work, we employ reinforcement fine-tuning for materials design, in which discriminative machine learning models are used to provide rewards to the autoregressive transformer-based materials generative model CrystalFormer. By optimizing the reward signals-such as energy above the convex hull and material properties figures of merit-reinforcement fine-tuning infuses knowledge from discriminative models into generative models. The resulting model, CrystalFormer-RL, shows enhanced stability in generated crystals and successfully discovers crystals with desirable yet conflicting material properties, such as substantial dielectric constant and band gap simultaneously. Notably, we observe that reinforcement fine-tuning not only enables the property-guided material design but also unlocks property-based material retrieval behavior of pretrained generative model. The present framework opens an exciting gateway to the synergies of the machine learning ecosystem for materials design....
+**Summary:** We introduce a physics-informed Generative Adversarial Network framework that recasts quantum resource-state generation as an inverse-design task. By embedding task-specific utility functions into training, the model learns to generate valid two-qubit states optimized for teleportation and entanglement broadcasting. Comparing decomposition-based and direct-generation architectures reveals that structural enforcement of Hermiticity, trace-one, and positivity yields higher fidelity and training stability than loss-only approaches. The framework reproduces theoretical resource boundaries for Werner-like and Bell-diagonal states with fidelities exceeding ~98%, establishing adversarial learning as a lightweight yet effective method for constraint-driven quantum-state discovery. This approach provides a scalable foundation for automated design of tailored quantum resources for information-processing applications, exemplified with teleportation and broadcasting of entanglement, and it opens up the possibility of using such states in efficient quantum network design....
 
 ---
 
-### 2. AI-Guided Human-In-the-Loop Inverse Design of High Performance Engineering Structures
+### 2. Multi-objective fluorescent molecule design with a data-physics dual-driven generative framework
 
-**Authors:** Dat Quoc Ha, Md Ferdous Alam, Markus J. Buehler, Faez Ahmed, Josephine V. Carstensen
+**Authors:** Yanheng Li, Zhichen Pu, Lijiang Yang, Zehao Zhou, Yi Qin Gao
 
-**Published:** 2026-01-15
+**Published:** 2026-01-20
 
 **Category:** cs.LG
 
-**ID:** 2601.10859v1
+**ID:** 2601.13564v1
 
-**Link:** [http://arxiv.org/abs/2601.10859v1](http://arxiv.org/abs/2601.10859v1)
+**Link:** [http://arxiv.org/abs/2601.13564v1](http://arxiv.org/abs/2601.13564v1)
 
-**Summary:** Inverse design tools such as Topology Optimization (TO) can achieve new levels of improvement for high-performance engineered structures. However, widespread use is hindered by high computational times and a black-box nature that inhibits user interaction. Human-in-the-loop TO approaches are emerging that integrate human intuition into the design generation process. However, these rely on the time-consuming bottleneck of iterative region selection for design modifications. To reduce the number of iterative trials, this contribution presents an AI co-pilot that uses machine learning to predict the user's preferred regions. The prediction model is configured as an image segmentation task with a U-Net architecture. It is trained on synthetic datasets where human preferences either identify the longest topological member or the most complex structural connection. The model successfully predicts plausible regions for modification and presents them to the user as AI recommendations. The human preference model demonstrates generalization across diverse and non-standard TO problems and exhibits emergent behavior outside the single-region selection training data. Demonstration examples show that the new human-in-the-loop TO approach that integrates the AI co-pilot can improve manufacturability or improve the linear buckling load by 39% while only increasing the total design time by 15 sec compared to conventional simplistic TO....
+**Summary:** Designing fluorescent small molecules with tailored optical and physicochemical properties requires navigating vast, underexplored chemical space while satisfying multiple objectives and constraints. Conventional generate-score-screen approaches become impractical under such realistic design specifications, owing to their low search efficiency, unreliable generalizability of machine-learning prediction, and the prohibitive cost of quantum chemical calculation. Here we present LUMOS, a data-and-physics driven framework for inverse design of fluorescent molecules. LUMOS couples generator and predictor within a shared latent representation, enabling direct specification-to-molecule design and efficient exploration. Moreover, LUMOS combines neural networks with a fast time-dependent density functional theory (TD-DFT) calculation workflow to build a suite of complementary predictors spanning different trade-offs in speed, accuracy, and generalizability, enabling reliable property prediction across diverse scenarios. Finally, LUMOS employs a property-guided diffusion model integrated with multi-objective evolutionary algorithms, enabling de novo design and molecular optimization under multiple objectives and constraints. Across comprehensive benchmarks, LUMOS consistently outperforms baseline models in terms of accuracy, generalizability and physical plausibility for fluorescence property prediction, and demonstrates superior performance in multi-objective scaffold- and fragment-level molecular optimization. Further validation using TD-DFT and molecular dynamics (MD) simulations demonstrates that LUMOS can generate valid fluorophores that meet various target specifications. Overall, these results establish LUMOS as a data-physics dual-driven framework for general fluorophore inverse design....
+
+---
+
+### 3. RAG: A Random-Forest-Based Generative Design Framework for Uncertainty-Aware Design of Metamaterials with Complex Functional Response Requirements
+
+**Authors:** Bolin Chen, Dex Doksoo Lee, Wei "Wayne'' Chen, Wei Chen
+
+**Published:** 2026-01-19
+
+**Category:** cs.AI
+
+**ID:** 2601.13233v1
+
+**Link:** [http://arxiv.org/abs/2601.13233v1](http://arxiv.org/abs/2601.13233v1)
+
+**Summary:** Metamaterials design for advanced functionality often entails the inverse design on nonlinear and condition-dependent responses (e.g., stress-strain relation and dispersion relation), which are described by continuous functions. Most existing design methods focus on vector-valued responses (e.g., Young's modulus and bandgap width), while the inverse design of functional responses remains challenging due to their high-dimensionality, the complexity of accommodating design requirements in inverse-design frameworks, and non-existence or non-uniqueness of feasible solutions. Although generative design approaches have shown promise, they are often data-hungry, handle design requirements heuristically, and may generate infeasible designs without uncertainty quantification. To address these challenges, we introduce a RAndom-forest-based Generative approach (RAG). By leveraging the small-data compatibility of random forests, RAG enables data-efficient predictions of high-dimensional functional responses. During the inverse design, the framework estimates the likelihood through the ensemble which quantifies the trustworthiness of generated designs while reflecting the relative difficulty across different requirements. The one-to-many mapping is addressed through single-shot design generation by sampling from the conditional likelihood. We demonstrate RAG on: 1) acoustic metamaterials with prescribed partial passbands/stopbands, and 2) mechanical metamaterials with targeted snap-through responses, using 500 and 1057 samples, respectively. Its data-efficiency is benchmarked against neural networks on a public mechanical metamaterial dataset with nonlinear stress-strain relations. Our framework provides a lightweight, trustworthy pathway to inverse design involving functional responses, expensive simulations, and complex design requirements, beyond metamaterials....
+
+---
+
+### 4. Artificial Intelligence in Materials Science and Engineering: Current Landscape, Key Challenges, and Future Trajectorie
+
+**Authors:** Iman Peivaste, Salim Belouettar, Francesco Mercuri, Nicholas Fantuzzi, Hamidreza Dehghani, Razieh Izadi, Halliru Ibrahim, Jakub Lengiewicz, Maël Belouettar-Mathis, Kouider Bendine, Ahmed Makradi, Martin Hörsch, Peter Klein, Mohamed El Hachemi, Heinz A. Preisig, Yacine Rezgui, Natalia Konchakova, Ali Daouadji
+
+**Published:** 2026-01-18
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2601.12554v1
+
+**Link:** [http://arxiv.org/abs/2601.12554v1](http://arxiv.org/abs/2601.12554v1)
+
+**Summary:** Artificial Intelligence is rapidly transforming materials science and engineering, offering powerful tools to navigate complexity, accelerate discovery, and optimize material design in ways previously unattainable. Driven by the accelerating pace of algorithmic advancements and increasing data availability, AI is becoming an essential competency for materials researchers. This review provides a comprehensive and structured overview of the current landscape, synthesizing recent advancements and methodologies for materials scientists seeking to effectively leverage these data-driven techniques. We survey the spectrum of machine learning approaches, from traditional algorithms to advanced deep learning architectures, including CNNs, GNNs, and Transformers, alongside emerging generative AI and probabilistic models such as Gaussian Processes for uncertainty quantification. The review also examines the pivotal role of data in this field, emphasizing how effective representation and featurization strategies, spanning compositional, structural, image-based, and language-inspired approaches, combined with appropriate preprocessing, fundamentally underpin the performance of machine learning models in materials research. Persistent challenges related to data quality, quantity, and standardization, which critically impact model development and application in materials science and engineering, are also addressed....
 
 ---
 
