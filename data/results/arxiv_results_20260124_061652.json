@@ -1,0 +1,29 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2601.15743v1",
+    "title": "Materealize: a multi-agent deliberation system for end-to-end material design and synthesis",
+    "authors": [
+      "Seongmin Kim",
+      "Jaehwan Choi",
+      "Kunik Jang",
+      "Junkil Park",
+      "Varinia Bernales",
+      "Alán Aspuru-Guzik",
+      "Yousung Jung"
+    ],
+    "summary": "We propose Materealize, a multi-agent system for end-to-end inorganic materials design and synthesis that orchestrates core domain tools spanning structure generation, property prediction, synthesizability prediction, and synthesis planning within a single unified framework. Through a natural-language interface, Materealize enables non-experts to access computational materials workflows and obtain experimentally actionable outputs for material realization. Materealize provides two complementary modes. In instant mode, the system rapidly composes connected tools to solve diverse inorganic tasks-including property-conditioned synthesizable candidate design with synthesis recipes, diagnosis, and redesign of unsynthesizable structures, and synthesizable data augmentation-within a few minutes. In thinking mode, Materealize applies multi-agent debate to deliver more refined and information-rich synthesis recommendations, including reasoning- and model-driven synthesis routes and mechanistic hypotheses. The mechanistic hypotheses are validated by direct comparison with the literature for known mechanisms and further supported by physics-grounded simulations for novel synthesis pathways. By combining tool-level accuracy with reasoning-level integration, Materealize can bridge the gap between computational discovery and practical experimental realization.",
+    "published": "2026-01-22T08:13:19+00:00",
+    "updated": "2026-01-22T08:13:19+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "30 pages main text, 8 main figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2601.15743v1",
+    "base_id": "2601.15743",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2601.15743v1"
+  }
+]
