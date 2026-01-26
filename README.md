@@ -36,21 +36,21 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2026-01-24 06:17:04 (SGT)*
+*Last updated: 2026-01-27 06:19:59 (SGT)*
 
-### 1. Materealize: a multi-agent deliberation system for end-to-end material design and synthesis
+### 1. Active learning for photonics
 
-**Authors:** Seongmin Kim, Jaehwan Choi, Kunik Jang, Junkil Park, Varinia Bernales, Alán Aspuru-Guzik, Yousung Jung
+**Authors:** Ryan Lopez, Charlotte Loh, Rumen Dangovski, Marin Soljačić
 
 **Published:** 2026-01-22
 
-**Category:** cond-mat.mtrl-sci
+**Category:** physics.optics
 
-**ID:** 2601.15743v1
+**ID:** 2601.16287v1
 
-**Link:** [http://arxiv.org/abs/2601.15743v1](http://arxiv.org/abs/2601.15743v1)
+**Link:** [http://arxiv.org/abs/2601.16287v1](http://arxiv.org/abs/2601.16287v1)
 
-**Summary:** We propose Materealize, a multi-agent system for end-to-end inorganic materials design and synthesis that orchestrates core domain tools spanning structure generation, property prediction, synthesizability prediction, and synthesis planning within a single unified framework. Through a natural-language interface, Materealize enables non-experts to access computational materials workflows and obtain experimentally actionable outputs for material realization. Materealize provides two complementary modes. In instant mode, the system rapidly composes connected tools to solve diverse inorganic tasks-including property-conditioned synthesizable candidate design with synthesis recipes, diagnosis, and redesign of unsynthesizable structures, and synthesizable data augmentation-within a few minutes. In thinking mode, Materealize applies multi-agent debate to deliver more refined and information-rich synthesis recommendations, including reasoning- and model-driven synthesis routes and mechanistic hypotheses. The mechanistic hypotheses are validated by direct comparison with the literature for known mechanisms and further supported by physics-grounded simulations for novel synthesis pathways. By combining tool-level accuracy with reasoning-level integration, Materealize can bridge the gap between computational discovery and practical experimental realization....
+**Summary:** Active learning for photonic crystals explores the integration of analytic approximate Bayesian last layer neural networks (LL-BNNs) with uncertainty-driven sample selection to accelerate photonic band gap prediction. We employ an analytic LL-BNN formulation, corresponding to the infinite Monte Carlo sample limit, to obtain uncertainty estimates that are strongly correlated with the true predictive error on unlabeled candidate structures. These uncertainty scores drive an active learning strategy that prioritizes the most informative simulations during training. Applied to the task of predicting band gap sizes in two-dimensional, two-tone photonic crystals, our approach achieves up to a 2.6x reduction in required training data compared to a random sampling baseline while maintaining predictive accuracy. The efficiency gains arise from concentrating computational resources on high uncertainty regions of the design space rather than sampling uniformly. Given the substantial cost of full band structure simulations, especially in three dimensions, this data efficiency enables rapid and scalable surrogate modeling. Our results suggest that analytic LL-BNN based active learning can substantially accelerate topological optimization and inverse design workflows for photonic crystals, and more broadly, offers a general framework for data efficient regression across scientific machine learning domains....
 
 ---
 
