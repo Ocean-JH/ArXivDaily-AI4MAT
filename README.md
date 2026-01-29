@@ -34,55 +34,23 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (3)
+## New Papers (1)
 
-*Last updated: 2026-01-29 06:25:10 (SGT)*
+*Last updated: 2026-01-30 06:26:15 (SGT)*
 
-### 1. C2NP: A Benchmark for Learning Scale-Dependent Geometric Invariances in 3D Materials Generation
+### 1. Thermal Analog Computing: Application to Matrix-vector Multiplication with Inverse-designed Metastructures
 
-**Authors:** Can Polat, Erchin Serpedin, Mustafa Kurban, Hasan Kurban
+**Authors:** Caio Silva, Giuseppe Romano
 
-**Published:** 2026-01-27
+**Published:** 2025-03-28
 
-**Category:** cond-mat.mtrl-sci
+**Category:** cond-mat.mes-hall
 
-**ID:** 2601.19076v1
+**ID:** 2503.22603v3
 
-**Link:** [http://arxiv.org/abs/2601.19076v1](http://arxiv.org/abs/2601.19076v1)
+**Link:** [http://arxiv.org/abs/2503.22603v3](http://arxiv.org/abs/2503.22603v3)
 
-**Summary:** Generative models for materials have achieved strong performance on periodic bulk crystals, yet their ability to generalize across scale transitions to finite nanostructures remains largely untested. We introduce Crystal-to-Nanoparticle (C2NP), a systematic benchmark for evaluating generative models when moving between infinite crystalline unit cells and finite nanoparticles, where surface effects and size-dependent distortions dominate. C2NP defines two complementary tasks: (i) generating nanoparticles of specified radii from periodic unit cells, testing whether models capture surface truncation and geometric constraints; and (ii) recovering bulk lattice parameters and space-group symmetry from finite particle configurations, assessing whether models can infer underlying crystallographic order despite surface perturbations. Using diverse materials as a structurally consistent testbed, we construct over 170,000 nanoparticle configurations by carving particles from supercells derived from DFT-relaxed crystal unit cells, and introduce size-based splits that separate interpolation from extrapolation regimes. Experiments with state-of-the-art approaches, including diffusion, flow-matching, and variational models, show that even when losses are low, models often fail geometrically under distribution shift, yielding large lattice-recovery errors and near-zero joint accuracy on structure and symmetry. Overall, our results suggest that current methods rely on template memorization rather than scalable physical generalization. C2NP offers a controlled, reproducible framework for diagnosing these failures, with immediate applications to nanoparticle catalyst design, nanostructured hydrides for hydrogen storage, and materials discovery. Dataset and code are available at https://github.com/KurbanIntelligenceLab/C2NP....
-
----
-
-### 2. Accelerated design of proton exchange membranes for green hydrogen production with artificial intelligence
-
-**Authors:** Huan Tran, Akhlak Mahmood, Harshal Chaudhari, Kuldeep Mamtani, Chiho Kim, Rampi Ramprasad, Anand N. Krishnamoorthy, Abhirup Patra
-
-**Published:** 2026-01-26
-
-**Category:** cond-mat.soft
-
-**ID:** 2601.18914v1
-
-**Link:** [http://arxiv.org/abs/2601.18914v1](http://arxiv.org/abs/2601.18914v1)
-
-**Summary:** Water electrolysis is an eco-friendly method for hydrogen production that has reached significant levels of technological maturity. Among commercialized water-electrolysis technologies, proton-exchange membrane electrolyzers offer high current density, fast dynamic response, and compact system design, among other advantages. On the other hand, managing their high capital cost and the ``forever-chemistry'' nature of Nafion, a perfluorinated proton-exchange membrane widely used in such devices, remains a major challenge. Searches for fluorine-free replacements for Nafion, pursued largely through physical experimentation, have been active for decades with limited success. In this work, we develop and demonstrate an AI-based strategy for designing new proton-exchange membranes for electrolyzers. Two key components of this strategy are an implementation of the virtual forward-synthesis approach and a set of machine-learning predictive models for essential application-inspired membrane properties; the former generates a vast space of millions of synthesizable polymers, which are then evaluated and screened by the latter. The strategy is validated against experimental data for known membranes and then applied to design over 1,700 new synthesizable candidates. This article concludes with a forward-looking vision in which the strategy could be elevated into an interactive and iterative scheme that are based on large language models to facilitate materials design in multiple ways....
-
----
-
-### 3. InSpecLearn4SDL: Interpretable Spectral Features Predict Conductivity in Self-Driving Doped Conjugated Polymer Labs
-
-**Authors:** Ankush Kumar Mishra, Jacob P. Mauthe, Nicholas Luke, Aram Amassian, Baskar Ganapathysubramanian
-
-**Published:** 2025-09-06
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2509.21330v2
-
-**Link:** [http://arxiv.org/abs/2509.21330v2](http://arxiv.org/abs/2509.21330v2)
-
-**Summary:** To accelerate materials discovery using self-driving labs (SDLs), we present a machine learning pipeline that predicts the electrical conductivity of doped conjugated polymers using rapid, non-destructive optical spectroscopy. Our approach automates spectral featurization by combining a genetic algorithm with adaptive area-under-the-curve (AUC) computations, creating a quantitative structure-property relationship (QSPR) that links optical response and processing parameters to conductivity. By incorporating SHAP-guided selection and domain-knowledge-based feature expansion, the model matches expert-curated performance while theoretically reducing experimental effort by $\sim 33\%$ by minimizing the need for costly direct conductivity measurements. Notably, the model recovers known physical descriptors in pBTTT and identifies informative tail-state regions correlated with polymer bleaching upon successful doping. This generic, interpretable, small-data-friendly methodology can be extended to other spectroscopic modalities, such as Raman or FTIR, providing a framework for autonomous decision-making in SDLs....
+**Summary:** The rising computational demand of modern workloads has renewed interest in energy-efficient paradigms such as neuromorphic and analog computing. A fundamental operation in these systems is matrix-vector multiplication (MVM), ubiquitous in signal processing and machine learning. Here, we demonstrate MVM using inverse-designed metastructures that exploit heat conduction as the signal carrier. The proposed approach is based on a generalization of effective thermal conductivity to systems with multiple input and output ports: The input signal is encoded as a set of applied temperatures, while the output is represented by the power collected at designated terminals. The metastructures are obtained via density-based topology optimization, enabled by a differentiable thermal transport solver and automatic differentiation, achieving an accuracy $>99\%$ in most cases across a pool of matrices with dimensions $2\times2$ and $3\times3$. We apply this methodology -- termed thermal analog computing -- to realize matrices relevant to practical tasks, including the discrete Fourier transform and convolutional filters. These findings open new avenues for analog information processing in thermally active environments, including temperature-gradient sensing in microelectronics and thermal control systems....
 
 ---
 

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2503.22603v3",
+    "title": "Thermal Analog Computing: Application to Matrix-vector Multiplication with Inverse-designed Metastructures",
+    "authors": [
+      "Caio Silva",
+      "Giuseppe Romano"
+    ],
+    "summary": "The rising computational demand of modern workloads has renewed interest in energy-efficient paradigms such as neuromorphic and analog computing. A fundamental operation in these systems is matrix-vector multiplication (MVM), ubiquitous in signal processing and machine learning. Here, we demonstrate MVM using inverse-designed metastructures that exploit heat conduction as the signal carrier. The proposed approach is based on a generalization of effective thermal conductivity to systems with multiple input and output ports: The input signal is encoded as a set of applied temperatures, while the output is represented by the power collected at designated terminals. The metastructures are obtained via density-based topology optimization, enabled by a differentiable thermal transport solver and automatic differentiation, achieving an accuracy $>99\\%$ in most cases across a pool of matrices with dimensions $2\\times2$ and $3\\times3$. We apply this methodology -- termed thermal analog computing -- to realize matrices relevant to practical tasks, including the discrete Fourier transform and convolutional filters. These findings open new avenues for analog information processing in thermally active environments, including temperature-gradient sensing in microelectronics and thermal control systems.",
+    "published": "2025-03-28T16:47:41+00:00",
+    "updated": "2026-01-28T00:47:38+00:00",
+    "categories": [
+      "cond-mat.mes-hall",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mes-hall",
+    "comment": null,
+    "journal_ref": null,
+    "doi": "10.1103/5drp-hrx1",
+    "pdf_url": "https://arxiv.org/pdf/2503.22603v3",
+    "base_id": "2503.22603",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2503.22603v3"
+  }
+]
