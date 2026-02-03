@@ -36,117 +36,117 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (7)
 
-*Last updated: 2026-01-31 06:23:52 (SGT)*
+*Last updated: 2026-02-04 06:27:36 (SGT)*
 
-### 1. MEIDNet: Multimodal generative AI framework for inverse materials design
+### 1. Physics Informed Generative AI Enabling Labour Free Segmentation For Microscopy Analysis
 
-**Authors:** Anand Babu, Rogério Almeida Gouvêa, Pierre Vandergheynst, Gian-Marco Rignanese
+**Authors:** Salma Zahran, Zhou Ao, Zhengyang Zhang, Chen Chi, Chenchen Yuan, Yanming Wang
 
-**Published:** 2026-01-29
+**Published:** 2026-02-02
+
+**Category:** cs.CV
+
+**ID:** 2602.01710v1
+
+**Link:** [http://arxiv.org/abs/2602.01710v1](http://arxiv.org/abs/2602.01710v1)
+
+**Summary:** Semantic segmentation of microscopy images is a critical task for high-throughput materials characterisation, yet its automation is severely constrained by the prohibitive cost, subjectivity, and scarcity of expert-annotated data. While physics-based simulations offer a scalable alternative to manual labelling, models trained on such data historically fail to generalise due to a significant domain gap, lacking the complex textures, noise patterns, and imaging artefacts inherent to experimental data. This paper introduces a novel framework for labour-free segmentation that successfully bridges this simulation-to-reality gap. Our pipeline leverages phase-field simulations to generate an abundant source of microstructural morphologies with perfect, intrinsically-derived ground-truth masks. We then employ a Cycle-Consistent Generative Adversarial Network (CycleGAN) for unpaired image-to-image translation, transforming the clean simulations into a large-scale dataset of high-fidelity, realistic SEM images. A U-Net model, trained exclusively on this synthetic data, demonstrated remarkable generalisation when deployed on unseen experimental images, achieving a mean Boundary F1-Score of 0.90 and an Intersection over Union (IOU) of 0.88. Comprehensive validation using t-SNE feature-space projection and Shannon entropy analysis confirms that our synthetic images are statistically and featurally indistinguishable from the real data manifold. By completely decoupling model training from manual annotation, our generative framework transforms a data-scarce problem into one of data abundance, providing a robust and fully automated solution to accelerate materials discovery and analysis....
+
+---
+
+### 2. Are diffusion models ready for materials discovery in unexplored chemical space?
+
+**Authors:** Sanghyun Kim, Gihyeon Jeon, Seungwoo Hwang, Jiho Lee, Jisu Jung, Seungwu Han, Sungwoo Kang
+
+**Published:** 2025-10-10
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2601.22009v1
+**ID:** 2510.09406v3
 
-**Link:** [http://arxiv.org/abs/2601.22009v1](http://arxiv.org/abs/2601.22009v1)
+**Link:** [http://arxiv.org/abs/2510.09406v3](http://arxiv.org/abs/2510.09406v3)
 
-**Summary:** In this work, we present Multimodal Equivariant Inverse Design Network (MEIDNet), a framework that jointly learns structural information and materials properties through contrastive learning, while encoding structures via an equivariant graph neural network (EGNN). By combining generative inverse design with multimodal learning, our approach accelerates the exploration of chemical-structural space and facilitates the discovery of materials that satisfy predefined property targets. MEIDNet exhibits strong latent-space alignment with cosine similarity 0.96 by fusion of three modalities through cross-modal learning. Through implementation of curriculum learning strategies, MEIDNet achieves ~60 times higher learning efficiency than conventional training techniques. The potential of our multimodal approach is demonstrated by generating low-bandgap perovskite structures at a stable, unique, and novel (SUN) rate of 13.6 %, which are further validated by ab initio methods. Our inverse design framework demonstrates both scalability and adaptability, paving the way for the universal learning of chemical space across diverse modalities....
+**Summary:** While diffusion models are attracting increasing attention for the design of novel materials, their ability to generate low-energy structures in unexplored chemical spaces has not been systematically assessed. Here, we evaluate the performance of two diffusion models, MatterGen and DiffCSP, against three databases: a ternary oxide set (constructed by a genetic algorithm), a ternary nitride set (constructed by template informatics), and the GNoME database (constructed by a combination of both). We find that diffusion models generally perform stably in well-sampled chemical spaces (oxides and nitrides), but are less effective in uncommon ones (GNoME), which contains many compositions involving rare-earth elements and unconventional stoichiometry. Finally, we assess their size-extrapolation capability and observe a significant drop in performance when the number of atoms exceeds the trained range. This is attributed to the limitations imposed by periodic boundary conditions, which we refer to as the curse of periodicity. This study paves the way for future developments in materials design by highlighting both the strength and the limitations of diffusion models....
 
 ---
 
-### 2. Sustainable Materials Discovery in the Era of Artificial Intelligence
+### 3. Data-driven active learning approaches for accelerating materials discovery
 
-**Authors:** Sajid Mannan, Rupert J. Myers, Rohit Batra, Rocio Mercado, Lothar Wondraczek, N. M. Anoop Krishnan
+**Authors:** Jiaxin Chen, Tianjiao Wan, Hui Geng, Liang Xiong, Guohong Wang, Yihan Zhao, Longxiang Deng, Zijian Gao, Susu Fang, Zheng Luo, Huaimin Wang, Shanshan Wang, Kele Xu
 
-**Published:** 2026-01-29
+**Published:** 2026-01-11
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2601.21527v1
+**ID:** 2601.06971v3
 
-**Link:** [http://arxiv.org/abs/2601.21527v1](http://arxiv.org/abs/2601.21527v1)
+**Link:** [http://arxiv.org/abs/2601.06971v3](http://arxiv.org/abs/2601.06971v3)
 
-**Summary:** Artificial intelligence (AI) has transformed materials discovery, enabling rapid exploration of chemical space through generative models and surrogate screening. Yet current AI workflows optimize performance first, deferring sustainability to post synthesis assessment. This creates inefficiency by the time environmental burdens are quantified, resources have been invested in potentially unsustainable solutions. The disconnect between atomic scale design and lifecycle assessment (LCA) reflects fundamental challenges, data scarcity across heterogeneous sources, scale gaps from atoms to industrial systems, uncertainty in synthesis pathways, and the absence of frameworks that co-optimize performance with environmental impact. We propose to integrate upstream machine learning (ML) assisted materials discovery with downstream lifecycle assessment into a uniform ML-LCA environment. The framework ML-LCA integrates five components, information extraction for building materials-environment knowledge bases, harmonized databases linking properties to sustainability metrics, multi-scale models bridging atomic properties to lifecycle impacts, ensemble prediction of manufacturing pathways with uncertainty quantification, and uncertainty-aware optimization enabling simultaneous performance-sustainability navigation. Case studies spanning glass, cement, semiconductor photoresists, and polymers demonstrate both necessity and feasibility while identifying material-specific integration challenges. Realizing ML-LCA demands coordinated advances in data infrastructure, ex-ante assessment methodologies, multi-objective optimization, and regulatory alignment enabling the discovery of materials that are sustainable by design rather than by chance....
-
----
-
-### 3. Virtuous Machines: Towards Artificial General Science
-
-**Authors:** Gabrielle Wehr, Reuben Rideaux, Amaya J. Fox, David R. Lightfoot, Jason Tangen, Jason B. Mattingley, Shane E. Ehrhardt
-
-**Published:** 2025-08-19
-
-**Category:** cs.AI
-
-**ID:** 2508.13421v2
-
-**Link:** [http://arxiv.org/abs/2508.13421v2](http://arxiv.org/abs/2508.13421v2)
-
-**Summary:** Artificial intelligence systems are transforming scientific discovery by accelerating specific research tasks, from protein structure prediction to materials design, yet remain confined to narrow domains requiring substantial human oversight. The exponential growth of scientific literature and increasing domain specialisation constrain researchers' capacity to synthesise knowledge across disciplines and develop unifying theories, motivating exploration of more general-purpose AI systems for science. Here we show that a domain-agnostic, agentic AI Scientist system can independently navigate the scientific workflow - from hypothesis generation through data collection to manuscript preparation. The system autonomously designed and executed three psychological studies on visual working memory, mental rotation, and imagery vividness, executed one new online data collection with 288 participants, developed analysis pipelines through 8-hour+ continuous coding sessions, and produced completed manuscripts. The results demonstrate the capability of AI scientific discovery pipelines to conduct non-trivial research with theoretical reasoning and methodological rigour comparable to experienced researchers, though with limitations in conceptual nuance and theoretical interpretation. This is a step toward embodied AI that can test hypotheses through real-world experiments, accelerating discovery by autonomously exploring regions of scientific space that human cognitive and resource constraints might otherwise leave unexplored. It raises important questions about the nature of scientific understanding and the attribution of scientific credit....
+**Summary:** Materials discovery is a cornerstone of modern technological advancement, yet it remains constrained by traditional trial-and-error paradigms and the inherent bias of human intuition. Artificial intelligence (AI) has emerged as a transformative tool in materials science by effectively modeling structure-property relationships. Despite substantial efforts to enhance model expressiveness, data efficiency remains an equally critical challenge, given the limited availability of experimental and computational resources. Active learning (AL), as a data-driven machine learning paradigm, has shown great promise for discovering novel materials and enabling the efficient navigation of vast materials spaces. In this review, we follow the evolution of sampling strategy design techniques in AL, from Bayesian optimization to advanced deep learning-based strategies. We then highlight how AL enhances data efficiency across various data regimes, ranging from task-specific settings with limited data to the development of general-purpose datasets and large-scale models. We further provide a systematic overview of AL applications throughout the materials research pipeline, including computational simulation, composition and structural design, process optimization, and self-driving laboratory systems. Finally, we pinpoint key challenges and future perspectives of AL in materials discovery....
 
 ---
 
-### 4. Accelerated Inorganic Electrides Discovery by Generative Models and Hierarchical Screening
+### 4. Robust Machine Learning Framework for Reliable Discovery of High-Performance Half-Heusler Thermoelectrics
 
-**Authors:** Shuo Tao, Qiang Zhu
+**Authors:** Shoeb Athar, Adrien Mecibah, Philippe Jund
 
-**Published:** 2026-01-28
+**Published:** 2026-02-01
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2601.21077v1
+**ID:** 2602.01149v1
 
-**Link:** [http://arxiv.org/abs/2601.21077v1](http://arxiv.org/abs/2601.21077v1)
+**Link:** [http://arxiv.org/abs/2602.01149v1](http://arxiv.org/abs/2602.01149v1)
 
-**Summary:** Electrides are exotic compounds in which excess electrons occupy interstitial regions of the crystal lattice and serve as anions, exhibiting exceptional properties such as low work function, high electron mobility, and strong catalytic activity. Although they show promise for diverse applications, identifying new electrides remains challenging due to the difficulty of achieving energetically favorable electron localization in crystal cavities. Here, we present an accelerated materials discovery framework that combines physical principles, diffusion-based materials generation with hierarchical thermodynamic and electronic structure screening. Using this workflow, we systematically explored 1,510 binary and 6,654 ternary chemical compositions containing excess valence electrons from electropositive alkaline, alkaline-earth, and early transition metals, and then filtered them with a high throughput validation on both thermodynamical stability and electronic structure analysis. As a result, we have identified 264 new electron rich compounds within 0.05 eV/atom above the convex hull at the density functional theory (DFT) level, including 13 thermodynamically stable electrides. Our approach demonstrates a generalizable strategy for targeted materials discovery in a vast chemical space....
-
----
-
-### 5. Towards the discovery of high critical magnetic field superconductors
-
-**Authors:** Benjamin Geisler, Philip M. Dee, James J. Hamlin, Gregory R. Stewart, Richard G. Hennig, P. J. Hirschfeld
-
-**Published:** 2026-01-28
-
-**Category:** cond-mat.supr-con
-
-**ID:** 2601.21044v1
-
-**Link:** [http://arxiv.org/abs/2601.21044v1](http://arxiv.org/abs/2601.21044v1)
-
-**Summary:** Superconducting materials are of significant technological relevance for a broad range of applications, and intense research efforts aim at enhancing the critical temperature $T_{c}$. Intriguingly, while numerous studies have explored different computational and machine-learning routes to predict $T_{c}$, the fundamental role of the critical magnetic field has so far been overlooked. Here we open a new frontier in superconductor discovery by presenting a consistent computational database of critical fields $H_{c}$, $H_{c1}$, and $H_{c2}$ for over 7300 electron-phonon-paired superconductors covering distinct materials classes. A theoretical framework is developed that combines $α^2F(ω)$ spectral functions and highly accurate Fermi surfaces from density functional theory with clean-limit Eliashberg theory to obtain the coherence lengths, London penetration depths, and Ginzburg-Landau parameters. We discover an unexpectedly large number of Type-I superconductors and show that larger unit cells generically support higher critical fields and Type-II behavior. We identify the importance of going beyond BCS theory by including strong-coupling corrections to the superconducting gap and electron-phonon renormalizations of the effective mass for predictions of critical fields across materials. These results provide a framework for foundational AI models that realize the concept of inverse materials design for high-$T_{c}$ and high-critical-field superconductors....
+**Summary:** Machine learning (ML) can facilitate efficient thermoelectric (TE) material discovery essential to address the environmental crisis. However, ML models often suffer from poor experimental generalizability despite high metrics. This study presents a robust workflow, applied to the half-Heusler (hH) structural prototype, for figure of merit (zT) prediction, to improve the generalizability of ML models. To resolve challenges in dataset handling and feature filtering, we first introduce a rigorous PCA-based splitting method that ensures training and test sets are unbiased and representative of the full chemical space. We then integrate Bayesian hyperparameter optimization with k-best feature filtering across three architectures-Random Forest, XGBoost, and Neural Networks - while employing SISSO symbolic regression for physical insight and comparison. Using SHAP and SISSO analysis, we identify A-site dopant concentration (xA'), and A-site Heat of Vaporization (HVA) as the primary drivers of zT besides Temperature (T). Finally, a high-throughput screening of approximately 6.6x10^8 potential compositions, filtered by stability constraints, yielded several novel high-zT candidates. Breaking from the traditional focus of improving test RMSE/R^2 values of the models, this work shifts the attention on establishing the test set a true proxy for model generalizability and strengthening the often neglected modules of the existing ML workflows for the data-driven design of next-generation thermoelectric materials....
 
 ---
 
-### 6. MADE: Benchmark Environments for Closed-Loop Materials Discovery
+### 5. Open Materials Generation with Inference-Time Reinforcement Learning
 
-**Authors:** Shreshth A Malik, Tiarnan Doherty, Panagiotis Tigas, Muhammed Razzak, Stephen J. Roberts, Aron Walsh, Yarin Gal
+**Authors:** Philipp Hoellmer, Stefano Martiniani
 
-**Published:** 2026-01-28
+**Published:** 2026-01-31
 
 **Category:** cs.LG
 
-**ID:** 2601.20996v1
+**ID:** 2602.00424v1
 
-**Link:** [http://arxiv.org/abs/2601.20996v1](http://arxiv.org/abs/2601.20996v1)
+**Link:** [http://arxiv.org/abs/2602.00424v1](http://arxiv.org/abs/2602.00424v1)
 
-**Summary:** Existing benchmarks for computational materials discovery primarily evaluate static predictive tasks or isolated computational sub-tasks. While valuable, these evaluations neglect the inherently iterative and adaptive nature of scientific discovery. We introduce MAterials Discovery Environments (MADE), a novel framework for benchmarking end-to-end autonomous materials discovery pipelines. MADE simulates closed-loop discovery campaigns in which an agent or algorithm proposes, evaluates, and refines candidate materials under a constrained oracle budget, capturing the sequential and resource-limited nature of real discovery workflows. We formalize discovery as a search for thermodynamically stable compounds relative to a given convex hull, and evaluate efficacy and efficiency via comparison to baseline algorithms. The framework is flexible; users can compose discovery agents from interchangeable components such as generative models, filters, and planners, enabling the study of arbitrary workflows ranging from fixed pipelines to fully agentic systems with tool use and adaptive decision making. We demonstrate this by conducting systematic experiments across a family of systems, enabling ablation of components in discovery pipelines, and comparison of how methods scale with system complexity....
+**Summary:** Continuous-time generative models for crystalline materials enable inverse materials design by learning to predict stable crystal structures, but incorporating explicit target properties into the generative process remains challenging. Policy-gradient reinforcement learning (RL) provides a principled mechanism for aligning generative models with downstream objectives but typically requires access to the score, which has prevented its application to flow-based models that learn only velocity fields. We introduce Open Materials Generation with Inference-time Reinforcement Learning (OMatG-IRL), a policy-gradient RL framework that operates directly on the learned velocity fields and eliminates the need for the explicit computation of the score. OMatG-IRL leverages stochastic perturbations of the underlying generation dynamics preserving the baseline performance of the pretrained generative model while enabling exploration and policy-gradient estimation at inference time. Using OMatG-IRL, we present the first application of RL to crystal structure prediction (CSP). Our method enables effective reinforcement of an energy-based objective while preserving diversity through composition conditioning, and it achieves performance competitive with score-based RL approaches. Finally, we show that OMatG-IRL can learn time-dependent velocity-annealing schedules, enabling accurate CSP with order-of-magnitude improvements in sampling efficiency and, correspondingly, reduction in generation time....
 
 ---
 
-### 7. A generative machine learning model for designing metal hydrides applied to hydrogen storage
+### 6. Exploring the Limitations of kNN Noisy Feature Detection and Recovery for Self-Driving Labs
 
-**Authors:** Xiyuan Liu, Christian Hacker, Shengnian Wang, Yuhua Duan
+**Authors:** Qiuyu Shi, Kangming Li, Yao Fehlis, Runze Zhang, Daniel Persaud, Robert Black, Jason Hattrick-Simpers
 
-**Published:** 2026-01-28
+**Published:** 2025-07-15
 
 **Category:** cs.LG
 
-**ID:** 2601.20892v1
+**ID:** 2507.16833v2
 
-**Link:** [http://arxiv.org/abs/2601.20892v1](http://arxiv.org/abs/2601.20892v1)
+**Link:** [http://arxiv.org/abs/2507.16833v2](http://arxiv.org/abs/2507.16833v2)
 
-**Summary:** Developing new metal hydrides is a critical step toward efficient hydrogen storage in carbon-neutral energy systems. However, existing materials databases, such as the Materials Project, contain a limited number of well-characterized hydrides, which constrains the discovery of optimal candidates. This work presents a framework that integrates causal discovery with a lightweight generative machine learning model to generate novel metal hydride candidates that may not exist in current databases. Using a dataset of 450 samples (270 training, 90 validation, and 90 testing), the model generates 1,000 candidates. After ranking and filtering, six previously unreported chemical formulas and crystal structures are identified, four of which are validated by density functional theory simulations and show strong potential for future experimental investigation. Overall, the proposed framework provides a scalable and time-efficient approach for expanding hydrogen storage datasets and accelerating materials discovery....
+**Summary:** Self-driving laboratories (SDLs) have shown promise to accelerate materials discovery by integrating machine learning with automated experimental platforms. However, errors in the capture of input parameters may corrupt the features used to model system performance, compromising current and future campaigns. This study develops an automated workflow to systematically detect noisy features, determine sample-feature pairings that can be corrected, and finally recover the correct feature values. A systematic study is then performed to examine how dataset size, noise intensity, noise type, and feature value distribution affect both the detectability and recoverability of noisy features on both Density Functional Theory (DFT) and SDL datasets. In general, high-intensity noise and large training datasets are conducive to the detection and correction of noisy features. Low-intensity noise reduces detection and recovery but can be compensated for by larger clean training data sets. Detection and correction results vary between features, with continuous and dispersed feature distributions showing greater recoverability compared to features with discrete or narrow distributions. This systematic study not only demonstrates a model agnostic framework for rational data recovery in the presence of noise, limited data, and differing feature distributions but also provides a tangible benchmark of kNN imputation in materials datasets. Ultimately, it aims to enhance data quality and experimental precision in automated materials discovery....
+
+---
+
+### 7. How well do generative models solve inverse problems? A benchmark study
+
+**Authors:** Patrick Krüger, Patrick Materne, Werner Krebs, Hanno Gottschalk
+
+**Published:** 2026-01-30
+
+**Category:** cs.LG
+
+**ID:** 2601.23238v1
+
+**Link:** [http://arxiv.org/abs/2601.23238v1](http://arxiv.org/abs/2601.23238v1)
+
+**Summary:** Generative learning generates high dimensional data based on low dimensional conditions, also called prompts. Therefore, generative learning algorithms are eligible for solving (Bayesian) inverse problems. In this article we compare a traditional Bayesian inverse approach based on a forward regression model and a prior sampled with the Markov Chain Monte Carlo method with three state of the art generative learning models, namely conditional Generative Adversarial Networks, Invertible Neural Networks and Conditional Flow Matching. We apply them to a problem of gas turbine combustor design where we map six independent design parameters to three performance labels. We propose several metrics for the evaluation of this inverse design approaches and measure the accuracy of the labels of the generated designs along with the diversity. We also study the performance as a function of the training dataset size. Our benchmark has a clear winner, as Conditional Flow Matching consistently outperforms all competing approaches....
 
 ---
 
