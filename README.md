@@ -36,21 +36,21 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2026-02-09 06:25:35 (SGT)*
+*Last updated: 2026-02-10 06:34:00 (SGT)*
 
-### 1. Optimization and Generation in Aerodynamics Inverse Design
+### 1. Refining the Information Bottleneck via Adversarial Information Separation
 
-**Authors:** Huaguan Chen, Ning Lin, Luxi Chen, Rui Zhang, Wenbing Huang, Chongxuan Li, Hao Sun
+**Authors:** Shuai Ning, Zhenpeng Wang, Lin Wang, Bing Chen, Shuangrong Liu, Xu Wu, Jin Zhou, Bo Yang
 
-**Published:** 2026-02-03
+**Published:** 2026-02-06
 
 **Category:** cs.LG
 
-**ID:** 2602.03582v2
+**ID:** 2602.06549v1
 
-**Link:** [http://arxiv.org/abs/2602.03582v2](http://arxiv.org/abs/2602.03582v2)
+**Link:** [http://arxiv.org/abs/2602.06549v1](http://arxiv.org/abs/2602.06549v1)
 
-**Summary:** Inverse design with physics-based objectives is challenging because it couples high-dimensional geometry with expensive simulations, as exemplified by aerodynamic shape optimization for drag reduction. We revisit inverse design through two canonical solutions, the optimal design point and the optimal design distribution, and relate them to optimization and guided generation. Building on this view, we propose a new training loss for cost predictors and a density-gradient optimization method that improves objectives while preserving plausible shapes. We further unify existing training-free guided generation methods. To address their inability to approximate conditional covariance in high dimensions, we develop a time- and memory-efficient algorithm for approximate covariance estimation. Experiments on a controlled 2D study and high-fidelity 3D aerodynamic benchmarks (car and aircraft), validated by OpenFOAM simulations and miniature wind-tunnel tests with 3D-printed prototypes, demonstrate consistent gains in both optimization and guided generation. Additional offline RL results further support the generality of our approach....
+**Summary:** Generalizing from limited data is particularly critical for models in domains such as material science, where task-relevant features in experimental datasets are often heavily confounded by measurement noise and experimental artifacts. Standard regularization techniques fail to precisely separate meaningful features from noise, while existing adversarial adaptation methods are limited by their reliance on explicit separation labels. To address this challenge, we propose the Adversarial Information Separation Framework (AdverISF), which isolates task-relevant features from noise without requiring explicit supervision. AdverISF introduces a self-supervised adversarial mechanism to enforce statistical independence between task-relevant features and noise representations. It further employs a multi-layer separation architecture that progressively recycles noise information across feature hierarchies to recover features inadvertently discarded as noise, thereby enabling finer-grained feature extraction. Extensive experiments demonstrate that AdverISF outperforms state-of-the-art methods in data-scarce scenarios. In addition, evaluations on real-world material design tasks show that it achieves superior generalization performance....
 
 ---
 
