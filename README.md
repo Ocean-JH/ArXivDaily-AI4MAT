@@ -36,21 +36,21 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2026-02-12 06:28:00 (SGT)*
+*Last updated: 2026-02-13 06:30:36 (SGT)*
 
-### 1. SpinCastML an Open Decision-Making Application for Inverse Design of Electrospinning Manufacturing: A Machine Learning, Optimal Sampling and Inverse Monte Carlo Approach
+### 1. Tensor Methods: A Unified and Interpretable Approach for Material Design
 
-**Authors:** Elisa Roldan, Tasneem Sabir
+**Authors:** Shaan Pakala, Aldair E. Gongora, Brian Giera, Evangelos E. Papalexakis
 
-**Published:** 2026-02-09
+**Published:** 2026-02-11
 
 **Category:** cs.LG
 
-**ID:** 2602.09120v1
+**ID:** 2602.10392v1
 
-**Link:** [http://arxiv.org/abs/2602.09120v1](http://arxiv.org/abs/2602.09120v1)
+**Link:** [http://arxiv.org/abs/2602.10392v1](http://arxiv.org/abs/2602.10392v1)
 
-**Summary:** Electrospinning is a powerful technique for producing micro to nanoscale fibers with application specific architectures. Small variations in solution or operating conditions can shift the jet regime, generating non Gaussian fiber diameter distributions. Despite substantial progress, no existing framework enables inverse design toward desired fiber outcomes while integrating polymer solvent chemical constraints or predicting full distributions. SpinCastML is an open source, distribution aware, chemically informed machine learning and Inverse Monte Carlo (IMC) software for inverse electrospinning design. Built on a rigorously curated dataset of 68,480 fiber diameters from 1,778 datasets across 16 polymers, SpinCastML integrates three structured sampling methods, a suite of 11 high-performance learners, and chemistry aware constraints to predict not only mean diameter but the entire distribution. Cubist model with a polymer balanced Sobol D optimal sampling provides the highest global performance (R2 > 0.92). IMC accurately captures the fiber distributions, achieving R2 > 0.90 and <1% error between predicted and experimental success rates. The IMC engine supports both retrospective analysis and forward-looking inverse design, generating physically and chemically feasible polymer solvent parameter combinations with quantified success probabilities for user-defined targets. SpinCastML reframes electrospinning from trial and error to a reproducible, data driven design process. As an open source executable, it enables laboratories to analyze their own datasets and co create an expanding community software. SpinCastML reduces experimental waste, accelerates discovery, and democratizes access to advanced modeling, establishing distribution aware inverse design as a new standard for sustainable nanofiber manufacturing across biomedical, filtration, and energy applications....
+**Summary:** When designing new materials, it is often necessary to tailor the material design (with respect to its design parameters) to have some desired properties (e.g. Young's modulus). As the set of design parameters grow, the search space grows exponentially, making the actual synthesis and evaluation of all material combinations virtually impossible. Even using traditional computational methods such as Finite Element Analysis becomes too computationally heavy to search the design space. Recent methods use machine learning (ML) surrogate models to more efficiently determine optimal material designs; unfortunately, these methods often (i) are notoriously difficult to interpret and (ii) under perform when the training data comes from a non-uniform sampling of the design space. We suggest the use of tensor completion methods as an all-in-one approach for interpretability and predictions. We observe classical tensor methods are able to compete with traditional ML in predictions, with the added benefit of their interpretable tensor factors (which are given completely for free, as a result of the prediction). In our experiments, we are able to rediscover physical phenomena via the tensor factors, indicating that our predictions are aligned with the true underlying physics of the problem. This also means these tensor factors could be used by experimentalists to identify potentially novel patterns, given we are able to rediscover existing ones. We also study the effects of both types of surrogate models when we encounter training data from a non-uniform sampling of the design space. We observe more specialized tensor methods that can give better generalization in these non-uniforms sampling scenarios. We find the best generalization comes from a tensor model, which is able to improve upon the baseline ML methods by up to 5% on aggregate $R^2$, and halve the error in some out of distribution regions....
 
 ---
 
