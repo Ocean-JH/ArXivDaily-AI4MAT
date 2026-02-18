@@ -34,55 +34,23 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (3)
+## New Papers (1)
 
-*Last updated: 2026-02-18 06:29:22 (SGT)*
+*Last updated: 2026-02-19 06:30:44 (SGT)*
 
-### 1. GenPANIS: A Latent-Variable Generative Framework for Forward and Inverse PDE Problems in Multiphase Media
+### 1. Guided Diffusion by Optimized Loss Functions on Relaxed Parameters for Inverse Material Design
 
-**Authors:** Matthaios Chatzopoulos, Phaedon-Stelios Koutsourelakis
+**Authors:** Jens U. Kreber, Christian Weißenfels, Joerg Stueckler
 
-**Published:** 2026-02-16
+**Published:** 2026-02-17
 
-**Category:** stat.ML
+**Category:** cs.LG
 
-**ID:** 2602.14642v1
+**ID:** 2602.15648v1
 
-**Link:** [http://arxiv.org/abs/2602.14642v1](http://arxiv.org/abs/2602.14642v1)
+**Link:** [http://arxiv.org/abs/2602.15648v1](http://arxiv.org/abs/2602.15648v1)
 
-**Summary:** Inverse problems and inverse design in multiphase media, i.e., recovering or engineering microstructures to achieve target macroscopic responses, require operating on discrete-valued material fields, rendering the problem non-differentiable and incompatible with gradient-based methods. Existing approaches either relax to continuous approximations, compromising physical fidelity, or employ separate heavyweight models for forward and inverse tasks. We propose GenPANIS, a unified generative framework that preserves exact discrete microstructures while enabling gradient-based inference through continuous latent embeddings. The model learns a joint distribution over microstructures and PDE solutions, supporting bidirectional inference (forward prediction and inverse recovery) within a single architecture. The generative formulation enables training with unlabeled data, physics residuals, and minimal labeled pairs. A physics-aware decoder incorporating a differentiable coarse-grained PDE solver preserves governing equation structure, enabling extrapolation to varying boundary conditions and microstructural statistics. A learnable normalizing flow prior captures complex posterior structure for inverse problems. Demonstrated on Darcy flow and Helmholtz equations, GenPANIS maintains accuracy on challenging extrapolative scenarios - including unseen boundary conditions, volume fractions, and microstructural morphologies, with sparse, noisy observations. It outperforms state-of-the-art methods while using 10 - 100 times fewer parameters and providing principled uncertainty quantification....
-
----
-
-### 2. PeroMAS: A Multi-agent System of Perovskite Material Discovery
-
-**Authors:** Yishu Wang, Wei Liu, Yifan Li, Shengxiang Xu, Xujie Yuan, Ran Li, Yuyu Luo, Jia Zhu, Shimin Di, Min-Ling Zhang, Guixiang Li
-
-**Published:** 2026-02-10
-
-**Category:** cs.MA
-
-**ID:** 2602.13312v1
-
-**Link:** [http://arxiv.org/abs/2602.13312v1](http://arxiv.org/abs/2602.13312v1)
-
-**Summary:** As a pioneer of the third-generation photovoltaic revolution, Perovskite Solar Cells (PSCs) are renowned for their superior optoelectronic performance and cost potential. The development process of PSCs is precise and complex, involving a series of closed-loop workflows such as literature retrieval, data integration, experimental design, and synthesis. However, existing AI perovskite approaches focus predominantly on discrete models, including material design, process optimization,and property prediction. These models fail to propagate physical constraints across the workflow, hindering end-to-end optimization. In this paper, we propose a multi-agent system for perovskite material discovery, named PeroMAS. We first encapsulated a series of perovskite-specific tools into Model Context Protocols (MCPs). By planning and invoking these tools, PeroMAS can design perovskite materials under multi-objective constraints, covering the entire process from literature retrieval and data extraction to property prediction and mechanism analysis. Furthermore, we construct an evaluation benchmark by perovskite human experts to assess this multi-agent system. Results demonstrate that, compared to single Large Language Model (LLM) or traditional search strategies, our system significantly enhances discovery efficiency. It successfully identified candidate materials satisfying multi-objective constraints. Notably, we verify PeroMAS's effectiveness in the physical world through real synthesis experiments....
-
----
-
-### 3. Judging the Judges: Human Validation of Multi-LLM Evaluation for High-Quality K--12 Science Instructional Materials
-
-**Authors:** Peng He, Zhaohui Li, Zeyuan Wang, Jinjun Xiong, Tingting Li
-
-**Published:** 2026-01-31
-
-**Category:** cs.CY
-
-**ID:** 2602.13243v1
-
-**Link:** [http://arxiv.org/abs/2602.13243v1](http://arxiv.org/abs/2602.13243v1)
-
-**Summary:** Designing high-quality, standards-aligned instructional materials for K--12 science is time-consuming and expertise-intensive. This study examines what human experts notice when reviewing AI-generated evaluations of such materials, aiming to translate their insights into design principles for a future GenAI-based instructional material design agent. We intentionally selected 12 high-quality curriculum units across life, physical, and earth sciences from validated programs such as OpenSciEd and Multiple Literacies in Project-based Learning. Using the EQuIP rubric with 9 evaluation items, we prompted GPT-4o, Claude, and Gemini to produce numerical ratings and written rationales for each unit, generating 648 evaluation outputs. Two science education experts independently reviewed all outputs, marking agreement (1) or disagreement (0) for both scores and rationales, and offering qualitative reflections on AI reasoning. This process surfaces patterns in where LLM judgments align with or diverge from expert perspectives, revealing reasoning strengths, gaps, and contextual nuances. These insights will directly inform the development of a domain-specific GenAI agent to support the design of high-quality instructional materials in K--12 science education....
+**Summary:** Inverse design problems are common in engineering and materials science. The forward direction, i.e., computing output quantities from design parameters, typically requires running a numerical simulation, such as a FEM, as an intermediate step, which is an optimization problem by itself. In many scenarios, several design parameters can lead to the same or similar output values. For such cases, multi-modal probabilistic approaches are advantageous to obtain diverse solutions. A major difficulty in inverse design stems from the structure of the design space, since discrete parameters or further constraints disallow the direct use of gradient-based optimization. To tackle this problem, we propose a novel inverse design method based on diffusion models. Our approach relaxes the original design space into a continuous grid representation, where gradients can be computed by implicit differentiation in the forward simulation. A diffusion model is trained on this relaxed parameter space in order to serve as a prior for plausible relaxed designs. Parameters are sampled by guided diffusion using gradients that are propagated from an objective function specified at inference time through the differentiable simulation. A design sample is obtained by backprojection into the original parameter space. We develop our approach for a composite material design problem where the forward process is modeled as a linear FEM problem. We evaluate the performance of our approach in finding designs that match a specified bulk modulus. We demonstrate that our method can propose diverse designs within 1% relative error margin from medium to high target bulk moduli in 2D and 3D settings. We also demonstrate that the material density of generated samples can be minimized simultaneously by using a multi-objective loss function....
 
 ---
 
