@@ -1,0 +1,28 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2602.17176v1",
+    "title": "Universal Fine-Grained Symmetry Inference and Enforcement for Rigorous Crystal Structure Prediction",
+    "authors": [
+      "Shi Yin",
+      "Jinming Mu",
+      "Xudong Zhu",
+      "Lixin He"
+    ],
+    "summary": "Crystal structure prediction (CSP), which aims to predict the three-dimensional atomic arrangement of a crystal from its composition, is central to materials discovery and mechanistic understanding. Existing deep learning models often treat crystallographic symmetry only as a soft heuristic or rely on space group and Wyckoff templates retrieved from known structures, which limits both physical fidelity and the ability to discover genuinely new material structures. In contrast to retrieval-based methods, our approach leverages large language models to encode chemical semantics and directly generate fine-grained Wyckoff patterns from composition, effectively circumventing the limitations inherent to database lookups. Crucially, we incorporate domain knowledge into the generative process through an efficient constrained-optimization search that rigorously enforces algebraic consistency between site multiplicities and atomic stoichiometry. By integrating this symmetry-consistent template into a diffusion backbone, our approach constrains the stochastic generative trajectory to a physically valid geometric manifold. This framework achieves state-of-the-art performance across stability, uniqueness, and novelty (SUN) benchmarks, alongside superior matching performance, thereby establishing a new paradigm for the rigorous exploration of targeted crystallographic space. This framework enables efficient expansion into previously uncharted materials space, eliminating reliance on existing databases or a priori structural knowledge.",
+    "published": "2026-02-19T08:43:25+00:00",
+    "updated": "2026-02-19T08:43:25+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2602.17176v1",
+    "base_id": "2602.17176",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2602.17176v1"
+  }
+]
