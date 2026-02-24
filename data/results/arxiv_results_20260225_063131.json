@@ -1,0 +1,28 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2602.19775v1",
+    "title": "Exact Discrete Stochastic Simulation with Deep-Learning-Scale Gradient Optimization",
+    "authors": [
+      "Jose M. G. Vilar",
+      "Leonor Saiz"
+    ],
+    "summary": "Exact stochastic simulation of continuous-time Markov chains (CTMCs) is essential when discreteness and noise drive system behavior, but the hard categorical event selection in Gillespie-type algorithms blocks gradient-based learning. We eliminate this constraint by decoupling forward simulation from backward differentiation, with hard categorical sampling generating exact trajectories and gradients propagating through a continuous massively-parallel Gumbel-Softmax straight-through surrogate. Our approach enables accurate optimization at parameter scales over four orders of magnitude beyond existing simulators. We validate for accuracy, scalability, and reliability on a reversible dimerization model (0.09% error), a genetic oscillator (1.2% error), a 203,796-parameter gene regulatory network achieving 98.4% MNIST accuracy (a prototypical deep-learning multilayer perceptron benchmark), and experimental patch-clamp recordings of ion channel gating (R^2 = 0.987) in the single-channel regime. Our GPU implementation delivers 1.9 billion steps per second, matching the scale of non-differentiable simulators. By making exact stochastic simulation massively parallel and autodiff-compatible, our results enable high-dimensional parameter inference and inverse design across systems biology, chemical kinetics, physics, and related CTMC-governed domains.",
+    "published": "2026-02-23T12:29:43+00:00",
+    "updated": "2026-02-23T12:29:43+00:00",
+    "categories": [
+      "q-bio.QM",
+      "cond-mat.stat-mech",
+      "cs.LG",
+      "physics.comp-ph",
+      "q-bio.MN"
+    ],
+    "primary_category": "q-bio.QM",
+    "comment": "28 pages, 8 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2602.19775v1",
+    "base_id": "2602.19775",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2602.19775v1"
+  }
+]
