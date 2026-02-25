@@ -1,0 +1,25 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2602.20173v1",
+    "title": "Machine learning-enabled inverse design of bimaterial thermoelastic lattice metamaterials",
+    "authors": [
+      "Xiang-Long Peng",
+      "Bai-Xiang Xu"
+    ],
+    "summary": "The thermoelastic metamaterial based on a bimaterial hybrid-honeycomb structure, exhibiting simultaneously negative Poisson's ratios and negative thermal expansion coefficients is very promising for various application. This work is dedicated to the machine learning (ML)-enabled inverse design of such structure, on the basis of high-throughput simulation and neural network models. A large dataset is generated through computational homogenization of structures with varying geometrical features and base material properties. A forward ML model is first trained to efficiently and accurately predict the effective thermoelastic properties for a given structure design. Subsequently, inverse ML models are developed to suggest geometrical features and base materials for desired target properties. To address various inverse design scenarios, six different models are proposed, each defined by different combinations of target effective properties and structural design variables. The trained forward model is integrated into the loss functions of the inverse models and is also employed to generate additional datasets for cases with fixed base materials. The good predictive performance of the forward and inverse ML models is demonstrated by representative design examples. These ML models can be applied to efficiently solving specific inverse design tasks involved in the practical application of the thermoelastic metamaterial in novel engineering systems.",
+    "published": "2026-02-12T15:00:57+00:00",
+    "updated": "2026-02-12T15:00:57+00:00",
+    "categories": [
+      "physics.app-ph",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "physics.app-ph",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2602.20173v1",
+    "base_id": "2602.20173",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2602.20173v1"
+  }
+]

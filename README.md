@@ -36,21 +36,21 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (1)
 
-*Last updated: 2026-02-25 06:31:37 (SGT)*
+*Last updated: 2026-02-26 06:32:13 (SGT)*
 
-### 1. Exact Discrete Stochastic Simulation with Deep-Learning-Scale Gradient Optimization
+### 1. Machine learning-enabled inverse design of bimaterial thermoelastic lattice metamaterials
 
-**Authors:** Jose M. G. Vilar, Leonor Saiz
+**Authors:** Xiang-Long Peng, Bai-Xiang Xu
 
-**Published:** 2026-02-23
+**Published:** 2026-02-12
 
-**Category:** q-bio.QM
+**Category:** physics.app-ph
 
-**ID:** 2602.19775v1
+**ID:** 2602.20173v1
 
-**Link:** [http://arxiv.org/abs/2602.19775v1](http://arxiv.org/abs/2602.19775v1)
+**Link:** [http://arxiv.org/abs/2602.20173v1](http://arxiv.org/abs/2602.20173v1)
 
-**Summary:** Exact stochastic simulation of continuous-time Markov chains (CTMCs) is essential when discreteness and noise drive system behavior, but the hard categorical event selection in Gillespie-type algorithms blocks gradient-based learning. We eliminate this constraint by decoupling forward simulation from backward differentiation, with hard categorical sampling generating exact trajectories and gradients propagating through a continuous massively-parallel Gumbel-Softmax straight-through surrogate. Our approach enables accurate optimization at parameter scales over four orders of magnitude beyond existing simulators. We validate for accuracy, scalability, and reliability on a reversible dimerization model (0.09% error), a genetic oscillator (1.2% error), a 203,796-parameter gene regulatory network achieving 98.4% MNIST accuracy (a prototypical deep-learning multilayer perceptron benchmark), and experimental patch-clamp recordings of ion channel gating (R^2 = 0.987) in the single-channel regime. Our GPU implementation delivers 1.9 billion steps per second, matching the scale of non-differentiable simulators. By making exact stochastic simulation massively parallel and autodiff-compatible, our results enable high-dimensional parameter inference and inverse design across systems biology, chemical kinetics, physics, and related CTMC-governed domains....
+**Summary:** The thermoelastic metamaterial based on a bimaterial hybrid-honeycomb structure, exhibiting simultaneously negative Poisson's ratios and negative thermal expansion coefficients is very promising for various application. This work is dedicated to the machine learning (ML)-enabled inverse design of such structure, on the basis of high-throughput simulation and neural network models. A large dataset is generated through computational homogenization of structures with varying geometrical features and base material properties. A forward ML model is first trained to efficiently and accurately predict the effective thermoelastic properties for a given structure design. Subsequently, inverse ML models are developed to suggest geometrical features and base materials for desired target properties. To address various inverse design scenarios, six different models are proposed, each defined by different combinations of target effective properties and structural design variables. The trained forward model is integrated into the loss functions of the inverse models and is also employed to generate additional datasets for cases with fixed base materials. The good predictive performance of the forward and inverse ML models is demonstrated by representative design examples. These ML models can be applied to efficiently solving specific inverse design tasks involved in the practical application of the thermoelastic metamaterial in novel engineering systems....
 
 ---
 
