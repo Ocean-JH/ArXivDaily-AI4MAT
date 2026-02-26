@@ -34,23 +34,39 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (1)
+## New Papers (2)
 
-*Last updated: 2026-02-26 06:32:13 (SGT)*
+*Last updated: 2026-02-27 06:31:34 (SGT)*
 
-### 1. Machine learning-enabled inverse design of bimaterial thermoelastic lattice metamaterials
+### 1. General spin models from noncollinear spin density functional theory and spin-cluster expansion
 
-**Authors:** Xiang-Long Peng, Bai-Xiang Xu
+**Authors:** Tomonori Tanaka, Yoshihiro Gohda
 
-**Published:** 2026-02-12
+**Published:** 2025-12-04
 
-**Category:** physics.app-ph
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2602.20173v1
+**ID:** 2512.04458v2
 
-**Link:** [http://arxiv.org/abs/2602.20173v1](http://arxiv.org/abs/2602.20173v1)
+**Link:** [http://arxiv.org/abs/2512.04458v2](http://arxiv.org/abs/2512.04458v2)
 
-**Summary:** The thermoelastic metamaterial based on a bimaterial hybrid-honeycomb structure, exhibiting simultaneously negative Poisson's ratios and negative thermal expansion coefficients is very promising for various application. This work is dedicated to the machine learning (ML)-enabled inverse design of such structure, on the basis of high-throughput simulation and neural network models. A large dataset is generated through computational homogenization of structures with varying geometrical features and base material properties. A forward ML model is first trained to efficiently and accurately predict the effective thermoelastic properties for a given structure design. Subsequently, inverse ML models are developed to suggest geometrical features and base materials for desired target properties. To address various inverse design scenarios, six different models are proposed, each defined by different combinations of target effective properties and structural design variables. The trained forward model is integrated into the loss functions of the inverse models and is also employed to generate additional datasets for cases with fixed base materials. The good predictive performance of the forward and inverse ML models is demonstrated by representative design examples. These ML models can be applied to efficiently solving specific inverse design tasks involved in the practical application of the thermoelastic metamaterial in novel engineering systems....
+**Summary:** We present a data-efficient framework for constructing general classical spin Hamiltonians by combining the spin-cluster expansion (SCE) with fully self-consistent noncollinear spin density functional theory (DFT). The key idea is to fit the SCE model to magnetic torques rather than to total energies. Because torques are site-resolved vectors, each spin configuration provides many informative regression targets, improving conditioning and substantially reducing the number of required DFT calculations, especially for large supercells. Applied to the B20-type chiral magnets ${\rm Mn}_{1-x}{\rm Fe}_{x}{\rm Ge}$ and ${\rm Fe}_{1-y}{\rm Co}_{y}{\rm Ge}$, the resulting SCE models determine full pairwise exchange tensors -- including isotropic exchange, symmetric anisotropic exchange, and the Dzyaloshinskii--Moriya interaction -- and predict the helical spin period via a micromagnetic mapping. The composition trends and the divergence of the period at the chirality sign-change point are well reproduced, in agreement with experiment. Moreover, the systematic nature of SCE enables controlled assessment of interaction order: as the training spin configurations become more disordered, the lowest-order model loses torque accuracy, whereas including higher-order interactions restores predictive power. These advances enable near-DFT-accurate spin models for finite-temperature magnetism and complex spin textures at modest computational cost, providing an extensible route to quantitative first-principles parameterization and predictive materials design. An open-source implementation is available as a Julia package, \textit{Magesty.jl}....
+
+---
+
+### 2. Reasoning-Driven Design of Single Atom Catalysts via a Multi-Agent Large Language Model Framework
+
+**Authors:** Dong Hyeon Mok, Seoin Back, Victor Fung, Guoxiang Hu
+
+**Published:** 2026-02-25
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2602.21533v1
+
+**Link:** [http://arxiv.org/abs/2602.21533v1](http://arxiv.org/abs/2602.21533v1)
+
+**Summary:** Large language models (LLMs) are becoming increasingly applied beyond natural language processing, demonstrating strong capabilities in complex scientific tasks that traditionally require human expertise. This progress has extended into materials discovery, where LLMs introduce a new paradigm by leveraging reasoning and in-context learning, capabilities absent from conventional machine learning approaches. Here, we present a Multi-Agent-based Electrocatalyst Search Through Reasoning and Optimization (MAESTRO) framework in which multiple LLMs with specialized roles collaboratively discover high-performance single atom catalysts for the oxygen reduction reaction. Within an autonomous design loop, agents iteratively reason, propose modifications, reflect on results and accumulate design history. Through in-context learning enabled by this iterative process, MAESTRO identified design principles not explicitly encoded in the LLMs' background knowledge and successfully discovered catalysts that break conventional scaling relations between reaction intermediates. These results highlight the potential of multi-agent LLM frameworks as a powerful strategy to generate chemical insight and discover promising catalysts....
 
 ---
 
