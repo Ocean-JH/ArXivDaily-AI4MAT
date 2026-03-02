@@ -1,0 +1,27 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2602.23489v1",
+    "title": "Exploring the extremes: atomic basis for multi-elemental materials science under complex thermodynamic conditions",
+    "authors": [
+      "Anton Bochkarev",
+      "Yury Lysogorskiy",
+      "Aparna Subramanyam",
+      "Ralf Drautz",
+      "Danny Perez"
+    ],
+    "summary": "Modern materials science has historically been founded on combining restricted subsets of the periodic table, favoring high-purity, few-element systems. However, the demands of an emerging circular economy, together with the need to understand materials behavior under planetary and industrial extremes, increasingly require mastering Mendeleev materials - chemically and structurally complex systems that span large portions of the periodic table. In these regimes, current universal machine-learning interatomic potentials often fail, largely due to systematic gaps in traditional training datasets that heavily emphasize low-energy, near-equilibrium structures. We address this limitation by introducing a chemistry-agnostic, information-entropy-maximization protocol for data generation. By decoupling structural sampling from thermodynamic bias, our approach provides a robust physical prior for atomic interactions across the entire periodic table, including regimes far from equilibrium and under extreme conditions. Training a Graph Atomic Cluster Expansion (GRACE) model on the resulting statistically maximized entropy (SMAX) dataset yields markedly improved robustness across a range of stringent benchmarks. These include large-strain phase transformations in tin, defect evolution in tungsten-based alloys, and catalytic reaction barrier prediction. More broadly, our approach establishes a scalable and principled methodology for navigating the vast chemical and configurational space relevant to future materials design. It enables a paradigm of discovery by simulation in which unbiased sampling protocols autonomously resolve emergent structures in multi-elemental mixtures-such as systems containing the nine most abundant elements in the Earth's crust-without reliance on a priori chemical assumptions.",
+    "published": "2026-02-26T20:50:01+00:00",
+    "updated": "2026-02-26T20:50:01+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2602.23489v1",
+    "base_id": "2602.23489",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2602.23489v1"
+  }
+]
