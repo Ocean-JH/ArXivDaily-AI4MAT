@@ -36,37 +36,37 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (2)
 
-*Last updated: 2026-03-04 06:26:48 (SGT)*
+*Last updated: 2026-03-05 06:29:24 (SGT)*
 
-### 1. Generative Models for Crystalline Materials
+### 1. Sustainable Materials Discovery in the Era of Artificial Intelligence
 
-**Authors:** Houssam Metni, Laura Ruple, Lauren N. Walters, Luca Torresi, Jonas Teufel, Henrik Schopmans, Jona Östreicher, Yumeng Zhang, Marlen Neubert, Yuri Koide, Kevin Steiner, Paul Link, Lukas Bär, Mariana Petrova, Gerbrand Ceder, Pascal Friederich
+**Authors:** Sajid Mannan, Rupert J. Myers, Rohit Batra, Rocio Mercado, Lothar Wondraczek, N. M. Anoop Krishnan
 
-**Published:** 2025-11-27
+**Published:** 2026-01-29
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2511.22652v2
+**ID:** 2601.21527v2
 
-**Link:** [http://arxiv.org/abs/2511.22652v2](http://arxiv.org/abs/2511.22652v2)
+**Link:** [http://arxiv.org/abs/2601.21527v2](http://arxiv.org/abs/2601.21527v2)
 
-**Summary:** Understanding structure-property relationships in materials is fundamental in condensed matter physics and materials science. Over the past few years, machine learning (ML) has emerged as a powerful tool for advancing this understanding and accelerating materials discovery. Early ML approaches primarily focused on constructing and screening large material spaces to identify promising candidates for various applications. More recently, research efforts have increasingly shifted toward generating crystal structures using end-to-end generative models. This review analyzes the current state of generative modeling for crystal structure prediction and de novo generation. It examines crystal representations, outlines the generative models used to design crystal structures, and evaluates their respective strengths and limitations. Furthermore, the review highlights experimental considerations for evaluating generated structures and provides recommendations for suitable existing software tools. Emerging topics, such as modeling disorder and defects, integration in advanced characterization, incorporating synthetic feasibility constraints, and model explainability are explored. Ultimately, this work aims to inform both experimental scientists looking to adapt suitable ML models to their specific circumstances and ML specialists seeking to understand the unique challenges related to inverse materials design and discovery....
+**Summary:** Artificial intelligence (AI) has transformed materials discovery, enabling rapid exploration of chemical space through generative models and surrogate screening. Yet current AI workflows optimize performance first, deferring sustainability to post synthesis assessment. This creates inefficiency by the time environmental burdens are quantified, resources have been invested in potentially unsustainable solutions. The disconnect between atomic scale design and lifecycle assessment (LCA) reflects fundamental challenges, data scarcity across heterogeneous sources, scale gaps from atoms to industrial systems, uncertainty in synthesis pathways, and the absence of frameworks that co-optimize performance with environmental impact. We propose to integrate upstream machine learning (ML) assisted materials discovery with downstream lifecycle assessment into a uniform ML-LCA environment. The framework ML-LCA integrates five components, information extraction for building materials-environment knowledge bases, harmonized databases linking properties to sustainability metrics, multi-scale models bridging atomic properties to lifecycle impacts, ensemble prediction of manufacturing pathways with uncertainty quantification, and uncertainty-aware optimization enabling simultaneous performance-sustainability navigation. Case studies spanning glass, cement, semiconductor photoresists, and polymers demonstrate both necessity and feasibility while identifying material-specific integration challenges. Realizing ML-LCA demands coordinated advances in data infrastructure, ex-ante assessment methodologies, multi-objective optimization, and regulatory alignment enabling the discovery of materials that are sustainable by design rather than by chance....
 
 ---
 
-### 2. Topology as a Design Variable for Multiproperty Engineering in Synthesized 4-5-6-8 Carbon Nanoribbons
+### 2. Large Electron Model: A Universal Ground State Predictor
 
-**Authors:** Djardiel da S. Gomes, Isaac M. Felix, Lucas L. Lage, Douglas S. Galvão, Andrea Latgé, Marcelo L. Pereira Junior
+**Authors:** Timothy Zaklama, Max Geier, Liang Fu
 
-**Published:** 2026-02-27
+**Published:** 2026-03-02
 
-**Category:** cond-mat.mes-hall
+**Category:** cond-mat.str-el
 
-**ID:** 2603.00315v1
+**ID:** 2603.02346v1
 
-**Link:** [http://arxiv.org/abs/2603.00315v1](http://arxiv.org/abs/2603.00315v1)
+**Link:** [http://arxiv.org/abs/2603.02346v1](http://arxiv.org/abs/2603.02346v1)
 
-**Summary:** Nonbenzenoid carbon frameworks expand low-dimensional material design via controlled asymmetry. Here, we show the experimentally realized 4-5-6-8 carbon nanoribbon establishes a topology-driven paradigm for multiproperty engineering, not just a graphene variant. Using hybrid DFT, tight-binding, and molecular dynamics in a multiscale framework, we demonstrate the symmetry-broken lattice stabilizes hierarchical bonds within standard energy ranges. This geometry produces a robust semiconducting state (hybrid gap >1 eV) and enables strain as a controllable modulation parameter. A tight-binding Hamiltonian fitted only at equilibrium accurately captures strain-dependent band evolution, proving the essential physics is topology-dominated. Mechanical analysis reveals high stiffness with fracture governed by the largest polygons, showing asymmetry redistributes stress without compromising integrity. Intrinsic phonon scattering suppresses thermal conductance, enabling favorable thermoelectric performance without extrinsic disorder. Optical response confirms non-equivalent ring connectivity reorganizes interband transitions, promoting strong visible absorption and efficient photocarrier generation. These results position topology as a governing parameter coupling elasticity, electronics, thermal transport, and optics, establishing the 4-5-6-8 nanoribbon as a unified platform for predictive design of multifunctional carbon materials....
+**Summary:** We introduce Large Electron Model, a single neural network model that produces variational wavefunctions of interacting electrons over the entire Hamiltonian parameter manifold. Our model employs the Fermi Sets architecture, a universal representation of many-body fermionic wavefunctions, which is further conditioned on Hamiltonian parameter and particle number. On interacting electrons in a two-dimensional harmonic potential, a single trained model accurately predicts the ground state wavefunction while generalizing across unseen coupling strengths and particle-number sectors, producing both accurate real-space charge densities and ground state energies, even up to $50$ particles. Our results establish a foundation model method for material discovery that is grounded in the variational principle, while accurately treating strong electron correlation beyond the capacity of density functional theory....
 
 ---
 
