@@ -1,0 +1,78 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2506.20739v2",
+    "title": "Symmetry Classification of Magnetic Orders using Oriented Spin Space Groups",
+    "authors": [
+      "Yuntian Liu",
+      "Xiaobing Chen",
+      "Yutong Yu",
+      "Jesús Etxebarria",
+      "J. Manuel Perez-Mato",
+      "Qihang Liu"
+    ],
+    "summary": "Magnetism has witnessed remarkable progress in recent decades, largely driven by its potential for next-generation storage devices. However, the classification of magnetic orders, even for fundamental concepts such as ferromagnetism and antiferromagnetism, remains a topic of active evolution, particularly with the discovery of unconventional magnetic materials and advances in antiferromagnetic spintronics. Here, we present a unified classification of magnetic order utilizing the state-of-the-art spin space group (SSG) theory. Based on whether the net spin magnetization is constrained to zero by SSG, we systematically categorize magnetic orders into ferromagnetism (including ferrimagnetism) and antiferromagnetism. We further introduce an oriented SSG description, i.e., an SSG with a fixed magnetic orientation, thereby unifying the SSG and magnetic space group frameworks. This approach clearly reveals the symmetry-breaking pathway induced by spin-orbit coupling. The proposed group framework completes the intrinsic logic of magnetic symmetry and identifies a distinct magnetic phase, termed spin-orbit magnetism, in which the net spin magnetization is induced by spin-orbit coupling. Our work provides a comprehensive symmetry-based perspective for classifying magnetic order, offering fresh insights into unconventional magnets and broad applicability in spintronics and quantum material design.",
+    "published": "2025-06-25T18:06:40+00:00",
+    "updated": "2026-03-09T17:03:03+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "Submitted on 28 Feb, 2025",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2506.20739v2",
+    "base_id": "2506.20739",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2506.20739v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2602.17176v3",
+    "title": "Symmetry-Driven Generation of Crystal Structures from Composition",
+    "authors": [
+      "Shi Yin",
+      "Jinming Mu",
+      "Xudong Zhu",
+      "Linxin He"
+    ],
+    "summary": "Crystal structure prediction (CSP), which aims to predict the three-dimensional atomic arrangement of a crystal from its composition, is central to materials discovery and mechanistic understanding. However, given the composition in a unit cell, existing methods struggle with the NP-hard combinatorial challenge of rigorous symmetry enforcement or rely on retrieving known templates, which inherently limits both physical fidelity and the ability to discover genuinely new materials. To solve this, we propose a symmetry-driven generative framework. Our approach leverages large language models to encode chemical semantics and directly generate fine-grained Wyckoff patterns from atomic stoichiometry, effectively circumventing the limitations inherent to database lookups. Crucially, to overcome the exponentially complex problem of combinatorial site assignments, we incorporate domain knowledge through an efficient, linear-complexity heuristic beam search algorithm that rigorously enforces algebraic consistency between site multiplicities and atomic stoichiometry. By integrating this symmetry-consistent template into a diffusion backbone, our approach constrains the stochastic generative trajectory to a physically valid geometric manifold. This framework achieves state-of-the-art performance across stability, uniqueness, and novelty (SUN) benchmarks, alongside superior matching performance, thereby establishing a new paradigm for the rigorous exploration of targeted crystallographic space which can be previously uncharted, with no reliance on a priori structural knowledge.",
+    "published": "2026-02-19T08:43:25+00:00",
+    "updated": "2026-03-07T08:45:52+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2602.17176v3",
+    "base_id": "2602.17176",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2602.17176v3"
+  },
+  {
+    "id": "http://arxiv.org/abs/2603.06685v1",
+    "title": "One step further with Monte-Carlo sampler to guide diffusion better",
+    "authors": [
+      "Minsi Ren",
+      "Wenhao Deng",
+      "Ruiqi Feng",
+      "Tailin Wu"
+    ],
+    "summary": "Stochastic differential equation (SDE)-based generative models have achieved substantial progress in conditional generation via training-free differentiable loss-guided approaches. However, existing methodologies utilizing posterior sam- pling typically confront a substantial estimation error, which results in inaccu- rate gradients for guidance and leading to inconsistent generation results. To mitigate this issue, we propose that performing an additional backward denois- ing step and Monte-Carlo sampling (ABMS) can achieve better guided diffu- sion, which is a plug-and-play adjustment strategy. To verify the effectiveness of our method, we provide theoretical analysis and propose the adoption of a dual-focus evaluation framework, which further serves to highlight the critical problem of cross-condition interference prevalent in existing approaches. We conduct experiments across various task settings and data types, mainly includ- ing conditional online handwritten trajectory generation, image inverse problems (inpainting, super resolution and gaussian deblurring) molecular inverse design and so on. Experimental results demonstrate that our approach can be effec- tively used with higher order samplers and consistently improves the quality of generation samples across all the different scenarios.",
+    "published": "2026-03-04T05:48:02+00:00",
+    "updated": "2026-03-04T05:48:02+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "16 pages, 7 figures, accepted at ICLR2026",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2603.06685v1",
+    "base_id": "2603.06685",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2603.06685v1"
+  }
+]
