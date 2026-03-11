@@ -1,0 +1,82 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2603.09845v1",
+    "title": "Materials Acceleration Platform for Electrochemistry (MAP-E): a Platform for Autonomous Electrochemistry",
+    "authors": [
+      "Daniel Persaud",
+      "Mike Werezak",
+      "Mark Xu",
+      "Melyne Zhou",
+      "Frank Benkel",
+      "Xin Pang",
+      "Vahid Attari",
+      "Brian DeCost",
+      "Ashley Dale",
+      "Nicholas Senior",
+      "Gabriel Birsan",
+      "Jason Hattrick-Simpers"
+    ],
+    "summary": "Corrosion testing is slow, labor-intensive, and sensitive to operator technique, limiting the generation of large, high-quality datasets for data-driven materials discovery. We introduce the Materials Acceleration Platform for Electrochemistry (MAP-E), an autonomous, high-throughput system capable of performing parallel electrochemical experiments. MAP-E integrates robotic liquid handling, sample transfer, and multi-channel potentiostatic control and extract corrosion metrics without human intervention. Validation against an ASTM G61-analog benchmark demonstrates reproducibility, with a standard deviation of 76 mV in pitting potential across 32 automated measurements. The platform was then employed to autonomously construct pH-chloride stability diagrams for 304 stainless steel using an uncertainty-driven sampling strategy on a Gaussian Process surrogate model. This approach reduces operator involvement and accelerates the exploration of environmental spaces. MAP-E establishes a framework for autonomous electrochemical experimentation, enabling generation of corrosion datasets that inform materials discovery, alloy design, and durability assessment in service environments.",
+    "published": "2026-03-10T16:08:05+00:00",
+    "updated": "2026-03-10T16:08:05+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "22 pages, 6 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2603.09845v1",
+    "base_id": "2603.09845",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2603.09845v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2603.09744v1",
+    "title": "AI-driven Inverse Design of Complex Oxide Thin Films for Semiconductor Devices",
+    "authors": [
+      "Bonwook Gu",
+      "Trinh Ngoc Le",
+      "Wonjoong Kim",
+      "Zunair Masroor",
+      "Han-Bo-Ram Lee"
+    ],
+    "summary": "Bridging generative foundation models with non-equilibrium thin-film synthesis remains a central challenge, limiting the practical impact of AI-driven materials discovery on semiconductor dielectrics. Here, we introduce IDEAL (Inverse Design for Experimental Atomic Layers), an inverse-design platform that links generative diffusion models, machine learning interatomic potentials, and graph neural network property predictors with atomic layer deposition (ALD). We demonstrate IDEAL using the Hf-Zr-O system as a stringent benchmark for semiconductor-relevant complex oxides. The platform statistically enumerates thermodynamically plausible structures and constructs a composition-structure-property map. Crucially, it identifies a narrow composition window where low-energy tetragonal and orthorhombic phases cluster, revealing trade-offs between band gap and dielectric response. Experimental validation using atomic layer modulation (ALM) corroborates these predictions, demonstrating predictive guidance under realistic, non-equilibrium thin-film growth. By experimentally closing the loop, IDEAL provides a transferable and generalizable route to the precision synthesis of next-generation semiconductor dielectrics.",
+    "published": "2026-03-10T14:48:35+00:00",
+    "updated": "2026-03-10T14:48:35+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "25 pages, 7 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2603.09744v1",
+    "base_id": "2603.09744",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2603.09744v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18156v2",
+    "title": "Lattice-Renormalized Tunneling Models for Superconducting Qubit Materials",
+    "authors": [
+      "P. G. Pritchard",
+      "James M. Rondinelli"
+    ],
+    "summary": "We present a lattice-renormalized formalism for configurational tunneling two-level systems (TLS) that overcomes limitations of minimum-energy-path and light-particle models. Derived from the nuclear Hamiltonian, our formulation introduces composite phonon coordinates to capture lattice distortions between degenerate potential wells. This approach resolves deficiencies in prior models and enables accurate computation of tunnel splittings and excitation spectra for hydrogen-based TLS in bcc Nb. Our results bound experimental tunnel splittings and reveal strong anharmonic couplings between tunneling atoms and lattice phonons, establishing a direct link between TLS dynamics and phonon-mediated strain interactions. The formalism further generalizes to multi-level systems (MLS), providing insight into defect-induced decoherence in superconducting qubits and guiding strategies for materials design to suppress TLS-related loss.",
+    "published": "2025-12-20T00:43:55+00:00",
+    "updated": "2026-03-10T03:46:13+00:00",
+    "categories": [
+      "quant-ph",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "quant-ph",
+    "comment": "13 pages, 4 figures, 6 tables",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2512.18156v2",
+    "base_id": "2512.18156",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2512.18156v2"
+  }
+]

@@ -36,53 +36,53 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (3)
 
-*Last updated: 2026-03-11 06:26:55 (SGT)*
+*Last updated: 2026-03-12 06:25:08 (SGT)*
 
-### 1. Symmetry Classification of Magnetic Orders using Oriented Spin Space Groups
+### 1. Materials Acceleration Platform for Electrochemistry (MAP-E): a Platform for Autonomous Electrochemistry
 
-**Authors:** Yuntian Liu, Xiaobing Chen, Yutong Yu, Jesús Etxebarria, J. Manuel Perez-Mato, Qihang Liu
+**Authors:** Daniel Persaud, Mike Werezak, Mark Xu, Melyne Zhou, Frank Benkel, Xin Pang, Vahid Attari, Brian DeCost, Ashley Dale, Nicholas Senior, Gabriel Birsan, Jason Hattrick-Simpers
 
-**Published:** 2025-06-25
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2506.20739v2
-
-**Link:** [http://arxiv.org/abs/2506.20739v2](http://arxiv.org/abs/2506.20739v2)
-
-**Summary:** Magnetism has witnessed remarkable progress in recent decades, largely driven by its potential for next-generation storage devices. However, the classification of magnetic orders, even for fundamental concepts such as ferromagnetism and antiferromagnetism, remains a topic of active evolution, particularly with the discovery of unconventional magnetic materials and advances in antiferromagnetic spintronics. Here, we present a unified classification of magnetic order utilizing the state-of-the-art spin space group (SSG) theory. Based on whether the net spin magnetization is constrained to zero by SSG, we systematically categorize magnetic orders into ferromagnetism (including ferrimagnetism) and antiferromagnetism. We further introduce an oriented SSG description, i.e., an SSG with a fixed magnetic orientation, thereby unifying the SSG and magnetic space group frameworks. This approach clearly reveals the symmetry-breaking pathway induced by spin-orbit coupling. The proposed group framework completes the intrinsic logic of magnetic symmetry and identifies a distinct magnetic phase, termed spin-orbit magnetism, in which the net spin magnetization is induced by spin-orbit coupling. Our work provides a comprehensive symmetry-based perspective for classifying magnetic order, offering fresh insights into unconventional magnets and broad applicability in spintronics and quantum material design....
-
----
-
-### 2. Symmetry-Driven Generation of Crystal Structures from Composition
-
-**Authors:** Shi Yin, Jinming Mu, Xudong Zhu, Linxin He
-
-**Published:** 2026-02-19
+**Published:** 2026-03-10
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2602.17176v3
+**ID:** 2603.09845v1
 
-**Link:** [http://arxiv.org/abs/2602.17176v3](http://arxiv.org/abs/2602.17176v3)
+**Link:** [http://arxiv.org/abs/2603.09845v1](http://arxiv.org/abs/2603.09845v1)
 
-**Summary:** Crystal structure prediction (CSP), which aims to predict the three-dimensional atomic arrangement of a crystal from its composition, is central to materials discovery and mechanistic understanding. However, given the composition in a unit cell, existing methods struggle with the NP-hard combinatorial challenge of rigorous symmetry enforcement or rely on retrieving known templates, which inherently limits both physical fidelity and the ability to discover genuinely new materials. To solve this, we propose a symmetry-driven generative framework. Our approach leverages large language models to encode chemical semantics and directly generate fine-grained Wyckoff patterns from atomic stoichiometry, effectively circumventing the limitations inherent to database lookups. Crucially, to overcome the exponentially complex problem of combinatorial site assignments, we incorporate domain knowledge through an efficient, linear-complexity heuristic beam search algorithm that rigorously enforces algebraic consistency between site multiplicities and atomic stoichiometry. By integrating this symmetry-consistent template into a diffusion backbone, our approach constrains the stochastic generative trajectory to a physically valid geometric manifold. This framework achieves state-of-the-art performance across stability, uniqueness, and novelty (SUN) benchmarks, alongside superior matching performance, thereby establishing a new paradigm for the rigorous exploration of targeted crystallographic space which can be previously uncharted, with no reliance on a priori structural knowledge....
+**Summary:** Corrosion testing is slow, labor-intensive, and sensitive to operator technique, limiting the generation of large, high-quality datasets for data-driven materials discovery. We introduce the Materials Acceleration Platform for Electrochemistry (MAP-E), an autonomous, high-throughput system capable of performing parallel electrochemical experiments. MAP-E integrates robotic liquid handling, sample transfer, and multi-channel potentiostatic control and extract corrosion metrics without human intervention. Validation against an ASTM G61-analog benchmark demonstrates reproducibility, with a standard deviation of 76 mV in pitting potential across 32 automated measurements. The platform was then employed to autonomously construct pH-chloride stability diagrams for 304 stainless steel using an uncertainty-driven sampling strategy on a Gaussian Process surrogate model. This approach reduces operator involvement and accelerates the exploration of environmental spaces. MAP-E establishes a framework for autonomous electrochemical experimentation, enabling generation of corrosion datasets that inform materials discovery, alloy design, and durability assessment in service environments....
 
 ---
 
-### 3. One step further with Monte-Carlo sampler to guide diffusion better
+### 2. AI-driven Inverse Design of Complex Oxide Thin Films for Semiconductor Devices
 
-**Authors:** Minsi Ren, Wenhao Deng, Ruiqi Feng, Tailin Wu
+**Authors:** Bonwook Gu, Trinh Ngoc Le, Wonjoong Kim, Zunair Masroor, Han-Bo-Ram Lee
 
-**Published:** 2026-03-04
+**Published:** 2026-03-10
 
-**Category:** cs.LG
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2603.06685v1
+**ID:** 2603.09744v1
 
-**Link:** [http://arxiv.org/abs/2603.06685v1](http://arxiv.org/abs/2603.06685v1)
+**Link:** [http://arxiv.org/abs/2603.09744v1](http://arxiv.org/abs/2603.09744v1)
 
-**Summary:** Stochastic differential equation (SDE)-based generative models have achieved substantial progress in conditional generation via training-free differentiable loss-guided approaches. However, existing methodologies utilizing posterior sam- pling typically confront a substantial estimation error, which results in inaccu- rate gradients for guidance and leading to inconsistent generation results. To mitigate this issue, we propose that performing an additional backward denois- ing step and Monte-Carlo sampling (ABMS) can achieve better guided diffu- sion, which is a plug-and-play adjustment strategy. To verify the effectiveness of our method, we provide theoretical analysis and propose the adoption of a dual-focus evaluation framework, which further serves to highlight the critical problem of cross-condition interference prevalent in existing approaches. We conduct experiments across various task settings and data types, mainly includ- ing conditional online handwritten trajectory generation, image inverse problems (inpainting, super resolution and gaussian deblurring) molecular inverse design and so on. Experimental results demonstrate that our approach can be effec- tively used with higher order samplers and consistently improves the quality of generation samples across all the different scenarios....
+**Summary:** Bridging generative foundation models with non-equilibrium thin-film synthesis remains a central challenge, limiting the practical impact of AI-driven materials discovery on semiconductor dielectrics. Here, we introduce IDEAL (Inverse Design for Experimental Atomic Layers), an inverse-design platform that links generative diffusion models, machine learning interatomic potentials, and graph neural network property predictors with atomic layer deposition (ALD). We demonstrate IDEAL using the Hf-Zr-O system as a stringent benchmark for semiconductor-relevant complex oxides. The platform statistically enumerates thermodynamically plausible structures and constructs a composition-structure-property map. Crucially, it identifies a narrow composition window where low-energy tetragonal and orthorhombic phases cluster, revealing trade-offs between band gap and dielectric response. Experimental validation using atomic layer modulation (ALM) corroborates these predictions, demonstrating predictive guidance under realistic, non-equilibrium thin-film growth. By experimentally closing the loop, IDEAL provides a transferable and generalizable route to the precision synthesis of next-generation semiconductor dielectrics....
+
+---
+
+### 3. Lattice-Renormalized Tunneling Models for Superconducting Qubit Materials
+
+**Authors:** P. G. Pritchard, James M. Rondinelli
+
+**Published:** 2025-12-20
+
+**Category:** quant-ph
+
+**ID:** 2512.18156v2
+
+**Link:** [http://arxiv.org/abs/2512.18156v2](http://arxiv.org/abs/2512.18156v2)
+
+**Summary:** We present a lattice-renormalized formalism for configurational tunneling two-level systems (TLS) that overcomes limitations of minimum-energy-path and light-particle models. Derived from the nuclear Hamiltonian, our formulation introduces composite phonon coordinates to capture lattice distortions between degenerate potential wells. This approach resolves deficiencies in prior models and enables accurate computation of tunnel splittings and excitation spectra for hydrogen-based TLS in bcc Nb. Our results bound experimental tunnel splittings and reveal strong anharmonic couplings between tunneling atoms and lattice phonons, establishing a direct link between TLS dynamics and phonon-mediated strain interactions. The formalism further generalizes to multi-level systems (MLS), providing insight into defect-induced decoherence in superconducting qubits and guiding strategies for materials design to suppress TLS-related loss....
 
 ---
 
