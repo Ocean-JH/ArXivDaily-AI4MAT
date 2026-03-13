@@ -1,0 +1,40 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2603.11515v1",
+    "title": "Multi-Agent Collaboration for Automated Design Exploration on High Performance Computing Systems",
+    "authors": [
+      "Harshitha Menon",
+      "Charles F. Jekel",
+      "Kevin Korner",
+      "Brian Gunnarson",
+      "Nathan K. Brown",
+      "Michael Stees",
+      "M. Giselle Fernandez-Godino",
+      "Walter Nissen",
+      "Meir H. Shachar",
+      "Dane M. Sterbentz",
+      "William J. Schill",
+      "Yue Hao",
+      "Robert Rieben",
+      "William Quadros",
+      "Steve Owen",
+      "Scott Mitchell",
+      "Ismael D. Boureima",
+      "Jonathan L. Belof"
+    ],
+    "summary": "Today's scientific challenges, from climate modeling to Inertial Confinement Fusion design to novel material design, require exploring huge design spaces. In order to enable high-impact scientific discovery, we need to scale up our ability to test hypotheses, generate results, and learn from them rapidly. We present MADA (Multi-Agent Design Assistant), a Large Language Model (LLM) powered multi-agent framework that coordinates specialized agents for complex design workflows. A Job Management Agent (JMA) launches and manages ensemble simulations on HPC systems, a Geometry Agent (GA) generates meshes, and an Inverse Design Agent (IDA) proposes new designs informed by simulation outcomes. While general purpose, we focus development and validation on Richtmyer--Meshkov Instability (RMI) suppression, a critical challenge in Inertial Confinement Fusion. We evaluate on two complementary settings: running a hydrodynamics simulations on HPC systems, and using a pre-trained machine learning surrogate for rapid design exploration. Our results demonstrate that the MADA system successfully executes iterative design refinement, automatically improving designs toward optimal RMI suppression with minimal manual intervention. Our framework reduces cumbersome manual workflow setup, and enables automated design exploration at scale. More broadly, it demonstrates a reusable pattern for coupling reasoning, simulation, specialized tools, and coordinated workflows to accelerate scientific discovery.",
+    "published": "2026-03-12T04:01:27+00:00",
+    "updated": "2026-03-12T04:01:27+00:00",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2603.11515v1",
+    "base_id": "2603.11515",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2603.11515v1"
+  }
+]
