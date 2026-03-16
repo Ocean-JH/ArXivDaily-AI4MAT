@@ -34,23 +34,39 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (1)
+## New Papers (2)
 
-*Last updated: 2026-03-14 06:26:12 (SGT)*
+*Last updated: 2026-03-17 06:31:06 (SGT)*
 
-### 1. Multi-Agent Collaboration for Automated Design Exploration on High Performance Computing Systems
+### 1. High-Throughput Quantification of Altermagnetic Band Splitting
 
-**Authors:** Harshitha Menon, Charles F. Jekel, Kevin Korner, Brian Gunnarson, Nathan K. Brown, Michael Stees, M. Giselle Fernandez-Godino, Walter Nissen, Meir H. Shachar, Dane M. Sterbentz, William J. Schill, Yue Hao, Robert Rieben, William Quadros, Steve Owen, Scott Mitchell, Ismael D. Boureima, Jonathan L. Belof
+**Authors:** Ali Sufyan, Brahim Marfoua, J. Andreas Larsson, Erik van Loon, Rickard Armiento
 
-**Published:** 2026-03-12
+**Published:** 2025-09-18
 
-**Category:** cs.AI
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2603.11515v1
+**ID:** 2509.14729v3
 
-**Link:** [http://arxiv.org/abs/2603.11515v1](http://arxiv.org/abs/2603.11515v1)
+**Link:** [http://arxiv.org/abs/2509.14729v3](http://arxiv.org/abs/2509.14729v3)
 
-**Summary:** Today's scientific challenges, from climate modeling to Inertial Confinement Fusion design to novel material design, require exploring huge design spaces. In order to enable high-impact scientific discovery, we need to scale up our ability to test hypotheses, generate results, and learn from them rapidly. We present MADA (Multi-Agent Design Assistant), a Large Language Model (LLM) powered multi-agent framework that coordinates specialized agents for complex design workflows. A Job Management Agent (JMA) launches and manages ensemble simulations on HPC systems, a Geometry Agent (GA) generates meshes, and an Inverse Design Agent (IDA) proposes new designs informed by simulation outcomes. While general purpose, we focus development and validation on Richtmyer--Meshkov Instability (RMI) suppression, a critical challenge in Inertial Confinement Fusion. We evaluate on two complementary settings: running a hydrodynamics simulations on HPC systems, and using a pre-trained machine learning surrogate for rapid design exploration. Our results demonstrate that the MADA system successfully executes iterative design refinement, automatically improving designs toward optimal RMI suppression with minimal manual intervention. Our framework reduces cumbersome manual workflow setup, and enables automated design exploration at scale. More broadly, it demonstrates a reusable pattern for coupling reasoning, simulation, specialized tools, and coordinated workflows to accelerate scientific discovery....
+**Summary:** Altermagnetism represents a recently established class of collinear magnetism that combines zero net magnetization with momentum-dependent spin polarization, enabled by symmetry constraints rather than spin-orbit coupling. This distinctive behavior gives rise to sizable spin splitting even in materials composed of light, earth-abundant elements, offering promising prospects for next-generation spintronics applications. Despite growing theoretical and experimental interest, the discovery of altermagnetic materials remains limited due to the complexity of magnetic symmetry and the inefficiency of conventional approaches. Here, we present a comprehensive high-throughput screening of the entire MAGNDATA database, integrating symmetry analysis with spin-polarized density functional theory (DFT) calculations to identify and characterize altermagnetic candidates. Our workflow uncovers 173 materials exhibiting significant spin splitting ($\geq 50$ meV within $\pm 3$ eV of the Fermi level), spanning both metallic and semiconducting systems. Crucially, our momentum-resolved analysis reveals that the spin splitting varies strongly across the Brillouin zone, and that the maximal splitting tends to occur away from the high-symmetry paths, a result that directly informs and guides future photoemission experiments. By expanding the catalog of known altermagnets and elucidating the symmetry-protected origins of spin splitting, this work lays a robust foundation for future experimental and theoretical advances in spintronics and quantum materials discovery....
+
+---
+
+### 2. SciDesignBench: Benchmarking and Improving Language Models for Scientific Inverse Design
+
+**Authors:** David van Dijk, Ivan Vrkic
+
+**Published:** 2026-03-13
+
+**Category:** cs.LG
+
+**ID:** 2603.12724v1
+
+**Link:** [http://arxiv.org/abs/2603.12724v1](http://arxiv.org/abs/2603.12724v1)
+
+**Summary:** Many of the most important problems in science and engineering are inverse problems: given a desired outcome, find a design that achieves it. Evaluating whether a candidate meets the spec is often routine; a binding energy can be computed, a reactor yield simulated, a pharmacokinetic profile predicted. But searching a combinatorial design space for inputs that satisfy those targets is fundamentally harder. We introduce SciDesignBench, a benchmark of 520 simulator-grounded tasks across 14 scientific domains and five settings spanning single-shot design, short-horizon feedback, long-horizon refinement, and seed-design optimization. On the 10-domain shared-core subset, the best zero-shot model reaches only 29.0% success despite substantially higher parse rates. Simulator feedback helps, but the leaderboard changes with horizon: Sonnet 4.5 is strongest in one-turn de novo design, whereas Opus 4.6 is strongest after 20 turns of simulator-grounded refinement. Providing a starting seed design reshuffles the leaderboard again, demonstrating that constrained modification requires a fundamentally different capability from unconstrained de novo generation. We then introduce RLSF, a simulator-feedback training recipe. An RLSF-tuned 8B model raises single-turn success rates by 8-17 percentage points across three domains. Together, these results position simulator-grounded inverse design as both a benchmark for scientific reasoning and a practical substrate for amortizing expensive test-time compute into model weights....
 
 ---
 
