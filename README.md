@@ -34,39 +34,23 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (2)
+## New Papers (1)
 
-*Last updated: 2026-03-17 06:31:06 (SGT)*
+*Last updated: 2026-03-18 06:31:00 (SGT)*
 
-### 1. High-Throughput Quantification of Altermagnetic Band Splitting
+### 1. Generative Inverse Design of Cold Metals for Low-Power Electronics
 
-**Authors:** Ali Sufyan, Brahim Marfoua, J. Andreas Larsson, Erik van Loon, Rickard Armiento
+**Authors:** Kedeng Wu, Yucheng Zhu, Yan Chen, Bizhu Zhang, Shuyu Liu, Xiaobin Deng, Yabei Wu, Liangliang Zhu, Hang Xiao
 
-**Published:** 2025-09-18
+**Published:** 2026-03-14
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2509.14729v3
+**ID:** 2603.13920v1
 
-**Link:** [http://arxiv.org/abs/2509.14729v3](http://arxiv.org/abs/2509.14729v3)
+**Link:** [http://arxiv.org/abs/2603.13920v1](http://arxiv.org/abs/2603.13920v1)
 
-**Summary:** Altermagnetism represents a recently established class of collinear magnetism that combines zero net magnetization with momentum-dependent spin polarization, enabled by symmetry constraints rather than spin-orbit coupling. This distinctive behavior gives rise to sizable spin splitting even in materials composed of light, earth-abundant elements, offering promising prospects for next-generation spintronics applications. Despite growing theoretical and experimental interest, the discovery of altermagnetic materials remains limited due to the complexity of magnetic symmetry and the inefficiency of conventional approaches. Here, we present a comprehensive high-throughput screening of the entire MAGNDATA database, integrating symmetry analysis with spin-polarized density functional theory (DFT) calculations to identify and characterize altermagnetic candidates. Our workflow uncovers 173 materials exhibiting significant spin splitting ($\geq 50$ meV within $\pm 3$ eV of the Fermi level), spanning both metallic and semiconducting systems. Crucially, our momentum-resolved analysis reveals that the spin splitting varies strongly across the Brillouin zone, and that the maximal splitting tends to occur away from the high-symmetry paths, a result that directly informs and guides future photoemission experiments. By expanding the catalog of known altermagnets and elucidating the symmetry-protected origins of spin splitting, this work lays a robust foundation for future experimental and theoretical advances in spintronics and quantum materials discovery....
-
----
-
-### 2. SciDesignBench: Benchmarking and Improving Language Models for Scientific Inverse Design
-
-**Authors:** David van Dijk, Ivan Vrkic
-
-**Published:** 2026-03-13
-
-**Category:** cs.LG
-
-**ID:** 2603.12724v1
-
-**Link:** [http://arxiv.org/abs/2603.12724v1](http://arxiv.org/abs/2603.12724v1)
-
-**Summary:** Many of the most important problems in science and engineering are inverse problems: given a desired outcome, find a design that achieves it. Evaluating whether a candidate meets the spec is often routine; a binding energy can be computed, a reactor yield simulated, a pharmacokinetic profile predicted. But searching a combinatorial design space for inputs that satisfy those targets is fundamentally harder. We introduce SciDesignBench, a benchmark of 520 simulator-grounded tasks across 14 scientific domains and five settings spanning single-shot design, short-horizon feedback, long-horizon refinement, and seed-design optimization. On the 10-domain shared-core subset, the best zero-shot model reaches only 29.0% success despite substantially higher parse rates. Simulator feedback helps, but the leaderboard changes with horizon: Sonnet 4.5 is strongest in one-turn de novo design, whereas Opus 4.6 is strongest after 20 turns of simulator-grounded refinement. Providing a starting seed design reshuffles the leaderboard again, demonstrating that constrained modification requires a fundamentally different capability from unconstrained de novo generation. We then introduce RLSF, a simulator-feedback training recipe. An RLSF-tuned 8B model raises single-turn success rates by 8-17 percentage points across three domains. Together, these results position simulator-grounded inverse design as both a benchmark for scientific reasoning and a practical substrate for amortizing expensive test-time compute into model weights....
+**Summary:** Cold metals are a class of metals with an intrinsic energy gap located close to the Fermi level, which enables cold-carrier injection for steep-slope transistors and is therefore promising for low-power electronic applications. High-throughput screening has revealed 252 three-dimensional (3D) cold metals in the Materials Project database, but database searches are inherently limited to known compounds. Here we present an inverse-design workflow that generates 3D cold metals using MatterGPT, a conditional autoregressive Transformer trained on SLICES, an invertible and symmetry-invariant crystal string representation. We curate a training set of 26,309 metallic structures labeled with energy above hull and a unified band-edge distance descriptor that merges p-type and n-type cold-metal characteristics to address severe label imbalance. Property-conditioned generation targeting thermodynamic stability and 50-500 meV band-edge distances produces 148,506 unique candidates; 92.1% are successfully reconstructed to 3D structures and down-selected by symmetry, uniqueness and novelty filters, followed by high-throughput DFT validation. We identify 257 cold metals verified as novel with respect to the Materials Project database, with gaps around the Fermi level spanning 50-500 meV. First-principles phonon, electronic-structure, and work-function calculations for representative candidates confirm dynamical stability and contact-relevant work functions. Our results demonstrate that SLICES-enabled generative transformers can expand the chemical space of cold metals beyond high-throughput screening, providing a route to low-power electronic materials discovery....
 
 ---
 
