@@ -1,0 +1,76 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2510.12329v2",
+    "title": "DiffCrysGen: A Generative Diffusion Model for Accelerated Design of Inorganic Crystalline Materials",
+    "authors": [
+      "Sourav Mal",
+      "Nehad Ahmed",
+      "Junaid Jami",
+      "Subhankar Mishra",
+      "Prasenjit Sen"
+    ],
+    "summary": "Efficient exploration of the vast chemical space is a fundamental challenge in materials design and discovery, particularly for designing functional inorganic crystalline materials with targeted properties. Diffusion-based generative models have emerged as a powerful route, but most existing approaches require domain-specific constraints and separate diffusion processes for atom types, atomic positions, and lattice parameters, adding complexity and limiting efficiency. Here, we present DiffCrysGen, a fully data-driven, score-based diffusion model that generates complete crystal structures in a single, end-to-end diffusion process. This unified framework simplifies the model architecture and accelerates sampling by two to three orders of magnitude compared to existing methods without compromising chemical and structural diversity of the generated materials. In order to demonstrate the efficacy of DiffCrysGen in generating valid and useful materials, using density functional theory (DFT), we validate a number of newly generated rare earth-free magnetic materials that are energetically and dynamically stable, and are potentially synthesizable. These include ferromagnets with high saturation magnetization and large magnetocrystalline anisotropy, as also metallic antiferromagnets. These results establish DiffCrysGen as a general platform for accelerated design of functional materials.",
+    "published": "2025-10-14T09:42:23+00:00",
+    "updated": "2026-03-19T06:43:09+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "v2: Updated title and author list; manuscript revised with supplementary information included. Total 66 pages, 11 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2510.12329v2",
+    "base_id": "2510.12329",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2510.12329v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2603.06082v2",
+    "title": "Offline Materials Optimization with CliqueFlowmer",
+    "authors": [
+      "Jakub Grudzien Kuba",
+      "Benjamin Kurt Miller",
+      "Sergey Levine",
+      "Pieter Abbeel"
+    ],
+    "summary": "Recent advances in deep learning inspired neural network-based approaches to computational materials discovery (CMD). A plethora of problems in this field involve finding materials that optimize a target property. Nevertheless, the increasingly popular generative modeling methods are ineffective at boldly exploring attractive regions of the materials space due to their maximum likelihood training. In this work, we offer an alternative CMD technique based on offline model-based optimization (MBO) that fuses direct optimization of a target material property into generation. To that end, we introduce a domain-specific model, dubbed CliqueFlowmer, that incorporates recent advances of clique-based MBO into transformer and flow generation. We validate CliqueFlowmer's optimization abilities and show that materials it produces strongly outperform those provided by generative baselines. To enable employment of CliqueFlowmer in specialized materials optimization problems and support interdisciplinary research, we open-source our code at https://github.com/znowu/CliqueFlowmer.",
+    "published": "2026-03-06T09:33:00+00:00",
+    "updated": "2026-03-19T02:21:41+00:00",
+    "categories": [
+      "cs.AI",
+      "cs.CE"
+    ],
+    "primary_category": "cs.AI",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2603.06082v2",
+    "base_id": "2603.06082",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2603.06082v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2410.13106v4",
+    "title": "Cliqueformer: Model-Based Optimization with Structured Transformers",
+    "authors": [
+      "Jakub Grudzien Kuba",
+      "Pieter Abbeel",
+      "Sergey Levine"
+    ],
+    "summary": "Large neural networks excel at prediction tasks, but their application to design problems, such as protein engineering or materials discovery, requires solving offline model-based optimization (MBO) problems. While predictive models may not directly translate to effective design, recent MBO algorithms incorporate reinforcement learning and generative modeling approaches. Meanwhile, theoretical work suggests that exploiting the target function's structure can enhance MBO performance. We present Cliqueformer, a transformer-based architecture that learns the black-box function's structure through functional graphical models (FGM), addressing distribution shift without relying on explicit conservative approaches. Across various domains, including chemical and genetic design tasks, Cliqueformer demonstrates superior performance compared to existing methods.",
+    "published": "2024-10-17T00:35:47+00:00",
+    "updated": "2026-03-18T21:55:54+00:00",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2410.13106v4",
+    "base_id": "2410.13106",
+    "version": "4",
+    "url": "http://arxiv.org/abs/2410.13106v4"
+  }
+]
