@@ -1,0 +1,83 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2603.24194v1",
+    "title": "First-principles high-throughput screening of ruthenium compounds for advanced interconnects",
+    "authors": [
+      "Gyungho Maeng",
+      "Subeen Lim",
+      "Bonggeun Shong",
+      "Yeonghun Lee"
+    ],
+    "summary": "As interconnect dimensions continue to shrink, the industry-standard copper faces a critical increase in resistivity, presenting a significant hurdle to overall device performance. To overcome this limitation, this work investigates the potential of ruthenium (Ru)-based compounds, encompassing binary, ternary, and quaternary systems, as viable alternatives to copper (Cu). Ruthenium is regarded as a strong candidate, owing to its inherent advantages in reliability and more favorable resistivity scaling at reduced dimensions. Moreover, forming compounds offers an effective strategy to engineer novel properties, expanding the material design space beyond the constraints of pure metals. Utilizing a high-throughput screening methodology, we systematically investigated a broad spectrum of 2,106 Ru-based compounds to identify candidates with superior electronic transport and reliability characteristics. Consequently, we successfully identified a total of 61 promising candidates that exhibit excellent resistivity scaling behavior and enhanced reliability. These findings demonstrate that Ru-based compounds offer a viable pathway to overcome the scaling limitations of next-generation interconnects.",
+    "published": "2026-03-25T11:16:25+00:00",
+    "updated": "2026-03-25T11:16:25+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": "J. Mater. Chem. C (2026)",
+    "doi": "10.1039/D6TC00235H",
+    "pdf_url": "https://arxiv.org/pdf/2603.24194v1",
+    "base_id": "2603.24194",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2603.24194v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.21201v3",
+    "title": "Efficient Crystal Structure Prediction Using Universal Neural Network Potential with Diversity Preservation in Genetic Algorithms",
+    "authors": [
+      "Takuya Shibayama",
+      "Hideaki Imamura",
+      "Katsuhiko Nishimra",
+      "Kohei Shinohara",
+      "Chikashi Shinagawa",
+      "So Takamoto",
+      "Ju Li"
+    ],
+    "summary": "Crystal structure prediction (CSP) is crucial for identifying stable crystal structures in given systems and is a prerequisite for computational atomistic simulations. Recent advances in neural network potentials (NNPs) have reduced the computational cost of CSP. However, searching for stable crystal structures across the entire composition space in multicomponent systems remains a significant challenge. Here, we propose an improvement of genetic algorithm (GA) -based CSP method using a universal NNP. Our GA-based methods are designed to efficiently expand convex hull volumes while preserving the diversity of crystal structures. Our hull-informed filtering and elitist-selection procedures incorporate an aging mechanism that prioritizes recently improved compositions. We also employ niching to prevent convergence to a small set of stoichiometries, thereby preserving a diverse, high-quality population. Our evaluation shows that the present method outperforms the symmetry-aware random structure generation and existing CSP methods, achieving a larger convex hull with fewer trials. We demonstrated that our approach, combined with the developed universal NNP (PFP), can accurately reproduce and explore phase diagrams obtained through DFT calculations; this indicates the validity of PFP across a wide range of crystal structures and element combinations. This study, which integrates a universal NNP with a GA-based CSP method, highlights the promise of these methods in materials discovery.",
+    "published": "2025-03-27T06:38:59+00:00",
+    "updated": "2026-03-25T02:38:24+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2503.21201v3",
+    "base_id": "2503.21201",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2503.21201v3"
+  },
+  {
+    "id": "http://arxiv.org/abs/2603.23536v1",
+    "title": "optimade-maker: Automated generation of interoperable materials APIs from static data",
+    "authors": [
+      "Kristjan Eimre",
+      "Matthew L. Evans",
+      "Bud Macaulay",
+      "Xing Wang",
+      "Jusong Yu",
+      "Nicola Marzari",
+      "Gian-Marco Rignanese",
+      "Giovanni Pizzi"
+    ],
+    "summary": "Atomistic structural data are central to materials science, condensed matter physics, and chemistry, and are increasingly digitised across diverse repositories and databases. Interoperable access to these heterogeneous data sources enables reusable clients and tools, and is essential for cross-database analyses and data-driven materials discovery. Toward this aim, the OPTIMADE (Open Databases Integration for Materials Design) specification defines a standard REST API for atomistic structures and related properties. However, deploying and maintaining compliant services remains technically demanding and poses a significant barrier for many data providers. Here, we present optimade-maker, a lightweight toolkit for the automated generation of OPTIMADE-compliant APIs directly from raw atomistic structure and property data. The toolkit supports a wide range of raw datasets, enables conversion to a standardised OPTIMADE data representation, and allows for rapid deployment of APIs in both local and production environments. We further demonstrate it through an automated service on the Materials Cloud Archive, which automatically creates and publishes OPTIMADE APIs for contributed datasets, enabling immediate discoverability and interoperability. In addition, we implement data transformation pipelines for the Cambridge Structural Database (CSD) and the Inorganic Crystal Structure Database (ICSD), enabling unified access to these curated resources through the OPTIMADE framework. By lowering the technical barriers to interoperable data publication, optimade-maker represents an important step toward a scalable, FAIR materials data ecosystem integrating both community-contributed and curated databases.",
+    "published": "2026-03-12T16:48:41+00:00",
+    "updated": "2026-03-12T16:48:41+00:00",
+    "categories": [
+      "cs.DB",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cs.DB",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2603.23536v1",
+    "base_id": "2603.23536",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2603.23536v1"
+  }
+]
