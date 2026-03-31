@@ -34,55 +34,71 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (3)
+## New Papers (4)
 
-*Last updated: 2026-03-27 06:27:58 (SGT)*
+*Last updated: 2026-04-01 06:33:13 (SGT)*
 
-### 1. First-principles high-throughput screening of ruthenium compounds for advanced interconnects
+### 1. Electrospinning-Data.org: A FAIR, Structured Knowledge Resource for Nanofiber Fabrication
 
-**Authors:** Gyungho Maeng, Subeen Lim, Bonggeun Shong, Yeonghun Lee
+**Authors:** Mehrab Mahdian, Ferenc Ender, Tamas Pardy
 
-**Published:** 2026-03-25
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2603.24194v1
-
-**Link:** [http://arxiv.org/abs/2603.24194v1](http://arxiv.org/abs/2603.24194v1)
-
-**Summary:** As interconnect dimensions continue to shrink, the industry-standard copper faces a critical increase in resistivity, presenting a significant hurdle to overall device performance. To overcome this limitation, this work investigates the potential of ruthenium (Ru)-based compounds, encompassing binary, ternary, and quaternary systems, as viable alternatives to copper (Cu). Ruthenium is regarded as a strong candidate, owing to its inherent advantages in reliability and more favorable resistivity scaling at reduced dimensions. Moreover, forming compounds offers an effective strategy to engineer novel properties, expanding the material design space beyond the constraints of pure metals. Utilizing a high-throughput screening methodology, we systematically investigated a broad spectrum of 2,106 Ru-based compounds to identify candidates with superior electronic transport and reliability characteristics. Consequently, we successfully identified a total of 61 promising candidates that exhibit excellent resistivity scaling behavior and enhanced reliability. These findings demonstrate that Ru-based compounds offer a viable pathway to overcome the scaling limitations of next-generation interconnects....
-
----
-
-### 2. Efficient Crystal Structure Prediction Using Universal Neural Network Potential with Diversity Preservation in Genetic Algorithms
-
-**Authors:** Takuya Shibayama, Hideaki Imamura, Katsuhiko Nishimra, Kohei Shinohara, Chikashi Shinagawa, So Takamoto, Ju Li
-
-**Published:** 2025-03-27
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2503.21201v3
-
-**Link:** [http://arxiv.org/abs/2503.21201v3](http://arxiv.org/abs/2503.21201v3)
-
-**Summary:** Crystal structure prediction (CSP) is crucial for identifying stable crystal structures in given systems and is a prerequisite for computational atomistic simulations. Recent advances in neural network potentials (NNPs) have reduced the computational cost of CSP. However, searching for stable crystal structures across the entire composition space in multicomponent systems remains a significant challenge. Here, we propose an improvement of genetic algorithm (GA) -based CSP method using a universal NNP. Our GA-based methods are designed to efficiently expand convex hull volumes while preserving the diversity of crystal structures. Our hull-informed filtering and elitist-selection procedures incorporate an aging mechanism that prioritizes recently improved compositions. We also employ niching to prevent convergence to a small set of stoichiometries, thereby preserving a diverse, high-quality population. Our evaluation shows that the present method outperforms the symmetry-aware random structure generation and existing CSP methods, achieving a larger convex hull with fewer trials. We demonstrated that our approach, combined with the developed universal NNP (PFP), can accurately reproduce and explore phase diagrams obtained through DFT calculations; this indicates the validity of PFP across a wide range of crystal structures and element combinations. This study, which integrates a universal NNP with a GA-based CSP method, highlights the promise of these methods in materials discovery....
-
----
-
-### 3. optimade-maker: Automated generation of interoperable materials APIs from static data
-
-**Authors:** Kristjan Eimre, Matthew L. Evans, Bud Macaulay, Xing Wang, Jusong Yu, Nicola Marzari, Gian-Marco Rignanese, Giovanni Pizzi
-
-**Published:** 2026-03-12
+**Published:** 2026-03-29
 
 **Category:** cs.DB
 
-**ID:** 2603.23536v1
+**ID:** 2603.27841v1
 
-**Link:** [http://arxiv.org/abs/2603.23536v1](http://arxiv.org/abs/2603.23536v1)
+**Link:** [http://arxiv.org/abs/2603.27841v1](http://arxiv.org/abs/2603.27841v1)
 
-**Summary:** Atomistic structural data are central to materials science, condensed matter physics, and chemistry, and are increasingly digitised across diverse repositories and databases. Interoperable access to these heterogeneous data sources enables reusable clients and tools, and is essential for cross-database analyses and data-driven materials discovery. Toward this aim, the OPTIMADE (Open Databases Integration for Materials Design) specification defines a standard REST API for atomistic structures and related properties. However, deploying and maintaining compliant services remains technically demanding and poses a significant barrier for many data providers. Here, we present optimade-maker, a lightweight toolkit for the automated generation of OPTIMADE-compliant APIs directly from raw atomistic structure and property data. The toolkit supports a wide range of raw datasets, enables conversion to a standardised OPTIMADE data representation, and allows for rapid deployment of APIs in both local and production environments. We further demonstrate it through an automated service on the Materials Cloud Archive, which automatically creates and publishes OPTIMADE APIs for contributed datasets, enabling immediate discoverability and interoperability. In addition, we implement data transformation pipelines for the Cambridge Structural Database (CSD) and the Inorganic Crystal Structure Database (ICSD), enabling unified access to these curated resources through the OPTIMADE framework. By lowering the technical barriers to interoperable data publication, optimade-maker represents an important step toward a scalable, FAIR materials data ecosystem integrating both community-contributed and curated databases....
+**Summary:** Electrospinning is a versatile nanofabrication technique whose outcomes emerge from a complex, high-dimensional interplay between solution properties, processing parameters, and environmental conditions. Optimizing this parameter space for targeted fiber morphology is inherently challenging, often driving extensive trial-and-error experimentation and generating vast experimental data across laboratories worldwide. Yet this knowledge remains fragmented and underutilized due to inconsistent reporting and a pervasive bias toward successful outcomes, limiting reproducibility and hindering data-driven research. Here we introduce Electrospinning-Data.org, a FAIR-aligned data aggregation infrastructure that organizes dispersed electrospinning experiments into structured, reusable, and failure-aware scientific records. The platform is built around a unified process-structure-property data model linking experimental inputs, environmental conditions, and nanofiber morphology, annotated through a controlled vocabulary, within a consistent, machine-readable schema. A two-stage moderation pipeline combining automated validation with expert review supports data quality and long-term interoperability. The resulting structured, failure-inclusive corpus provides a framework for data-driven research, including predictive modelling, inverse design of target morphologies, and systematic mapping of instability regimes that would otherwise require extensive trial-and-error experimentation....
+
+---
+
+### 2. Offline Materials Optimization with CliqueFlowmer
+
+**Authors:** Jakub Grudzien Kuba, Benjamin Kurt Miller, Sergey Levine, Pieter Abbeel
+
+**Published:** 2026-03-06
+
+**Category:** cs.AI
+
+**ID:** 2603.06082v3
+
+**Link:** [http://arxiv.org/abs/2603.06082v3](http://arxiv.org/abs/2603.06082v3)
+
+**Summary:** Recent advances in deep learning inspired neural network-based approaches to computational materials discovery (CMD). A plethora of problems in this field involve finding materials that optimize a target property. Nevertheless, the increasingly popular generative modeling methods are ineffective at boldly exploring attractive regions of the materials space due to their maximum likelihood training. In this work, we offer an alternative CMD technique based on offline model-based optimization (MBO) that fuses direct optimization of a target material property into generation. To that end, we introduce a domain-specific model, dubbed CliqueFlowmer, that incorporates recent advances of clique-based MBO into transformer and flow generation. We validate CliqueFlowmer's optimization abilities and show that materials it produces strongly outperform those provided by generative baselines. To enable its use in specialized materials discovery problems and support interdisciplinary research, we open-source our code and provide additional project information at https://github.com/znowu/CliqueFlowmer....
+
+---
+
+### 3. AutoMS: Multi-Agent Evolutionary Search for Cross-Physics Inverse Microstructure Design
+
+**Authors:** Zhenyuan Zhao, Yu Xing, Tianyang Xue, Lingxin Cao, Xin Yan, Lin Lu
+
+**Published:** 2026-03-28
+
+**Category:** cs.AI
+
+**ID:** 2603.27195v1
+
+**Link:** [http://arxiv.org/abs/2603.27195v1](http://arxiv.org/abs/2603.27195v1)
+
+**Summary:** Designing microstructures that satisfy coupled cross-physics objectives is a fundamental challenge in material science. This inverse design problem involves a vast, discontinuous search space where traditional topology optimization is computationally prohibitive, and deep generative models often suffer from "physical hallucinations," lacking the capability to ensure rigorous validity. To address this limitation, we introduce AutoMS, a multi-agent neuro-symbolic framework that reformulates inverse design as an LLM-driven evolutionary search. Unlike methods that treat LLMs merely as interfaces, AutoMS integrates them as "semantic navigators" to initialize search spaces and break local optima, while our novel Simulation-Aware Evolutionary Search (SAES) addresses the "blindness" of traditional evolutionary strategies. Specifically, SAES utilizes simulation feedback to perform local gradient approximation and directed parameter updates, effectively guiding the search toward physically valid Pareto frontiers. Orchestrating specialized agents (Manager, Parser, Generator, and Simulator), AutoMS achieves a state-of-the-art 83.8\% success rate on 17 diverse cross-physics tasks, nearly doubling the performance of traditional NSGA-II (43.7\%) and significantly outperforming ReAct-based LLM baselines (53.3\%). Furthermore, our hierarchical architecture reduces total execution time by 23.3\%. AutoMS demonstrates that autonomous agent systems can effectively navigate complex physical landscapes, bridging the gap between semantic design intent and rigorous physical validity....
+
+---
+
+### 4. Property-Guided Molecular Generation and Optimization via Latent Flows
+
+**Authors:** Alexander Arjun Lobo, Urvi Awasthi, Leonid Zhukov
+
+**Published:** 2026-03-27
+
+**Category:** cs.LG
+
+**ID:** 2603.26889v1
+
+**Link:** [http://arxiv.org/abs/2603.26889v1](http://arxiv.org/abs/2603.26889v1)
+
+**Summary:** Molecular discovery is increasingly framed as an inverse design problem: identifying molecular structures that satisfy desired property profiles under feasibility constraints. While recent generative models provide continuous latent representations of chemical space, targeted optimization within these representations often leads to degraded validity, loss of structural fidelity, or unstable behavior. We introduce MoltenFlow, a modular framework that combines property-organized latent representations with flow-matching generative priors and gradient-based guidance. This formulation supports both conditioned generation and local optimization within a single latent-space framework. We show that guided latent flows enable efficient multi-objective molecular optimization under fixed oracle budgets with controllable trade-offs, while a learned flow prior improves unconditional generation quality....
 
 ---
 
