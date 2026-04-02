@@ -34,71 +34,55 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (4)
+## New Papers (3)
 
-*Last updated: 2026-04-01 06:33:13 (SGT)*
+*Last updated: 2026-04-03 06:29:51 (SGT)*
 
-### 1. Electrospinning-Data.org: A FAIR, Structured Knowledge Resource for Nanofiber Fabrication
+### 1. Inverse Design of Optical Multilayer Thin Films using Robust Masked Diffusion Models
 
-**Authors:** Mehrab Mahdian, Ferenc Ender, Tamas Pardy
+**Authors:** Jonas Schaible, Asena Karolin Özdemir, Charlotte Debus, Sven Burger, Achim Streit, Christiane Becker, Klaus Jäger, Markus Götz
 
-**Published:** 2026-03-29
+**Published:** 2026-04-01
 
-**Category:** cs.DB
+**Category:** physics.optics
 
-**ID:** 2603.27841v1
+**ID:** 2604.01106v1
 
-**Link:** [http://arxiv.org/abs/2603.27841v1](http://arxiv.org/abs/2603.27841v1)
+**Link:** [http://arxiv.org/abs/2604.01106v1](http://arxiv.org/abs/2604.01106v1)
 
-**Summary:** Electrospinning is a versatile nanofabrication technique whose outcomes emerge from a complex, high-dimensional interplay between solution properties, processing parameters, and environmental conditions. Optimizing this parameter space for targeted fiber morphology is inherently challenging, often driving extensive trial-and-error experimentation and generating vast experimental data across laboratories worldwide. Yet this knowledge remains fragmented and underutilized due to inconsistent reporting and a pervasive bias toward successful outcomes, limiting reproducibility and hindering data-driven research. Here we introduce Electrospinning-Data.org, a FAIR-aligned data aggregation infrastructure that organizes dispersed electrospinning experiments into structured, reusable, and failure-aware scientific records. The platform is built around a unified process-structure-property data model linking experimental inputs, environmental conditions, and nanofiber morphology, annotated through a controlled vocabulary, within a consistent, machine-readable schema. A two-stage moderation pipeline combining automated validation with expert review supports data quality and long-term interoperability. The resulting structured, failure-inclusive corpus provides a framework for data-driven research, including predictive modelling, inverse design of target morphologies, and systematic mapping of instability regimes that would otherwise require extensive trial-and-error experimentation....
-
----
-
-### 2. Offline Materials Optimization with CliqueFlowmer
-
-**Authors:** Jakub Grudzien Kuba, Benjamin Kurt Miller, Sergey Levine, Pieter Abbeel
-
-**Published:** 2026-03-06
-
-**Category:** cs.AI
-
-**ID:** 2603.06082v3
-
-**Link:** [http://arxiv.org/abs/2603.06082v3](http://arxiv.org/abs/2603.06082v3)
-
-**Summary:** Recent advances in deep learning inspired neural network-based approaches to computational materials discovery (CMD). A plethora of problems in this field involve finding materials that optimize a target property. Nevertheless, the increasingly popular generative modeling methods are ineffective at boldly exploring attractive regions of the materials space due to their maximum likelihood training. In this work, we offer an alternative CMD technique based on offline model-based optimization (MBO) that fuses direct optimization of a target material property into generation. To that end, we introduce a domain-specific model, dubbed CliqueFlowmer, that incorporates recent advances of clique-based MBO into transformer and flow generation. We validate CliqueFlowmer's optimization abilities and show that materials it produces strongly outperform those provided by generative baselines. To enable its use in specialized materials discovery problems and support interdisciplinary research, we open-source our code and provide additional project information at https://github.com/znowu/CliqueFlowmer....
+**Summary:** Inverse design of optical multilayer stacks seeks to infer layer materials, thicknesses, and ordering from a desired target spectrum. It is a long-standing challenge due to the large design space and non-unique solutions. We introduce \texttt{OptoLlama}, a masked diffusion language model for inverse thin-film design from optical spectra. Representing multilayer stacks as sequences of material-thickness tokens, \texttt{OptoLlama} conditions generation on reflectance, absorptance, and transmittance spectra and learns a probabilistic mapping from optical response to structure. Evaluated on a representative test set of 3,000 targets, \texttt{OptoLlama} reduces the mean absolute spectral error by 2.9-fold relative to a nearest-neighbor template baseline and by 3.45-fold relative to the state-of-the-art data-driven baseline, called \texttt{OptoGPT}. Case studies on designed and expert-defined targets show that the model reproduces characteristic spectral features and recovers physically meaningful stack motifs, including distributed Bragg reflectors. These results establish diffusion-based sequence modeling as a powerful framework for inverse photonic design....
 
 ---
 
-### 3. AutoMS: Multi-Agent Evolutionary Search for Cross-Physics Inverse Microstructure Design
+### 2. Learning Inter-Atomic Potentials without Explicit Equivariance
 
-**Authors:** Zhenyuan Zhao, Yu Xing, Tianyang Xue, Lingxin Cao, Xin Yan, Lin Lu
+**Authors:** Ahmed A. Elhag, Arun Raja, Alex Morehead, Samuel M. Blau, Hongtao Zhao, Christian Tyrchan, Eva Nittinger, Garrett M. Morris, Michael M. Bronstein
 
-**Published:** 2026-03-28
-
-**Category:** cs.AI
-
-**ID:** 2603.27195v1
-
-**Link:** [http://arxiv.org/abs/2603.27195v1](http://arxiv.org/abs/2603.27195v1)
-
-**Summary:** Designing microstructures that satisfy coupled cross-physics objectives is a fundamental challenge in material science. This inverse design problem involves a vast, discontinuous search space where traditional topology optimization is computationally prohibitive, and deep generative models often suffer from "physical hallucinations," lacking the capability to ensure rigorous validity. To address this limitation, we introduce AutoMS, a multi-agent neuro-symbolic framework that reformulates inverse design as an LLM-driven evolutionary search. Unlike methods that treat LLMs merely as interfaces, AutoMS integrates them as "semantic navigators" to initialize search spaces and break local optima, while our novel Simulation-Aware Evolutionary Search (SAES) addresses the "blindness" of traditional evolutionary strategies. Specifically, SAES utilizes simulation feedback to perform local gradient approximation and directed parameter updates, effectively guiding the search toward physically valid Pareto frontiers. Orchestrating specialized agents (Manager, Parser, Generator, and Simulator), AutoMS achieves a state-of-the-art 83.8\% success rate on 17 diverse cross-physics tasks, nearly doubling the performance of traditional NSGA-II (43.7\%) and significantly outperforming ReAct-based LLM baselines (53.3\%). Furthermore, our hierarchical architecture reduces total execution time by 23.3\%. AutoMS demonstrates that autonomous agent systems can effectively navigate complex physical landscapes, bridging the gap between semantic design intent and rigorous physical validity....
-
----
-
-### 4. Property-Guided Molecular Generation and Optimization via Latent Flows
-
-**Authors:** Alexander Arjun Lobo, Urvi Awasthi, Leonid Zhukov
-
-**Published:** 2026-03-27
+**Published:** 2025-09-25
 
 **Category:** cs.LG
 
-**ID:** 2603.26889v1
+**ID:** 2510.00027v3
 
-**Link:** [http://arxiv.org/abs/2603.26889v1](http://arxiv.org/abs/2603.26889v1)
+**Link:** [http://arxiv.org/abs/2510.00027v3](http://arxiv.org/abs/2510.00027v3)
 
-**Summary:** Molecular discovery is increasingly framed as an inverse design problem: identifying molecular structures that satisfy desired property profiles under feasibility constraints. While recent generative models provide continuous latent representations of chemical space, targeted optimization within these representations often leads to degraded validity, loss of structural fidelity, or unstable behavior. We introduce MoltenFlow, a modular framework that combines property-organized latent representations with flow-matching generative priors and gradient-based guidance. This formulation supports both conditioned generation and local optimization within a single latent-space framework. We show that guided latent flows enable efficient multi-objective molecular optimization under fixed oracle budgets with controllable trade-offs, while a learned flow prior improves unconditional generation quality....
+**Summary:** Accurate and scalable machine-learned inter-atomic potentials (MLIPs) are essential for molecular simulations ranging from drug discovery to new material design. Current state-of-the-art models enforce roto-translational symmetries through equivariant neural network architectures, a hard-wired inductive bias that can often lead to reduced flexibility, computational efficiency, and scalability. In this work, we introduce TransIP: Transformer-based Inter-Atomic Potentials, a novel training paradigm for interatomic potentials achieving symmetry compliance without explicit architectural constraints. Our approach guides a generic non-equivariant Transformer-based model to learn SO(3)-equivariance by optimizing its representations in the embedding space. Trained on the recent Open Molecules (OMol25) collection, a large and diverse molecular dataset built specifically for MLIPs and covering different types of molecules (including small organics, biomolecular fragments, and electrolyte-like species), TransIP attains comparable performance in machine-learning force fields versus state-of-the-art equivariant baselines. Further, compared to a data augmentation baseline, TransIP achieves 40% to 60% improvement in performance across varying OMol25 dataset sizes. More broadly, our work shows that learned equivariance can be a powerful and efficient alternative to equivariant or augmentation-based MLIP models. Our code is available at: https://github.com/Ahmed-A-A-Elhag/TransIP....
+
+---
+
+### 3. AMShortcut: An Inference- and Training-Efficient Inverse Design Model for Amorphous Materials
+
+**Authors:** Yan Lin, Jonas A. Finkler, Tao Du, Jilin Hu, Morten M. Smedskjaer
+
+**Published:** 2026-03-31
+
+**Category:** cs.LG
+
+**ID:** 2603.29812v1
+
+**Link:** [http://arxiv.org/abs/2603.29812v1](http://arxiv.org/abs/2603.29812v1)
+
+**Summary:** Amorphous materials are solids that lack long-range atomic order but possess complex short- and medium-range order. Unlike crystalline materials that can be described by unit cells containing few up to hundreds of atoms, amorphous materials require larger simulation cells with at least hundreds or often thousands of atoms. Inverse design of amorphous materials with probabilistic generative models aims to generate the atomic positions and elements of amorphous materials given a set of desired properties. It has emerged as a promising approach for facilitating the application of amorphous materials in domains such as energy storage and thermal management. In this paper, we introduce AMShortcut, an inference- and training-efficient probabilistic generative model for amorphous materials. AMShortcut enables accurate inference of diverse short- and medium-range structures in amorphous materials with only a few sampling steps, mitigating the need for an excessive number of sampling steps that hinders inference efficiency. AMShortcut can be trained once with all relevant properties and perform inference conditioned on arbitrary combinations of desired properties, mitigating the need for training one model for each combination. Experiments on three amorphous materials datasets with diverse structures and properties demonstrate that AMShortcut achieves its design goals....
 
 ---
 

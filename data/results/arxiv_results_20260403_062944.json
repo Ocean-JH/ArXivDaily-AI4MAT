@@ -1,0 +1,89 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2604.01106v1",
+    "title": "Inverse Design of Optical Multilayer Thin Films using Robust Masked Diffusion Models",
+    "authors": [
+      "Jonas Schaible",
+      "Asena Karolin Özdemir",
+      "Charlotte Debus",
+      "Sven Burger",
+      "Achim Streit",
+      "Christiane Becker",
+      "Klaus Jäger",
+      "Markus Götz"
+    ],
+    "summary": "Inverse design of optical multilayer stacks seeks to infer layer materials, thicknesses, and ordering from a desired target spectrum. It is a long-standing challenge due to the large design space and non-unique solutions. We introduce \\texttt{OptoLlama}, a masked diffusion language model for inverse thin-film design from optical spectra. Representing multilayer stacks as sequences of material-thickness tokens, \\texttt{OptoLlama} conditions generation on reflectance, absorptance, and transmittance spectra and learns a probabilistic mapping from optical response to structure. Evaluated on a representative test set of 3,000 targets, \\texttt{OptoLlama} reduces the mean absolute spectral error by 2.9-fold relative to a nearest-neighbor template baseline and by 3.45-fold relative to the state-of-the-art data-driven baseline, called \\texttt{OptoGPT}. Case studies on designed and expert-defined targets show that the model reproduces characteristic spectral features and recovers physically meaningful stack motifs, including distributed Bragg reflectors. These results establish diffusion-based sequence modeling as a powerful framework for inverse photonic design.",
+    "published": "2026-04-01T16:33:05+00:00",
+    "updated": "2026-04-01T16:33:05+00:00",
+    "categories": [
+      "physics.optics",
+      "cs.LG"
+    ],
+    "primary_category": "physics.optics",
+    "comment": "24 pages, 14 Figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2604.01106v1",
+    "base_id": "2604.01106",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2604.01106v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.00027v3",
+    "title": "Learning Inter-Atomic Potentials without Explicit Equivariance",
+    "authors": [
+      "Ahmed A. Elhag",
+      "Arun Raja",
+      "Alex Morehead",
+      "Samuel M. Blau",
+      "Hongtao Zhao",
+      "Christian Tyrchan",
+      "Eva Nittinger",
+      "Garrett M. Morris",
+      "Michael M. Bronstein"
+    ],
+    "summary": "Accurate and scalable machine-learned inter-atomic potentials (MLIPs) are essential for molecular simulations ranging from drug discovery to new material design. Current state-of-the-art models enforce roto-translational symmetries through equivariant neural network architectures, a hard-wired inductive bias that can often lead to reduced flexibility, computational efficiency, and scalability. In this work, we introduce TransIP: Transformer-based Inter-Atomic Potentials, a novel training paradigm for interatomic potentials achieving symmetry compliance without explicit architectural constraints. Our approach guides a generic non-equivariant Transformer-based model to learn SO(3)-equivariance by optimizing its representations in the embedding space. Trained on the recent Open Molecules (OMol25) collection, a large and diverse molecular dataset built specifically for MLIPs and covering different types of molecules (including small organics, biomolecular fragments, and electrolyte-like species), TransIP attains comparable performance in machine-learning force fields versus state-of-the-art equivariant baselines. Further, compared to a data augmentation baseline, TransIP achieves 40% to 60% improvement in performance across varying OMol25 dataset sizes. More broadly, our work shows that learned equivariance can be a powerful and efficient alternative to equivariant or augmentation-based MLIP models. Our code is available at: https://github.com/Ahmed-A-A-Elhag/TransIP.",
+    "published": "2025-09-25T22:15:10+00:00",
+    "updated": "2026-03-31T16:16:20+00:00",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "q-bio.BM",
+      "q-bio.QM"
+    ],
+    "primary_category": "cs.LG",
+    "comment": "22 pages, 7 tables, 11 figures. Under review. Changes from v2 to v3: Added results for new experiments, training models for 80 epochs on OMol25",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2510.00027v3",
+    "base_id": "2510.00027",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2510.00027v3"
+  },
+  {
+    "id": "http://arxiv.org/abs/2603.29812v1",
+    "title": "AMShortcut: An Inference- and Training-Efficient Inverse Design Model for Amorphous Materials",
+    "authors": [
+      "Yan Lin",
+      "Jonas A. Finkler",
+      "Tao Du",
+      "Jilin Hu",
+      "Morten M. Smedskjaer"
+    ],
+    "summary": "Amorphous materials are solids that lack long-range atomic order but possess complex short- and medium-range order. Unlike crystalline materials that can be described by unit cells containing few up to hundreds of atoms, amorphous materials require larger simulation cells with at least hundreds or often thousands of atoms. Inverse design of amorphous materials with probabilistic generative models aims to generate the atomic positions and elements of amorphous materials given a set of desired properties. It has emerged as a promising approach for facilitating the application of amorphous materials in domains such as energy storage and thermal management. In this paper, we introduce AMShortcut, an inference- and training-efficient probabilistic generative model for amorphous materials. AMShortcut enables accurate inference of diverse short- and medium-range structures in amorphous materials with only a few sampling steps, mitigating the need for an excessive number of sampling steps that hinders inference efficiency. AMShortcut can be trained once with all relevant properties and perform inference conditioned on arbitrary combinations of desired properties, mitigating the need for training one model for each combination. Experiments on three amorphous materials datasets with diverse structures and properties demonstrate that AMShortcut achieves its design goals.",
+    "published": "2026-03-31T14:39:49+00:00",
+    "updated": "2026-03-31T14:39:49+00:00",
+    "categories": [
+      "cs.LG",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2603.29812v1",
+    "base_id": "2603.29812",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2603.29812v1"
+  }
+]
