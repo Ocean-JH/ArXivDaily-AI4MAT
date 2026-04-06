@@ -34,39 +34,23 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (2)
+## New Papers (1)
 
-*Last updated: 2026-04-04 06:31:19 (SGT)*
+*Last updated: 2026-04-07 06:34:59 (SGT)*
 
-### 1. Loop-level surrogate modeling of dopant-distribution effects in Ba(Zr,Ti)O$_3$
+### 1. MatClaw: An Autonomous Code-First LLM Agent for End-to-End Materials Exploration
 
-**Authors:** Heiko Röthl, Elke Kraker, Julien Magnien, Manfred Mücke, Florian Mayer
+**Authors:** Chenmu Zhang, Boris I. Yakobson
 
-**Published:** 2026-04-02
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2604.02325v1
-
-**Link:** [http://arxiv.org/abs/2604.02325v1](http://arxiv.org/abs/2604.02325v1)
-
-**Summary:** Barium titanate-based perovskites are important candidates for lead-free dielectric and electromechanical technologies. In Zr-substituted BaTiO$_3$ (BZT), functional behavior is usually discussed in terms of the average Zr concentration, while the influence of dopant spatial distribution beyond average concentration is less understood and difficult to explore systematically. Here we present an accelerated materials-design workflow that links controlled dopant distributions to full field-driven response curves. We generate a broad set of Zr distributions spanning a continuum of nanoscale arrangements, with layers, rods, dots, and lamellae serving as representative end-member motifs, and encode each configuration using a compact, parametrized descriptor model. Effective-Hamiltonian molecular dynamics is used to compute polarization-electric-field and strain-field hysteresis loops, and we train a conditional autoencoder surrogate to predict complete loops directly from the distribution parameters. This surrogate enables rapid screening and dense, property-selective design maps at scales that are not feasible with direct simulations alone, and it supports targeted follow-up simulations in regions of interest. Using the predicted loop database, we screen the distribution space for multiple functional targets, including energy-storage performance, electromechanical response, and switching behavior, and identify the corresponding dopant distribution motif families. The resulting design maps show that dopant distribution is an independent tuning parameter that can strongly affect hysteresis behavior and loop-derived figures of merit: layer-like motifs, vertical lamellae, and nanoplate-like inclusions emerge in different performance regimes. More generally, predicting full response curves enables screening of other loop-derived targets and multi-objective design in substituted ferroelectrics....
-
----
-
-### 2. AlloyVAE: A generative model for complex probabilistic field-to-field relationships in alloys
-
-**Authors:** Ningyu Yan, Zhuocheng Xie, Kai Guo, Yejun Gu, Huajian Gao, Yang Xiang
-
-**Published:** 2026-04-02
+**Published:** 2026-04-03
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2604.02281v1
+**ID:** 2604.02688v1
 
-**Link:** [http://arxiv.org/abs/2604.02281v1](http://arxiv.org/abs/2604.02281v1)
+**Link:** [http://arxiv.org/abs/2604.02688v1](http://arxiv.org/abs/2604.02688v1)
 
-**Summary:** The inherent compositional heterogeneity of multi-principal element alloys (MPEAs) gives rise to complex, spatially varying mechanical fields that cannot be uniquely determined from coarse-grained composition descriptors. This non-uniqueness introduces intrinsically probabilistic structure-property relationships, posing a fundamental challenge to conventional deterministic modeling and machine learning approaches that collapse such mappings into average predictions. Here, we present AlloyVAE, a physics-informed generative framework that learns the full conditional distribution of mechanical fields from microstructural inputs. Built upon a conditional variational autoencoder architecture, the model incorporates learned smoothing operators to enhance functional regularity and a self-consistency mechanism to enforce physical plausibility. Trained on atomistic simulation data, AlloyVAE accurately predicts distributions of residual stress fields from composition and short-range order, and enables the generation of multiple physically consistent realizations under identical input conditions. Beyond forward prediction, the framework supports inverse design by optimizing composition fields to achieve targeted mechanical responses, and is extensible to coupled mappings involving eigenstrain. By capturing one-to-many structure-property relationships in heterogeneous materials, this work establishes a probabilistic paradigm for materials modeling and design, providing a scalable alternative to conventional simulations for navigating high-dimensional compositional spaces....
+**Summary:** Existing LLM agents for computational materials science are constrained by pipeline-bounded architectures tied to specific simulation codes and by dependence on manually written tool functions that grow with task scope. We present MatClaw, a code-first agent that writes and executes Python directly, composing any installed domain library to orchestrate multi-code workflows on remote HPC clusters without predefined tool functions. To sustain coherent execution across multi-day workflows, MatClaw uses a four-layer memory architecture that prevents progressive context loss, and retrieval-augmented generation over domain source code that raises per-step API-call accuracy to ${\sim}$99 %. Three end-to-end demonstrations on ferroelectric CuInP2S6 (machine-learning force field training via active learning, Curie temperature prediction, and heuristic parameter-space search) reveal that the agent handles code generation reliably but struggles with tacit domain knowledge. The missing knowledge, such as appropriate simulation timescales, equilibration protocols, and sampling strategies, is the kind that researchers accumulate through experience but rarely formalize. Two lightweight interventions, literature self-learning and expert-specified constraints, bridge these gaps, defining a guided autonomy model in which the researcher provides high-level domain knowledge while the agent handles workflow execution. Our results demonstrate that the gap between guided and fully autonomous computational materials research is narrower than ever before: LLMs already handle code generation and scientific interpretation reliably, and the rapid improvement in their capabilities will accelerate materials discovery beyond what manual workflows can achieve. All code and benchmarks are open-source....
 
 ---
 
