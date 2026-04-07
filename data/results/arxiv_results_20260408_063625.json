@@ -1,0 +1,82 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2604.03409v1",
+    "title": "Generative AI for material design: A mechanics perspective from burgers to matter",
+    "authors": [
+      "Vahidullah Tac",
+      "Ellen Kuhl"
+    ],
+    "summary": "Generative artificial intelligence offers a new paradigm to design matter in high-dimensional spaces. However, its underlying mechanisms remain difficult to interpret and limit adoption in computational mechanics. This gap is striking because its core tools-diffusion, stochastic differential equations, and inverse problems-are fundamental to the mechanics of materials. Here we show that diffusion-based generative AI and computational mechanics are rooted in the same principles. We illustrate this connection using a three-ingredient burger as a minimal benchmark for material design in a low-dimensional space, where both forward and reverse diffusion admit analytical solutions: Markov chains with Bayesian inversion in the discrete case and the Ornstein-Uhlenbeck process with score-based reversal in the continuous case. We extend this framework to a high-dimensional design space with 146 ingredients and 8.9x10^43 possible configurations, where analytical solutions become intractable. We therefore learn the discrete and continuous reverse processes using neural network models that infer inverse dynamics from data. We train the models on only 2,260 recipes and generate one million samples that capture the statistical structure of the data, including ingredient prevalence and quantitative composition. We further generate five new burgers and validate them in a restaurant-based sensory study with 100 participants, where three of the AI-designed burgers outperform the classical Big Mac in overall liking, flavor, and texture. These results establish diffusion-based generative modeling as a physically grounded approach to design in high-dimensional spaces. They position generative AI as a natural extension of computational mechanics, with applications from burgers to matter, and establish a path toward data-driven, physics-informed generative design.",
+    "published": "2026-04-03T19:12:01+00:00",
+    "updated": "2026-04-03T19:12:01+00:00",
+    "categories": [
+      "cs.CE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CE",
+    "comment": "23 pages, 14 figures, 2 tables",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2604.03409v1",
+    "base_id": "2604.03409",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2604.03409v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2604.03304v1",
+    "title": "Generative Chemical Language Models for Energetic Materials Discovery",
+    "authors": [
+      "Andrew Salij",
+      "R. Seaton Ullberg",
+      "Megan C. Davis",
+      "Marc J. Cawkwell",
+      "Christopher J. Snyder",
+      "Cristina Garcia Cardona",
+      "Ivana Matanovic",
+      "Wilton J. M. Kort-Kamp"
+    ],
+    "summary": "The discovery of new energetic materials remains a pressing challenge hindered by limited availability of high-quality data. To address this, we have developed generative molecular language models that have been pretrained on extensive chemical data and then fine-tuned with curated energetic materials datasets. This transfer-learning strategy extends the chemical language model capabilities beyond the pharmacological space in which they have been predominantly developed, offering a framework applicable to other data-spare discovery problems. Furthermore, we discuss the benefits of fragment-based molecular encodings for chemical language models, in particular in constructing synthetically accessible structures. Together, these advances provide a foundation for accelerating the design of next-generation energetic materials with demanding performance requirements.",
+    "published": "2026-03-30T18:04:58+00:00",
+    "updated": "2026-03-30T18:04:58+00:00",
+    "categories": [
+      "physics.chem-ph",
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "physics.chem-ph",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2604.03304v1",
+    "base_id": "2604.03304",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2604.03304v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2604.03276v1",
+    "title": "Scaling atom-by-atom inverse design with nano-topology optimization and diffusion models",
+    "authors": [
+      "Chun-Teh Chen",
+      "Denvid Lau"
+    ],
+    "summary": "The mechanical properties of metallic nanostructures are governed not only by topology but also by crystal symmetry and face-specific surface physics, which are typically absent from continuum topology optimization. We develop an atom-by-atom inverse design framework that combines Nano-Topology Optimization (Nano-TO) with conditional denoising diffusion probabilistic models. Nano-TO treats each atom as a discrete design variable and evaluates stiffness from the symmetric curvature of the total energy, removing residual surface-stress bias. A crystallography-aligned multi-shell sensitivity filter stabilizes the optimization and enables designs containing more than 6.5 x 10^5 atoms. Using aluminum nanocantilevers, we identify a surface-physics-driven topology selection rule: thickness-periodic beams favor brace-dominated trusses, whereas finite-thickness beams favor nearly closed walls that provide efficient shear paths and reduce surface penalties. At sufficiently small scales, these walls become mechanically unstable, and truss-like layouts reappear. In nanopillar studies, atomistic optimization outperforms continuum topology-optimized designs. Finally, conditional diffusion models trained on Nano-TO data generate diverse high-performance candidates near the optimization frontier. These results establish nanoscale inverse design as a coupled problem of topology and surface physics.",
+    "published": "2026-03-24T05:35:05+00:00",
+    "updated": "2026-03-24T05:35:05+00:00",
+    "categories": [
+      "physics.app-ph",
+      "cond-mat.mes-hall",
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "primary_category": "physics.app-ph",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2604.03276v1",
+    "base_id": "2604.03276",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2604.03276v1"
+  }
+]

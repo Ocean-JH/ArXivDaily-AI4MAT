@@ -34,23 +34,55 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (1)
+## New Papers (3)
 
-*Last updated: 2026-04-07 06:34:59 (SGT)*
+*Last updated: 2026-04-08 06:36:31 (SGT)*
 
-### 1. MatClaw: An Autonomous Code-First LLM Agent for End-to-End Materials Exploration
+### 1. Generative AI for material design: A mechanics perspective from burgers to matter
 
-**Authors:** Chenmu Zhang, Boris I. Yakobson
+**Authors:** Vahidullah Tac, Ellen Kuhl
 
 **Published:** 2026-04-03
 
-**Category:** cond-mat.mtrl-sci
+**Category:** cs.CE
 
-**ID:** 2604.02688v1
+**ID:** 2604.03409v1
 
-**Link:** [http://arxiv.org/abs/2604.02688v1](http://arxiv.org/abs/2604.02688v1)
+**Link:** [http://arxiv.org/abs/2604.03409v1](http://arxiv.org/abs/2604.03409v1)
 
-**Summary:** Existing LLM agents for computational materials science are constrained by pipeline-bounded architectures tied to specific simulation codes and by dependence on manually written tool functions that grow with task scope. We present MatClaw, a code-first agent that writes and executes Python directly, composing any installed domain library to orchestrate multi-code workflows on remote HPC clusters without predefined tool functions. To sustain coherent execution across multi-day workflows, MatClaw uses a four-layer memory architecture that prevents progressive context loss, and retrieval-augmented generation over domain source code that raises per-step API-call accuracy to ${\sim}$99 %. Three end-to-end demonstrations on ferroelectric CuInP2S6 (machine-learning force field training via active learning, Curie temperature prediction, and heuristic parameter-space search) reveal that the agent handles code generation reliably but struggles with tacit domain knowledge. The missing knowledge, such as appropriate simulation timescales, equilibration protocols, and sampling strategies, is the kind that researchers accumulate through experience but rarely formalize. Two lightweight interventions, literature self-learning and expert-specified constraints, bridge these gaps, defining a guided autonomy model in which the researcher provides high-level domain knowledge while the agent handles workflow execution. Our results demonstrate that the gap between guided and fully autonomous computational materials research is narrower than ever before: LLMs already handle code generation and scientific interpretation reliably, and the rapid improvement in their capabilities will accelerate materials discovery beyond what manual workflows can achieve. All code and benchmarks are open-source....
+**Summary:** Generative artificial intelligence offers a new paradigm to design matter in high-dimensional spaces. However, its underlying mechanisms remain difficult to interpret and limit adoption in computational mechanics. This gap is striking because its core tools-diffusion, stochastic differential equations, and inverse problems-are fundamental to the mechanics of materials. Here we show that diffusion-based generative AI and computational mechanics are rooted in the same principles. We illustrate this connection using a three-ingredient burger as a minimal benchmark for material design in a low-dimensional space, where both forward and reverse diffusion admit analytical solutions: Markov chains with Bayesian inversion in the discrete case and the Ornstein-Uhlenbeck process with score-based reversal in the continuous case. We extend this framework to a high-dimensional design space with 146 ingredients and 8.9x10^43 possible configurations, where analytical solutions become intractable. We therefore learn the discrete and continuous reverse processes using neural network models that infer inverse dynamics from data. We train the models on only 2,260 recipes and generate one million samples that capture the statistical structure of the data, including ingredient prevalence and quantitative composition. We further generate five new burgers and validate them in a restaurant-based sensory study with 100 participants, where three of the AI-designed burgers outperform the classical Big Mac in overall liking, flavor, and texture. These results establish diffusion-based generative modeling as a physically grounded approach to design in high-dimensional spaces. They position generative AI as a natural extension of computational mechanics, with applications from burgers to matter, and establish a path toward data-driven, physics-informed generative design....
+
+---
+
+### 2. Generative Chemical Language Models for Energetic Materials Discovery
+
+**Authors:** Andrew Salij, R. Seaton Ullberg, Megan C. Davis, Marc J. Cawkwell, Christopher J. Snyder, Cristina Garcia Cardona, Ivana Matanovic, Wilton J. M. Kort-Kamp
+
+**Published:** 2026-03-30
+
+**Category:** physics.chem-ph
+
+**ID:** 2604.03304v1
+
+**Link:** [http://arxiv.org/abs/2604.03304v1](http://arxiv.org/abs/2604.03304v1)
+
+**Summary:** The discovery of new energetic materials remains a pressing challenge hindered by limited availability of high-quality data. To address this, we have developed generative molecular language models that have been pretrained on extensive chemical data and then fine-tuned with curated energetic materials datasets. This transfer-learning strategy extends the chemical language model capabilities beyond the pharmacological space in which they have been predominantly developed, offering a framework applicable to other data-spare discovery problems. Furthermore, we discuss the benefits of fragment-based molecular encodings for chemical language models, in particular in constructing synthetically accessible structures. Together, these advances provide a foundation for accelerating the design of next-generation energetic materials with demanding performance requirements....
+
+---
+
+### 3. Scaling atom-by-atom inverse design with nano-topology optimization and diffusion models
+
+**Authors:** Chun-Teh Chen, Denvid Lau
+
+**Published:** 2026-03-24
+
+**Category:** physics.app-ph
+
+**ID:** 2604.03276v1
+
+**Link:** [http://arxiv.org/abs/2604.03276v1](http://arxiv.org/abs/2604.03276v1)
+
+**Summary:** The mechanical properties of metallic nanostructures are governed not only by topology but also by crystal symmetry and face-specific surface physics, which are typically absent from continuum topology optimization. We develop an atom-by-atom inverse design framework that combines Nano-Topology Optimization (Nano-TO) with conditional denoising diffusion probabilistic models. Nano-TO treats each atom as a discrete design variable and evaluates stiffness from the symmetric curvature of the total energy, removing residual surface-stress bias. A crystallography-aligned multi-shell sensitivity filter stabilizes the optimization and enables designs containing more than 6.5 x 10^5 atoms. Using aluminum nanocantilevers, we identify a surface-physics-driven topology selection rule: thickness-periodic beams favor brace-dominated trusses, whereas finite-thickness beams favor nearly closed walls that provide efficient shear paths and reduce surface penalties. At sufficiently small scales, these walls become mechanically unstable, and truss-like layouts reappear. In nanopillar studies, atomistic optimization outperforms continuum topology-optimized designs. Finally, conditional diffusion models trained on Nano-TO data generate diverse high-performance candidates near the optimization frontier. These results establish nanoscale inverse design as a coupled problem of topology and surface physics....
 
 ---
 
