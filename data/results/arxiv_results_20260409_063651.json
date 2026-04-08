@@ -1,0 +1,86 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2604.05968v1",
+    "title": "Composition design of refractory compositionally complex alloys using machine learning models",
+    "authors": [
+      "Tao Liang",
+      "Eric A. Lass",
+      "Haochen Zhu",
+      "Carla Joyce C. Nocheseda",
+      "Philip D. Rack",
+      "Stephen Puplampu",
+      "Dayakar Penumadu",
+      "Haixuan Xu"
+    ],
+    "summary": "Refractory compositionally complex alloys (RCCAs) are considered the next generation high-temperature materials. However, their high-dimensional composition spaces are too large to explore by traditional density functional theory or experimental means, making new RCCA discovery slow and cumbersome. This work has addressed these challenges with an integrated composition design framework that can efficiently and exhaustively explore the relationship between the compositions and two fundamental aspects: 1) the phase stability, including the target body-centered cubic (BCC) phase and its competing phases (hexagonal closed-pack (HCP) structures, Laves and B2 intermetallic phases), and 2) the mechanical properties. This framework is demonstrated with RCCAs within nine refractory metals (Ti, V, Cr, Zr, Nb, Mo, Hf, Ta, and W). Theory-guided machine learning (ML) models were employed to find the composition-mechanical property relationship of RCCAs, where the established theory is used to supplement the yield strength data at ultra-high temperature, and a forward sequential feature selection (SFS) is used to determine feature selection. The resulting ML model for temperature-dependent yield strength was found to have an R_squared value of 0.98 over the entire temperature range (from 0 to 2000 K). The impact of each constituent element on the six key properties is evaluated. The addition of Nb tends to stabilize the BCC phase and the addition of Ti improves the ductility of RCCAs. Combined with all methods involved in this framework, the on-demand designer allows the alloy designers to have all properties for any RCCA compositions and narrow down the composition space by applying custom screening criteria. The output from the predictor and screener provides valuable guidance for our experimental study of RCCAs and accelerates the pace of materials discovery.",
+    "published": "2026-04-07T15:01:54+00:00",
+    "updated": "2026-04-07T15:01:54+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "physics.comp-ph"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "32 pages including 12 pages of SI, 6 figures in manuscript and 6 figures in SI, 50 references",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2604.05968v1",
+    "base_id": "2604.05968",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2604.05968v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2604.05960v1",
+    "title": "A Mixture of Experts Foundation Model for Scanning Electron Microscopy Image Analysis",
+    "authors": [
+      "Sk Miraj Ahmed",
+      "Yuewei Lin",
+      "Chuntian Cao",
+      "Shinjae Yoo",
+      "Xinpei Wu",
+      "Won-Il Lee",
+      "Nikhil Tiwale",
+      "Dan N. Le",
+      "Thi Thu Huong Chu",
+      "Jiyoung Kim",
+      "Kevin G. Yager",
+      "Chang-Yong Nam"
+    ],
+    "summary": "Scanning Electron Microscopy (SEM) is indispensable in modern materials science, enabling high-resolution imaging across a wide range of structural, chemical, and functional investigations. However, SEM imaging remains constrained by task-specific models and labor-intensive acquisition processes that limit its scalability across diverse applications. Here, we introduce the first foundation model for SEM images, pretrained on a large corpus of multi-instrument, multi-condition scientific micrographs, enabling generalization across diverse material systems and imaging conditions. Leveraging a self-supervised transformer architecture, our model learns rich and transferable representations that can be fine-tuned or adapted to a wide range of downstream tasks. As a compelling demonstration, we focus on defocus-to-focus image translation-an essential yet underexplored challenge in automated microscopy pipelines. Our method not only restores focused detail from defocused inputs without paired supervision but also outperforms state-of-the-art techniques across multiple evaluation metrics. This work lays the groundwork for a new class of adaptable SEM models, accelerating materials discovery by bridging foundational representation learning with real-world imaging needs.",
+    "published": "2026-04-07T14:52:43+00:00",
+    "updated": "2026-04-07T14:52:43+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2604.05960v1",
+    "base_id": "2604.05960",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2604.05960v1"
+  },
+  {
+    "id": "http://arxiv.org/abs/2604.05586v1",
+    "title": "A Physics-Informed Chemical Rule for Topological Materials Discovery",
+    "authors": [
+      "Xinyu Xu",
+      "Arif Ullah",
+      "Ming Yang"
+    ],
+    "summary": "Topological phases of matter$\\unicode{x2013}$comprising both insulators and semimetals$\\unicode{x2013}$offer great potential for quantum applications, but identifying new candidates remains challenging due to expensive first-principles simulations and labor-intensive experimental workflows. Here we introduce a physics-informed chemical rule that integrates compositional, orbital and crystallographic descriptors within an interpretable linear framework. By explicitly encoding electron filling, space-group symmetry and orbital-resolved chemical environments, our method overcomes a fundamental limitation of composition-only heuristics$\\unicode{x2013}$their inability to distinguish polymorphs with identical stoichiometry but different crystal structures. Using only elemental characteristics, our approach reduces a material's topological propensity to a single, physically interpretable score, enabling rapid and high-throughput assessment. The model achieves superior predictive performance while maintaining physical transparency, and identifies candidate topological materials where conventional symmetry indicators fail. Consequently, our framework enables rapid and interpretable exploration of complex materials spaces, establishing a scalable paradigm for the intelligent discovery of next-generation topological and quantum materials.",
+    "published": "2026-04-07T08:29:21+00:00",
+    "updated": "2026-04-07T08:29:21+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "https://github.com/Arif-PhyChem/physics_informed_chemical_rule",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2604.05586v1",
+    "base_id": "2604.05586",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2604.05586v1"
+  }
+]

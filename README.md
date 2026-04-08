@@ -36,53 +36,53 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (3)
 
-*Last updated: 2026-04-08 06:36:31 (SGT)*
+*Last updated: 2026-04-09 06:36:58 (SGT)*
 
-### 1. Generative AI for material design: A mechanics perspective from burgers to matter
+### 1. Composition design of refractory compositionally complex alloys using machine learning models
 
-**Authors:** Vahidullah Tac, Ellen Kuhl
+**Authors:** Tao Liang, Eric A. Lass, Haochen Zhu, Carla Joyce C. Nocheseda, Philip D. Rack, Stephen Puplampu, Dayakar Penumadu, Haixuan Xu
 
-**Published:** 2026-04-03
+**Published:** 2026-04-07
 
-**Category:** cs.CE
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2604.03409v1
+**ID:** 2604.05968v1
 
-**Link:** [http://arxiv.org/abs/2604.03409v1](http://arxiv.org/abs/2604.03409v1)
+**Link:** [http://arxiv.org/abs/2604.05968v1](http://arxiv.org/abs/2604.05968v1)
 
-**Summary:** Generative artificial intelligence offers a new paradigm to design matter in high-dimensional spaces. However, its underlying mechanisms remain difficult to interpret and limit adoption in computational mechanics. This gap is striking because its core tools-diffusion, stochastic differential equations, and inverse problems-are fundamental to the mechanics of materials. Here we show that diffusion-based generative AI and computational mechanics are rooted in the same principles. We illustrate this connection using a three-ingredient burger as a minimal benchmark for material design in a low-dimensional space, where both forward and reverse diffusion admit analytical solutions: Markov chains with Bayesian inversion in the discrete case and the Ornstein-Uhlenbeck process with score-based reversal in the continuous case. We extend this framework to a high-dimensional design space with 146 ingredients and 8.9x10^43 possible configurations, where analytical solutions become intractable. We therefore learn the discrete and continuous reverse processes using neural network models that infer inverse dynamics from data. We train the models on only 2,260 recipes and generate one million samples that capture the statistical structure of the data, including ingredient prevalence and quantitative composition. We further generate five new burgers and validate them in a restaurant-based sensory study with 100 participants, where three of the AI-designed burgers outperform the classical Big Mac in overall liking, flavor, and texture. These results establish diffusion-based generative modeling as a physically grounded approach to design in high-dimensional spaces. They position generative AI as a natural extension of computational mechanics, with applications from burgers to matter, and establish a path toward data-driven, physics-informed generative design....
-
----
-
-### 2. Generative Chemical Language Models for Energetic Materials Discovery
-
-**Authors:** Andrew Salij, R. Seaton Ullberg, Megan C. Davis, Marc J. Cawkwell, Christopher J. Snyder, Cristina Garcia Cardona, Ivana Matanovic, Wilton J. M. Kort-Kamp
-
-**Published:** 2026-03-30
-
-**Category:** physics.chem-ph
-
-**ID:** 2604.03304v1
-
-**Link:** [http://arxiv.org/abs/2604.03304v1](http://arxiv.org/abs/2604.03304v1)
-
-**Summary:** The discovery of new energetic materials remains a pressing challenge hindered by limited availability of high-quality data. To address this, we have developed generative molecular language models that have been pretrained on extensive chemical data and then fine-tuned with curated energetic materials datasets. This transfer-learning strategy extends the chemical language model capabilities beyond the pharmacological space in which they have been predominantly developed, offering a framework applicable to other data-spare discovery problems. Furthermore, we discuss the benefits of fragment-based molecular encodings for chemical language models, in particular in constructing synthetically accessible structures. Together, these advances provide a foundation for accelerating the design of next-generation energetic materials with demanding performance requirements....
+**Summary:** Refractory compositionally complex alloys (RCCAs) are considered the next generation high-temperature materials. However, their high-dimensional composition spaces are too large to explore by traditional density functional theory or experimental means, making new RCCA discovery slow and cumbersome. This work has addressed these challenges with an integrated composition design framework that can efficiently and exhaustively explore the relationship between the compositions and two fundamental aspects: 1) the phase stability, including the target body-centered cubic (BCC) phase and its competing phases (hexagonal closed-pack (HCP) structures, Laves and B2 intermetallic phases), and 2) the mechanical properties. This framework is demonstrated with RCCAs within nine refractory metals (Ti, V, Cr, Zr, Nb, Mo, Hf, Ta, and W). Theory-guided machine learning (ML) models were employed to find the composition-mechanical property relationship of RCCAs, where the established theory is used to supplement the yield strength data at ultra-high temperature, and a forward sequential feature selection (SFS) is used to determine feature selection. The resulting ML model for temperature-dependent yield strength was found to have an R_squared value of 0.98 over the entire temperature range (from 0 to 2000 K). The impact of each constituent element on the six key properties is evaluated. The addition of Nb tends to stabilize the BCC phase and the addition of Ti improves the ductility of RCCAs. Combined with all methods involved in this framework, the on-demand designer allows the alloy designers to have all properties for any RCCA compositions and narrow down the composition space by applying custom screening criteria. The output from the predictor and screener provides valuable guidance for our experimental study of RCCAs and accelerates the pace of materials discovery....
 
 ---
 
-### 3. Scaling atom-by-atom inverse design with nano-topology optimization and diffusion models
+### 2. A Mixture of Experts Foundation Model for Scanning Electron Microscopy Image Analysis
 
-**Authors:** Chun-Teh Chen, Denvid Lau
+**Authors:** Sk Miraj Ahmed, Yuewei Lin, Chuntian Cao, Shinjae Yoo, Xinpei Wu, Won-Il Lee, Nikhil Tiwale, Dan N. Le, Thi Thu Huong Chu, Jiyoung Kim, Kevin G. Yager, Chang-Yong Nam
 
-**Published:** 2026-03-24
+**Published:** 2026-04-07
 
-**Category:** physics.app-ph
+**Category:** cs.LG
 
-**ID:** 2604.03276v1
+**ID:** 2604.05960v1
 
-**Link:** [http://arxiv.org/abs/2604.03276v1](http://arxiv.org/abs/2604.03276v1)
+**Link:** [http://arxiv.org/abs/2604.05960v1](http://arxiv.org/abs/2604.05960v1)
 
-**Summary:** The mechanical properties of metallic nanostructures are governed not only by topology but also by crystal symmetry and face-specific surface physics, which are typically absent from continuum topology optimization. We develop an atom-by-atom inverse design framework that combines Nano-Topology Optimization (Nano-TO) with conditional denoising diffusion probabilistic models. Nano-TO treats each atom as a discrete design variable and evaluates stiffness from the symmetric curvature of the total energy, removing residual surface-stress bias. A crystallography-aligned multi-shell sensitivity filter stabilizes the optimization and enables designs containing more than 6.5 x 10^5 atoms. Using aluminum nanocantilevers, we identify a surface-physics-driven topology selection rule: thickness-periodic beams favor brace-dominated trusses, whereas finite-thickness beams favor nearly closed walls that provide efficient shear paths and reduce surface penalties. At sufficiently small scales, these walls become mechanically unstable, and truss-like layouts reappear. In nanopillar studies, atomistic optimization outperforms continuum topology-optimized designs. Finally, conditional diffusion models trained on Nano-TO data generate diverse high-performance candidates near the optimization frontier. These results establish nanoscale inverse design as a coupled problem of topology and surface physics....
+**Summary:** Scanning Electron Microscopy (SEM) is indispensable in modern materials science, enabling high-resolution imaging across a wide range of structural, chemical, and functional investigations. However, SEM imaging remains constrained by task-specific models and labor-intensive acquisition processes that limit its scalability across diverse applications. Here, we introduce the first foundation model for SEM images, pretrained on a large corpus of multi-instrument, multi-condition scientific micrographs, enabling generalization across diverse material systems and imaging conditions. Leveraging a self-supervised transformer architecture, our model learns rich and transferable representations that can be fine-tuned or adapted to a wide range of downstream tasks. As a compelling demonstration, we focus on defocus-to-focus image translation-an essential yet underexplored challenge in automated microscopy pipelines. Our method not only restores focused detail from defocused inputs without paired supervision but also outperforms state-of-the-art techniques across multiple evaluation metrics. This work lays the groundwork for a new class of adaptable SEM models, accelerating materials discovery by bridging foundational representation learning with real-world imaging needs....
+
+---
+
+### 3. A Physics-Informed Chemical Rule for Topological Materials Discovery
+
+**Authors:** Xinyu Xu, Arif Ullah, Ming Yang
+
+**Published:** 2026-04-07
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2604.05586v1
+
+**Link:** [http://arxiv.org/abs/2604.05586v1](http://arxiv.org/abs/2604.05586v1)
+
+**Summary:** Topological phases of matter$\unicode{x2013}$comprising both insulators and semimetals$\unicode{x2013}$offer great potential for quantum applications, but identifying new candidates remains challenging due to expensive first-principles simulations and labor-intensive experimental workflows. Here we introduce a physics-informed chemical rule that integrates compositional, orbital and crystallographic descriptors within an interpretable linear framework. By explicitly encoding electron filling, space-group symmetry and orbital-resolved chemical environments, our method overcomes a fundamental limitation of composition-only heuristics$\unicode{x2013}$their inability to distinguish polymorphs with identical stoichiometry but different crystal structures. Using only elemental characteristics, our approach reduces a material's topological propensity to a single, physically interpretable score, enabling rapid and high-throughput assessment. The model achieves superior predictive performance while maintaining physical transparency, and identifies candidate topological materials where conventional symmetry indicators fail. Consequently, our framework enables rapid and interpretable exploration of complex materials spaces, establishing a scalable paradigm for the intelligent discovery of next-generation topological and quantum materials....
 
 ---
 
