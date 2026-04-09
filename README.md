@@ -34,55 +34,23 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (3)
+## New Papers (1)
 
-*Last updated: 2026-04-09 06:36:58 (SGT)*
+*Last updated: 2026-04-10 06:38:42 (SGT)*
 
-### 1. Composition design of refractory compositionally complex alloys using machine learning models
+### 1. When Does Context Help? A Systematic Study of Target-Conditional Molecular Property Prediction
 
-**Authors:** Tao Liang, Eric A. Lass, Haochen Zhu, Carla Joyce C. Nocheseda, Philip D. Rack, Stephen Puplampu, Dayakar Penumadu, Haixuan Xu
+**Authors:** Bryan Cheng, Jasper Zhang
 
-**Published:** 2026-04-07
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2604.05968v1
-
-**Link:** [http://arxiv.org/abs/2604.05968v1](http://arxiv.org/abs/2604.05968v1)
-
-**Summary:** Refractory compositionally complex alloys (RCCAs) are considered the next generation high-temperature materials. However, their high-dimensional composition spaces are too large to explore by traditional density functional theory or experimental means, making new RCCA discovery slow and cumbersome. This work has addressed these challenges with an integrated composition design framework that can efficiently and exhaustively explore the relationship between the compositions and two fundamental aspects: 1) the phase stability, including the target body-centered cubic (BCC) phase and its competing phases (hexagonal closed-pack (HCP) structures, Laves and B2 intermetallic phases), and 2) the mechanical properties. This framework is demonstrated with RCCAs within nine refractory metals (Ti, V, Cr, Zr, Nb, Mo, Hf, Ta, and W). Theory-guided machine learning (ML) models were employed to find the composition-mechanical property relationship of RCCAs, where the established theory is used to supplement the yield strength data at ultra-high temperature, and a forward sequential feature selection (SFS) is used to determine feature selection. The resulting ML model for temperature-dependent yield strength was found to have an R_squared value of 0.98 over the entire temperature range (from 0 to 2000 K). The impact of each constituent element on the six key properties is evaluated. The addition of Nb tends to stabilize the BCC phase and the addition of Ti improves the ductility of RCCAs. Combined with all methods involved in this framework, the on-demand designer allows the alloy designers to have all properties for any RCCA compositions and narrow down the composition space by applying custom screening criteria. The output from the predictor and screener provides valuable guidance for our experimental study of RCCAs and accelerates the pace of materials discovery....
-
----
-
-### 2. A Mixture of Experts Foundation Model for Scanning Electron Microscopy Image Analysis
-
-**Authors:** Sk Miraj Ahmed, Yuewei Lin, Chuntian Cao, Shinjae Yoo, Xinpei Wu, Won-Il Lee, Nikhil Tiwale, Dan N. Le, Thi Thu Huong Chu, Jiyoung Kim, Kevin G. Yager, Chang-Yong Nam
-
-**Published:** 2026-04-07
+**Published:** 2026-04-08
 
 **Category:** cs.LG
 
-**ID:** 2604.05960v1
+**ID:** 2604.06558v1
 
-**Link:** [http://arxiv.org/abs/2604.05960v1](http://arxiv.org/abs/2604.05960v1)
+**Link:** [http://arxiv.org/abs/2604.06558v1](http://arxiv.org/abs/2604.06558v1)
 
-**Summary:** Scanning Electron Microscopy (SEM) is indispensable in modern materials science, enabling high-resolution imaging across a wide range of structural, chemical, and functional investigations. However, SEM imaging remains constrained by task-specific models and labor-intensive acquisition processes that limit its scalability across diverse applications. Here, we introduce the first foundation model for SEM images, pretrained on a large corpus of multi-instrument, multi-condition scientific micrographs, enabling generalization across diverse material systems and imaging conditions. Leveraging a self-supervised transformer architecture, our model learns rich and transferable representations that can be fine-tuned or adapted to a wide range of downstream tasks. As a compelling demonstration, we focus on defocus-to-focus image translation-an essential yet underexplored challenge in automated microscopy pipelines. Our method not only restores focused detail from defocused inputs without paired supervision but also outperforms state-of-the-art techniques across multiple evaluation metrics. This work lays the groundwork for a new class of adaptable SEM models, accelerating materials discovery by bridging foundational representation learning with real-world imaging needs....
-
----
-
-### 3. A Physics-Informed Chemical Rule for Topological Materials Discovery
-
-**Authors:** Xinyu Xu, Arif Ullah, Ming Yang
-
-**Published:** 2026-04-07
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2604.05586v1
-
-**Link:** [http://arxiv.org/abs/2604.05586v1](http://arxiv.org/abs/2604.05586v1)
-
-**Summary:** Topological phases of matter$\unicode{x2013}$comprising both insulators and semimetals$\unicode{x2013}$offer great potential for quantum applications, but identifying new candidates remains challenging due to expensive first-principles simulations and labor-intensive experimental workflows. Here we introduce a physics-informed chemical rule that integrates compositional, orbital and crystallographic descriptors within an interpretable linear framework. By explicitly encoding electron filling, space-group symmetry and orbital-resolved chemical environments, our method overcomes a fundamental limitation of composition-only heuristics$\unicode{x2013}$their inability to distinguish polymorphs with identical stoichiometry but different crystal structures. Using only elemental characteristics, our approach reduces a material's topological propensity to a single, physically interpretable score, enabling rapid and high-throughput assessment. The model achieves superior predictive performance while maintaining physical transparency, and identifies candidate topological materials where conventional symmetry indicators fail. Consequently, our framework enables rapid and interpretable exploration of complex materials spaces, establishing a scalable paradigm for the intelligent discovery of next-generation topological and quantum materials....
+**Summary:** We present the first systematic study of when target context helps molecular property prediction, evaluating context conditioning across 10 diverse protein families, 4 fusion architectures, data regimes spanning 67-9,409 training compounds, and both temporal and random evaluation splits. Using NestDrug, a FiLM-based architecture that conditions molecular representations on target identity, we characterize both success and failure modes with three principal findings. First, fusion architecture dominates: FiLM outperforms concatenation by 24.2 percentage points and additive conditioning by 8.6 pp; how you incorporate context matters more than whether you include it. Second, context enables otherwise impossible predictions: on data-scarce CYP3A4 (67 training compounds), multi-task transfer achieves 0.686 AUC where per-target Random Forest collapses to 0.238. Third, context can systematically hurt: distribution mismatch causes 10.2 pp degradation on BACE1; few-shot adaptation consistently underperforms zero-shot. Beyond methodology, we expose fundamental flaws in standard benchmarking: 1-nearest-neighbor Tanimoto achieves 0.991 AUC on DUD-E without any learning, and 50% of actives leak from training data, rendering absolute performance metrics meaningless. Our temporal split evaluation (train up to 2020, test 2021-2024) achieves stable 0.843 AUC with no degradation, providing the first rigorous evidence that context-conditional molecular representations generalize to future chemical space....
 
 ---
 
