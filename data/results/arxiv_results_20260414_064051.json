@@ -1,0 +1,59 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2511.03122v2",
+    "title": "EGMOF: Efficient Generation of Metal-Organic Frameworks Using a Hybrid Diffusion-Transformer Architecture",
+    "authors": [
+      "Seunghee Han",
+      "Yeonghun Kang",
+      "Taeun Bae",
+      "Junho Kim",
+      "Younghun Kim",
+      "Varinia Bernales",
+      "Alan Aspuru-Guzik",
+      "Jihan Kim"
+    ],
+    "summary": "Designing materials with targeted properties remains challenging due to the vastness of chemical space and the scarcity of property-labeled data. While recent advances in generative models offer a promising way for inverse design, most approaches require large datasets and must be retrained for every new target property. Here, we introduce the EGMOF (Efficient Generation of MOFs), a hybrid diffusion-transformer framework that overcomes these limitations through a modular, descriptor-mediated workflow. EGMOF decomposes inverse design into two steps: (1) a one-dimensional diffusion model (Prop2Desc) that maps desired properties to chemically meaningful descriptors followed by (2) a transformer model (Desc2MOF) that generates structures from these descriptors. This modular hybrid design enables minimal retraining and maintains high accuracy even under small-data conditions. On a hydrogen uptake dataset, EGMOF achieved over 95% validity and 84% hit rate, representing significant improvements of up to 57% in validity and 14% in hit rate compared to existing methods, while remaining effective with only 1,000 training samples. Moreover, our model successfully performed conditional generation across 29 diverse property datasets, including CoREMOF, QMOF, and text-mined experimental datasets, whereas previous models have not. This work presents a data-efficient, generalizable approach to the inverse design of diverse MOFs and highlights the potential of modular inverse design workflows for broader materials discovery.",
+    "published": "2025-11-05T02:14:13+00:00",
+    "updated": "2026-04-10T05:08:49+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2511.03122v2",
+    "base_id": "2511.03122",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2511.03122v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2604.08845v1",
+    "title": "Antitopological magnetic textures in an antiferromagnetically coupled bilayer with frustration",
+    "authors": [
+      "Lewei Zhou",
+      "Jun Chen",
+      "Zhong Shen",
+      "Shuai Dong",
+      "Xiaoyan Yao"
+    ],
+    "summary": "The bilayer skyrmion composed of upper and lower tightly coupled skyrmions on two layers with completely compensated topological charges (called as anti-topology here), has become one feasible improvement of conventional skyrmion to realize straight motion without skyrmion Hall effect, which has aroused great interest in practical applications. The present work investigates a general model (without external magnetic field) for the frustration-induced anti-topological bilayer magnetic textures with rich morphologies, and discusses the modulations of key parameters on the energy barrier and the current-driven dynamics. It is revealed that the interlayer coupling plays a key role in preventing distortion, and thus helps to reach a faster velocity. This model can be realized in various frustrated magnetic materials with antiferromagnetically coupled bilayer, providing a helpful guidance for the material design and application of topological magnetic textures.",
+    "published": "2026-04-10T00:54:57+00:00",
+    "updated": "2026-04-10T00:54:57+00:00",
+    "categories": [
+      "cond-mat.mes-hall",
+      "cond-mat.mtrl-sci",
+      "cond-mat.str-el"
+    ],
+    "primary_category": "cond-mat.mes-hall",
+    "comment": null,
+    "journal_ref": "Physical Review B 113, L140403 (2026)",
+    "doi": "10.1103/c93q-gcf3",
+    "pdf_url": "https://arxiv.org/pdf/2604.08845v1",
+    "base_id": "2604.08845",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2604.08845v1"
+  }
+]

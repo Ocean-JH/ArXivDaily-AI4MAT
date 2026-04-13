@@ -36,37 +36,37 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (2)
 
-*Last updated: 2026-04-12 06:30:33 (SGT)*
+*Last updated: 2026-04-14 06:40:59 (SGT)*
 
-### 1. Information-Theoretic Requirements for Gradient-Based Task Affinity Estimation in Multi-Task Learning
+### 1. EGMOF: Efficient Generation of Metal-Organic Frameworks Using a Hybrid Diffusion-Transformer Architecture
 
-**Authors:** Jasper Zhang, Bryan Cheng
+**Authors:** Seunghee Han, Yeonghun Kang, Taeun Bae, Junho Kim, Younghun Kim, Varinia Bernales, Alan Aspuru-Guzik, Jihan Kim
 
-**Published:** 2026-04-09
+**Published:** 2025-11-05
 
-**Category:** cs.LG
+**Category:** cond-mat.mtrl-sci
 
-**ID:** 2604.07848v1
+**ID:** 2511.03122v2
 
-**Link:** [http://arxiv.org/abs/2604.07848v1](http://arxiv.org/abs/2604.07848v1)
+**Link:** [http://arxiv.org/abs/2511.03122v2](http://arxiv.org/abs/2511.03122v2)
 
-**Summary:** Multi-task learning shows strikingly inconsistent results -- sometimes joint training helps substantially, sometimes it actively harms performance -- yet the field lacks a principled framework for predicting these outcomes. We identify a fundamental but unstated assumption underlying gradient-based task analysis: tasks must share training instances for gradient conflicts to reveal genuine relationships. When tasks are measured on the same inputs, gradient alignment reflects shared mechanistic structure; when measured on disjoint inputs, any apparent signal conflates task relationships with distributional shift. We discover this sample overlap requirement exhibits a sharp phase transition: below 30% overlap, gradient-task correlations are statistically indistinguishable from noise; above 40%, they reliably recover known biological structure. Comprehensive validation across multiple datasets achieves strong correlations and recovers biological pathway organization. Standard benchmarks systematically violate this requirement -- MoleculeNet operates at <5% overlap, TDC at 8-14% -- far below the threshold where gradient analysis becomes meaningful. This provides the first principled explanation for seven years of inconsistent MTL results....
+**Summary:** Designing materials with targeted properties remains challenging due to the vastness of chemical space and the scarcity of property-labeled data. While recent advances in generative models offer a promising way for inverse design, most approaches require large datasets and must be retrained for every new target property. Here, we introduce the EGMOF (Efficient Generation of MOFs), a hybrid diffusion-transformer framework that overcomes these limitations through a modular, descriptor-mediated workflow. EGMOF decomposes inverse design into two steps: (1) a one-dimensional diffusion model (Prop2Desc) that maps desired properties to chemically meaningful descriptors followed by (2) a transformer model (Desc2MOF) that generates structures from these descriptors. This modular hybrid design enables minimal retraining and maintains high accuracy even under small-data conditions. On a hydrogen uptake dataset, EGMOF achieved over 95% validity and 84% hit rate, representing significant improvements of up to 57% in validity and 14% in hit rate compared to existing methods, while remaining effective with only 1,000 training samples. Moreover, our model successfully performed conditional generation across 29 diverse property datasets, including CoREMOF, QMOF, and text-mined experimental datasets, whereas previous models have not. This work presents a data-efficient, generalizable approach to the inverse design of diverse MOFs and highlights the potential of modular inverse design workflows for broader materials discovery....
 
 ---
 
-### 2. Rhizome OS-1: Rhizome's Semi-Autonomous Operating System for Small Molecule Drug Discovery
+### 2. Antitopological magnetic textures in an antiferromagnetically coupled bilayer with frustration
 
-**Authors:** Yiwen Wang, Gregory Sinenka, Xhuliano Brace
+**Authors:** Lewei Zhou, Jun Chen, Zhong Shen, Shuai Dong, Xiaoyan Yao
 
-**Published:** 2026-04-08
+**Published:** 2026-04-10
 
-**Category:** cs.AI
+**Category:** cond-mat.mes-hall
 
-**ID:** 2604.07512v1
+**ID:** 2604.08845v1
 
-**Link:** [http://arxiv.org/abs/2604.07512v1](http://arxiv.org/abs/2604.07512v1)
+**Link:** [http://arxiv.org/abs/2604.08845v1](http://arxiv.org/abs/2604.08845v1)
 
-**Summary:** We introduce a semi-autonomous discovery system in which multi-modal AI agents function as a multi-disciplinary discovery team, acting as computational chemists, medicinal chemists, and patent agents, writing and executing analysis code, visually evaluating molecular candidates, assessing patentability, and adapting generation strategy from empirical screening feedback, while r1, a 246M-parameter Graph Neural Network (GNN) trained on 800M molecules, generates novel chemical matter directly on molecular graphs. Agents executed two campaigns in oncology (BCL6, EZH2), formulating medicinal chemistry hypotheses across three strategy tiers and generating libraries of 2,355-2,876 novel molecules per target. Across both targets, 91.9% of generated Murcko scaffolds are absent from ChEMBL for their respective targets, with Tanimoto distances of 0.56-0.69 to the nearest known active, confirming that the engine produces structurally distinct chemical matter rather than recapitulating known compounds. Binding affinity predictions using Boltz-2 were calibrated against ChEMBL experimental data, achieving Spearman correlations of -0.53 to -0.64 and ROC AUC values of 0.88 to 0.93. These results demonstrate that semi-autonomous agent systems, equipped with graph-native generative tools and physics-informed scoring, provide a foundation for a modern operating system for small molecule discovery. We show that Rhizome OS-1 enables a new paradigm for early-stage drug discovery by supporting scaled, rapid, and adaptive inverse design....
+**Summary:** The bilayer skyrmion composed of upper and lower tightly coupled skyrmions on two layers with completely compensated topological charges (called as anti-topology here), has become one feasible improvement of conventional skyrmion to realize straight motion without skyrmion Hall effect, which has aroused great interest in practical applications. The present work investigates a general model (without external magnetic field) for the frustration-induced anti-topological bilayer magnetic textures with rich morphologies, and discusses the modulations of key parameters on the energy barrier and the current-driven dynamics. It is revealed that the interlayer coupling plays a key role in preventing distortion, and thus helps to reach a faster velocity. This model can be realized in various frustrated magnetic materials with antiferromagnetically coupled bilayer, providing a helpful guidance for the material design and application of topological magnetic textures....
 
 ---
 
