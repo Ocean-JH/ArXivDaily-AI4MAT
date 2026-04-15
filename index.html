@@ -46,84 +46,48 @@
     </div>
 
     <!-- Main Content -->
-    <h2>New Papers (4)</h2>
-<p><em>Last updated: 2026-04-15 06:42:43 SGT</em></p>
+    <h2>New Papers (2)</h2>
+<p><em>Last updated: 2026-04-16 06:39:32 SGT</em></p>
 <div class="paper">
-  <h3 class="paper-title">1. deCIFer: Crystal Structure Prediction from Powder Diffraction Data using Autoregressive Language Models<br><span style='color:orange;font-weight:bold;'>🔄 Updated</span><br></h3>
+  <h3 class="paper-title">1. Siamese Foundation Models for Crystal Structure Prediction<br><span style='color:orange;font-weight:bold;'>🔄 Updated</span><br></h3>
 
   <div class="paper-info">
-    <p class="paper-authors"><strong>Authors:</strong> Frederik Lizak Johansen, Ulrik Friis-Jensen, Erik Bjørnager Dam, Kirsten Marie Ørnsbjerg Jensen, Rocío Mercado, Raghavendra Selvan</p>
-    <p class="paper-date"><strong>Published:</strong> 2025-02-04</p>
-    <p class="paper-category"><strong>Category:</strong> cs.LG</p>
-    <p class="paper-id"><strong>ID:</strong> 2502.02189v4</p>
-  </div>
-
-  <p class="paper-link"><strong>Link:</strong> <a href="http://arxiv.org/abs/2502.02189v4">http://arxiv.org/abs/2502.02189v4</a></p>
-
-  <details class="paper-summary">
-    <summary>Summary (Click to Expand)</summary>
-    <p>Novel materials drive advancements in fields ranging from energy storage to electronics, with crystal structure characterization forming a crucial yet challenging step in materials discovery. In this work, we introduce \emph{deCIFer}, an autoregressive language model designed for powder X-ray diffraction (PXRD)-conditioned crystal structure prediction (PXRD-CSP). Unlike traditional CSP methods that rely primarily on composition or symmetry constraints, deCIFer explicitly incorporates PXRD data, directly generating crystal structures in the widely adopted Crystallographic Information File (CIF) format. The model is trained on nearly 2.3 million crystal structures, with PXRD conditioning augmented by basic forms of synthetic experimental artifacts, specifically Gaussian noise and instrumental peak broadening, to reflect fundamental real-world conditions. Validated across diverse synthetic datasets representative of challenging inorganic materials, deCIFer achieves a 94\% structural match rate. The evaluation is based on metrics such as the residual weighted profile ($R_{wp}$) and structural match rate (MR), chosen explicitly for their practical relevance in this inherently underdetermined problem. deCIFer establishes a robust baseline for future expansion toward more complex experimental scenarios, bridging the gap between computational predictions and experimental crystal structure determination.</p>
-  </details>
-
-  <hr class="paper-divider">
-</div><div class="paper">
-  <h3 class="paper-title">2. AutoMS: Multi-Agent Evolutionary Search for Cross-Physics Inverse Microstructure Design<br><span style='color:orange;font-weight:bold;'>🔄 Updated</span><br></h3>
-
-  <div class="paper-info">
-    <p class="paper-authors"><strong>Authors:</strong> Zhenyuan Zhao, Yu Xing, Tianyang Xue, Lingxin Cao, Xin Yan, Lin Lu</p>
-    <p class="paper-date"><strong>Published:</strong> 2026-03-28</p>
-    <p class="paper-category"><strong>Category:</strong> cs.AI</p>
-    <p class="paper-id"><strong>ID:</strong> 2603.27195v2</p>
-  </div>
-
-  <p class="paper-link"><strong>Link:</strong> <a href="http://arxiv.org/abs/2603.27195v2">http://arxiv.org/abs/2603.27195v2</a></p>
-
-  <details class="paper-summary">
-    <summary>Summary (Click to Expand)</summary>
-    <p>Designing microstructures with coupled cross-physics objectives is a fundamental challenge where traditional topology optimization is often computationally prohibitive and deep generative models frequently suffer from physical hallucinations. We introduce AutoMS, a multi-agent neuro-symbolic framework that reformulates inverse design as an LLM-driven evolutionary search. AutoMS leverages LLMs as semantic navigators to decompose complex requirements and coordinate agent workflows, while a novel Simulation-Aware Evolutionary Search (SAES) mechanism handles low-level numerical optimization via local gradient approximation and directed parameter updates. This architecture achieves a state-of-the-art 83.8% success rate on 17 diverse cross-physics tasks, significantly outperforming both traditional evolutionary algorithms and existing agentic baselines. By decoupling open-ended semantic orchestration from simulation-grounded numerical search, AutoMS provides a robust pathway for navigating complex physical landscapes that remain intractable for standard generative or purely linguistic approaches.</p>
-  </details>
-
-  <hr class="paper-divider">
-</div><div class="paper">
-  <h3 class="paper-title">3. PyAPX: Python toolkit for atomic configuration pattern exploration<br><span style='color:orange;font-weight:bold;'>🔄 Updated</span><br></h3>
-
-  <div class="paper-info">
-    <p class="paper-authors"><strong>Authors:</strong> Akira Kusaba, Tetsuji Kuboyama, Karol Kawka, Pawel Kempisty, Yoshihiro Kangawa</p>
-    <p class="paper-date"><strong>Published:</strong> 2025-11-22</p>
+    <p class="paper-authors"><strong>Authors:</strong> Liming Wu, Wenbing Huang, Rui Jiao, Jianxing Huang, Liwei Liu, Yipeng Zhou, Hao Sun, Yang Liu, Fuchun Sun, Yuxiang Ren, Jirong Wen</p>
+    <p class="paper-date"><strong>Published:</strong> 2025-03-13</p>
     <p class="paper-category"><strong>Category:</strong> cond-mat.mtrl-sci</p>
-    <p class="paper-id"><strong>ID:</strong> 2511.17972v2</p>
+    <p class="paper-id"><strong>ID:</strong> 2503.10471v2</p>
   </div>
 
-  <p class="paper-link"><strong>Link:</strong> <a href="http://arxiv.org/abs/2511.17972v2">http://arxiv.org/abs/2511.17972v2</a></p>
+  <p class="paper-link"><strong>Link:</strong> <a href="http://arxiv.org/abs/2503.10471v2">http://arxiv.org/abs/2503.10471v2</a></p>
 
   <details class="paper-summary">
     <summary>Summary (Click to Expand)</summary>
-    <p>In materials discovery, the integration of first-principles calculations with machine learning techniques has been actively studied for two key tasks: crystal structure prediction, which searches for stable structures given a chemical composition, and elemental substitution, which explores chemical compositions that yield desirable properties in a given crystal structure. However, even when both the crystal structure and chemical composition are fixed, material properties can still vary depending on the atomic arrangements (configurations) at crystallographic sites. To support detailed material design, we present PyAPX, a Python toolkit that performs Bayesian searches of stable atomic configurations. A distinctive feature of this initial release is the introduction of encoding methods suitable for configuration search, and we evaluate their performance using the h-BCN system. As a result, they were confirmed to yield superior convergence compared to commonly used one-hot encoding. PyAPX is broadly applicable to crystalline materials and is expected to further advance materials discovery.</p>
+    <p>Predicting crystal structures from chemical compositions is a fundamental challenge in materials discovery, complicated by complex 3D geometries that distinguish it from fields like protein folding. Here, we present Diffusion-based Crystal Omni (DAO), a pretrain-finetune framework for crystal structure prediction integrating two Siamese foundation models: a structure generator and an energy predictor. The generator is pretrained via a two-stage pipeline on a vast dataset of stable and unstable structures, leveraging the predictor to relax unstable configurations and guide the generative sampling. Across two well-known benchmarks, pretraining significantly enhances performance across multiple backbone architectures. Ablation studies confirm that the synergy between the generator and predictor mutually benefits both components. We further validate DAO on three real-world superconductors ($\text{Cr}_6\text{Os}_2$, $\text{Zr}_{16}\text{Rh}_8\text{O}_4$, and $\text{Zr}_{16}\text{Pd}_8\text{O}_4$) typically inaccessible to conventional computation. For $\text{Cr}_6\text{Os}_2$, DAO achieves a 100\% match rate with experimental references and an atomic-position error of 0.0012 under 20-shot generation, performing over 2000$\times$ faster per iteration than DFT-based structure predictors. These compelling results collectively highlight the potential of our approach for advancing materials science research.</p>
   </details>
 
   <hr class="paper-divider">
 </div><div class="paper">
-  <h3 class="paper-title">4. Rhizome OS-1: Rhizome's Semi-Autonomous Operating System for Small Molecule Drug Discovery<br><span style='color:orange;font-weight:bold;'>🔄 Updated</span><br></h3>
+  <h3 class="paper-title">2. Inverse Design of Inorganic Compounds with Generative AI<br><span style='color:yellow;font-weight:bold;'>🌟 New</span><br></h3>
 
   <div class="paper-info">
-    <p class="paper-authors"><strong>Authors:</strong> Yiwen Wang, Gregory Sinenka, Xhuliano Brace</p>
-    <p class="paper-date"><strong>Published:</strong> 2026-04-08</p>
-    <p class="paper-category"><strong>Category:</strong> cs.AI</p>
-    <p class="paper-id"><strong>ID:</strong> 2604.07512v2</p>
+    <p class="paper-authors"><strong>Authors:</strong> Hannes Kneiding, Lucía Morán-González, Nishamol Kuriakose, Ainara Nova, David Balcells</p>
+    <p class="paper-date"><strong>Published:</strong> 2026-04-11</p>
+    <p class="paper-category"><strong>Category:</strong> physics.chem-ph</p>
+    <p class="paper-id"><strong>ID:</strong> 2604.11827v1</p>
   </div>
 
-  <p class="paper-link"><strong>Link:</strong> <a href="http://arxiv.org/abs/2604.07512v2">http://arxiv.org/abs/2604.07512v2</a></p>
+  <p class="paper-link"><strong>Link:</strong> <a href="http://arxiv.org/abs/2604.11827v1">http://arxiv.org/abs/2604.11827v1</a></p>
 
   <details class="paper-summary">
     <summary>Summary (Click to Expand)</summary>
-    <p>We present Rhizome OS-1, a semi-autonomous operating system for small molecule drug discovery in which multi-modal AI agents operate as a full multidisciplinary discovery team. These agents function as computational chemists, medicinal chemists, and patent agents: they write and execute analysis code (fingerprint clustering, R-group decomposition, substructure search), visually triage molecular grids using vision capabilities, formulate explicit medicinal chemistry hypotheses across three strategy tiers, assess patent freedom-to-operate, and dynamically adapt generation strategies based on empirical screening feedback. Powered by r1 - a 246M-parameter graph diffusion model trained on 800 million molecular graphs - the system generates novel chemical matter directly on molecular graphs using fragment masking, scaffold decoration, linker design, and graph editing primitives. In two oncology campaigns (BCL6 BTB domain and EZH2 SET domain), the agent team executed 26 seeds and produced 5,231 novel molecules. Across both targets, 91.9% of generated Murcko scaffolds are absent from ChEMBL, with median Tanimoto similarity of 0.56-0.69 to the nearest known active. Boltz-2 binding affinity predictions, calibrated against ChEMBL data, achieved Spearman correlations of -0.53 to -0.64 and ROC AUC values of 0.88-0.93. These results demonstrate that semi-autonomous agent systems, equipped with graph-native generative tools and physics-informed scoring, enable a new paradigm for early-stage drug discovery: scaled, rapid, and adaptive inverse design with embedded medicinal chemistry reasoning.</p>
+    <p>Machine learning is revolutionizing chemistry. Beyond the value of predictive models accelerating virtual screening, generative AI aims at enabling inverse design, reversing the compound-to-property prediction paradigm into property-to-compound generation. Chemists now have access to a rich AI toolbox for organic chemistry, including drug discovery. However, the application of these methods to inorganic compounds remains limited by the challenges posed by their intrinsic nature. This Review analyzes how these challenges have been addressed, considering widely diverse systems ranging from molecules to crystals, including transition metal complexes and microporous materials. The analysis focuses on how generative AI methods have evolved towards data-representation-model pipelines that address the full complexity of inorganic compounds, including their chemical composition, geometry, symmetry, and electronic structure. Future directions, like benchmark standardization and the development of synthesizability metrics, are also discussed.</p>
   </details>
 
   <hr class="paper-divider">
 </div>
 
     <footer>
-        <p>Last updated: 2026-04-15 06:42:43 (SGT)</p>
+        <p>Last updated: 2026-04-16 06:39:32 (SGT)</p>
         <p>2025 <a href="https://ocean-jh.github.io/" target="_blank">Wang Jianghai</a><a href="mailto:jianghai001@e.ntu.edu.sg">📧</a> @ Nanyang Technological University | All Rights Reserved</p>
         <p><a href="https://github.com/Ocean-JH/ArXivDaily-AI4MAT">Star on GitHub</a></p>
         <p>Powered by <a href="https://arxiv.org/" target="_blank">arXiv</a> · Updated Daily</p>
