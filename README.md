@@ -34,39 +34,23 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (2)
+## New Papers (1)
 
-*Last updated: 2026-04-16 06:39:32 (SGT)*
+*Last updated: 2026-04-17 06:37:57 (SGT)*
 
-### 1. Siamese Foundation Models for Crystal Structure Prediction
+### 1. Generative design of inorganic materials
 
-**Authors:** Liming Wu, Wenbing Huang, Rui Jiao, Jianxing Huang, Liwei Liu, Yipeng Zhou, Hao Sun, Yang Liu, Fuchun Sun, Yuxiang Ren, Jirong Wen
+**Authors:** Jose Recatala-Gomez, Haiwen Dai, Zhu Ruiming, Nikita Kaazev, Nong Wei, Gang Wu, Maciej Koperski, Tan Teck Leong, Andrey Ustyuzhanin, Gerbrand Ceder, Kostya Novoselov, Kedar Hippalgaonkar
 
-**Published:** 2025-03-13
+**Published:** 2026-04-15
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2503.10471v2
+**ID:** 2604.14082v1
 
-**Link:** [http://arxiv.org/abs/2503.10471v2](http://arxiv.org/abs/2503.10471v2)
+**Link:** [http://arxiv.org/abs/2604.14082v1](http://arxiv.org/abs/2604.14082v1)
 
-**Summary:** Predicting crystal structures from chemical compositions is a fundamental challenge in materials discovery, complicated by complex 3D geometries that distinguish it from fields like protein folding. Here, we present Diffusion-based Crystal Omni (DAO), a pretrain-finetune framework for crystal structure prediction integrating two Siamese foundation models: a structure generator and an energy predictor. The generator is pretrained via a two-stage pipeline on a vast dataset of stable and unstable structures, leveraging the predictor to relax unstable configurations and guide the generative sampling. Across two well-known benchmarks, pretraining significantly enhances performance across multiple backbone architectures. Ablation studies confirm that the synergy between the generator and predictor mutually benefits both components. We further validate DAO on three real-world superconductors ($\text{Cr}_6\text{Os}_2$, $\text{Zr}_{16}\text{Rh}_8\text{O}_4$, and $\text{Zr}_{16}\text{Pd}_8\text{O}_4$) typically inaccessible to conventional computation. For $\text{Cr}_6\text{Os}_2$, DAO achieves a 100\% match rate with experimental references and an atomic-position error of 0.0012 under 20-shot generation, performing over 2000$\times$ faster per iteration than DFT-based structure predictors. These compelling results collectively highlight the potential of our approach for advancing materials science research....
-
----
-
-### 2. Inverse Design of Inorganic Compounds with Generative AI
-
-**Authors:** Hannes Kneiding, Lucía Morán-González, Nishamol Kuriakose, Ainara Nova, David Balcells
-
-**Published:** 2026-04-11
-
-**Category:** physics.chem-ph
-
-**ID:** 2604.11827v1
-
-**Link:** [http://arxiv.org/abs/2604.11827v1](http://arxiv.org/abs/2604.11827v1)
-
-**Summary:** Machine learning is revolutionizing chemistry. Beyond the value of predictive models accelerating virtual screening, generative AI aims at enabling inverse design, reversing the compound-to-property prediction paradigm into property-to-compound generation. Chemists now have access to a rich AI toolbox for organic chemistry, including drug discovery. However, the application of these methods to inorganic compounds remains limited by the challenges posed by their intrinsic nature. This Review analyzes how these challenges have been addressed, considering widely diverse systems ranging from molecules to crystals, including transition metal complexes and microporous materials. The analysis focuses on how generative AI methods have evolved towards data-representation-model pipelines that address the full complexity of inorganic compounds, including their chemical composition, geometry, symmetry, and electronic structure. Future directions, like benchmark standardization and the development of synthesizability metrics, are also discussed....
+**Summary:** Materials discovery is fundamental to advance next-generation technologies as well as for sustainable and circular economy. Beyond computational screening, generative models are efficient at finding materials with desired properties, via multi-modal learning using multiscale data. This perspective examines the landscape of generative design for inorganic materials and discusses the integration of multi-modal learning with high-throughput experimental validation. We contextualize these challenges through the lens of a generative design framework as a unified approach to address the data-driven inverse design of functional materials. The central idea of the framework is constructed around a foundation AI model for inorganic materials interlinked deeply with various property databases and high-throughput experiments via a machine learning driven closed loop, which enables the framework to solve key challenges in functional materials. We argue that domain-specific implementations of such integrated workflows represent a promising pathway toward the unresolved challenge of data-driven inverse design for atom-engineered inorganic functional materials....
 
 ---
 
