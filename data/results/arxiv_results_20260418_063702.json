@@ -1,0 +1,34 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2604.14082v2",
+    "title": "Generative design of inorganic materials",
+    "authors": [
+      "Jose Recatala-Gomez",
+      "Haiwen Dai",
+      "Zhu Ruiming",
+      "Nikita Kaazev",
+      "Nong Wei",
+      "Gang Wu",
+      "Maciej Koperski",
+      "Tan Teck Leong",
+      "Andrey Ustyuzhanin",
+      "Gerbrand Ceder",
+      "Kostya Novoselov",
+      "Kedar Hippalgaonkar"
+    ],
+    "summary": "Materials discovery is fundamental to advance next-generation technologies as well as for sustainable and circular economy. Beyond computational screening, generative models are efficient at finding materials with desired properties, via multi-modal learning using multiscale data. This perspective examines the landscape of generative design for inorganic materials and discusses the integration of multi-modal learning with high-throughput experimental validation. We contextualize these challenges through the lens of a generative design framework as a unified approach to address the data-driven inverse design of functional materials. The central idea of the framework is constructed around a foundation AI model for inorganic materials interlinked deeply with various property databases and high-throughput experiments via a machine learning driven closed loop, which enables the framework to solve key challenges in functional materials. We argue that domain-specific implementations of such integrated workflows represent a promising pathway toward the unresolved challenge of data-driven inverse design for atom-engineered inorganic functional materials.",
+    "published": "2026-04-15T16:56:31+00:00",
+    "updated": "2026-04-16T03:42:14+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2604.14082v2",
+    "base_id": "2604.14082",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2604.14082v2"
+  }
+]
