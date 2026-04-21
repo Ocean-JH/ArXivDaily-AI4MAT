@@ -34,23 +34,55 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (1)
+## New Papers (3)
 
-*Last updated: 2026-04-21 06:41:03 (SGT)*
+*Last updated: 2026-04-22 06:36:46 (SGT)*
 
-### 1. MatClaw: An Autonomous Code-First LLM Agent for End-to-End Materials Exploration
+### 1. SWORD: Symmetry and Wyckoff-sequence of Ordered and Disordered crystals
 
-**Authors:** Chenmu Zhang, Boris I. Yakobson
+**Authors:** Yuyao Huang, Wei Nong, Shuya Yamazaki, Martin Hoffmann Petersen, Jianghai Wang, Ruiming Zhu, Kedar Hippalgaonkar
 
-**Published:** 2026-04-03
+**Published:** 2026-04-20
 
 **Category:** cond-mat.mtrl-sci
 
-**ID:** 2604.02688v2
+**ID:** 2604.17994v1
 
-**Link:** [http://arxiv.org/abs/2604.02688v2](http://arxiv.org/abs/2604.02688v2)
+**Link:** [http://arxiv.org/abs/2604.17994v1](http://arxiv.org/abs/2604.17994v1)
 
-**Summary:** Existing LLM agents for computational materials science are constrained by pipeline-bounded architectures tied to specific simulation codes and by dependence on manually written tool functions that grow with task scope. We present MatClaw, a code-first agent that writes and executes Python directly, composing any installed domain library to orchestrate multi-code workflows on remote HPC clusters without predefined tool functions. To sustain coherent execution across multi-day workflows, MatClaw uses a four-layer memory architecture that prevents progressive context loss, and retrieval-augmented generation over domain source code that raises per-step API-call accuracy to ${\sim}$99 %. Three end-to-end demonstrations on ferroelectric CuInP2S6 (machine-learning force field training via active learning, Curie temperature prediction, and heuristic parameter-space search) reveal that the agent handles code generation reliably but struggles with tacit domain knowledge. The missing knowledge, such as appropriate simulation timescales, equilibration protocols, and sampling strategies, is the kind that researchers accumulate through experience but rarely formalize. Two lightweight interventions, literature self-learning and expert-specified constraints, bridge these gaps, defining a guided autonomy model in which the researcher provides high-level domain knowledge while the agent handles workflow execution. Our results demonstrate that the gap between guided and fully autonomous computational materials research is narrower than ever before: LLMs already handle code generation and scientific interpretation reliably, and the rapid improvement in their capabilities will accelerate materials discovery beyond what manual workflows can achieve. All code and benchmarks are open-source....
+**Summary:** Novelty in materials discovery requires candidates to be distinct, non-redundant, and thermodynamically plausible. While crystallographic databases continue to expand in both size and complexity, making efficient and reliable novelty assessment has become increasingly difficult. This becomes particularly acute when crystallographic disorder is involved, as partial occupancies greatly enlarge the structure-composition space and obscure the identification of genuinely distinct structures. Here, we introduce SWORD, a symmetry-aware, Wyckoff-based string representation compatible with both ordered and disordered crystals. SWORD provides (i) standardization of symmetry-equivalent structural descriptions into a consistent label, (ii) explicitly represents co-occupying species on partially occupied sites, and (iii) quantifies complex disorder through a degree of mixing descriptor that captures continuous variation in site stoichiometry. These features enable efficient structure grouping, duplicate identification, and finer refinement of disordered structures. Benchmarking against existing fingerprint and structure-matching methods shows that SWORD remains invariant under identity-preserving transformations while retaining interpretable sensitivity to structural perturbations. In addition, SWORD shows competitive performance in associating unrelaxed and intermediate configurations with their final relaxed states along relaxation trajectories. This feature could enable more reliable novelty assessment directly from partially relaxed or even unrelaxed generated structures. Finally, SWORD was used to showcase its capability of disorder-aware database-scale deduplication and curation for the Inorganic Crystal Structure Database (ICSD). The curated ICSD would serve as the basis for the materials informatics and data-driven materials design in the era of artificial intelligence....
+
+---
+
+### 2. EGMOF: Efficient Generation of Metal-Organic Frameworks Using a Hybrid Diffusion-Transformer Architecture
+
+**Authors:** Seunghee Han, Yeonghun Kang, Taeun Bae, Junho Kim, Younghun Kim, Varinia Bernales, Alan Aspuru-Guzik, Jihan Kim
+
+**Published:** 2025-11-05
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2511.03122v3
+
+**Link:** [http://arxiv.org/abs/2511.03122v3](http://arxiv.org/abs/2511.03122v3)
+
+**Summary:** Designing materials with targeted properties remains challenging due to the vastness of chemical space and the scarcity of property-labeled data. While recent advances in generative models offer a promising way for inverse design, most approaches require large datasets and must be retrained for every new target property. Here, we introduce the EGMOF (Efficient Generation of MOFs), a hybrid diffusion-transformer framework that overcomes these limitations through a modular, descriptor-mediated workflow. EGMOF decomposes inverse design into two steps: (1) a one-dimensional diffusion model (Prop2Desc) that maps desired properties to chemically meaningful descriptors followed by (2) a transformer model (Desc2MOF) that generates structures from these descriptors. This modular hybrid design enables minimal retraining and maintains high accuracy even under small-data conditions. On a hydrogen uptake dataset, EGMOF achieved over 94% validity and 91% hit rate, representing significant improvements of up to 39% in validity and 29% in hit rate compared to existing methods, while remaining effective with only 1,000 training samples. Moreover, our model successfully performed conditional generation across 29 diverse property datasets, including CoREMOF, QMOF, and text-mined experimental datasets, whereas previous models have not. This work presents a data-efficient, generalizable approach to the inverse design of diverse MOFs and highlights the potential of modular inverse design workflows for broader materials discovery....
+
+---
+
+### 3. Offline Materials Optimization with CliqueFlowmer
+
+**Authors:** Jakub Grudzien Kuba, Benjamin Kurt Miller, Sergey Levine, Pieter Abbeel
+
+**Published:** 2026-03-06
+
+**Category:** cs.AI
+
+**ID:** 2603.06082v4
+
+**Link:** [http://arxiv.org/abs/2603.06082v4](http://arxiv.org/abs/2603.06082v4)
+
+**Summary:** Recent advances in deep learning inspired neural network-based approaches to computational materials discovery (CMD). A plethora of problems in this field involve finding materials that optimize a target property. Nevertheless, the increasingly popular generative modeling methods are ineffective at boldly exploring attractive regions of the materials space due to their maximum likelihood training. In this work, we offer an alternative CMD technique based on offline model-based optimization (MBO) that fuses direct optimization of a target material property into generation. To that end, we introduce a domain-specific model, dubbed CliqueFlowmer, that incorporates recent advances of clique-based MBO into transformer and flow generation. We validate this model's optimization abilities and show that materials it produces strongly outperform those from generative baselines. To support specialized materials discovery applications and broader interdisciplinary research, we release our code, model weights, and additional project resources at https://github.com/znowu/CliqueFlowmer, https://colab.research.google.com/drive/1usUg7zezFkcYHlm2MdYwZUNJXf_YkWnY?usp=sharing, and https://x.com/kuba_AI/status/2033382617442345321....
 
 ---
 
