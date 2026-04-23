@@ -9,8 +9,16 @@ function updateVisiblePapers(visiblePapers) {
         return;
     }
 
+    if (visiblePapers === papers) {
+        papers.forEach(paper => {
+            paper.style.display = 'block';
+        });
+        return;
+    }
+
+    const visiblePaperSet = new Set(visiblePapers);
     papers.forEach(paper => {
-        paper.style.display = visiblePapers.includes(paper) ? 'block' : 'none';
+        paper.style.display = visiblePaperSet.has(paper) ? 'block' : 'none';
     });
 }
 
