@@ -1,0 +1,27 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2604.19939v1",
+    "title": "Accelerating the Design of Resorbable Magnesium Alloys: A Machine Learning Approach to Property Prediction",
+    "authors": [
+      "Vickey Nandal",
+      "Vít Beneš",
+      "Pavel Baláž",
+      "Jiří Ryjáček",
+      "Karel Tesař"
+    ],
+    "summary": "Resorbable magnesium (Mg) alloys are promising candidates for temporary medical devices due to their biodegradability and favorable mechanical properties. To accelerate the design of diluted Mg alloys for implants, we developed a data-driven framework to elucidate the complex relationships between composition, processing, and mechanical properties. The framework screens mechanical properties within biocompatible compositional limits, treating degradation as a design constraint rather than an explicit prediction target. Using a dataset of 410 samples, we trained six different machine learning (ML) models to predict yield strength, ultimate tensile strength, and elongation. Among them, ensemble models, particularly CatBoost, demonstrated high predictive accuracy (R2, YS = 0.950, UTS = 0.916 and El = 0.903). SHapley Additive exPlanation analysis revealed that thermomechanical processing conditions and alloying elements such as Zn, Mn and Gd are the most influential factors governing mechanical behavior in diluted Mg alloys. Validation on the experimental dataset confirmed the models' robustness and generalization capability in capturing process-property relationships. The optimized CatBoost model was further employed to generate predictive property maps visualizing the strength-ductility trade-off as a function of Zn-Mn composition. This work establishes a validated ML framework for rapid in silico screening and targeted design of next-generation resorbable Mg alloys.",
+    "published": "2026-04-21T19:30:21+00:00",
+    "updated": "2026-04-21T19:30:21+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": "Materials & Design (2026)",
+    "doi": "10.1016/j.matdes.2026.116060",
+    "pdf_url": "https://arxiv.org/pdf/2604.19939v1",
+    "base_id": "2604.19939",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2604.19939v1"
+  }
+]
