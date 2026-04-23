@@ -1,24 +1,32 @@
 // Search functionality for a paper repository
 const searchInput = document.getElementById('search-input');
 const searchButton = document.getElementById('search-button');
-const papers = document.querySelectorAll('.paper');
+const papers = Array.from(document.querySelectorAll('.paper'));
+
+function updateVisiblePapers(visiblePapers) {
+    if (window.paperPagination && typeof window.paperPagination.update === 'function') {
+        window.paperPagination.update(visiblePapers);
+        return;
+    }
+
+    papers.forEach(paper => {
+        paper.style.display = visiblePapers.includes(paper) ? 'block' : 'none';
+    });
+}
 
 function performSearch() {
     const searchTerm = searchInput.value.toLowerCase();
-    let resultsFound = false;
-
-    papers.forEach(paper => {
+    const matchingPapers = papers.filter(paper => {
         const title = paper.querySelector('h3').textContent.toLowerCase();
         const authors = paper.querySelector('.paper-info').textContent.toLowerCase();
         const summary = paper.querySelector('details').textContent.toLowerCase();
 
-        if (title.includes(searchTerm) || authors.includes(searchTerm) || summary.includes(searchTerm)) {
-            paper.style.display = 'block';
-            resultsFound = true;
-        } else {
-            paper.style.display = 'none';
-        }
+        return title.includes(searchTerm) || authors.includes(searchTerm) || summary.includes(searchTerm);
     });
+
+    const visiblePapers = searchTerm === '' ? papers : matchingPapers;
+    updateVisiblePapers(visiblePapers);
+    const resultsFound = matchingPapers.length > 0;
 
     // Display search results info
     const resultsInfo = document.getElementById('search-results-info');

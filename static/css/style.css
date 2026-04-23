@@ -214,6 +214,42 @@ footer a {
     font-weight: bold;
 }
 
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: #fff;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+}
+
+.pagination-button {
+    padding: 8px 12px;
+    background-color: #0366d6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95em;
+}
+
+.pagination-button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+.pagination-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.pagination-info {
+    font-weight: bold;
+    color: #333;
+}
+
 .notice {
     background-color: #fff8e1;
     padding: 20px;
