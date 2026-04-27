@@ -1,0 +1,49 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2507.15753v3",
+    "title": "Algebraic Language Models for Inverse Design of Metamaterials via Diffusion Transformers",
+    "authors": [
+      "Li Zheng",
+      "Siddhant Kumar",
+      "Dennis M. Kochmann"
+    ],
+    "summary": "Generative machine learning models have revolutionized material discovery by capturing complex structure-property relationships, yet extending these approaches to the inverse design of three-dimensional metamaterials remains limited by computational complexity and underexplored design spaces due to the lack of expressive representations. Here we present DiffuMeta, a generative framework integrating diffusion transformers with an algebraic language representation, encoding three-dimensional geometries as mathematical sentences. This compact, unified parameterization spans diverse topologies, enabling the direct application of transformers to structural design. DiffuMeta leverages diffusion models to generate new shell structures with precisely targeted stress-strain responses under large deformations, accounting for buckling and contact while addressing the inherent one-to-many mapping by producing diverse solutions. Uniquely, our approach enables simultaneous control over multiple mechanical objectives, including linear and nonlinear responses beyond training domains. Experimental validation of fabricated structures further confirms the efficacy of our approach for accelerated design of metamaterials and structures with tailored properties.",
+    "published": "2025-07-21T16:09:26+00:00",
+    "updated": "2026-04-24T13:01:43+00:00",
+    "categories": [
+      "cs.CE",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CE",
+    "comment": null,
+    "journal_ref": null,
+    "doi": "10.1038/s42256-026-01218-8",
+    "pdf_url": "https://arxiv.org/pdf/2507.15753v3",
+    "base_id": "2507.15753",
+    "version": "3",
+    "url": "http://arxiv.org/abs/2507.15753v3"
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.05456v2",
+    "title": "Parameter-Efficient Conditioning for Material Generalization in Graph-Based Simulators",
+    "authors": [
+      "Naveen Raj Manoharan",
+      "Hassan Iqbal",
+      "Krishna Kumar"
+    ],
+    "summary": "Graph network-based simulators (GNS) have demonstrated strong potential for learning particle-based physics (such as fluids, deformable solids, and granular flows) while generalizing to unseen geometries due to their inherent inductive biases. However, existing models are typically trained for a single material type and fail to generalize across distinct constitutive behaviors, limiting their applicability in real-world engineering settings. Using granular flows as a running example, we propose a parameter-efficient conditioning mechanism that makes the GNS model adaptive to material parameters. We identify that sensitivity to material properties is concentrated in the early message-passing (MP) layers, a finding we link to the local nature of constitutive models (e.g., Mohr-Coulomb) and their effects on information propagation. We empirically validate this by showing that fine-tuning only the first few (1-5) of 10 MP layers of a pretrained model achieves comparable test performance as compared to fine-tuning the entire network. Building on this insight, we propose a parameter-efficient Feature-wise Linear Modulation (FiLM) conditioning mechanism designed to specifically target these early layers. This approach produces accurate long-term rollouts on unseen, interpolated, or moderately extrapolated values (e.g., up to 2.5 degrees for friction angle and 0.25 kPa for cohesion) when trained exclusively on as few as 12 short simulation trajectories from new materials, representing a 5-fold data reduction compared to a baseline multi-task learning method. Finally, we validate the model's utility by applying it to an inverse problem, successfully identifying unknown cohesion parameters from trajectory data. This approach enables the use of GNS in inverse design and closed-loop control tasks where material properties are treated as design variables.",
+    "published": "2025-11-07T17:55:35+00:00",
+    "updated": "2026-04-23T21:20:37+00:00",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2511.05456v2",
+    "base_id": "2511.05456",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2511.05456v2"
+  }
+]
