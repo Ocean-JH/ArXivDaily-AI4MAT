@@ -34,39 +34,55 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 <!-- ARXIV_PAPERS_START -->
 
-## New Papers (2)
+## New Papers (3)
 
-*Last updated: 2026-04-28 06:50:23 (SGT)*
+*Last updated: 2026-04-29 06:55:29 (SGT)*
 
-### 1. Algebraic Language Models for Inverse Design of Metamaterials via Diffusion Transformers
+### 1. Inverting Foundation Models of Brain Function with Simulation-Based Inference
 
-**Authors:** Li Zheng, Siddhant Kumar, Dennis M. Kochmann
+**Authors:** Niels Bracher, Xavier Intes, Stefan T. Radev
 
-**Published:** 2025-07-21
-
-**Category:** cs.CE
-
-**ID:** 2507.15753v3
-
-**Link:** [http://arxiv.org/abs/2507.15753v3](http://arxiv.org/abs/2507.15753v3)
-
-**Summary:** Generative machine learning models have revolutionized material discovery by capturing complex structure-property relationships, yet extending these approaches to the inverse design of three-dimensional metamaterials remains limited by computational complexity and underexplored design spaces due to the lack of expressive representations. Here we present DiffuMeta, a generative framework integrating diffusion transformers with an algebraic language representation, encoding three-dimensional geometries as mathematical sentences. This compact, unified parameterization spans diverse topologies, enabling the direct application of transformers to structural design. DiffuMeta leverages diffusion models to generate new shell structures with precisely targeted stress-strain responses under large deformations, accounting for buckling and contact while addressing the inherent one-to-many mapping by producing diverse solutions. Uniquely, our approach enables simultaneous control over multiple mechanical objectives, including linear and nonlinear responses beyond training domains. Experimental validation of fabricated structures further confirms the efficacy of our approach for accelerated design of metamaterials and structures with tailored properties....
-
----
-
-### 2. Parameter-Efficient Conditioning for Material Generalization in Graph-Based Simulators
-
-**Authors:** Naveen Raj Manoharan, Hassan Iqbal, Krishna Kumar
-
-**Published:** 2025-11-07
+**Published:** 2026-04-26
 
 **Category:** cs.LG
 
-**ID:** 2511.05456v2
+**ID:** 2604.23865v1
 
-**Link:** [http://arxiv.org/abs/2511.05456v2](http://arxiv.org/abs/2511.05456v2)
+**Link:** [http://arxiv.org/abs/2604.23865v1](http://arxiv.org/abs/2604.23865v1)
 
-**Summary:** Graph network-based simulators (GNS) have demonstrated strong potential for learning particle-based physics (such as fluids, deformable solids, and granular flows) while generalizing to unseen geometries due to their inherent inductive biases. However, existing models are typically trained for a single material type and fail to generalize across distinct constitutive behaviors, limiting their applicability in real-world engineering settings. Using granular flows as a running example, we propose a parameter-efficient conditioning mechanism that makes the GNS model adaptive to material parameters. We identify that sensitivity to material properties is concentrated in the early message-passing (MP) layers, a finding we link to the local nature of constitutive models (e.g., Mohr-Coulomb) and their effects on information propagation. We empirically validate this by showing that fine-tuning only the first few (1-5) of 10 MP layers of a pretrained model achieves comparable test performance as compared to fine-tuning the entire network. Building on this insight, we propose a parameter-efficient Feature-wise Linear Modulation (FiLM) conditioning mechanism designed to specifically target these early layers. This approach produces accurate long-term rollouts on unseen, interpolated, or moderately extrapolated values (e.g., up to 2.5 degrees for friction angle and 0.25 kPa for cohesion) when trained exclusively on as few as 12 short simulation trajectories from new materials, representing a 5-fold data reduction compared to a baseline multi-task learning method. Finally, we validate the model's utility by applying it to an inverse problem, successfully identifying unknown cohesion parameters from trajectory data. This approach enables the use of GNS in inverse design and closed-loop control tasks where material properties are treated as design variables....
+**Summary:** Foundation models of brain activity promise a new frontier for in silico neuroscience by emulating neural responses to complex stimuli across tasks and modalities. A natural next step is to ask whether these models can also be used in reverse. Can we recover a stimulus or its properties from synthetic brain activity? We study this question in a proof-of-concept setting using TRIBEv2. We pair the brain emulator with large language models (LLMs) that generate news headlines from linguistic parameters such as valence, arousal, and dominance. We then use simulation-based inference to learn a probabilistic mapping from brain maps to latent stimulus parameters. Our results show that these parameters can be recovered from predicted brain maps, validating the quality of neural encodings. They also show that LLMs can serve as controllable stimulus generators for simulated experiments. Together, these findings provide a step toward decoding and inverse design with foundation brain models....
+
+---
+
+### 2. Agentic Fusion of Large Atomic and Language Models to Accelerate Materials Discovery
+
+**Authors:** Mingze Li, Yu Rong, Songyou Li, Lihong Wang, Jiacheng Cen, Liming Wu, Anyi Li, Zongzhao Li, Qiuliang Liu, Rui Jiao, Tian Bian, Pengju Wang, Hao Sun, Jianfeng Zhang, Ji-Rong Wen, Deli Zhao, Shifeng Jin, Tingyang Xu, Wenbing Huang
+
+**Published:** 2026-04-26
+
+**Category:** cs.LG
+
+**ID:** 2604.23758v1
+
+**Link:** [http://arxiv.org/abs/2604.23758v1](http://arxiv.org/abs/2604.23758v1)
+
+**Summary:** The discovery of novel materials is critical for global energy and quantum technology transitions. While deep learning has fundamentally reshaped this landscape, existing predictive or generative models typically operate in isolation, lacking the autonomous orchestration required to execute the full discovery process. Here we present ElementsClaw, an agentic framework for materials discovery that synergizes Large Atomic Models (LAMs) with Large Language Models (LLMs). In response to varied human requirements, ElementsClaw dynamically orchestrates a suite of LAM tools finetuned from our proposed model Elements for atomic-scale numerical computation, while leveraging LLMs for high-level semantic reasoning. This shift moves AI-driven materials science from isolated processes toward integrated and human interactive discovery. In the demanding domain of superconductors, our agentic system guides the experimental synthesis of four new superconductors, including Zr3ScRe8 with a transition temperature of 6.8 K and HfZrRe4 at 6.7 K. At scale, ElementsClaw screens more than 2.4 million stable crystals within only 28 GPU hours, identifying 68,000 high-confidence superconducting candidates and vastly expanding the known superconducting space. These results demonstrate how our agent accelerates materials discovery with high physical fidelity....
+
+---
+
+### 3. Large language model-enabled automated data extraction for concrete materials informatics
+
+**Authors:** Zhanzhao Li, Kengran Yang, Qiyao He, Kai Gong
+
+**Published:** 2026-04-24
+
+**Category:** cond-mat.mtrl-sci
+
+**ID:** 2604.22938v1
+
+**Link:** [http://arxiv.org/abs/2604.22938v1](http://arxiv.org/abs/2604.22938v1)
+
+**Summary:** The promise of data-driven materials discovery remains constrained by the scarcity of large, high-quality, and accessible experimental datasets. Here, we introduce a generalizable large language model (LLM)-powered pipeline for automated extraction and structuring of materials data from unstructured scientific literature, using concrete materials as a representative and particularly challenging example. The pipeline exhibits robust performance across a broad range of LLMs and achieves an $F_1$ score of up to 0.97 for diverse composition--process--property attributes. Within one hour, it extracts nearly 9,000 high-quality records with over 100 attributes screened from more than 27,000 publications, enabling the construction of the largest open laboratory database for blended cement concrete. Machine learning analyses underscore the importance of large, diverse, and information-rich datasets for enhancing both in-distribution accuracy and out-of-distribution generalization to unseen materials. The proposed pipeline is readily adaptable to other materials domains and accelerates the development of scalable data infrastructures for materials informatics....
 
 ---
 
