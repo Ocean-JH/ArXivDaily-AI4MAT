@@ -36,69 +36,69 @@ Thank you to [arXiv](https://arxiv.org/) for use of its open access interoperabi
 
 ## New Papers (4)
 
-*Last updated: 2026-05-01 06:52:12 (SGT)*
+*Last updated: 2026-05-02 06:48:16 (SGT)*
 
-### 1. Inverting Foundation Models of Brain Function with Simulation-Based Inference
+### 1. Hyper-Dimensional Fingerprints as Molecular Representations
 
-**Authors:** Niels Bracher, Xavier Intes, Stefan T. Radev
+**Authors:** Jonas Teufel, Luca Torresi, André Eberhard, Pascal Friederich
 
-**Published:** 2026-04-26
-
-**Category:** cs.LG
-
-**ID:** 2604.23865v2
-
-**Link:** [http://arxiv.org/abs/2604.23865v2](http://arxiv.org/abs/2604.23865v2)
-
-**Summary:** Foundation models of brain activity promise a new frontier for in silico neuroscience by emulating neural responses to complex stimuli across tasks and modalities. A natural next step is to ask whether these models can also be used in reverse. Can we recover a stimulus or its properties from synthetic brain activity? We study this question in a proof-of-concept setting using TRIBEv2. We pair the brain emulator with large language models (LLMs) that generate news headlines from linguistic parameters such as valence, arousal, and dominance. We then use simulation-based inference to learn a probabilistic mapping from brain maps to latent stimulus parameters. Our results show that these parameters can be recovered from predicted brain maps, validating the quality of neural encodings. They also show that LLMs can serve as controllable stimulus generators for simulated experiments. Together, these findings provide a step toward decoding and inverse design with foundation brain models....
-
----
-
-### 2. Generative design of inorganic materials
-
-**Authors:** Jose Recatala-Gomez, Haiwen Dai, Zhu Ruiming, Nikita Kazeev, Nong Wei, Gang Wu, Maciej Koperski, Tan Teck Leong, Andrey Ustyuzhanin, Gerbrand Ceder, Kostya Novoselov, Kedar Hippalgaonkar
-
-**Published:** 2026-04-15
-
-**Category:** cond-mat.mtrl-sci
-
-**ID:** 2604.14082v4
-
-**Link:** [http://arxiv.org/abs/2604.14082v4](http://arxiv.org/abs/2604.14082v4)
-
-**Summary:** Materials discovery is fundamental to advance next-generation technologies as well as for sustainable and circular economy. Beyond computational screening, generative models are efficient at finding materials with desired properties, via multi-modal learning using multiscale data. This perspective examines the landscape of generative design for inorganic materials and discusses the integration of multi-modal learning with high-throughput experimental validation. We contextualize these challenges through the lens of a generative design framework as a unified approach to address the data-driven inverse design of functional materials. The central idea of the framework is constructed around a foundation AI model for inorganic materials interlinked deeply with various property databases and high-throughput experiments via a machine learning driven closed loop, which enables the framework to solve key challenges in functional materials. We argue that domain-specific implementations of such integrated workflows represent a promising pathway toward the unresolved challenge of data-driven inverse design for atom-engineered inorganic functional materials....
-
----
-
-### 3. Agentic Fusion of Large Atomic and Language Models to Accelerate Superconductors Discovery
-
-**Authors:** Mingze Li, Yu Rong, Songyou Li, Lihong Wang, Jiacheng Cen, Liming Wu, Anyi Li, Zongzhao Li, Qiuliang Liu, Rui Jiao, Tian Bian, Pengju Wang, Hao Sun, Jianfeng Zhang, Ji-Rong Wen, Deli Zhao, Shifeng Jin, Tingyang Xu, Wenbing Huang
-
-**Published:** 2026-04-26
+**Published:** 2026-04-30
 
 **Category:** cs.LG
 
-**ID:** 2604.23758v2
+**ID:** 2604.27810v1
 
-**Link:** [http://arxiv.org/abs/2604.23758v2](http://arxiv.org/abs/2604.23758v2)
+**Link:** [http://arxiv.org/abs/2604.27810v1](http://arxiv.org/abs/2604.27810v1)
 
-**Summary:** The discovery of novel materials is critical for global energy and quantum technology transitions. While deep learning has fundamentally reshaped this landscape, existing predictive or generative models typically operate in isolation, lacking the autonomous orchestration required to execute the full discovery process. Here we present ElementsClaw, an agentic framework for materials discovery that synergizes Large Atomic Models (LAMs) with Large Language Models (LLMs). In response to varied human queries, ElementsClaw orchestrates a suite of LAM tools finetuned from our proposed 1-billion-parameter model Elements for atomic-scale numerical computation, while leveraging LLMs for high-level semantic reasoning. This shift moves AI-driven materials science from isolated processes toward integrated and human interactive discovery. Applied to superconductors, ElementsClaw screens 2.4 million crystals in just 28 GPU hours to identify 68,000 high-confidence candidates (The complete dataset of screened superconductors is available at https://developer.damo-academy.com/material), expanding known superconducting space by orders of magnitude compared to datasets curated over decades. Critically, ElementsClaw achieves a high success rate in identifying superconductors hidden in literature and discovers four novel experimentally verified superconductors, exemplified by Zr3ScRe8 with a transition temperature of 6.8 K and HfZrRe4 at 6.7 K. Together, our results establish a knowledge integrated, autonomously orchestrated, and experimentally grounded paradigm for materials discovery....
+**Summary:** Computational molecular representations underpin virtual screening, property prediction, and materials discovery. Conventional fingerprints are efficient and deterministic but lose structural information through hash-based compression, particularly at low dimensionalities. Learned representations from graph neural networks recover this expressiveness but require task-specific training and substantial computational resources. Here we introduce hyperdimensional fingerprints (HDF), which replace the learned transformations of message-passing neural networks with algebraic operations on high-dimensional vectors, producing deterministic molecular representations without any training. Across diverse property prediction benchmarks, HDF outperforms conventional fingerprints in the majority of tasks while exhibiting greater consistency across datasets and models. Crucially, HDF embeddings preserve molecular similarity faithfully: at 32 dimensions, distances in HDF space achieve a 0.9 Pearson correlation with graph edit distance, compared to 0.55 for Morgan fingerprints at equivalent size. This structural fidelity persists at low dimensions where hash-based methods degrade, allowing simple nearest-neighbor regression to remain predictive with as few as 64 components. We further demonstrate the practical impact in Bayesian molecular optimization, where HDF-based surrogate models achieve substantially improved sample efficiency in regimes where Morgan fingerprints perform comparably to random search. HDF thus provides a general-purpose, training-free alternative to conventional molecular fingerprints, suggesting that the information loss long accepted as inherent to fixed-length fingerprints is a limitation of the hash-based encoding scheme rather than the fingerprint paradigm itself....
 
 ---
 
-### 4. A Category-Theoretic Framework from Biological Mechanics to Engineered Stimulus-Response Systems
+### 2. Generative structure search for efficient and diverse discovery of molecular and crystal structures
 
-**Authors:** Lee Marom, Skylar Tibbits, Gioele Zardini, Markus J. Buehler
+**Authors:** Yifang Qin, Yu Shi, Junfu Tan, Chang Liu, Ming Zhang, Ziheng Lu
 
-**Published:** 2026-04-29
+**Published:** 2026-04-30
 
-**Category:** cond-mat.soft
+**Category:** cs.AI
 
-**ID:** 2604.26367v1
+**ID:** 2604.27636v1
 
-**Link:** [http://arxiv.org/abs/2604.26367v1](http://arxiv.org/abs/2604.26367v1)
+**Link:** [http://arxiv.org/abs/2604.27636v1](http://arxiv.org/abs/2604.27636v1)
 
-**Summary:** Natural materials achieve adaptive behavior through hierarchical organization and coupled mechanisms across scales. Their translation into engineering, however, remains largely heuristic. What is missing is a formal translation framework that carries biological design logic into engineered realization while preserving physical consistency across levels of abstraction. Here we present a category theoretic compositional framework for verified nature-derived design. The framework defines a category of stimulus response dynamical systems with natural and artificial subcategories. It introduces a structure preserving implementation functor from biological mechanics to engineered systems. It also formalizes a machine agnostic specification layer that links behavioral intent to executable fabrication programs. We instantiate the framework on the hygromorphic pinecone hierarchy as a representative biological case. We implement the full pipeline in Grasshopper, where formal specifications are translated into modular parametric scripts that preserve the compositional structure of the model. The resulting designs are fabricated by fused filament fabrication, evaluated experimentally, and tested against model predictions derived from the pipeline. The current implementation generates four actuator classes spanning two stimulus types and two kinematic responses. One actuator arises purely through composition from previously validated components, without additional manual derivation. The results show that compositionality can function not just as a descriptive language, but as a generative and system level verifiable method for mechanical material design. More broadly, the work provides a concrete route for embedding formal multiscale reasoning within increasingly computational, generative, and physics-driven design workflows....
+**Summary:** Predicting stable and metastable structures is central to molecular and materials discovery, but remains limited by the cost of searching high-dimensional energy landscapes. Deep generative models offer efficient structure sampling, yet their outputs remain shaped by training data and can underexplore minima that are rare but physically relevant. We introduce generative structure search (GSS), a unified framework that formulates diffusion-based generation and random structure search (RSS) as limiting regimes of a common sampling process driven by learned score fields and physical forces. Coupling these drivers lets GSS use data priors to accelerate sampling while retaining energy-guided exploration of local minima. Across molecular and crystalline systems, GSS recovers diverse metastable structures with more than tenfold lower sampling cost than RSS for broad coverage and remains effective for compositions outside the training distribution. The results establish a physically grounded generative search strategy for discovering structures beyond the reach of data-driven sampling alone....
+
+---
+
+### 3. AMGenC: Generating Charge Balanced Amorphous Materials
+
+**Authors:** Yan Lin, Jilin Hu, N. M. Anoop Krishnan, Morten M. Smedskjaer
+
+**Published:** 2026-04-30
+
+**Category:** cs.LG
+
+**ID:** 2604.27613v1
+
+**Link:** [http://arxiv.org/abs/2604.27613v1](http://arxiv.org/abs/2604.27613v1)
+
+**Summary:** Amorphous (disordered) materials are solids that have shown great potential in various domains, including energy storage, thermal management, and advanced materials. Unlike crystalline materials that can be described by unit cells containing a few to hundreds of atoms, amorphous materials require larger simulation cells with at least hundreds to thousands of atoms. To advance the design of amorphous materials with desired properties and facilitate the exploration of their vast design space, generative inverse design has emerged as a promising approach. It aims to directly output materials with properties closely aligned with the desired ones using probabilistic generative models conditioned on desired properties, which can be more resource efficient than the traditional trial-and-error approach. However, due to the inherent stochasticity of probabilistic generative models, when element assignments are unconstrained, a large portion of generated materials may be charge unbalanced, and no existing methods can effectively mitigate this limitation. In this work, we propose AMGenC, a new generative inverse design method for amorphous materials that can guarantee the generation of charge balanced samples, with minimal additional computational overhead and without sacrificing inverse design accuracy. AMGenC achieves this through an element noise that gives the generation process a starting point centered around charge balance, and the combination of a per-step soft projection and a final discrete projection for steering the elements toward exact charge balance throughout the generation. We perform extensive experiments on two amorphous materials datasets. Experimental results provide evidence that AMGenC achieves its design goal....
+
+---
+
+### 4. METASYMBO: Multi-Agent Language-Guided Metamaterial Discovery via Symbolic Latent Evolution
+
+**Authors:** Jianpeng Chen, Wangzhi Zhan, Dongqi Fu, Junkai Zhang, Zian Jia, Ling Li, Wei Wang, Dawei Zhou
+
+**Published:** 2026-04-30
+
+**Category:** cs.AI
+
+**ID:** 2604.27300v1
+
+**Link:** [http://arxiv.org/abs/2604.27300v1](http://arxiv.org/abs/2604.27300v1)
+
+**Summary:** Metamaterial discovery seeks microstructured materials whose geometry induces targeted mechanical behavior. Existing inverse-design methods can efficiently generate candidates, but they typically require explicit numerical property targets and are less suitable for early-stage exploration, where researchers often begin with incomplete constraints and qualitative intents expressed in natural language. Large language models can interpret such intents, but they lack geometric awareness and physical property validity. To address this gap, we propose MetaSymbO, a multi-agent framework for language-guided Metamaterial discovery via Symbolic-driven latent evOlution. Specifically, MetaSymbO contains three agents: a Designer that interprets free-form design intents and retrieves a semantically consistent scaffold, a Generator that synthesizes candidate microstructures in a disentangled latent space, and a Supervisor that provides fast property-aware feedback for iterative refinement. To move beyond the limitations of reproducing known samples from literature and training data, we further introduce symbolic-driven latent evolution, which applies programmable operators over disentangled latent factors to compose, modify, and refine structures at inference time. Extensive experiments demonstrate that (i) MetaSymbO improves structural validity by up to 34% in symmetry and nearly 98% in periodicity compared to state-of-the-art baselines; (ii) MetaSymbO achieves about 6-7% higher language-guidance scores while maintaining superior structure novelty compared to advanced reasoning LLMs; (iii) qualitative analyses confirm the effectiveness of symbolic logic operators in enabling programmable semantic alignment; and (iv) realworld case studies on auxetic, high-stiffness metamaterial design further validate its practical capability....
 
 ---
 
