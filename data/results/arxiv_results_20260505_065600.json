@@ -1,0 +1,57 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.09169v2",
+    "title": "AI-Driven Expansion and Application of the Alexandria Database",
+    "authors": [
+      "Théo Cavignac",
+      "Jonathan Schmidt",
+      "Pierre-Paul De Breuck",
+      "Antoine Loew",
+      "Tiago F. T. Cerqueira",
+      "Hai-Chen Wang",
+      "Anton Bochkarev",
+      "Yury Lysogorskiy",
+      "Aldo H. Romero",
+      "Ralf Drautz",
+      "Silvana Botti",
+      "Miguel A. L. Marques"
+    ],
+    "summary": "We present a novel multi-stage workflow for computational materials discovery that achieves a 99% success rate in identifying compounds within 100 meV/atom of thermodynamic stability, with a threefold improvement over previous approaches. By combining the Matra-Genoa generative model, Orb-v2 universal machine learning interatomic potential, and ALIGNN graph neural network for energy prediction, we generated 119 million candidate structures and added 1.3 million DFT-validated compounds to the ALEXANDRIA database, including 74 thousand new stable materials. The expanded ALEXANDRIA database now contains 5.8 million structures with 175 thousand compounds on the convex hull. Predicted structural disorder rates (37-43%) match experimental databases, unlike other recent AI-generated datasets. Analysis reveals fundamental patterns in space group distributions, coordination environments, and phase stability networks, including sub-linear scaling of convex hull connectivity. We release the complete dataset, including sAlex25 with 14 million out-of-equilibrium structures containing forces and stresses for training universal force fields. We demonstrate that fine-tuning a GRACE model on this data improves benchmark accuracy. All data, models, and workflows are freely available under Creative Commons licenses.",
+    "published": "2025-12-09T22:31:17+00:00",
+    "updated": "2026-05-01T14:32:43+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": null,
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2512.09169v2",
+    "base_id": "2512.09169",
+    "version": "2",
+    "url": "http://arxiv.org/abs/2512.09169v2"
+  },
+  {
+    "id": "http://arxiv.org/abs/2605.00313v1",
+    "title": "Beyond Structure: Revolutionising Materials Discovery via AI-Driven Synthesis Protocol-Property Relationships",
+    "authors": [
+      "Guillaume Lambard"
+    ],
+    "summary": "The current structure-centric paradigm in artificial intelligence (AI)-driven materials discovery, despite delivering thousands of candidate structures, is stalling at a critical barrier: the synthesizability gap. We argue that closing this gap demands a pivot to a synthesis-first paradigm in which executable synthesis protocols, not just atomic configurations, are treated as primary design variables. We outline a roadmap built on three pillars: (i) representing synthesis procedures as machine-readable protocols, (ii) deploying generative and inverse-design models to propose actionable reaction pathways and recipes, and (iii) integrating closed-loop optimisation to refine protocols against experimental realities and sustainability constraints. Framed in terms of the causal backbone P->X->y from protocol P to structure X and properties y, this perspective sets out methodological building blocks, standards needs and self-driving laboratory (SDL) integration strategies to accelerate reproducible, data-first materials discovery.",
+    "published": "2026-05-01T00:48:39+00:00",
+    "updated": "2026-05-01T00:48:39+00:00",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI"
+    ],
+    "primary_category": "cond-mat.mtrl-sci",
+    "comment": "20 pages, 2 figures",
+    "journal_ref": null,
+    "doi": null,
+    "pdf_url": "https://arxiv.org/pdf/2605.00313v1",
+    "base_id": "2605.00313",
+    "version": "1",
+    "url": "http://arxiv.org/abs/2605.00313v1"
+  }
+]
